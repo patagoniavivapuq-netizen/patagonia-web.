@@ -24,7 +24,7 @@ ARTICLE_PHOTOS={
  'guia/documentos':['documentos'],
  'guia/consulados':['centro-cultural'],
  'guia/viajar-con-menores':['familia-costanera','familia'],
- 'guia/permanencia-y-extension':['noche'],
+ 'guia/permanencia-y-extension':['habitacion'],
  'guia/viajar-solo':['viajar-solo','faro-san-isidro'],
  'guia/seguro-y-salud':['sendero'],
  'guia/vacunas':['vacunas'],
