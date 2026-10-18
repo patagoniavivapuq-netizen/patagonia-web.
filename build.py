@@ -108,24 +108,24 @@ def showcase_tour(a):
  price=('CLP $'+format(n,',').replace(',','.')) if n else 'Consultar'
  page=head(a['title'],a['intro'],'article')+SHOWCASE_STYLE+'<main class="showcase" id="inicio"><div class="sc-wrap">'
  page+='<a class="sc-back" href="/tours/">← Volver a Tours</a><header class="sc-head"><span class="sc-tag">★ Experiencia austral destacada</span><h1>'+E(a['title'])+'</h1><p>'+E(a['intro'])+'</p></header>'
- page+='<div class="sc-hero"><img src="'+(TOUR_VERIFIED_PHOTOS[a['slug']][1]['src'] if a['slug'] in TOUR_VERIFIED_PHOTOS and len(TOUR_VERIFIED_PHOTOS[a['slug']])>1 else TOUR_TOPIC_IMAGE[a['slug']] if a['slug'] in TOUR_TOPIC_IMAGE else "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Cuernos_del_Paine_from_Lake_Peho%C3%A9.jpg/1280px-Cuernos_del_Paine_from_Lake_Peho%C3%A9.jpg" if a['slug']=='torres-del-paine' else img(hero))+'" alt="'+E('Cuernos del Paine y Lago Pehoé, Parque Nacional Torres del Paine' if a['slug']=='torres-del-paine' else IMAGEDESC.get(hero,a['title']),quote=True)+'"><div class="sc-hero-label">PATAGONIA VIVA · PUNTA ARENAS</div></div>'
+ page+='<div class="sc-hero"><img src="'+(TOUR_VERIFIED_PHOTOS[a['slug']][0]['src'] if a['slug'] in TOUR_VERIFIED_PHOTOS and len(TOUR_VERIFIED_PHOTOS[a['slug']])>0 else TOUR_TOPIC_IMAGE[a['slug']] if a['slug'] in TOUR_TOPIC_IMAGE else "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Cuernos_del_Paine_from_Lake_Peho%C3%A9.jpg/1280px-Cuernos_del_Paine_from_Lake_Peho%C3%A9.jpg" if a['slug']=='torres-del-paine' else img(hero))+'" alt="'+E('Cuernos del Paine y Lago Pehoé, Parque Nacional Torres del Paine' if a['slug']=='torres-del-paine' else IMAGEDESC.get(hero,a['title']),quote=True)+'"><div class="sc-hero-label">PATAGONIA VIVA · PUNTA ARENAS</div></div>'
  page+='<section class="sc-card"><div class="sc-top"><div><span class="sc-eyebrow">Descubre la experiencia</span><h2>Una aventura para recordar</h2><p>'+E(a['intro'])+'</p><p>Conoce cada parada, las condiciones de la actividad y qué debes confirmar para disfrutar sin sorpresas.</p></div><div class="sc-price"><small>Precio de referencia</small><strong>'+price+'</strong><span>por persona · sujeto a confirmación</span></div></div><div class="sc-stops">'
  extra=selected[1:]
  for i,sec in enumerate(a['sections'],1):
-  imagekey=extra[(i-1)%len(extra)] if extra else None
+  imagekey=extra[i-1] if i<=len(extra) else None
   # Show each actual tour photo only once; remaining spots use designed editorial panels instead of unrelated imagery.
   showphoto=imagekey if imagekey and i<=len(extra) else None
   page+='<article class="sc-stop"><div class="sc-image">'
   if a['slug'] in TOUR_VERIFIED_PHOTOS and i<=len(TOUR_VERIFIED_PHOTOS[a['slug']]) and i>1:
    _pic=TOUR_VERIFIED_PHOTOS[a['slug']][i-1]
    page+='<img src="'+E(_pic['src'],quote=True)+'" loading="lazy" alt="'+E(_pic['filename'],quote=True)+'">'
-  elif showphoto:page+='<img src="'+img('p-'+showphoto)+'" loading="lazy" alt="'+E(CATALOG[showphoto]['caption'],quote=True)+'">'
+  elif showphoto and ('p-'+showphoto)!=hero:page+='<img src="'+img('p-'+showphoto)+'" loading="lazy" alt="'+E(CATALOG[showphoto]['caption'],quote=True)+'">'
   elif a['slug'] in TOUR_TOPIC_IMAGE and i==1:page+='<img src="'+E(TOUR_TOPIC_IMAGE[a['slug']],quote=True)+'" loading="lazy" alt="'+E(a['title'],quote=True)+'">'
   else:page+='<div class="sc-illustration" aria-hidden="true">'+('✦' if i%3==1 else '❖' if i%3==2 else '✧')+'</div>'
   page+='</div><div class="sc-copy"><span class="sc-num">'+f'{i:02d}'+' · PUNTA ARENAS</span><h3>'+E(sec['title'])+'</h3><p>'+E(sec['text'])+'</p></div></article>'
  page+='</div></section>'
  if a['slug'] in TOUR_VERIFIED_PHOTOS:
-  page+='<p class="sc-photo-credit">Fotografías de referencia: '+', '.join('<a href="https://commons.wikimedia.org/wiki/File:'+quote(p['filename'].replace(' ','_'))+'" target="_blank" rel="noopener noreferrer">'+E(p['author'])+' · licencia y archivo ↗</a>' for p in TOUR_VERIFIED_PHOTOS[a['slug']])+'</p>'
+  page+='<p class="sc-photo-credit">Fotografías de referencia: '+', '.join('<a href="'+E(p.get('source',p.get('license','https://commons.wikimedia.org/wiki/File:'+quote(p['filename'].replace(' ','_')))),quote=True)+'" target="_blank" rel="noopener noreferrer">'+E(p['author'])+' · licencia y archivo ↗</a>' for p in TOUR_VERIFIED_PHOTOS[a['slug']])+'</p>'
  page+='<section class="sc-card sc-info"><span class="sc-eyebrow">Información práctica</span><h2>Prepara tu experiencia</h2><div class="sc-info-grid"><div><b>✓ Itinerario</b><p>El recorrido se confirma según la modalidad contratada y la operación del día.</p></div><div><b>✓ Encuentro</b><p>Indica tu hotel, hospedaje o muelle; comprobaremos si corresponde recogida.</p></div><div><b>✓ Condiciones</b><p>Clima, entradas, alimentación y cancelación se confirman antes del pago.</p></div><div><b>✓ Asesoramiento</b><p>Cuéntanos las edades, dificultades de movilidad o necesidades especiales.</p></div></div><div class="sc-facts"><div><small>DESTINO</small><strong>Magallanes</strong></div><div><small>IDIOMA</small><strong>A confirmar</strong></div><div><small>DISPONIBILIDAD</small><strong>Según fecha</strong></div><div><small>RESERVA</small><strong>Por WhatsApp</strong></div></div></section>'
  page+='<section class="sc-card"><span class="sc-eyebrow">Consejo de la casa</span><h2>Dato Austral</h2><p class="sc-tip">'+E(a['tip'])+'</p></section>'
  page+='<section class="sc-card sc-final"><div><span class="sc-eyebrow">Tu próxima aventura</span><h2>¿Nos vamos?</h2><p>Envíanos tu fecha y cantidad de pasajeros. Confirmaremos itinerario, disponibilidad y precio final antes de reservar.</p></div><a class="sc-button" href="#solicitar-reserva">Completar solicitud ↓</a></section>'
