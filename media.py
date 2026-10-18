@@ -5,8 +5,8 @@ ROOT=Path(__file__).parent
 CATALOG=json.loads((ROOT/'photo-catalog.json').read_text())
 CATEGORY_PHOTOS={
  'guia':'centro','tours':'magdalena-tour','transportes':'micros','hospedaje':'habitacion',
- 'gastronomia':'sotitos','consejos':'viajar-solo','barrios':'centro','cultura':'museo-regional',
- 'atracciones':'nao-victoria','fotografias':'costanera','naturaleza':'bosque','compras':'zona-franca',
+ 'gastronomia':'sotitos','consejos':'viajar-solo','barrios':'rio-seco','cultura':'museo-regional',
+ 'atracciones':'nao-victoria','fotografias':'faro-san-isidro','naturaleza':'bosque','compras':'zona-franca',
  'eventos':'carnaval','vida-nocturna':'coyote','familia':'familia'}
 ARTICLE_PHOTOS={
  'guia/mes-a-mes':['invierno','costanera','carnaval'],
