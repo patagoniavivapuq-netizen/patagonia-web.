@@ -96,7 +96,9 @@ for a in ARTICLES:
  for i,sec in enumerate(a['sections'],1):
   page+='<article id="tema-'+str(i)+'"><span>'+f'{i:02d}'+'</span><h2>'+E(sec['title'])+'</h2><p>'+E(sec['text'])+'</p></article>'
   for inline_photo in interleaved.get(i,[]):page+=photo(inline_photo)
- page+='</section><aside class="tip"><b>Dato de Ernestinho</b><p>'+E(a['tip'])+'</p></aside>'
+ page+='</section><aside class="tip"><b>Dato Austral</b><p>'+E(a['tip'])+'</p></aside>'
+ if cat=='guia' and a['slug']=='guardar-equipaje':
+  page+='<section class="related" aria-label="Servicio de guarda equipaje"><p class="kicker">SERVICIO PARA TU VIAJE</p><h2>Busca una consigna con Bounce</h2><p>Consulta disponibilidad, dirección, condiciones de custodia y horario de retiro antes de reservar. Los puntos ofrecidos pueden variar.</p><a class="primary" href="https://go.bounce.com/ERNESTINHO8980973466" target="_blank" rel="sponsored noopener noreferrer">CONSULTAR GUARDA EQUIPAJE EN BOUNCE ↗</a><p class="status-note">Enlace de afiliado: podemos recibir una comisión si reservas, sin cambiar el precio indicado por la plataforma.</p></section>'
  if a['place']:
   page+='<section class="map-section"><p class="kicker">UBÍCATE</p><h2>¿Dónde queda?</h2><p>'+E(a['place'])+'</p><a class="ext" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&amp;query='+quote(a['place'])+'">ABRIR UBICACIÓN EN EL MAPA ↗</a></section>'
  if a['sources']:
