@@ -9,6 +9,11 @@ CATEGORY_PHOTOS={
  'atracciones':'nao-victoria','fotografias':'faro-san-isidro','naturaleza':'bosque','compras':'zona-franca',
  'eventos':'carnaval','vida-nocturna':'coyote','familia':'familia'}
 ARTICLE_PHOTOS={
+ 'tours/isla-marta-magdalena':['magdalena-tour','magdalena-costa'],
+ 'tours/ballenas-glaciares':['cruceros'],
+ 'tours/ruta-glaciares':[],
+ 'tours/kayak-estrecho':[],
+ 'tours/reserva-magallanes':['bosque','sendero'],
  'tours/torres-del-paine':['natales'],
  'tours/walking-tour':['centro'],
  'tours/nao-victoria-tour':['nao-victoria'],
