@@ -40,11 +40,11 @@ def article_image(a):
  if a['category']=='vida-nocturna' and a['slug'] in ('el-trebol','kamikaze'):return None
  return ARTICLEIMG.get((a['category'],a['slug']),a['image'])
 def url(a):return '/'+a['category']+'/'+a['slug']+'/'
-TOUR_PRICES={'city-tour':40000,'isla-magdalena':100000,'tierra-del-fuego':100000,'parque-del-estrecho':40000,'isla-marta-magdalena':130000,'ballenas-glaciares':245000,'ruta-glaciares':225000,'kayak-estrecho':115000,'cabalgata-bosques':130000,'delfines-australes':115000,'reserva-magallanes':40000,'faro-san-isidro':70000,'monte-tarn':85000,'pali-aike':80000,'torres-del-paine':90000,'base-torres':110000,'cabo-froward':280000,'full-day-punta-arenas':80000}
+TOUR_PRICES={'city-tour':48000,'isla-magdalena':120000,'tierra-del-fuego':120000,'parque-del-estrecho':48000,'isla-marta-magdalena':156000,'ballenas-glaciares':294000,'ruta-glaciares':270000,'kayak-estrecho':138000,'cabalgata-bosques':156000,'delfines-australes':138000,'reserva-magallanes':48000,'faro-san-isidro':84000,'monte-tarn':102000,'pali-aike':96000,'torres-del-paine':108000,'base-torres':132000,'cabo-froward':336000,'full-day-punta-arenas':96000}
 TOUR_PHONE='5521969946938'
 def tour_contact(a):
- base=TOUR_PRICES.get(a['slug'])
- value='Desde CLP ,'Guía Punta Arenas'),('tours','Tours'),('transportes','Transportes'),('hospedaje','Hospedajes'),('gastronomia','Gastronomía')]
+ price=TOUR_PRICES.get(a['slug'])
+ value=('Desde CLP ,'Guía Punta Arenas'),('tours','Tours'),('transportes','Transportes'),('hospedaje','Hospedajes'),('gastronomia','Gastronomía')]
 def head(title,desc,kind='home'):
  css=['tokens','app','components','home-reference']
  if kind=='category':css+=['reference-guia','guia-adn']
@@ -123,15 +123,16 @@ shutil.copyfile(OUT/'404/index.html',OUT/'404.html')
 (OUT/'robots.txt').write_text('User-agent: *\nDisallow: /\n')
 (ROOT/'editorial-inventory.json').write_text(json.dumps({'stage':'Primera versión editorial para revisión','categories':len(CATEGORIES),'articles':len(ARTICLES),'review_date':'2026-10-18','sources':S,'items':[{'path':url(a),'title':a['title'],'status':a['status'],'sources':a['sources']} for a in ARTICLES]},ensure_ascii=False,indent=2))
 print(json.dumps({'categories':len(CATEGORIES),'articles':len(ARTICLES),'html_files':len(list(OUT.rglob('*.html'))),'output':str(OUT)},ensure_ascii=False))
-+format(int(base*1.2),',').replace(',','.')+' por persona · referencia' if base else 'Consultar cotización'
- return ('<section class="related"><p class="kicker">CONSULTAR EXPERIENCIA</p><h2>'+E(a['title'])+'</h2><p>'+value+'</p>'
- '<form class="tour-request" data-title="'+E(a['title'],quote=True)+'"><label>Fecha <input name="fecha" type="date" required></label>'
- '<label>Adultos <input name="adultos" type="number" value="2" min="1" required></label><label>Niños <input name="ninos" type="number" value="0" min="0"></label>'
- '<label>Nombre <input name="nombre" required></label><label>Hotel o punto de encuentro <input name="hotel" required></label>'
- '<label>Observaciones <textarea name="notas" rows="2"></textarea></label>'
- '<button type="submit" class="primary">CONSULTAR POR WHATSAPP ↗</button></form>'
- '<p>Importes orientativos; disponibilidad, entradas, recogida y precio final requieren confirmación.</p></section>'
- '<script>(function(){document.querySelectorAll(".tour-request").forEach(function(f){f.addEventListener("submit",function(e){e.preventDefault();var d=new FormData(f);var keys=["nombre","fecha","adultos","ninos","hotel","notas"];var msg="Hola, quiero consultar: "+f.dataset.title+"\\n"+keys.map(function(k){return k+": "+(d.get(k)||"-")}).join("\\n");window.open("https://wa.me/"+TOUR_PHONE+"?text="+encodeURIComponent(msg),"_blank","noopener");});});})();</script>')
++format(price,',').replace(',','.')+' por persona · referencia') if price else 'Precio a consultar'
+ page='<section class="related"><p class="kicker">TOURS DE PATAGONIA</p><h2>Solicita tu experiencia</h2><p>'+value+'</p>'
+ page+='<form class="tour-request" data-tour="'+E(a['title'],quote=True)+'">'
+ page+='<label>Fecha <input type="date" name="fecha" required></label><label>Adultos <input type="number" name="adultos" value="2" min="1" required></label>'
+ page+='<label>Niños <input type="number" name="ninos" value="0" min="0"></label><label>Nombre <input name="nombre" required></label>'
+ page+='<label>Hotel o alojamiento <input name="hotel" required></label><label>Observaciones <textarea name="notas"></textarea></label>'
+ page+='<button type="submit" class="primary">CONSULTAR POR WHATSAPP ↗</button></form>'
+ page+='<p>Precio de referencia; cupos, condiciones, entradas y precio final sujetos a confirmación.</p></section>'
+ page+='<script>(function(){var f=document.querySelector(".tour-request");if(!f)return;f.addEventListener("submit",function(e){e.preventDefault();var d=new FormData(f);var names=["nombre","fecha","adultos","ninos","hotel","notas"];var t="Hola, consulto el tour: "+f.dataset.tour+"\\n"+names.map(function(n){return n+": "+(d.get(n)||"-")}).join("\\n");window.open("https://wa.me/5521969946938?text="+encodeURIComponent(t),"_blank","noopener");});})();</script>'
+ return page
 
 NAV=[('guia','Guía Punta Arenas'),('tours','Tours'),('transportes','Transportes'),('hospedaje','Hospedajes'),('gastronomia','Gastronomía')]
 def head(title,desc,kind='home'):
