@@ -9,6 +9,11 @@ CATEGORY_PHOTOS={
  'atracciones':'nao-victoria','fotografias':'faro-san-isidro','naturaleza':'bosque','compras':'zona-franca',
  'eventos':'carnaval','vida-nocturna':'coyote','familia':'familia'}
 ARTICLE_PHOTOS={
+ 'tours/base-torres':[],
+ 'tours/cabo-froward':[],
+ 'tours/full-day-punta-arenas':['centro','costanera','cementerio','museo-regional','catedral','noche'],
+ 'tours/walking-tour':['centro','catedral','museo-regional','costanera'],
+ 'tours/nao-victoria-tour':['nao-victoria'],
  'tours/faro-san-isidro':['faro-san-isidro'],
  'tours/monte-tarn':['monte-tarn'],
  'tours/pali-aike':['pali-aike'],
