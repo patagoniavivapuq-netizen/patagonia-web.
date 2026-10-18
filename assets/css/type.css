@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wdth,wght@75..125,400..900&family=Gloock&display=swap');
+/* Tipografía editorial para títulos y botones de Ernestinho Carioca. */
+:root{--sans:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;--serif:"Gloock",Georgia,serif;--display:"Gloock",Georgia,serif;--ec-action:"Anybody",Arial,sans-serif}
+html,body,button,input,select,textarea,nav,.kicker,.ey,.tag,.badge,.mini-label,.topbar a,.source-link,.detail-link,.transport-links a,.wa,.ext,.btn{font-family:var(--sans)!important}
+h1,h2,h3,h4,h5,h6,.hero h1,.hero-copy h1,.intro h2,.today h2,.section-head h2,.door b,.feature b,.signature,.tcard>b,.culture-card h3,.annual-copy h3,.research-panel h2,.bh-card h2{font-family:var(--display)!important;font-weight:400!important}
+.primary,.door{font-family:var(--ec-action)!important;background:#103f3b!important;color:#fff!important;box-shadow:none!important;text-shadow:none!important;text-transform:uppercase;letter-spacing:.045em}
+.primary:hover,.door:hover{background:#14534d!important;box-shadow:none!important;text-shadow:none!important}

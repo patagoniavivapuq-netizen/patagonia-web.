@@ -1,0 +1,854 @@
+{
+  "stage": "Primera versión editorial para revisión",
+  "categories": 15,
+  "articles": 83,
+  "review_date": "2026-10-18",
+  "sources": {
+    "chile": [
+      "Chile Travel",
+      "https://chile.travel/destinos/punta-arenas-y-estrecho-de-magallanes/"
+    ],
+    "migraciones": [
+      "Servicio Nacional de Migraciones",
+      "https://serviciomigraciones.cl/permanencia-transitoria/"
+    ],
+    "prorroga": [
+      "Prórroga de Permanencia Transitoria",
+      "https://serviciomigraciones.cl/permanencia-transitoria/prorroga/"
+    ],
+    "menores": [
+      "Chile en el Exterior · menores",
+      "https://www.chile.gob.cl/chile/xplica/ingreso-y-salida-de-menores-del-pais"
+    ],
+    "visas": [
+      "Chile en el Exterior · visas",
+      "https://www.chile.gob.cl/chile/site/artic/20230802/pags/20230802150726.html"
+    ],
+    "sag": [
+      "SAG · ingreso a Chile",
+      "https://www.sag.gob.cl/ambitos-de-accion/ingreso-chile"
+    ],
+    "vacunas": [
+      "MINSAL · medicina del viajero",
+      "https://www.minsal.cl/vacunacion-para-el-viajero/"
+    ],
+    "salud": [
+      "Salud Responde",
+      "https://saludresponde.minsal.cl/"
+    ],
+    "puq": [
+      "Aeropuerto de Punta Arenas",
+      "https://www.aeropuertosaustrales.cl/"
+    ],
+    "puq-servicios": [
+      "Aeropuerto · servicios y asistencia",
+      "https://www.aeropuertosaustrales.cl/servicios/"
+    ],
+    "epa": [
+      "Empresa Portuaria Austral",
+      "https://www.epaustral.cl/"
+    ],
+    "barcaza": [
+      "TABSA · Punta Arenas–Porvenir",
+      "https://www.tabsa.cl/rutas/parenas-porvenir"
+    ],
+    "angostura": [
+      "TABSA · Primera Angostura",
+      "https://tabsa.cl/rutas/primera-angostura"
+    ],
+    "uber": [
+      "Uber · Punta Arenas",
+      "https://www.uber.com/global/es-es/r/cities/punta-arenas-ma-cl/"
+    ],
+    "imei": [
+      "Multibanda/SAE · visitantes extranjeros",
+      "https://multibanda.cl/soy-extranjero-foreigner/"
+    ],
+    "reserva": [
+      "CONAF · Reserva Nacional Magallanes",
+      "https://www.conaf.cl/parque_nacionales/reserva-nacional-magallanes/"
+    ],
+    "pinguinos": [
+      "CONAF · Monumento Natural Los Pingüinos",
+      "https://www.conaf.cl/parque_nacionales/monumento-natural-los-pinguinos/"
+    ],
+    "parrillar": [
+      "CONAF Magallanes",
+      "https://www.conaf.cl/conaf-en-regiones/magallanes/"
+    ],
+    "pali": [
+      "CONAF · Parque Nacional Pali Aike",
+      "https://www.conaf.cl/parque_nacionales/parque-nacional-pali-aike/"
+    ],
+    "rey": [
+      "Reserva Natural Pingüino Rey",
+      "https://www.pinguinorey.com/"
+    ],
+    "estrecho": [
+      "Parque del Estrecho",
+      "https://parquedelestrecho.cl/"
+    ],
+    "faro": [
+      "Consejo de Monumentos · Faro San Isidro",
+      "https://www.monumentos.gob.cl/monumentos/monumentos-historicos/faro-san-isidro"
+    ],
+    "plaza": [
+      "Consejo de Monumentos · Plaza Muñoz Gamero",
+      "https://www.monumentos.gob.cl/monumentos/zonas-tipicas/plaza-munoz-gamero-y-edificios-que-la-acotan"
+    ],
+    "cementerio": [
+      "Cementerio Municipal Sara Braun",
+      "https://cementeriosarabraun.cl/turismo/"
+    ],
+    "museo": [
+      "Museo Regional de Magallanes",
+      "https://www.museodemagallanes.gob.cl/"
+    ],
+    "borgatello": [
+      "Museo Maggiorino Borgatello",
+      "https://museomaggiorinoborgatello.cl/planifica-tu-visita/"
+    ],
+    "recuerdo": [
+      "Registro de Museos · Museo del Recuerdo",
+      "https://www.registromuseoschile.cl/663/w3-article-50620.html"
+    ],
+    "museos": [
+      "Red de Museos de Magallanes",
+      "https://www.museodemagallanes.gob.cl/red-de-museos-de-magallanes-redmuma"
+    ],
+    "zona": [
+      "Zonaustral",
+      "https://zonaustral.cl/"
+    ],
+    "mall": [
+      "Espacio Urbano",
+      "https://www.espaciourbano.cl/"
+    ],
+    "municipio": [
+      "Municipalidad de Punta Arenas",
+      "https://puntaarenas.cl/"
+    ],
+    "fundacion": [
+      "Fundación Cultural Punta Arenas",
+      "https://fundacionculturalpuntaarenas.cl/"
+    ],
+    "bulnes": [
+      "Bar Bulnes · Punta Arenas",
+      "https://bbulnes.cl/local-punta-arenas/"
+    ],
+    "ines": [
+      "Dreams · Doña Inés",
+      "https://punta-arenas.dreams.cl/gastronomia/dona-ines/"
+    ],
+    "muchacha": [
+      "Muchacha Restobar",
+      "https://www.muchacharestobar.cl/"
+    ],
+    "natales": [
+      "Chile Travel · Puerto Natales",
+      "https://chile.travel/destinos/puerto-natales/"
+    ],
+    "sernatur": [
+      "Registro de prestadores turísticos",
+      "https://serviciosturisticos.sernatur.cl/"
+    ],
+    "restaurantes": [
+      "Directorio de restaurantes de Punta Arenas",
+      "https://www.visitapuntaarenas.cl/restaurantes.html"
+    ],
+    "red": [
+      "Ministerio de Transportes · Red Punta Arenas",
+      "https://usuarios.subtrans.gob.cl/archivos/26628"
+    ],
+    "invernadas": [
+      "Chile es Tuyo · Invernadas 2026",
+      "https://chileestuyo.cl/eventos/con-chapuzon-en-el-estrecho-el-calendario-completo-de-las-invernadas-de-punta-arenas-2026/"
+    ]
+  },
+  "items": [
+    {
+      "path": "/guia/mes-a-mes/",
+      "title": "Punta Arenas mes a mes",
+      "status": null,
+      "sources": [
+        "invernadas",
+        "parrillar",
+        "chile"
+      ]
+    },
+    {
+      "path": "/guia/documentos/",
+      "title": "Documentos de entrada a Chile",
+      "status": null,
+      "sources": [
+        "visas",
+        "sag",
+        "migraciones"
+      ]
+    },
+    {
+      "path": "/guia/consulados/",
+      "title": "Consulados y asistencia consular",
+      "status": null,
+      "sources": [
+        "visas"
+      ]
+    },
+    {
+      "path": "/guia/viajar-con-menores/",
+      "title": "Viajar con menores a Punta Arenas",
+      "status": null,
+      "sources": [
+        "menores"
+      ]
+    },
+    {
+      "path": "/guia/permanencia-y-extension/",
+      "title": "Permanencia y extensión en Chile",
+      "status": null,
+      "sources": [
+        "migraciones",
+        "prorroga"
+      ]
+    },
+    {
+      "path": "/guia/viajar-solo/",
+      "title": "Viajar solo o sola a Punta Arenas",
+      "status": null,
+      "sources": [
+        "chile",
+        "sernatur"
+      ]
+    },
+    {
+      "path": "/guia/seguro-y-salud/",
+      "title": "Seguro y salud",
+      "status": null,
+      "sources": [
+        "salud",
+        "vacunas"
+      ]
+    },
+    {
+      "path": "/guia/vacunas/",
+      "title": "Vacunas y preparación sanitaria",
+      "status": null,
+      "sources": [
+        "vacunas",
+        "salud"
+      ]
+    },
+    {
+      "path": "/guia/dinero-y-tarjetas/",
+      "title": "Dinero y tarjetas",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/guia/internet-y-esim/",
+      "title": "Internet, SIM y eSIM",
+      "status": null,
+      "sources": [
+        "imei"
+      ]
+    },
+    {
+      "path": "/guia/accesibilidad/",
+      "title": "Accesibilidad en Punta Arenas",
+      "status": null,
+      "sources": [
+        "puq-servicios",
+        "reserva",
+        "rey"
+      ]
+    },
+    {
+      "path": "/guia/aeropuertos/",
+      "title": "Aeropuerto de Punta Arenas · PUQ",
+      "status": null,
+      "sources": [
+        "puq",
+        "puq-servicios"
+      ]
+    },
+    {
+      "path": "/guia/terminales-de-bus/",
+      "title": "Terminales y buses interurbanos",
+      "status": null,
+      "sources": [
+        "natales",
+        "chile"
+      ]
+    },
+    {
+      "path": "/guia/cruceros/",
+      "title": "Cruceros en Punta Arenas",
+      "status": null,
+      "sources": [
+        "epa"
+      ]
+    },
+    {
+      "path": "/guia/como-moverse/",
+      "title": "Cómo moverse por Punta Arenas",
+      "status": null,
+      "sources": [
+        "chile",
+        "uber",
+        "red"
+      ]
+    },
+    {
+      "path": "/guia/maleta-y-clima/",
+      "title": "Maleta y clima austral",
+      "status": null,
+      "sources": [
+        "chile"
+      ]
+    },
+    {
+      "path": "/guia/guardar-equipaje/",
+      "title": "Dónde guardar equipaje",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/transportes/micros/",
+      "title": "Micros · transporte urbano",
+      "status": null,
+      "sources": [
+        "red"
+      ]
+    },
+    {
+      "path": "/transportes/taxis/",
+      "title": "Taxis en Punta Arenas",
+      "status": null,
+      "sources": [
+        "puq-servicios"
+      ]
+    },
+    {
+      "path": "/transportes/colectivos/",
+      "title": "Colectivos · cómo funcionan",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/transportes/uber/",
+      "title": "Uber y aplicaciones",
+      "status": null,
+      "sources": [
+        "uber"
+      ]
+    },
+    {
+      "path": "/transportes/barcazas/",
+      "title": "Barcazas y cruces a Tierra del Fuego",
+      "status": null,
+      "sources": [
+        "barcaza",
+        "angostura"
+      ]
+    },
+    {
+      "path": "/compras/centro/",
+      "title": "Compras en el centro de Punta Arenas",
+      "status": null,
+      "sources": [
+        "chile"
+      ]
+    },
+    {
+      "path": "/compras/zona-franca/",
+      "title": "Zona Franca · Zonaustral",
+      "status": null,
+      "sources": [
+        "zona"
+      ]
+    },
+    {
+      "path": "/compras/espacio-urbano/",
+      "title": "Mall Espacio Urbano Pionero",
+      "status": null,
+      "sources": [
+        "mall"
+      ]
+    },
+    {
+      "path": "/eventos/carnaval-de-invierno/",
+      "title": "Carnaval de Invierno",
+      "status": null,
+      "sources": [
+        "invernadas",
+        "fundacion"
+      ]
+    },
+    {
+      "path": "/eventos/chapuzon/",
+      "title": "Chapuzón del Estrecho",
+      "status": null,
+      "sources": [
+        "invernadas",
+        "municipio"
+      ]
+    },
+    {
+      "path": "/eventos/festival-folclorico/",
+      "title": "Festival Folclórico en la Patagonia",
+      "status": null,
+      "sources": [
+        "fundacion"
+      ]
+    },
+    {
+      "path": "/eventos/ano-nuevo/",
+      "title": "Año Nuevo en Punta Arenas",
+      "status": null,
+      "sources": [
+        "municipio"
+      ]
+    },
+    {
+      "path": "/eventos/fiestas-patrias/",
+      "title": "Fiestas Patrias en Magallanes",
+      "status": null,
+      "sources": [
+        "municipio"
+      ]
+    },
+    {
+      "path": "/vida-nocturna/bar-bulnes/",
+      "title": "Bar Bulnes",
+      "status": null,
+      "sources": [
+        "bulnes"
+      ]
+    },
+    {
+      "path": "/vida-nocturna/coyote/",
+      "title": "Coyote Restobar",
+      "status": "Consultar programación vigente",
+      "sources": []
+    },
+    {
+      "path": "/vida-nocturna/el-trebol/",
+      "title": "El Trébol",
+      "status": "Referencia local · operación por verificar",
+      "sources": []
+    },
+    {
+      "path": "/vida-nocturna/kamikaze/",
+      "title": "Kamikaze",
+      "status": "Referencia histórica · operación por verificar",
+      "sources": []
+    },
+    {
+      "path": "/vida-nocturna/muchacha/",
+      "title": "Muchacha Restobar",
+      "status": null,
+      "sources": [
+        "muchacha"
+      ]
+    },
+    {
+      "path": "/gastronomia/dona-ines/",
+      "title": "Doña Inés",
+      "status": null,
+      "sources": [
+        "ines"
+      ]
+    },
+    {
+      "path": "/gastronomia/sotitos/",
+      "title": "Sotito’s",
+      "status": null,
+      "sources": [
+        "restaurantes"
+      ]
+    },
+    {
+      "path": "/gastronomia/savoy/",
+      "title": "Savoy",
+      "status": null,
+      "sources": [
+        "restaurantes"
+      ]
+    },
+    {
+      "path": "/gastronomia/lomitos/",
+      "title": "Lomito’s",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/gastronomia/dinos-pizza/",
+      "title": "Dino’s Pizza",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/gastronomia/cuatro-estaciones/",
+      "title": "Cuatro Estaciones",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/gastronomia/sabores-magallanicos/",
+      "title": "Qué comer en Magallanes",
+      "status": null,
+      "sources": [
+        "chile"
+      ]
+    },
+    {
+      "path": "/cultura/museos/",
+      "title": "Museos de Punta Arenas",
+      "status": null,
+      "sources": [
+        "borgatello",
+        "museo",
+        "museos"
+      ]
+    },
+    {
+      "path": "/cultura/maggiorino-borgatello/",
+      "title": "Museo Maggiorino Borgatello",
+      "status": null,
+      "sources": [
+        "borgatello"
+      ]
+    },
+    {
+      "path": "/cultura/museo-regional/",
+      "title": "Museo Regional de Magallanes",
+      "status": "Cierre temporal anunciado por el museo",
+      "sources": [
+        "museo"
+      ]
+    },
+    {
+      "path": "/cultura/museo-del-recuerdo/",
+      "title": "Museo del Recuerdo",
+      "status": null,
+      "sources": [
+        "recuerdo",
+        "museos"
+      ]
+    },
+    {
+      "path": "/cultura/iglesias/",
+      "title": "Iglesias y patrimonio religioso",
+      "status": null,
+      "sources": [
+        "plaza",
+        "borgatello"
+      ]
+    },
+    {
+      "path": "/cultura/centros-culturales/",
+      "title": "Centros culturales y programación",
+      "status": null,
+      "sources": [
+        "fundacion",
+        "zona"
+      ]
+    },
+    {
+      "path": "/cultura/bibliotecas/",
+      "title": "Bibliotecas y memoria escrita",
+      "status": null,
+      "sources": [
+        "fundacion",
+        "municipio"
+      ]
+    },
+    {
+      "path": "/naturaleza/reserva-magallanes/",
+      "title": "Reserva Nacional Magallanes",
+      "status": null,
+      "sources": [
+        "reserva"
+      ]
+    },
+    {
+      "path": "/naturaleza/isla-magdalena/",
+      "title": "Isla Magdalena · pingüinos magallánicos",
+      "status": null,
+      "sources": [
+        "pinguinos"
+      ]
+    },
+    {
+      "path": "/naturaleza/pinguino-rey/",
+      "title": "Reserva Natural Pingüino Rey",
+      "status": null,
+      "sources": [
+        "rey",
+        "barcaza",
+        "angostura"
+      ]
+    },
+    {
+      "path": "/naturaleza/laguna-parrillar/",
+      "title": "Laguna Parrillar",
+      "status": null,
+      "sources": [
+        "parrillar"
+      ]
+    },
+    {
+      "path": "/naturaleza/pali-aike/",
+      "title": "Parque Nacional Pali Aike",
+      "status": null,
+      "sources": [
+        "pali"
+      ]
+    },
+    {
+      "path": "/naturaleza/faro-san-isidro/",
+      "title": "Faro San Isidro",
+      "status": null,
+      "sources": [
+        "faro"
+      ]
+    },
+    {
+      "path": "/naturaleza/trekking-y-senderos/",
+      "title": "Trekking y senderos · elige tu nivel",
+      "status": null,
+      "sources": [
+        "reserva",
+        "chile"
+      ]
+    },
+    {
+      "path": "/atracciones/plaza-munoz-gamero/",
+      "title": "Plaza Muñoz Gamero",
+      "status": null,
+      "sources": [
+        "plaza"
+      ]
+    },
+    {
+      "path": "/atracciones/cerro-de-la-cruz/",
+      "title": "Mirador Cerro de la Cruz",
+      "status": null,
+      "sources": [
+        "chile"
+      ]
+    },
+    {
+      "path": "/atracciones/costanera/",
+      "title": "Costanera del Estrecho",
+      "status": null,
+      "sources": [
+        "chile"
+      ]
+    },
+    {
+      "path": "/atracciones/cementerio-sara-braun/",
+      "title": "Cementerio Municipal Sara Braun",
+      "status": null,
+      "sources": [
+        "cementerio"
+      ]
+    },
+    {
+      "path": "/atracciones/nao-victoria/",
+      "title": "Museo Nao Victoria",
+      "status": null,
+      "sources": [
+        "museos",
+        "chile"
+      ]
+    },
+    {
+      "path": "/atracciones/fuerte-bulnes/",
+      "title": "Fuerte Bulnes y Parque del Estrecho",
+      "status": null,
+      "sources": [
+        "estrecho"
+      ]
+    },
+    {
+      "path": "/tours/city-tour/",
+      "title": "City tour de Punta Arenas",
+      "status": null,
+      "sources": [
+        "chile",
+        "sernatur"
+      ]
+    },
+    {
+      "path": "/tours/isla-magdalena/",
+      "title": "Navegación a Isla Magdalena",
+      "status": null,
+      "sources": [
+        "pinguinos",
+        "sernatur"
+      ]
+    },
+    {
+      "path": "/tours/tierra-del-fuego/",
+      "title": "Tierra del Fuego y pingüino rey",
+      "status": null,
+      "sources": [
+        "rey",
+        "barcaza",
+        "angostura"
+      ]
+    },
+    {
+      "path": "/tours/parque-del-estrecho/",
+      "title": "Historia al sur · Parque del Estrecho",
+      "status": null,
+      "sources": [
+        "estrecho",
+        "sernatur"
+      ]
+    },
+    {
+      "path": "/tours/puerto-natales/",
+      "title": "Continuar hacia Puerto Natales",
+      "status": null,
+      "sources": [
+        "natales"
+      ]
+    },
+    {
+      "path": "/barrios/centro-historico/",
+      "title": "Centro histórico",
+      "status": null,
+      "sources": [
+        "chile"
+      ]
+    },
+    {
+      "path": "/barrios/costanera/",
+      "title": "Sector Costanera",
+      "status": null,
+      "sources": [
+        "chile"
+      ]
+    },
+    {
+      "path": "/barrios/cerro-de-la-cruz/",
+      "title": "Cerro de la Cruz y sector alto",
+      "status": null,
+      "sources": [
+        "chile"
+      ]
+    },
+    {
+      "path": "/barrios/rio-seco/",
+      "title": "Río Seco y sector norte",
+      "status": null,
+      "sources": [
+        "chile"
+      ]
+    },
+    {
+      "path": "/hospedaje/centro/",
+      "title": "Alojarse en el centro",
+      "status": null,
+      "sources": [
+        "sernatur"
+      ]
+    },
+    {
+      "path": "/hospedaje/costanera/",
+      "title": "Alojarse cerca de la costanera",
+      "status": null,
+      "sources": [
+        "sernatur"
+      ]
+    },
+    {
+      "path": "/hospedaje/departamentos-y-hostales/",
+      "title": "Departamentos, hostales y estadías largas",
+      "status": null,
+      "sources": [
+        "sernatur"
+      ]
+    },
+    {
+      "path": "/consejos/primera-visita/",
+      "title": "Primera vez en Punta Arenas",
+      "status": null,
+      "sources": [
+        "chile",
+        "museo"
+      ]
+    },
+    {
+      "path": "/consejos/cuando-llueve/",
+      "title": "Qué hacer cuando llueve",
+      "status": null,
+      "sources": [
+        "chile",
+        "museo"
+      ]
+    },
+    {
+      "path": "/consejos/tres-dias/",
+      "title": "Punta Arenas en tres días",
+      "status": null,
+      "sources": [
+        "chile",
+        "museo"
+      ]
+    },
+    {
+      "path": "/fotografias/miradores/",
+      "title": "Fotografiar desde los miradores",
+      "status": null,
+      "sources": [
+        "plaza"
+      ]
+    },
+    {
+      "path": "/fotografias/patrimonio/",
+      "title": "Fotografía de patrimonio",
+      "status": null,
+      "sources": [
+        "plaza"
+      ]
+    },
+    {
+      "path": "/fotografias/fauna/",
+      "title": "Fotografiar fauna sin molestar",
+      "status": null,
+      "sources": [
+        "pinguinos"
+      ]
+    },
+    {
+      "path": "/familia/con-ninos/",
+      "title": "Punta Arenas con niños",
+      "status": null,
+      "sources": [
+        "borgatello",
+        "chile"
+      ]
+    },
+    {
+      "path": "/familia/museos-en-familia/",
+      "title": "Museos en familia",
+      "status": null,
+      "sources": [
+        "borgatello",
+        "chile"
+      ]
+    },
+    {
+      "path": "/familia/pinguinos-en-familia/",
+      "title": "Ver pingüinos en familia",
+      "status": null,
+      "sources": [
+        "pinguinos",
+        "rey"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naturaleza": {
+    "path": "naturaleza.jpg",
+    "url": "https://www.conaf.cl/wp-content/uploads/2024/04/rn-magallanes1.jpg",
+    "page": "https://www.conaf.cl/parque_nacionales/reserva-nacional-magallanes/",
+    "bytes": 13481
+  },
+  "bulnes": {
+    "path": "bulnes.jpg",
+    "url": "https://bbulnes.cl/wp-content/uploads/2020/11/IMG_20180708_040001.jpg",
+    "page": "https://bbulnes.cl/local-punta-arenas/",
+    "bytes": 88981
+  },
+  "ines": "NO_OG",
+  "borgatello": "NO_OG",
+  "cementerio": {
+    "path": "cementerio.png",
+    "url": "https://cementeriosarabraun.cl/wp-content/uploads/2024/10/Recurso-2@4x-1024x690.png",
+    "page": "https://cementeriosarabraun.cl/turismo/",
+    "bytes": 64017
+  },
+  "estrecho": "HTTP Error 503: Service Unavailable",
+  "zona": "NO_OG",
+  "rey": "NO_OG",
+  "pali": {
+    "path": "pali.jpg",
+    "url": "https://www.conaf.cl/wp-content/uploads/2024/04/pali-aike-1.jpg",
+    "page": "https://www.conaf.cl/parque_nacionales/parque-nacional-pali-aike/",
+    "bytes": 13014
+  }
+}
