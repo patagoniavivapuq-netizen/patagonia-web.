@@ -9,6 +9,10 @@ CATEGORY_PHOTOS={
  'atracciones':'nao-victoria','fotografias':'faro-san-isidro','naturaleza':'bosque','compras':'zona-franca',
  'eventos':'carnaval','vida-nocturna':'coyote','familia':'familia'}
 ARTICLE_PHOTOS={
+ 'guia/puerta-patagonia':['natales','rey-excursion','fuerte-recorrido'],
+ 'guia/conducir-patagonia':['barcaza','pali-aike','colectivos'],
+ 'guia/aeropuertos':['aeropuerto','cruceros'],
+ 'guia/como-moverse':['micros','centro'],
  'guia/seguridad-y-emergencias':['hospital','accesibilidad'],
  'guia/presupuesto':['dinero','zona-franca'],
  'guia/informacion-practica':['internet','aeropuerto'],
