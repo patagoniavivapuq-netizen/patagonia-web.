@@ -9,6 +9,10 @@ CATEGORY_PHOTOS={
  'atracciones':'nao-victoria','fotografias':'faro-san-isidro','naturaleza':'bosque','compras':'zona-franca',
  'eventos':'carnaval','vida-nocturna':'coyote','familia':'familia'}
 ARTICLE_PHOTOS={
+ 'guia/seguridad-y-emergencias':['hospital','accesibilidad'],
+ 'guia/presupuesto':['dinero','zona-franca'],
+ 'guia/informacion-practica':['internet','aeropuerto'],
+
  'guia/primera-visita':['catedral','nao-victoria','aeropuerto'],
  'guia/mal-tiempo':['museo-recuerdo','biblioteca','savoy-salon'],
  'guia/mes-a-mes':['invierno','costanera','carnaval'],
