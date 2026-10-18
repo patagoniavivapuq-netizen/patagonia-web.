@@ -39,6 +39,7 @@ def article_image(a):
  if selected:return 'p-'+selected[0]
  if a['category']=='vida-nocturna' and a['slug'] in ('el-trebol','kamikaze'):return None
  return ARTICLEIMG.get((a['category'],a['slug']),a['image'])
+TOUR_PRICES={"city-tour":48000,"isla-magdalena":120000,"tierra-del-fuego":120000,"parque-del-estrecho":48000,"isla-marta-magdalena":156000,"ballenas-glaciares":294000,"ruta-glaciares":270000,"kayak-estrecho":138000,"cabalgata-bosques":156000,"delfines-australes":138000,"reserva-magallanes":48000,"faro-san-isidro":84000,"monte-tarn":102000,"pali-aike":96000,"torres-del-paine":108000,"base-torres":132000,"cabo-froward":336000,"full-day-punta-arenas":96000}
 def url(a):return '/'+a['category']+'/'+a['slug']+'/'
 NAV=[('guia','Guía Punta Arenas'),('tours','Tours'),('transportes','Transportes'),('hospedaje','Hospedajes'),('gastronomia','Gastronomía')]
 def head(title,desc,kind='home'):
@@ -104,6 +105,16 @@ for a in ARTICLES:
   page+='<section class="related" id="rentcars"><p class="kicker">ALQUILER DE VEHÍCULOS</p><h2>Compara autos para recorrer Magallanes con Rentcars</h2><p>Selecciona Punta Arenas como punto de recogida si hay disponibilidad. Comprueba cobertura, caminos permitidos, depósito y permisos para cruzar a Argentina o embarcar en un ferry.</p><a class="primary" href="https://www.rentcars.com/es/?requestorid=11142&amp;utm_source=www.ernestinhocarioca.com.br&amp;utm_medium=afiliado-link" target="_blank" rel="sponsored noopener noreferrer">COMPARAR VEHÍCULOS CON RENTCARS ↗</a><p class="status-note">Enlace de nuestra cuenta de afiliados actual. Podemos recibir comisión por una reserva, según las condiciones del proveedor.</p></section>'
  if cat=='guia' and a['slug']=='guardar-equipaje':
   page+='<section class="related" aria-label="Servicio de guarda equipaje"><p class="kicker">SERVICIO PARA TU VIAJE</p><h2>Busca una consigna con Bounce</h2><p>Consulta disponibilidad, dirección, condiciones de custodia y horario de retiro antes de reservar. Los puntos ofrecidos pueden variar.</p><a class="primary" href="https://go.bounce.com/ERNESTINHO8980973466" target="_blank" rel="sponsored noopener noreferrer">CONSULTAR GUARDA EQUIPAJE EN BOUNCE ↗</a><p class="status-note">Enlace de afiliado: podemos recibir una comisión si reservas, sin cambiar el precio indicado por la plataforma.</p></section>'
+ if cat=='tours':
+  n=TOUR_PRICES.get(a['slug'])
+  label='Desde CLP '+format(n,',').replace(',','.')+' por persona (referencia)' if n else 'Consultar precio'
+  page+='<section class="related"><h2>Solicita esta experiencia</h2><p>'+label+'</p><p>Tarifa final y disponibilidad sujetas a confirmación.</p>'
+  page+='<form class="tour-request" data-title="'+E(a['title'],quote=True)+'">'
+  page+='<label>Fecha <input type="date" name="fecha" required></label><label>Adultos <input type="number" name="adultos" min="1" value="2" required></label>'
+  page+='<label>Niños <input type="number" name="ninos" min="0" value="0"></label><label>Nombre <input name="nombre" required></label>'
+  page+='<label>Hotel <input name="hotel" required></label><label>Notas <textarea name="notas"></textarea></label>'
+  page+='<button type="submit" class="primary">CONSULTAR POR WHATSAPP</button></form></section>'
+  page+='<script>(function(){var f=document.querySelector(".tour-request");if(!f)return;f.addEventListener("submit",function(e){e.preventDefault();var d=new FormData(f);var msg="Consulta: "+f.dataset.title+" | Fecha: "+d.get("fecha")+" | Adultos: "+d.get("adultos")+" | Niños: "+d.get("ninos")+" | Nombre: "+d.get("nombre")+" | Hotel: "+d.get("hotel")+" | Notas: "+d.get("notas");window.open("https://wa.me/5521969946938?text="+encodeURIComponent(msg),"_blank");});})();</script>'
  if a['place']:
   page+='<section class="map-section"><p class="kicker">UBÍCATE</p><h2>¿Dónde queda?</h2><p>'+E(a['place'])+'</p><a class="ext" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&amp;query='+quote(a['place'])+'">ABRIR UBICACIÓN EN EL MAPA ↗</a></section>'
  if a['sources']:
