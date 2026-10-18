@@ -4,7 +4,18 @@ from collections import defaultdict
 from urllib.parse import quote
 from content import CATEGORIES, ARTICLES, S
 ROOT=Path(__file__).parent
-OUT=ROOT/'dist'
+# El paquete mantiene juntas las imágenes provisionales y evita dependencias remotas.
+import zipfile
+photo_pack=ROOT/'photo-assets.zip'
+if photo_pack.exists():
+ with zipfile.ZipFile(photo_pack) as pack:
+  for info in pack.infolist():
+   path=Path(info.filename)
+   if path.parts[:2] != ('assets','photos') or '..' in path.parts or path.is_absolute():
+    raise ValueError('Ruta de foto no válida')
+   pack.extract(info, ROOT)
+from media import CATALOG, CATEGORY_PHOTOS, photos_for
+OUT=ROOT/'dist' 
 if OUT.exists(): shutil.rmtree(OUT)
 OUT.mkdir();shutil.copytree(ROOT/'assets', OUT/'assets')
 E=html.escape
@@ -14,8 +25,20 @@ IMAGES={'ciudad':'ciudad.webp','plaza':'plaza.webp','pinguinos':'pinguinos.webp'
 CATIMG={'naturaleza':'naturaleza','vida-nocturna':'bulnes'}
 ARTICLEIMG={('naturaleza','reserva-magallanes'):'naturaleza',('naturaleza','pali-aike'):'pali',('vida-nocturna','bar-bulnes'):'bulnes'}
 IMAGEDESC={'ciudad':'Punta Arenas y el Estrecho de Magallanes desde el mirador.','plaza':'La Plaza Muñoz Gamero, parte del patrimonio del centro.','pinguinos':'Pingüinos magallánicos y paisaje de Isla Magdalena.','ferry':'Navegación y desembarco en Isla Magdalena.','naturaleza':'Paisaje de la Reserva Nacional Magallanes.','bulnes':'Interior de Bar Bulnes, Punta Arenas.','pali':'Paisaje volcánico del Parque Nacional Pali Aike.'}
-def img(key):return '/assets/images/'+IMAGES.get(key,IMAGES['ciudad'])
-def article_image(a): return ARTICLEIMG.get((a['category'],a['slug']),CATIMG.get(a['category'],a['image']))
+for media_key,media_item in CATALOG.items():
+ if 'path' in media_item:
+  IMAGES['p-'+media_key]='../photos/'+Path(media_item['path']).name
+  IMAGEDESC['p-'+media_key]=media_item['caption']
+for category,media_key in CATEGORY_PHOTOS.items():
+ if 'p-'+media_key in IMAGES: CATIMG[category]='p-'+media_key
+
+def img(key):
+ return '/assets/photos/'+Path(CATALOG[key[2:]]['path']).name if key and key.startswith('p-') else '/assets/images/'+IMAGES.get(key,IMAGES['ciudad'])
+def article_image(a):
+ selected=photos_for(a)
+ if selected:return 'p-'+selected[0]
+ if a['category']=='vida-nocturna' and a['slug'] in ('el-trebol','kamikaze'):return None
+ return ARTICLEIMG.get((a['category'],a['slug']),a['image'])
 def url(a):return '/'+a['category']+'/'+a['slug']+'/'
 NAV=[('guia','Guía Punta Arenas'),('tours','Tours'),('transportes','Transportes'),('hospedaje','Hospedajes'),('gastronomia','Gastronomía')]
 def head(title,desc,kind='home'):
@@ -28,12 +51,16 @@ def footer():
  return '<section class="ec-corporate-closing"><div class="ec-closing-cta"><div><p class="kicker">PATAGONIA VIVA</p><h2>Tu viaje empieza<br>con una buena historia.</h2><p>Descubre Punta Arenas con tiempo, curiosidad y mirada local.</p></div><a href="/guia/">PREPARAR MI VIAJE →</a></div></section><footer class="ec-corporate-footer"><div class="ec-footer-brand"><img src="/assets/brand.svg" width="60" height="60" alt=""><div><strong>PATAGONIA <em>VIVA</em></strong><small>PUNTA ARENAS, DESDE MI MIRADA</small></div></div><div class="ec-footer-legal"><p>© 2026 Patagonia Viva.</p><p>Punta Arenas · Magallanes · Chile</p><a href="/#explora">EXPLORAR LA CIUDAD →</a></div></footer><div class="mobile-dock"><a href="/">Inicio</a><a href="/guia/">Guía</a><a href="/#explora">Explorar</a></div><script src="/assets/site.js" defer></script></body></html>'
 def write(route,text):
  p=OUT/route.strip('/')/'index.html' if route!='/' else OUT/'index.html';p.parent.mkdir(parents=True,exist_ok=True);p.write_text(text)
-def photo(key,priority=False):return '<figure class="ec-inline-photo"><img src="'+img(key)+'" alt="'+E(IMAGEDESC.get(key,IMAGEDESC['ciudad']))+'" '+('fetchpriority="high"' if priority else 'loading="lazy"')+' width="1280" height="800"><figcaption>'+E(IMAGEDESC.get(key,IMAGEDESC['ciudad']))+'</figcaption></figure>'
+def photo(key,priority=False):
+ if key is None:return ''
+ return '<figure class="ec-inline-photo"><img src="'+img(key)+'" alt="'+E(IMAGEDESC.get(key,IMAGEDESC['ciudad']))+'" '+('fetchpriority="high"' if priority else 'loading="lazy"')+' width="1280" height="800"><figcaption>'+E(IMAGEDESC.get(key,IMAGEDESC['ciudad']))+'</figcaption></figure>'
 def door(cat):
  k,title,desc,key=cat;key=CATIMG.get(k,key)
  return '<a class="door" href="/'+k+'/"><img class="card-image" src="'+img(key)+'" alt="" loading="lazy" width="620" height="400"><span class="door-copy"><b>'+E(title)+'</b><span class="card-copy">'+E(desc)+'</span><small>EXPLORAR</small></span></a>'
 def thumb(a):
- return '<a href="'+url(a)+'"><img class="guide-thumb" src="'+img(article_image(a))+'" alt="" loading="lazy" width="640" height="420"><b>'+E(a['title'])+'</b><span>ABRIR GUÍA →</span></a>'
+ key=article_image(a)
+ visual='<img class="guide-thumb" src="'+img(key)+'" alt="" loading="lazy" width="640" height="420">' if key else ''
+ return '<a href="'+url(a)+'">'+visual+'<b>'+E(a['title'])+'</b><span>ABRIR GUÍA →</span></a>'
 # Home: mantiene clases, CSS y jerarquía de la referencia pública autorizada.
 home=head('Guía de Punta Arenas y Patagonia','Descubre Punta Arenas: guía práctica, tours, transportes, alojamiento, gastronomía y vida local.')
 home+='<main id="inicio"><section class="hero"><picture class="hero-visual"><img src="'+img('ciudad')+'" alt="Punta Arenas y el Estrecho de Magallanes" width="1600" height="900" fetchpriority="high"></picture><div class="hero-copy"><p class="kicker">PATAGONIA VIVA · PUNTA ARENAS</p><h1>Punta Arenas<br>no se visita.<br><em>Se vive.</em></h1><p class="lead">Mi guía para descubrir Punta Arenas: cómo preparar tu viaje, dónde comer, cómo moverte y experiencias que vas a recordar.</p><a class="primary" href="#explora">DESCUBRIR PUNTA ARENAS</a></div></section>'
@@ -43,7 +70,7 @@ home+='<section class="editorial night"><div class="section-head"><p class="kick
 for a in [a for a in ARTICLES if a['category']=='tours']:
  home+='<a class="feature" href="'+url(a)+'"><img class="card-image" src="'+img(article_image(a))+'" alt="" loading="lazy"><b>'+E(a['title'])+'</b><span class="card-copy">'+E(a['intro'])+'</span><small>EXPLORAR →</small></a>'
 home+='</div></section><section class="home-highlights">'
-for title,copy,href,key in [('ANTES DE VENIR','Elige tu mes y prepara el viaje con calma.','/guia/mes-a-mes/','ciudad'),('NATURALEZA AUSTRAL','Bosques, costa y encuentros con fauna.','/naturaleza/','naturaleza')]:
+for title,copy,href,key in [('ANTES DE VENIR','Elige tu mes y prepara el viaje con calma.','/guia/mes-a-mes/','p-invierno'),('NATURALEZA AUSTRAL','Bosques, costa y encuentros con fauna.','/naturaleza/','p-bosque')]:
  home+='<a class="home-highlight" href="'+href+'"><img src="'+img(key)+'" alt="" loading="lazy"><div><small>'+title+'</small><h2>'+('Punta Arenas mes a mes' if 'mes' in href else 'Otra forma de mirar')+'</h2><p>'+copy+'</p><small>ABRIR GUÍA →</small></div></a>'
 home+='</section></main>'+footer();write('/',home)
 # Portadas de categoría: tarjetas con miniatura y página propia por tema.
@@ -60,12 +87,15 @@ for a in ARTICLES:
  cat=a['category'];title=CAT[cat][1];key=article_image(a)
  page=head(a['title'],a['intro'],'article')+'<main class="guide" id="inicio"><div class="breadcrumbs"><a href="/">Inicio</a><span> / </span><a href="/'+cat+'/">'+E(title)+'</a></div><p class="kicker">'+E(title)+'</p><h1>'+E(a['title'])+'</h1>'+photo(key,True)+'<p class="article-intro">'+E(a['intro'])+'</p>'
  if a['status']:page+='<p class="status-note">'+E(a['status'])+'</p>'
+ selected_photos=photos_for(a)
+ interleaved={}
+ for n,media_key in enumerate(selected_photos[1:],1):
+  after=max(1,min(len(a['sections']),round(n*len(a['sections'])/len(selected_photos))))
+  interleaved.setdefault(after,[]).append('p-'+media_key)
  page+='<section class="items">'
  for i,sec in enumerate(a['sections'],1):
   page+='<article id="tema-'+str(i)+'"><span>'+f'{i:02d}'+'</span><h2>'+E(sec['title'])+'</h2><p>'+E(sec['text'])+'</p></article>'
-  if i==3 and len(a['sections'])>4:
-   second='plaza' if key=='ciudad' else 'ciudad'
-   page+=photo(second)
+  for inline_photo in interleaved.get(i,[]):page+=photo(inline_photo)
  page+='</section><aside class="tip"><b>Dato de Ernestinho</b><p>'+E(a['tip'])+'</p></aside>'
  if a['place']:
   page+='<section class="map-section"><p class="kicker">UBÍCATE</p><h2>¿Dónde queda?</h2><p>'+E(a['place'])+'</p><a class="ext" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&amp;query='+quote(a['place'])+'">ABRIR UBICACIÓN EN EL MAPA ↗</a></section>'
