@@ -9,6 +9,11 @@ CATEGORY_PHOTOS={
  'atracciones':'nao-victoria','fotografias':'faro-san-isidro','naturaleza':'bosque','compras':'zona-franca',
  'eventos':'carnaval','vida-nocturna':'coyote','familia':'familia'}
 ARTICLE_PHOTOS={
+ 'tours/faro-san-isidro':['faro-san-isidro'],
+ 'tours/monte-tarn':['monte-tarn'],
+ 'tours/pali-aike':['pali-aike'],
+ 'tours/cabalgata-bosques':[],
+ 'tours/delfines-australes':[],
  'tours/isla-marta-magdalena':['magdalena-tour','magdalena-costa'],
  'tours/ballenas-glaciares':['cruceros'],
  'tours/ruta-glaciares':[],
