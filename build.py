@@ -94,7 +94,7 @@ def showcase_tour(a):
  price=('CLP $'+format(n,',').replace(',','.')) if n else 'Consultar'
  page=head(a['title'],a['intro'],'article')+SHOWCASE_STYLE+'<main class="showcase" id="inicio"><div class="sc-wrap">'
  page+='<a class="sc-back" href="/tours/">← Volver a Tours</a><header class="sc-head"><span class="sc-tag">★ Experiencia austral destacada</span><h1>'+E(a['title'])+'</h1><p>'+E(a['intro'])+'</p></header>'
- page+='<div class="sc-hero"><img src="'+img(hero)+'" alt="'+E(IMAGEDESC.get(hero,a['title']),quote=True)+'"><div class="sc-hero-label">PATAGONIA VIVA · PUNTA ARENAS</div></div>'
+ page+='<div class="sc-hero"><img src="'+("https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Cuernos_del_Paine_from_Lake_Peho%C3%A9.jpg/1280px-Cuernos_del_Paine_from_Lake_Peho%C3%A9.jpg" if a['slug']=='torres-del-paine' else img(hero))+'" alt="'+E('Cuernos del Paine y Lago Pehoé, Parque Nacional Torres del Paine' if a['slug']=='torres-del-paine' else IMAGEDESC.get(hero,a['title']),quote=True)+'"><div class="sc-hero-label">PATAGONIA VIVA · PUNTA ARENAS</div></div>'
  page+='<section class="sc-card"><div class="sc-top"><div><span class="sc-eyebrow">Descubre la experiencia</span><h2>Una aventura para recordar</h2><p>'+E(a['intro'])+'</p><p>Conoce cada parada, las condiciones de la actividad y qué debes confirmar para disfrutar sin sorpresas.</p></div><div class="sc-price"><small>Precio de referencia</small><strong>'+price+'</strong><span>por persona · sujeto a confirmación</span></div></div><div class="sc-stops">'
  extra=selected[1:]
  for i,sec in enumerate(a['sections'],1):
