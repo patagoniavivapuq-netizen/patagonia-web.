@@ -111,10 +111,10 @@ for a in ARTICLES:
   page+='<section class="related"><h2>Solicita esta experiencia</h2><p>'+label+'</p><p>Tarifa final y disponibilidad sujetas a confirmación.</p>'
   page+='<form class="tour-request" data-title="'+E(a['title'],quote=True)+'">'
   page+='<label>Fecha <input type="date" name="fecha" required></label><label>Adultos <input type="number" name="adultos" min="1" value="2" required></label>'
-  page+='<label>Niños <input type="number" name="ninos" min="0" value="0"></label><label>Nombre <input name="nombre" required></label>'
+  page+='<label>Niños <input type="number" name="ninos" min="0" value="0"></label><label>Responsable de la reserva <input name="nombre" autocomplete="name" required></label><label>Teléfono / WhatsApp con código de país <input type="tel" name="telefono" autocomplete="tel" required></label>'
   page+='<label>Hotel <input name="hotel" required></label><label>Notas <textarea name="notas"></textarea></label>'
   page+='<button type="submit" class="primary">CONSULTAR POR WHATSAPP</button></form></section>'
-  page+='<script>(function(){var f=document.querySelector(".tour-request");if(!f)return;f.addEventListener("submit",function(e){e.preventDefault();var d=new FormData(f);var msg="Consulta: "+f.dataset.title+" | Fecha: "+d.get("fecha")+" | Adultos: "+d.get("adultos")+" | Niños: "+d.get("ninos")+" | Nombre: "+d.get("nombre")+" | Hotel: "+d.get("hotel")+" | Notas: "+d.get("notas");window.open("https://wa.me/5521969946938?text="+encodeURIComponent(msg),"_blank");});})();</script>'
+  page+='<script>(function(){var f=document.querySelector(".tour-request");if(!f)return;f.addEventListener("submit",function(e){e.preventDefault();var d=new FormData(f);var msg="Consulta: "+f.dataset.title+" | Fecha: "+d.get("fecha")+" | Adultos: "+d.get("adultos")+" | Niños: "+d.get("ninos")+" | Responsable: "+d.get("nombre")+" | Teléfono: "+d.get("telefono")+" | Hotel: "+d.get("hotel")+" | Notas: "+d.get("notas");window.open("https://wa.me/5521969946938?text="+encodeURIComponent(msg),"_blank");});})();</script>'
  if a['place']:
   page+='<section class="map-section"><p class="kicker">UBÍCATE</p><h2>¿Dónde queda?</h2><p>'+E(a['place'])+'</p><a class="ext" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&amp;query='+quote(a['place'])+'">ABRIR UBICACIÓN EN EL MAPA ↗</a></section>'
  if a['sources']:
