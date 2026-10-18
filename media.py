@@ -4,8 +4,8 @@ from pathlib import Path
 ROOT=Path(__file__).parent
 CATALOG=json.loads((ROOT/'photo-catalog.json').read_text())
 CATEGORY_PHOTOS={
- 'guia':'documentos','tours':'magdalena-tour','transportes':'micros','hospedaje':'habitacion',
- 'gastronomia':'sotitos','consejos':'maleta','barrios':'centro','cultura':'museo-regional',
+ 'guia':'centro','tours':'magdalena-tour','transportes':'micros','hospedaje':'habitacion',
+ 'gastronomia':'sotitos','consejos':'viajar-solo','barrios':'centro','cultura':'museo-regional',
  'atracciones':'nao-victoria','fotografias':'costanera','naturaleza':'bosque','compras':'zona-franca',
  'eventos':'carnaval','vida-nocturna':'coyote','familia':'familia'}
 ARTICLE_PHOTOS={
