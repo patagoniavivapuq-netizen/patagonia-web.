@@ -9,6 +9,7 @@ CATEGORY_PHOTOS={
  'atracciones':'nao-victoria','fotografias':'faro-san-isidro','naturaleza':'bosque','compras':'zona-franca',
  'eventos':'carnaval','vida-nocturna':'coyote','familia':'familia'}
 ARTICLE_PHOTOS={
+ 'tours/torres-del-paine':['natales','bosque','sendero'],
  'tours/walking-tour':['centro'],
  'tours/nao-victoria-tour':['nao-victoria'],
  'tours/cementerio-patrimonial':['cementerio'],
@@ -103,10 +104,10 @@ ARTICLE_PHOTOS={
  'atracciones/cementerio-sara-braun':['cementerio'],
  'atracciones/nao-victoria':['nao-victoria'],
  'atracciones/fuerte-bulnes':['fuerte-bulnes','fuerte-recorrido'],
- 'tours/city-tour':['costanera','centro','cementerio'],
- 'tours/isla-magdalena':['magdalena-tour','magdalena-costa'],
- 'tours/tierra-del-fuego':['rey-excursion','barcaza','rey-colonia'],
- 'tours/parque-del-estrecho':['fuerte-recorrido','fuerte-bulnes'],
+ 'tours/city-tour':['centro','costanera','cementerio','catedral'],
+ 'tours/isla-magdalena':['magdalena-costa','magdalena-tour','cruceros'],
+ 'tours/tierra-del-fuego':['rey-colonia','barcaza','rey-excursion'],
+ 'tours/parque-del-estrecho':['fuerte-bulnes','fuerte-recorrido','faro-san-isidro'],
  'tours/puerto-natales':['natales'],
  'barrios/centro-historico':['centro'],
  'barrios/costanera':['costanera'],
