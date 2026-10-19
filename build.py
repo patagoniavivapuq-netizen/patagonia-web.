@@ -152,6 +152,13 @@ for a in ARTICLES:
   page+='<article id="tema-'+str(i)+'"><span>'+f'{i:02d}'+'</span><h2>'+E(sec['title'])+'</h2><p>'+E(sec['text'])+'</p></article>'
   for inline_photo in interleaved.get(i,[]):page+=photo(inline_photo)
  page+='</section><aside class="tip"><b>Dato Austral</b><p>'+E(a['tip'])+'</p></aside>'
+ if cat=='gastronomia' and a.get('verified_contacts'):
+  contact=a['verified_contacts']
+  page+='<section class="related"><p class="kicker">DATOS PRÁCTICOS</p><h2>Contacto y reservas</h2><p>'+E(a.get('place') or '')+'</p><div class="related-grid">'
+  if contact.get('phone'):page+='<a href="tel:'+E(contact['phone'].replace(' ','').replace('-',''),quote=True)+'">Llamar: '+E(contact['phone'])+' ↗</a>'
+  if contact.get('instagram'):page+='<a href="https://www.instagram.com/'+E(contact['instagram'].lstrip('@'),quote=True)+'/" target="_blank" rel="noopener noreferrer">Instagram: '+E(contact['instagram'])+' ↗</a>'
+  if contact.get('source'):page+='<a href="'+E(contact['source'],quote=True)+'" target="_blank" rel="noopener noreferrer">Información del establecimiento ↗</a>'
+  page+='</div></section>'
  if cat=='guia' and a['slug']=='internet-y-esim':
   page+='<section class="related" id="airalo-esim"><p class="kicker">INTERNET PARA TU VIAJE</p><h2>Encuentra una eSIM para Chile y la Patagonia con Airalo</h2><p>Compara planes compatibles con Chile, duración y datos incluidos. Antes de reservar comprueba que tu teléfono admita eSIM y esté desbloqueado. Para un cruce a Argentina verifica si el plan también cubre ese país.</p><div id="airalo-puq-widget" style="min-height:190px;overflow:hidden"></div><p id="airalo-puq-fallback" hidden>No pudimos cargar el comparador. Comprueba tu conexión e inténtalo nuevamente.</p><p class="status-note">Publicidad de afiliado: podemos recibir una comisión por las reservas realizadas mediante este comparador.</p></section>'
   page+='<script>(function(){var mount=document.getElementById("airalo-puq-widget");if(!mount)return;var params="trs=573170&shmarker=776744&powered_by=true&color_button=%23f2685f&color_focused=%23f2685f&secondary=%23FFFFFF&dark=%2311100f&light=%23FFFFFF&special=%23C4C4C4&border_radius=5&plain=false&no_labels=true&promo_id=8588&campaign_id=541";var script=document.createElement("script");script.async=true;script.charset="utf-8";script.src="https://tpembd.com/content?"+params+"&locale=es";script.onerror=function(){document.getElementById("airalo-puq-fallback").hidden=false;};mount.appendChild(script);})();</script>'
