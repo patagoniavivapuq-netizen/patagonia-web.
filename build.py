@@ -135,8 +135,38 @@ def showcase_tour(a):
  return page+'</div></main>'+footer()
 
 # Fichas: imagen bajo título, bloques numerados, foto intercalada y consejo propio.
+
+# Plantilla editorial gastronómica: estructura y CSS de referencia Venga Ipanema (solo lectura).
+GASTRO_RIO_CSS=":root{--ink:#0d1919;--petrol:#123b3b;--gold:#e7b85c;--cream:#f6f0e6;--muted:#bac7c0;--red:#ef766f}*{box-sizing:border-box}body{margin:0;background:var(--ink);color:var(--cream);font:18px/1.7 Georgia,serif}a{color:var(--gold)}.back{max-width:1200px;margin:auto;padding:20px 24px;font:14px Arial}.hero{min-height:72vh;padding:clamp(30px,7vw,100px);display:flex;align-items:end;background:linear-gradient(90deg,#071313ee,#07131326),var(--hero) center/cover}.hero h1{font-size:clamp(46px,8vw,100px);line-height:.9;max-width:900px;margin:14px 0}.ey{color:var(--gold);font:700 12px Arial;letter-spacing:.18em;text-transform:uppercase}.wrap{max-width:1200px;margin:auto;padding:28px 24px}.grid{display:grid;grid-template-columns:1.45fr .8fr;gap:24px}.card{background:var(--petrol);border:1px solid #e7b85c44;border-radius:24px;padding:28px;margin:22px 0;box-shadow:none!important;font-size:30px;margin-top:0}.facts{font:15px/1.8 Arial;color:var(--muted)}.facts strong{color:var(--cream)}.map{width:100%;height:360px;border:0;border-radius:18px}.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.gallery figure{margin:0;background:#071212;border-radius:16px;overflow:hidden}.gallery img{width:100%;height:280px;object-fit:cover;display:block}.gallery figure:first-child{grid-column:span 2}.gallery figure:first-child img{height:430px}.gallery figcaption,.inline-photo figcaption{padding:10px 12px;color:var(--muted);font:12px Arial}.tags{display:flex;flex-wrap:wrap;gap:8px}.tag{border:1px solid #e7b85c99;color:var(--gold);padding:6px 11px;border-radius:99px;font:12px Arial}.btn{display:inline-block;background:var(--gold);color:#132222;text-decoration:none;padding:11px 17px;border-radius:99px;font:700 13px Arial;margin:5px 3px 0 0}.notice{border-left:4px solid var(--gold);padding:14px 18px;background:#091818;color:var(--muted)}.closed{border-color:var(--red);color:#ffe2df}.inline-photo{margin:26px 0;border-radius:18px;overflow:hidden;background:#071212}.inline-photo img{width:100%;max-height:430px;object-fit:cover;display:block}@media(max-width:760px){.grid{display:block}.hero{min-height:62vh;padding:25px}.wrap{padding:18px 14px}.card{padding:21px}.gallery{grid-template-columns:1fr 1fr}.gallery figure:first-child{grid-column:span 2}.gallery img,.gallery figure:first-child img{height:250px}.map{height:300px}.inline-photo img{max-height:360px}}"
+GASTRO_SLUGS={'la-marmita','la-luna','sotitos','la-yegua-loca','la-cuisine'}
+def gastro_rio(a):
+ c=a.get('verified_contacts',{})
+ title=E(a['title']);addr=a.get('place') or 'Punta Arenas, Chile'
+ route='https://www.google.com/maps/search/?api=1&query='+quote(addr)
+ gmap='https://www.google.com/maps?q='+quote(addr)+'&output=embed'
+ tags=[t.strip() for t in a['intro'].split('·')[1:2]]
+ css=GASTRO_RIO_CSS+'.gastronomia-puq h2{font:700 clamp(23px,2.5vw,33px)/1.2 Georgia,serif;color:#f6f0e6;margin:0 0 14px}.gastronomia-puq .card p{font:17px/1.85 Georgia,serif;margin:12px 0}.gastronomia-puq .facts p{font:15px/1.7 Arial,sans-serif}.gastronomia-puq .hero{min-height:58vh;background:linear-gradient(90deg,#071313e8,#07131380),#123b3b}.gastronomia-puq .card{font-size:inherit;margin-top:22px}.gastronomia-puq .hero h1{color:#f6f0e6}.gastronomia-puq .hero p{max-width:700px}.gastronomia-puq .notice{font-size:15px}.gastronomia-puq .photo-placeholder{display:grid;place-items:center;min-height:280px;border:1px dashed #e7b85c66;border-radius:18px;background:#0b2928;color:#d2c69e;text-align:center;padding:24px;font:14px Arial;margin:20px 0}'
+ p='<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+title+' · Gastronomía Patagonia Viva</title><meta name="description" content="'+E(a['intro'],quote=True)+'"><meta name="robots" content="noindex,nofollow"><style>'+css+'</style></head><body class="gastronomia-puq">'
+ p+='<nav class="back"><a href="/gastronomia/">← Volver a Gastronomía</a></nav><header class="hero"><div><div class="ey">Patagonia Viva · Punta Arenas</div><h1>'+title+'</h1><p>'+E(a['intro'])+'</p></div></header><main class="wrap">'
+ p+='<div class="tags"><span class="tag">Punta Arenas</span><span class="tag">Gastronomía</span>'+(('<span class="tag">'+E(tags[0])+'</span>') if tags else '')+'</div><div class="grid"><section>'
+ for i,sec in enumerate(a['sections'],1):
+  p+='<article class="card"><h2>'+E(sec['title'])+'</h2><p>'+E(sec['text'])+'</p></article>'
+  if i in (1,3,5,7):p+='<div class="photo-placeholder">Fotografía específica de '+title+' pendiente de confirmación. No se utilizan imágenes de otros locales.</div>'
+ p+='</section><aside><article class="card facts"><h2>Información práctica</h2>'
+ p+='<p>📍 <strong>Dirección</strong><br>'+E(addr)+'</p><p>🍽️ <strong>Propuesta</strong><br>'+E(tags[0] if tags else 'Cocina y gastronomía local')+'</p><p>🕐 <strong>Horarios</strong><br>Confirmar en el establecimiento</p><p>💰 <strong>Precios</strong><br>Consultar carta actual y valores finales</p>'
+ if c.get('phone'):p+='<p>☎️ <strong>Teléfono</strong><br>'+E(c['phone'])+'</p><a class="btn" href="tel:'+E(c['phone'].replace(' ','').replace('-',''),quote=True)+'">☎️ Llamar</a>'
+ if c.get('instagram'):p+='<a class="btn" href="https://www.instagram.com/'+E(c['instagram'].lstrip('@'),quote=True)+'/" target="_blank" rel="noopener">📸 Instagram</a>'
+ if c.get('source'):p+='<a class="btn" href="'+E(c['source'],quote=True)+'" target="_blank" rel="noopener">🌐 Fuente y reservas</a>'
+ p+='<a class="btn" href="'+route+'" target="_blank" rel="noopener">🗺️ Google Maps</a><a class="btn" href="https://www.waze.com/ul?q='+quote(addr)+'" target="_blank" rel="noopener">🚗 Waze</a></article>'
+ p+='<article class="card"><h2>Cómo llegar y mapa</h2><p>'+E(addr)+'. Comprueba la entrada y los horarios antes de salir.</p><iframe class="map" title="Mapa de '+E(title,quote=True)+'" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="'+gmap+'"></iframe></article></aside></div>'
+ p+='<article class="card"><h2>Galería fotográfica</h2><p>Las fotografías del propio establecimiento se incorporarán aquí y dentro de los apartados al verificar su procedencia. No se reemplazan por imágenes genéricas.</p></article></main><footer class="back">© Patagonia Viva · Guía independiente de Punta Arenas</footer></body></html>'
+ return p
+
 for a in ARTICLES:
  cat=a['category'];title=CAT[cat][1];key=article_image(a)
+ if cat=='gastronomia' and a['slug'] in GASTRO_SLUGS:
+  write(url(a),gastro_rio(a))
+  continue
  if cat=='tours' and a['slug'] in FEATURED_TOURS:
   write(url(a),showcase_tour(a))
   continue
