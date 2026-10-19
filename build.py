@@ -156,9 +156,10 @@ def gastro_rio(a):
   if i==8:
    p+='<article class="er-tip"><div class="ey" style="color:#204a42">✦ CONSEJO PERSONAL DE ERNESTINHO</div><h2>Dato de Ernestinho</h2><p>'+E(sec['text'])+'</p></article>'
   else:p+='<article class="card"><h2>'+E(sec['title'])+'</h2><p>'+E(sec['text'])+'</p></article>'
-  if i==2 and len(actual)>1:
-   pic=actual[1]
-   p+='<figure class="real-photo"><img loading="lazy" src="'+E(pic[0],quote=True)+'" alt="'+E(pic[1],quote=True)+'"><figcaption>'+E(pic[1])+' · <a href="'+E(pic[2],quote=True)+'" rel="noopener" target="_blank">Fuente de la imagen ↗</a></figcaption></figure>'
+  photo_idx={2:1,3:2,4:3,5:4,6:5}.get(i)
+  if photo_idx is not None and len(actual)>photo_idx:
+   pic=actual[photo_idx]
+   p+='<figure class="real-photo"><img loading="lazy" src="'+E(pic[0],quote=True)+'" alt="'+E(pic[1],quote=True)+'"><figcaption>'+E(pic[1])+'</figcaption></figure>'
 
  p+='</section><aside><article class="card facts"><h2>Información práctica</h2>'
  p+='<p>📍 <strong>Dirección</strong><br>'+E(addr)+'</p><p>🍽️ <strong>Propuesta</strong><br>'+E(tags[0] if tags else 'Cocina y gastronomía local')+'</p><p>🕐 <strong>Horarios</strong><br>Confirmar en el establecimiento</p><p>💰 <strong>Precios</strong><br>Consultar carta actual y valores finales</p>'
@@ -167,7 +168,7 @@ def gastro_rio(a):
  if c.get('source'):p+='<a class="btn" href="'+E(c['source'],quote=True)+'" target="_blank" rel="noopener">🌐 Fuente y reservas</a>'
  p+='<a class="btn" href="'+route+'" target="_blank" rel="noopener">🗺️ Google Maps</a><a class="btn" href="https://www.waze.com/ul?q='+quote(addr)+'" target="_blank" rel="noopener">🚗 Waze</a></article>'
  p+='<article class="card"><h2>Cómo llegar y mapa</h2><p>'+E(addr)+'. Comprueba la entrada y los horarios antes de salir.</p><iframe class="map" title="Mapa de '+E(title,quote=True)+'" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="'+gmap+'"></iframe></article></aside></div>'
- p+='<article class="card"><h2>Fotografías del establecimiento</h2><p>Imágenes identificadas de este local. La selección se ampliará con fotografías adicionales autorizadas.</p>' + ''.join('<p><a href="'+E(p[2],quote=True)+'" target="_blank" rel="noopener">'+E(p[1])+' · ver fuente ↗</a></p>' for p in actual)+'</article></main><footer class="back">© Patagonia Viva · Guía independiente de Punta Arenas</footer></body></html>'
+ p+='</main><footer class="back">© Patagonia Viva · Guía independiente de Punta Arenas</footer></body></html>'
  return p
 
 for a in ARTICLES:
