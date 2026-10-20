@@ -1,0 +1,1941 @@
+{
+  "records": [
+    {
+      "name": "Sotito’s Restaurant",
+      "slug": "sotito-s-restaurant",
+      "category": "Cocina magallánica y mariscos",
+      "address": "Libertador Bernardo O’Higgins 1138, Punta Arenas, Chile",
+      "contacts": {
+        "phone": "+56 61 224 3565",
+        "website": "https://www.facebook.com/Sotitos-Restaurant-20642919262/"
+      },
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d945710-Reviews-Sotito_s_Restaurant-Punta_Arenas_Magallanes_Region.html",
+        "https://www.facebook.com/Sotitos-Restaurant-20642919262/",
+        "https://www.radiopolar.com/profundo-fallecimiento-jose-sotito-soto-alvarado-anfitrion-alma-tradicional-restaurante-sotitos",
+        "https://wanderlog.com/list/itinerary/9167/4-day-punta-arenas-itinerary"
+      ],
+      "photo_sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d945710-Reviews-Sotito_s_Restaurant-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Un clásico frente al estrecho",
+          "paragraphs": [
+            "Sotito’s forma parte de la memoria gastronómica de Punta Arenas. Su nombre está ligado a José “Sotito” Soto Alvarado, cuya trayectoria fue recordada por la prensa regional. Lo elegiría cuando el viaje pide una comida de mesa y sabores magallánicos, con tiempo para conversar y mirar el movimiento del centro."
+          ]
+        },
+        {
+          "title": "La cocina que lo identifica",
+          "paragraphs": [
+            "Pescados, mariscos y preparaciones regionales explican su presencia en las recomendaciones de viajeros. La centolla es uno de los productos asociados al restaurante; también aparecen referencias a congrio y cordero. Son referencias para orientar la elección, sujetas a la carta y a la disponibilidad del día."
+          ]
+        },
+        {
+          "title": "Qué pedir y cómo decidir",
+          "paragraphs": [
+            "Mi punto de partida sería preguntar qué producto de mar está trabajando mejor la cocina ese día y qué preparación conserva más su sabor. Antes de pedir centolla, consulta la presentación, el tamaño y el valor: una entrada, un chupe y una porción de producto natural no representan la misma experiencia ni el mismo presupuesto."
+          ]
+        },
+        {
+          "title": "Para qué momento del viaje",
+          "paragraphs": [
+            "La dirección de O’Higgins 1138 permite integrarlo a un recorrido por el centro y la costanera. Propongo una visita urbana por la mañana, almuerzo sin apuro y paseo junto al estrecho después. Si vienes de una navegación, conviene dejar margen para desembarque y traslado antes de comprometer una reserva."
+          ]
+        },
+        {
+          "title": "Planificar la visita",
+          "paragraphs": [
+            "El teléfono publicado es +56 61 224 3565. Usa ese canal para confirmar servicio de almuerzo o cena, disponibilidad y reservas. No doy por hecho un horario histórico ni un precio visto en una reseña: el costo de los mariscos y la carta pueden cambiar, especialmente entre temporadas."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "No reservaría esta parada como una comida rápida entre dos salidas. Su interés está en probar cocina regional dentro de un local con trayectoria. Si viajas con niños o necesitas acceso sin escalones, consulta esas condiciones al reservar; no hay suficiente documentación contrastada para prometerlas."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Horarios, precios y accesibilidad no confirmados salvo datos añadidos expresamente.",
+        "Fuentes fotográficas identificadas; cinco fotos individuales aún no verificadas.",
+        "Cinco fotografías distintas no verificadas aún; no utilizar imágenes genéricas para completar.",
+        "La existencia y dirección están contrastadas en fuentes web; apertura comercial del día no confirmada por contacto directo.",
+        "Borrador editorial por debajo de la profundidad objetivo: no presentar como ficha final aprobada."
+      ],
+      "editorial_characters": 1975,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=Sotito%E2%80%99s%20Restaurant%20Libertador%20Bernardo%20O%E2%80%99Higgins%201138%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "Restaurante Hotel Savoy",
+      "slug": "restaurante-hotel-savoy",
+      "category": "Cocina chilena y pescados",
+      "address": "José Menéndez 1073, Punta Arenas, Chile",
+      "contacts": {
+        "phone": "+56 61 224 7979",
+        "website": "https://www.hotelsavoy.cl/"
+      },
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d6124649-Reviews-Hotel_Savoy_Restaurant-Punta_Arenas_Magallanes_Region.html",
+        "https://www.hotelsavoy.cl/",
+        "https://www.chilegastronomia.cl/review/ver/hotel-savoy",
+        "https://www.visitapuntaarenas.cl/restaurantes.html"
+      ],
+      "photo_sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d6124649-Reviews-Hotel_Savoy_Restaurant-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Un restaurante de tradición local",
+          "paragraphs": [
+            "El restaurante del Hotel Savoy está en José Menéndez 1073. Su trayectoria lo relaciona con la cocina clásica de Punta Arenas, más allá de la función de dar servicio a huéspedes. Para el visitante es una alternativa que permite acercarse a platos tradicionales dentro de un establecimiento histórico del centro."
+          ]
+        },
+        {
+          "title": "Pescados y mariscos en primer plano",
+          "paragraphs": [
+            "Chile Gastronomía documenta preparaciones como congrio margarita, pejerrey relleno con centolla y papas suflé con queso. Esas especialidades ayudan a entender el perfil de la casa; no equivalen a una garantía de disponibilidad actual. Antes de decidir, pregunta qué sigue vigente en la carta."
+          ]
+        },
+        {
+          "title": "Cómo aprovechar la carta",
+          "paragraphs": [
+            "En lugar de pedir únicamente por nombre, consulta qué pescado usan, cómo se cocina y qué acompañamiento incluye. En platos rellenos o con salsa, confirma el tamaño de la porción. Para compartir, pregunta si la entrada y el principal alcanzan para tu grupo antes de agregar varios platos."
+          ]
+        },
+        {
+          "title": "Una parada en el centro",
+          "paragraphs": [
+            "Lo combinaría con el casco histórico y sus edificios patrimoniales. La dirección permite organizar un almuerzo durante una jornada urbana, sin transformar la comida en una excursión aparte. Deja para otro momento las visitas lejanas si tienes una reserva con hora fija: el centro se disfruta mejor caminando con calma."
+          ]
+        },
+        {
+          "title": "Contacto y reservas",
+          "paragraphs": [
+            "El número publicado para Savoy es +56 61 224 7979 y el sitio del hotel es hotelsavoy.cl. Al contactar, especifica que deseas reservar en el restaurante, cuántas personas irán y si necesitas almuerzo o cena. Las condiciones de atención de huéspedes y visitantes pueden ser diferentes."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "No confundir tradición con una carta inmóvil. Yo revisaría la oferta del día y elegiría entre pescados o mariscos disponibles, en vez de llegar buscando un plato visto en una fotografía antigua. Para movilidad reducida o silla infantil, pide confirmación expresa del acceso y del equipamiento."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Horarios, precios y accesibilidad no confirmados salvo datos añadidos expresamente.",
+        "Fuentes fotográficas identificadas; cinco fotos individuales aún no verificadas.",
+        "Cinco fotografías distintas no verificadas aún; no utilizar imágenes genéricas para completar.",
+        "La existencia y dirección están contrastadas en fuentes web; apertura comercial del día no confirmada por contacto directo.",
+        "Borrador editorial por debajo de la profundidad objetivo: no presentar como ficha final aprobada."
+      ],
+      "editorial_characters": 1939,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=Restaurante%20Hotel%20Savoy%20Jos%C3%A9%20Men%C3%A9ndez%201073%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "Simple Café & Gelato",
+      "slug": "simple-cafe-gelato",
+      "category": "Cafetería de especialidad y heladería",
+      "address": "Hernando de Magallanes 926, Punta Arenas, Chile",
+      "contacts": {
+        "phone": "+56 9 5489 1048",
+        "website": "https://www.instagram.com/simplecafeygelato/"
+      },
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d26834770-Reviews-Simple_cafe_gelato-Punta_Arenas_Magallanes_Region.html",
+        "https://restaurantguru.com/Simple-Cafe-and-Gelato-Punta-Arenas",
+        "https://www.sluurpy.com/es/punta-arenas/restaurant/8921808/simple-caf%C3%A9-and-gelato"
+      ],
+      "photo_sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d26834770-Reviews-Simple_cafe_gelato-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Café y heladería en Magallanes",
+          "paragraphs": [
+            "Simple Café & Gelato está en Hernando de Magallanes 926. La propuesta combina cafetería de especialidad y gelato artesanal, de acuerdo con sus perfiles comerciales. Es una parada que permite elegir entre una taza, un dulce o un helado durante el recorrido por el centro de Punta Arenas."
+          ]
+        },
+        {
+          "title": "El café y sus preparaciones",
+          "paragraphs": [
+            "Las fuentes relacionan el proyecto con tostado y café de especialidad. Para aprovecharlo, pregunta qué grano están sirviendo y qué método recomienda el equipo según tus gustos. Ver un proceso de tostado puede depender del momento: no debe presentarse como una demostración incluida ni disponible todos los días."
+          ]
+        },
+        {
+          "title": "Cómo elegir el gelato",
+          "paragraphs": [
+            "Yo miraría los sabores disponibles y preguntaría por ingredientes antes de decidir. Una heladería puede cambiar su vitrina según producción y temporada; no conviene prometer un sabor concreto basándose en una foto. Para alergias o para evitar lácteos, solicita información de la preparación y del contacto entre utensilios."
+          ]
+        },
+        {
+          "title": "Una pausa flexible en el centro",
+          "paragraphs": [
+            "La ubicación permite sumarlo a una visita urbana sin transformarlo en el destino de toda la jornada. Puede ser una parada para llevar o para sentarse, según disponibilidad. Si hace frío, no es obligatorio renunciar al helado: decide por lo que te apetezca y por el tiempo que quieras dedicar a la pausa."
+          ]
+        },
+        {
+          "title": "Canales identificados",
+          "paragraphs": [
+            "El perfil enlazado es @simplecafeygelato y el teléfono publicado, +56 9 5489 1048. No se toma como definitivo el rango de precios de los directorios, que cambia entre versiones de una misma página. Consulta carta, horarios y servicios por los canales actuales antes de hacer un pedido grupal."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "Yo alternaría una visita centrada en el café con otra dedicada al gelato si son dos cosas que disfrutas. Pregunta por la elaboración del producto y elige por sabor, no por fotografía. Si compras para llevar, calcula el traslado: un helado no se conserva igual que una bolsa de café en grano."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Cinco fotografías distintas no verificadas aún; no utilizar imágenes genéricas para completar.",
+        "La existencia y dirección están contrastadas en fuentes web; apertura comercial del día no confirmada por contacto directo.",
+        "Borrador editorial por debajo de la profundidad objetivo: no presentar como ficha final aprobada."
+      ],
+      "editorial_characters": 1958,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=Simple%20Caf%C3%A9%20%26%20Gelato%20Hernando%20de%20Magallanes%20926%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "La Cuisine",
+      "slug": "la-cuisine",
+      "category": "Cocina francesa y patagónica",
+      "address": "Libertador Bernardo O’Higgins 1037, Punta Arenas, Chile",
+      "contacts": {
+        "phone": "+56 61 222 8641",
+        "website": "https://www.facebook.com/pages/La-Cuisine/365599023553537"
+      },
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d3855623-Reviews-La_Cuisine-Punta_Arenas_Magallanes_Region.html",
+        "https://www.facebook.com/pages/La-Cuisine/365599023553537",
+        "https://serviciosturisticos.sernatur.cl/13407-la-cuisine",
+        "https://torresdelpaine.com/en/tourist-attraction/la-cuisine-punta-arenas-2/",
+        "https://www.chilegastronomia.cl/restaurantes-de-moda-en-regiones/la-cuisine-experiencia-francesa-en-tierras-austroles"
+      ],
+      "photo_sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d3855623-Reviews-La_Cuisine-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Francia y Patagonia en una misma mesa",
+          "paragraphs": [
+            "La Cuisine ofrece una identidad francesa dentro de Punta Arenas. Las fuentes turísticas vinculan el proyecto al chef Eric Legois y a Gloria, pareja chileno-francesa que ha desarrollado una propuesta de cocina y atención cercana. Su dirección coincidente en SERNATUR y directorios turísticos es O’Higgins 1037."
+          ]
+        },
+        {
+          "title": "La propuesta gastronómica",
+          "paragraphs": [
+            "Su perfil combina técnicas francesas con productos patagónicos. Las publicaciones mencionan cordero, pescados y centolla entre las referencias de su cocina. Para elegir con criterio, consulta qué platos permanecen en la carta actual y cuáles responden a disponibilidad o temporada; no todo lo que aparece en una crónica antigua sigue ofreciéndose."
+          ]
+        },
+        {
+          "title": "Qué preguntaría antes de pedir",
+          "paragraphs": [
+            "Yo comenzaría por las preparaciones de la casa y preguntaría cuál expresa mejor ese encuentro entre cocina francesa y producto austral. Si eliges cordero, confirma corte y guarnición; si buscas centolla, pregunta cómo se presenta. Comunica alergias al reservar, especialmente si hay mariscos, lácteos o salsas en la preparación."
+          ]
+        },
+        {
+          "title": "Para una comida con tiempo",
+          "paragraphs": [
+            "Lo veo como una opción para dedicar una parte de la tarde o la noche a comer, no para resolver una colación al paso. Su emplazamiento en el centro permite acompañar la reserva con un paseo urbano. Si la idea es celebrar una fecha, conviene explicarlo directamente y acordar las condiciones."
+          ]
+        },
+        {
+          "title": "Datos para organizarse",
+          "paragraphs": [
+            "El teléfono difundido por TorresDelPaine.com es +56 61 222 8641 y el correo es ericlegois@yahoo.fr. SERNATUR muestra el establecimiento con registro no vigente: eso describe su inscripción turística y no prueba por sí solo un cierre comercial. Los horarios requieren confirmación directa antes de desplazarse."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "Reservaría con anticipación y pediría que confirmen la dirección de O’Higgins 1037, porque circulan referencias antiguas con otra numeración. Una recomendación útil debe llevarte al local correcto y a una mesa disponible. No presupuestaría usando cartas antiguas ni asumiría que existe menú degustación sin consultarlo."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Horarios, precios y accesibilidad no confirmados salvo datos añadidos expresamente.",
+        "Fuentes fotográficas identificadas; cinco fotos individuales aún no verificadas.",
+        "Cinco fotografías distintas no verificadas aún; no utilizar imágenes genéricas para completar.",
+        "La existencia y dirección están contrastadas en fuentes web; apertura comercial del día no confirmada por contacto directo.",
+        "Borrador editorial por debajo de la profundidad objetivo: no presentar como ficha final aprobada."
+      ],
+      "editorial_characters": 2064,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=La%20Cuisine%20Libertador%20Bernardo%20O%E2%80%99Higgins%201037%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "Damiana Elena",
+      "slug": "damiana-elena",
+      "category": "Cocina de autor",
+      "address": "Hernando de Magallanes 341, Punta Arenas, Chile",
+      "contacts": {
+        "phone": "+56 61 222 2818"
+      },
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d804398-Reviews-Damiana_Elena-Punta_Arenas_Magallanes_Region.html",
+        "https://www.waze.com/live-map/directions/damiana-elena-%28restaurant%29-hernando-de-magallanes-341-punta-arenas?to=place.w.189465844.1894658444.36039871",
+        "https://www.latercera.com/la-tercera-sabado/noticia/a-la-mesa-con-gabriel-boric/QDSCJH6LC5BNNANXKD6F3GWJSU/"
+      ],
+      "photo_sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d804398-Reviews-Damiana_Elena-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Una mesa de cocina de autor",
+          "paragraphs": [
+            "Damiana Elena está identificado en Hernando de Magallanes 341. Su propuesta aparece asociada a cocina chilena con elaboración de autor y productos regionales. Es una alternativa para quien quiere una comida más pausada y una carta que vaya más allá de las preparaciones rápidas del centro."
+          ]
+        },
+        {
+          "title": "Productos australes y elaboración",
+          "paragraphs": [
+            "La cobertura gastronómica y los testimonios de viajeros relacionan el local con centolla, cordero y guanaco. Son productos que orientan su identidad culinaria, no una lista cerrada de platos disponibles. Conviene revisar la carta actual para distinguir qué se sirve habitualmente y qué depende de abastecimiento."
+          ]
+        },
+        {
+          "title": "Qué pedir según tu interés",
+          "paragraphs": [
+            "Si quieres conocer la Patagonia a través de sus ingredientes, pregunta por una preparación regional y por qué acompañamiento recomienda la cocina. Si prefieres sabores familiares, consulta otras opciones de la carta. Un plato de autor puede cambiar: pregunta por sus ingredientes antes de elegir solo por el nombre."
+          ]
+        },
+        {
+          "title": "Una cena para conversar",
+          "paragraphs": [
+            "Las descripciones del lugar lo sitúan en una casona y en un sector menos comercial que el núcleo de la plaza. Lo reservaría para una cena en pareja o una comida de celebración, siempre confirmando ambiente y servicios. La recomendación es editorial: no supone una visita personal ni promete una experiencia idéntica para todos."
+          ]
+        },
+        {
+          "title": "Cómo reservar",
+          "paragraphs": [
+            "El teléfono publicado es +56 61 222 2818. Al llamar, confirma horario, cantidad de comensales y si la cocina trabaja con reserva previa. Si vas en grupo, pregunta por la posibilidad de mantener una misma mesa y si hay condiciones especiales. No se dispone aquí de precios actuales contrastados."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "Antes de comprar una experiencia por una foto de centolla o guanaco, pregunta si esa preparación está disponible. Yo dejaría la reserva después de una jornada urbana, con margen suficiente para llegar. Si necesitas accesibilidad o platos adaptados, consulta directamente: una casa antigua puede tener particularidades que las reseñas no explican."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Horarios, precios y accesibilidad no confirmados salvo datos añadidos expresamente.",
+        "Fuentes fotográficas identificadas; cinco fotos individuales aún no verificadas.",
+        "Cinco fotografías distintas no verificadas aún; no utilizar imágenes genéricas para completar.",
+        "La existencia y dirección están contrastadas en fuentes web; apertura comercial del día no confirmada por contacto directo.",
+        "Borrador editorial por debajo de la profundidad objetivo: no presentar como ficha final aprobada."
+      ],
+      "editorial_characters": 2027,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=Damiana%20Elena%20Hernando%20de%20Magallanes%20341%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "Wake Up — Coffee & Brunch",
+      "slug": "wake-up-coffee-brunch",
+      "category": "Cafetería y brunch",
+      "address": "Presidente Federico Errázuriz 944, Punta Arenas, Chile",
+      "contacts": {
+        "website": "https://wakeupcafe.cl/"
+      },
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d12223644-Reviews-Wake_Up_Coffee_Brunch-Punta_Arenas_Magallanes_Region.html",
+        "https://wakeupcafe.cl/",
+        "https://visitmagallanes.com/directorio/wake-up-cafe-de-especialidad/index.html"
+      ],
+      "photo_sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d12223644-Reviews-Wake_Up_Coffee_Brunch-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Café y desayuno en Errázuriz",
+          "paragraphs": [
+            "Wake Up — Coffee & Brunch está documentado en Presidente Federico Errázuriz 944. La propuesta se centra en café de especialidad, desayunos y brunch. Conviene distinguir esta cafetería del Coffee Lab situado en el segundo piso de Errázuriz 940: pertenecen a la misma marca, pero no son la misma ficha ni el mismo espacio."
+          ]
+        },
+        {
+          "title": "Cómo elegir tu café",
+          "paragraphs": [
+            "Aquí el café es parte central de la visita. Si no tienes una preparación favorita, explica si prefieres una taza intensa, suave, con leche o sin leche. Preguntar por el origen y el perfil del grano ayuda más que escoger únicamente por tamaño. La oferta concreta depende del café que estén trabajando."
+          ]
+        },
+        {
+          "title": "Desayuno y brunch",
+          "paragraphs": [
+            "Su perfil de brunch permite pensar en una comida de mañana más completa que un café al paso. Revisa la carta vigente antes de dar por sentado un plato visto en redes. Si vas a salir de excursión, pregunta cuánto tarda la preparación y solicita para llevar solo aquello que puedas transportar cómodamente."
+          ]
+        },
+        {
+          "title": "Cómo encajarlo en tu paseo",
+          "paragraphs": [
+            "Lo usaría como inicio de un recorrido por el centro, después del desayuno y antes de museos o caminatas. Si tienes una salida turística temprana, confirma primero la apertura real de ese día. La palabra brunch no significa que todos los desayunos puedan pedirse a cualquier hora."
+          ]
+        },
+        {
+          "title": "Dónde consultar",
+          "paragraphs": [
+            "La marca dispone de wakeupcafe.cl y de fichas independientes para Coffee & Brunch y Coffee Lab. Al contactar o pedir, indica Errázuriz 944 para evitar una confusión de planta o servicio. Horarios, disponibilidad, métodos de pago y condiciones de delivery deben consultarse en los canales vigentes."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "Yo preguntaría qué taza recomiendan para acompañar lo que vas a comer, y reservaría otra visita al Coffee Lab si te interesa profundizar en el café. No hace falta convertir ambas paradas en una sola. Si usas leche vegetal o necesitas evitar gluten, pide confirmación de ingredientes y manipulación."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Horarios, precios y accesibilidad no confirmados salvo datos añadidos expresamente.",
+        "Fuentes fotográficas identificadas; cinco fotos individuales aún no verificadas.",
+        "Cinco fotografías distintas no verificadas aún; no utilizar imágenes genéricas para completar.",
+        "La existencia y dirección están contrastadas en fuentes web; apertura comercial del día no confirmada por contacto directo.",
+        "Borrador editorial por debajo de la profundidad objetivo: no presentar como ficha final aprobada."
+      ],
+      "editorial_characters": 1925,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=Wake%20Up%20%E2%80%94%20Coffee%20%26%20Brunch%20Presidente%20Federico%20Err%C3%A1zuriz%20944%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "Café Tapiz",
+      "slug": "cafe-tapiz",
+      "category": "Cafetería",
+      "address": "Presidente Julio A. Roca 912, Punta Arenas, Chile",
+      "contacts": {
+        "website": "https://www.instagram.com/tapiz.cafe/"
+      },
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d2244299-Reviews-Tapiz-Punta_Arenas_Magallanes_Region.html",
+        "https://www.instagram.com/tapiz.cafe/",
+        "https://www.topexplora.com/destinos/punta-arenas/atracciones/tapiz/",
+        "https://wanderlog.com/place/details/1278291/tapiz"
+      ],
+      "photo_sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d2244299-Reviews-Tapiz-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Una pausa en Julio Roca",
+          "paragraphs": [
+            "Café Tapiz está ubicado en Presidente Julio A. Roca 912, dentro del centro de Punta Arenas. Su propuesta combina café con preparaciones dulces y saladas. Es una alternativa para integrar una pausa al paseo, especialmente si buscas sentarte a tomar algo sin organizar una comida de varios tiempos."
+          ]
+        },
+        {
+          "title": "El café como protagonista",
+          "paragraphs": [
+            "Las referencias especializadas destacan el perfil de su café y los viajeros describen una oferta de cafetería acompañada por sándwiches y pastelería. Para elegir, pregunta qué grano está disponible y qué preparación recomienda el equipo. El método de extracción y la leche cambian mucho el resultado de una misma taza."
+          ]
+        },
+        {
+          "title": "Dulce o salado",
+          "paragraphs": [
+            "Los sándwiches tipo pita y las preparaciones dulces aparecen en reseñas del local. Yo los tomaría como pistas para mirar la vitrina y la carta actual, no como pedidos garantizados. Si vas con hambre de almuerzo, confirma tamaño y composición para distinguir una comida completa de una merienda."
+          ]
+        },
+        {
+          "title": "Para una parada céntrica",
+          "paragraphs": [
+            "Por ubicación, permite combinar café con el entorno de la plaza y los paseos del centro. Lo plantearía como descanso entre dos visitas cercanas. Para quienes viajan solos, una cafetería puede ser una buena forma de ordenar la jornada, siempre respetando el uso de mesas y las condiciones del local."
+          ]
+        },
+        {
+          "title": "Redes y datos prácticos",
+          "paragraphs": [
+            "El perfil identificado es @tapiz.cafe. Circulan teléfonos distintos entre directorios, por lo que es preferible consultar el canal oficial antes de usar un número no contrastado. No hay suficiente verificación para publicar aquí horarios, precios o servicios de accesibilidad como datos cerrados."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "Si buscas probar la cafetería de Punta Arenas, alternaría una casa tradicional de pastelería con una visita como Tapiz para comparar estilos. Elige por lo que realmente te gusta beber y comer, sin perseguir una clasificación. Pregunta por los productos del día: una vitrina cambia más rápido que una guía."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Horarios, precios y accesibilidad no confirmados salvo datos añadidos expresamente.",
+        "Fuentes fotográficas identificadas; cinco fotos individuales aún no verificadas.",
+        "Cinco fotografías distintas no verificadas aún; no utilizar imágenes genéricas para completar.",
+        "La existencia y dirección están contrastadas en fuentes web; apertura comercial del día no confirmada por contacto directo.",
+        "Borrador editorial por debajo de la profundidad objetivo: no presentar como ficha final aprobada."
+      ],
+      "editorial_characters": 1938,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Tapiz%20Presidente%20Julio%20A.%20Roca%20912%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "Kiosko Roca",
+      "slug": "kiosko-roca",
+      "category": "Sandwichería tradicional",
+      "address": "Presidente Julio A. Roca 875, Punta Arenas, Chile",
+      "contacts": {
+        "phone": "+56 9 8196 3595",
+        "website": "https://kioskoroca.cl/"
+      },
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d3858863-Reviews-Kiosko_Roca_Punta_Arenas-Punta_Arenas_Magallanes_Region.html",
+        "https://kioskoroca.cl/",
+        "https://kioskoroca.cl/contacto/",
+        "https://kioskoroca.cl/productos/"
+      ],
+      "photo_sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d3858863-Reviews-Kiosko_Roca_Punta_Arenas-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Una tradición cotidiana de Punta Arenas",
+          "paragraphs": [
+            "Kiosko Roca es una de las paradas gastronómicas más reconocibles de la ciudad. Su casa central está en Presidente Julio A. Roca 875, a una cuadra de la Plaza de Armas según el sitio oficial. Su historia comercial se remonta a 1932 y su identidad gira alrededor de una combinación muy propia."
+          ]
+        },
+        {
+          "title": "El choripán que debes entender",
+          "paragraphs": [
+            "El choripán de la casa utiliza pasta de chorizo en un pan pequeño; no es simplemente una longaniza entera entre panes. El choriqueso suma queso fundido. Esa diferencia importa al imaginar la porción y pedir: pregunta cuántas unidades te convienen según si vienes a probar o a reemplazar una comida."
+          ]
+        },
+        {
+          "title": "La leche con plátano",
+          "paragraphs": [
+            "La otra preparación emblemática es la leche con plátano. Puedes combinarla con el choripán o consultar las demás bebidas publicadas. Si no consumes lácteos, pregunta por alternativas concretas: no se debe asumir que existe una adaptación vegetal. El menú también incluye dulces pequeños, según la información oficial."
+          ]
+        },
+        {
+          "title": "Una visita breve dentro del centro",
+          "paragraphs": [
+            "Lo integraría a un paseo por la plaza, el patrimonio del centro y la costanera. La experiencia tiene más sentido como una parada cotidiana y sencilla que como una cena formal. Si el local está lleno, pregunta por las opciones para llevar antes de comprometer otra visita con una hora fija."
+          ]
+        },
+        {
+          "title": "Horarios y pedidos oficiales",
+          "paragraphs": [
+            "El contacto oficial publica lunes a viernes de 07:00 a 19:00 y sábado de 08:00 a 13:00. El delivery se consulta al +56 9 8196 3595. Esos son los horarios visibles al revisar la fuente; festivos y cambios de temporada requieren reconfirmación. No se confirma apertura dominical."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "Yo probaría primero la combinación clásica y después decidiría si necesito repetir. Así puedes conocer una tradición de Punta Arenas sin exagerar el pedido. Si compras productos envasados para viajar, verifica conservación y las restricciones de alimentos de tu siguiente destino: el envase no sustituye las condiciones de transporte."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Horarios, precios y accesibilidad no confirmados salvo datos añadidos expresamente.",
+        "Fuentes fotográficas identificadas; cinco fotos individuales aún no verificadas.",
+        "Cinco fotografías distintas no verificadas aún; no utilizar imágenes genéricas para completar.",
+        "La existencia y dirección están contrastadas en fuentes web; apertura comercial del día no confirmada por contacto directo.",
+        "Borrador editorial por debajo de la profundidad objetivo: no presentar como ficha final aprobada."
+      ],
+      "editorial_characters": 1979,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=Kiosko%20Roca%20Presidente%20Julio%20A.%20Roca%20875%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "La Luna Restaurant",
+      "slug": "la-luna-restaurant",
+      "category": "Cocina patagónica",
+      "address": "Libertador Bernardo O’Higgins 1017, Punta Arenas, Chile",
+      "contacts": {
+        "website": "https://lalunarestaurant.cl/"
+      },
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d1085358-Reviews-La_Luna_Restaurant-Punta_Arenas_Magallanes_Region.html",
+        "https://lalunarestaurant.cl/",
+        "https://www.toliv.com/browse/chile/punta-arenas/la-luna-restaurant-1080"
+      ],
+      "photo_sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d1085358-Reviews-La_Luna_Restaurant-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Una historia con vínculo musical",
+          "paragraphs": [
+            "La Luna abrió el 11 de abril de 2001. Su sitio oficial identifica como fundadores a Marjorie Kusch Fernández y Mario Navarro Andrade, vinculados al Café del Cerro de Santiago. El restaurante combina cocina patagónica con recuerdos de ese universo cultural, dentro de una propuesta que también cuenta su historia a través del espacio."
+          ]
+        },
+        {
+          "title": "Sabores que orientan la carta",
+          "paragraphs": [
+            "La casa destaca preparaciones de centolla y cordero. Son un punto de partida para explorar cocina regional y preguntar por la oferta del día. Yo elegiría según el producto que más te interese conocer, confirmando elaboración y guarnición; no hace falta pedir varios platos australes para sentir que aprovechaste el viaje."
+          ]
+        },
+        {
+          "title": "Una comida para mirar alrededor",
+          "paragraphs": [
+            "Aquí el contexto del restaurante también forma parte del interés. Lo dejaría para una comida sin apuro, con tiempo para observar la ambientación y conversar. Si prefieres un sector más tranquilo o viajas en grupo, coméntalo al reservar; no todos los ambientes de una casa gastronómica funcionan de la misma manera."
+          ]
+        },
+        {
+          "title": "Restaurant y cantina son distintos",
+          "paragraphs": [
+            "El restaurante se encuentra en O’Higgins 1017, mientras Cantina de Luna figura en O’Higgins 1033. No conviene mezclarlos al reservar o al consultar horarios. Esta ficha corresponde al restaurante: la existencia de la cantina no significa que el salón gastronómico tenga la misma programación o cierre de madrugada."
+          ]
+        },
+        {
+          "title": "Horarios publicados",
+          "paragraphs": [
+            "El sitio del restaurante indica lunes a sábado de 12:00 a 23:30 y domingo de 12:00 a 18:00. Para reservas ofrece un botón oficial de WhatsApp. Usa ese acceso desde lalunarestaurant.cl para evitar teléfonos copiados de directorios; confirma el último pedido de cocina si planeas llegar cerca del cierre."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "Lo combinaría con un paseo por la costanera y el casco histórico. Si quieres continuar con una salida nocturna, reserva cada espacio por separado y revisa sus condiciones. Para una comida familiar, alergias o movilidad reducida, consulta directamente antes: una recomendación gastronómica no permite deducir el equipamiento disponible."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Horarios, precios y accesibilidad no confirmados salvo datos añadidos expresamente.",
+        "Fuentes fotográficas identificadas; cinco fotos individuales aún no verificadas.",
+        "Cinco fotografías distintas no verificadas aún; no utilizar imágenes genéricas para completar.",
+        "La existencia y dirección están contrastadas en fuentes web; apertura comercial del día no confirmada por contacto directo.",
+        "Borrador editorial por debajo de la profundidad objetivo: no presentar como ficha final aprobada."
+      ],
+      "editorial_characters": 2086,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=La%20Luna%20Restaurant%20Libertador%20Bernardo%20O%E2%80%99Higgins%201017%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "Mesita Grande — Punta Arenas",
+      "slug": "mesita-grande-punta-arenas",
+      "category": "Pizzería y pastas",
+      "address": "Libertador Bernardo O’Higgins 1001, Punta Arenas, Chile",
+      "contacts": {
+        "phone": "+56 9 5378 8200",
+        "website": "https://mesitagrande.cl/"
+      },
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d6539627-Reviews-Mesita_Grande_Punta_Arenas-Punta_Arenas_Magallanes_Region.html",
+        "https://mesitagrande.cl/",
+        "https://mesitagrande.cl/menu-online-puq/",
+        "https://www.vitrinapuntaarenas.cl/negocio/mesita-grande"
+      ],
+      "photo_sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d6539627-Reviews-Mesita_Grande_Punta_Arenas-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Pizzería en el centro",
+          "paragraphs": [
+            "Mesita Grande tiene su local de Punta Arenas en O’Higgins 1001. La marca también opera en otras ciudades, de modo que es importante seleccionar el menú PUQ y el contacto de esta sucursal. Su propuesta de trattoria y pizzería permite una comida distinta dentro de un viaje centrado en productos patagónicos."
+          ]
+        },
+        {
+          "title": "Pizzas y pastas",
+          "paragraphs": [
+            "La carta oficial de Punta Arenas es la referencia para revisar pizzas, pastas y otras preparaciones. Yo elegiría primero el tipo de comida que necesita el grupo y después los acompañamientos. Si van a compartir, pregunta por tamaño y porciones; una fotografía no explica cuánto alcanza una pizza."
+          ]
+        },
+        {
+          "title": "Cómo pedir para varios",
+          "paragraphs": [
+            "Para una mesa con gustos distintos, conviene revisar las bases, quesos e ingredientes antes de combinar pedidos. Pregunta por sustituciones y por alergias: quitar un ingrediente no elimina necesariamente el contacto en cocina. La disponibilidad y las modificaciones deben acordarse directamente, sin atribuir al local opciones especiales no documentadas."
+          ]
+        },
+        {
+          "title": "Una parada durante el recorrido urbano",
+          "paragraphs": [
+            "Su ubicación facilita combinar almuerzo con el centro y los paseos cercanos al estrecho. La consideraría para una jornada donde quieras una comida reconocible y sencilla de organizar. En fechas con mucha llegada de visitantes, confirma disponibilidad antes de reunir al grupo en la puerta."
+          ]
+        },
+        {
+          "title": "Horario y canal de pedidos",
+          "paragraphs": [
+            "La web publica para Punta Arenas lunes a sábado de 12:00 a 22:00 y domingos y festivos de 12:00 a 20:30. También advierte que la cocina cierra una hora antes. El WhatsApp local de pedidos es +56 9 5378 8200; confirma allí retiro, delivery y cualquier horario especial."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "No copiaría las condiciones de Puerto Natales para reservar en Punta Arenas: la misma marca puede tener horarios y servicios distintos. Consulta específicamente O’Higgins 1001. Si vas a pedir para un hotel, verifica la dirección y el horario de recepción antes de coordinar una entrega."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Horarios, precios y accesibilidad no confirmados salvo datos añadidos expresamente.",
+        "Fuentes fotográficas identificadas; cinco fotos individuales aún no verificadas.",
+        "Cinco fotografías distintas no verificadas aún; no utilizar imágenes genéricas para completar.",
+        "La existencia y dirección están contrastadas en fuentes web; apertura comercial del día no confirmada por contacto directo.",
+        "Borrador editorial por debajo de la profundidad objetivo: no presentar como ficha final aprobada."
+      ],
+      "editorial_characters": 1943,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=Mesita%20Grande%20%E2%80%94%20Punta%20Arenas%20Libertador%20Bernardo%20O%E2%80%99Higgins%201001%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "Lomito’s",
+      "slug": "lomito-s",
+      "category": "Sandwichería",
+      "address": "José Menéndez 722, Punta Arenas, Chile",
+      "contacts": {},
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d1069980-Reviews-Lomito_s-Punta_Arenas_Magallanes_Region.html",
+        "https://laprensaaustral.cl/2026/07/16/a-los-86-anos-muere-el-propietario-del-tradicional-local-lomitos/"
+      ],
+      "photo_sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d1069980-Reviews-Lomito_s-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Sandwichería con historia",
+          "paragraphs": [
+            "Lomito’s está en José Menéndez 722 y forma parte de los establecimientos conocidos del centro. Una nota de La Prensa Austral de julio de 2026 recuerda a Abelardo Pérez Vera y la trayectoria del local. Su interés para el visitante está en conocer una forma cotidiana de comer en Punta Arenas."
+          ]
+        },
+        {
+          "title": "Sándwiches y comida informal",
+          "paragraphs": [
+            "El perfil del establecimiento se centra en sandwichería y comida rápida de mesa. Antes de elegir un nombre conocido, pregunta cómo se prepara en esta casa: las combinaciones pueden variar respecto a otras ciudades de Chile. Lo importante es saber qué carne, verduras y salsas incluye el pedido."
+          ]
+        },
+        {
+          "title": "Cómo ajustar el pedido",
+          "paragraphs": [
+            "Yo miraría el tamaño de los sándwiches y preguntaría si se pueden compartir. Si llevas poco tiempo o tienes una excursión después, pide una estimación del servicio. Una sandwichería concurrida no garantiza atención inmediata, y una porción grande puede resultar poco práctica antes de una navegación."
+          ]
+        },
+        {
+          "title": "Una comida de centro",
+          "paragraphs": [
+            "Por su dirección se integra con facilidad a un recorrido de tiendas, edificios patrimoniales y plaza. Es una opción para cambiar el ritmo entre restaurantes más elaborados. Para familias, conviene confirmar mesas disponibles y consultar la carta para niños o alternativas sencillas, sin dar por hecho un menú infantil formal."
+          ]
+        },
+        {
+          "title": "Información que conviene confirmar",
+          "paragraphs": [
+            "No se publica aquí el teléfono abreviado que aparece en algunos directorios, porque no permite construir un contacto internacional fiable. Tampoco se traslada un horario antiguo a la guía. Revisa la apertura vigente y las condiciones del servicio antes de organizar una cena tardía o un pedido grupal."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "Lomito’s puede contar otra parte del viaje: la del sándwich y la vida diaria de la ciudad. Yo lo alternaría con una comida de productos de mar en vez de juzgar ambos estilos con la misma expectativa. Pregunta qué preparación recomienda la casa y decide por ingredientes y tamaño."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Horarios, precios y accesibilidad no confirmados salvo datos añadidos expresamente.",
+        "Fuentes fotográficas identificadas; cinco fotos individuales aún no verificadas.",
+        "Cinco fotografías distintas no verificadas aún; no utilizar imágenes genéricas para completar.",
+        "La existencia y dirección están contrastadas en fuentes web; apertura comercial del día no confirmada por contacto directo.",
+        "Borrador editorial por debajo de la profundidad objetivo: no presentar como ficha final aprobada."
+      ],
+      "editorial_characters": 1941,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=Lomito%E2%80%99s%20Jos%C3%A9%20Men%C3%A9ndez%20722%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "Dino’s Pizza",
+      "slug": "dino-s-pizza",
+      "category": "Pizzería y sandwichería",
+      "address": "Gobernador Carlos Bories 557, Punta Arenas, Chile",
+      "contacts": {
+        "phone": "+56 61 224 7434"
+      },
+      "sources": [
+        "https://mapcarta.com/es/W221081248",
+        "https://cl.todosnegocios.com/dinos-pizza-ltda_1Q-61-224-7434",
+        "https://vitrinapuntaarenas.cl/negocio/dinos-pizza",
+        "https://www.latercera.com/la-tercera-sabado/noticia/a-la-mesa-con-gabriel-boric/QDSCJH6LC5BNNANXKD6F3GWJSU/"
+      ],
+      "photo_sources": [],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Pizza y sándwiches en Bories",
+          "paragraphs": [
+            "Dino’s Pizza está identificado en Gobernador Carlos Bories 557. Su nombre conduce a las pizzas, aunque las referencias del local también destacan sándwiches. Es una alternativa para una comida informal, especialmente cuando el grupo busca opciones reconocibles después de varios días de viaje por Patagonia."
+          ]
+        },
+        {
+          "title": "Más que una sola especialidad",
+          "paragraphs": [
+            "Las reseñas mencionan pizzas y preparaciones de sandwichería. La Tercera ha recogido la preferencia por sus sándwiches dentro de una crónica gastronómica. Esa referencia ayuda a entender la variedad del establecimiento, pero no reemplaza la carta vigente ni significa que todos los pedidos tengan la misma disponibilidad."
+          ]
+        },
+        {
+          "title": "Cómo elegir entre pizza y sándwich",
+          "paragraphs": [
+            "Si van dos o más personas, pregunta por el tamaño de las pizzas y los ingredientes de cada preparación. A veces conviene compartir, y otras veces cada uno tiene necesidades diferentes. Confirma las guarniciones incluidas antes de sumar acompañamientos que puedan duplicar una porción ya abundante."
+          ]
+        },
+        {
+          "title": "Para una jornada por la ciudad",
+          "paragraphs": [
+            "Bories permite plantear la parada como parte de un paseo urbano. Lo integraría a una comida de almuerzo o cena sin alejarse demasiado del circuito céntrico. Si vuelves tarde de una excursión, confirma la apertura y el cierre de cocina; no uses una reseña histórica para planificar el último servicio."
+          ]
+        },
+        {
+          "title": "Datos útiles",
+          "paragraphs": [
+            "El número publicado de Dino’s Pizza es +56 61 224 7434. Confirma por ese canal dirección, horarios y modalidad de atención antes de un pedido importante. No se atribuye automáticamente WhatsApp a ese teléfono fijo, ni se promete delivery si el establecimiento no lo confirma."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "Yo preguntaría por la preparación que más identifica a la casa y revisaría su tamaño antes de pedir. La pizza puede ser la excusa para reunir a todos, mientras los sándwiches permiten otra elección. Si necesitas ingredientes adaptados, consulta posibilidades reales y contaminación cruzada directamente con la cocina."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Horarios, precios y accesibilidad no confirmados salvo datos añadidos expresamente.",
+        "Fuentes fotográficas identificadas; cinco fotos individuales aún no verificadas.",
+        "Cinco fotografías distintas no verificadas aún; no utilizar imágenes genéricas para completar.",
+        "La existencia y dirección están contrastadas en fuentes web; apertura comercial del día no confirmada por contacto directo.",
+        "Borrador editorial por debajo de la profundidad objetivo: no presentar como ficha final aprobada."
+      ],
+      "editorial_characters": 1972,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=Dino%E2%80%99s%20Pizza%20Gobernador%20Carlos%20Bories%20557%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "La Casa de Doña María",
+      "slug": "la-casa-de-dona-maria",
+      "category": "Cocina chilena y mariscos",
+      "address": "José Menéndez 832, Punta Arenas, Chile",
+      "contacts": {
+        "phone": "+56 9 4000 5640"
+      },
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d7799372-Reviews-La_Casa_de_Dona_Maria-Punta_Arenas_Magallanes_Region.html",
+        "https://mapcarta.com/es/N4719648604",
+        "https://cl.todosnegocios.com/restaurant-la-casa-de-do%C3%B1a-mar%C3%ADa-9-4000-5640"
+      ],
+      "photo_sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d7799372-Reviews-La_Casa_de_Dona_Maria-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Una alternativa de cocina chilena",
+          "paragraphs": [
+            "La Casa de Doña María está documentada en José Menéndez 832, en Punta Arenas. Su perfil combina cocina chilena, pescados y mariscos, dentro de un restaurante descrito por viajeros como una casa adaptada. Para el visitante es una opción de comida de mesa con una escala distinta a los grandes salones."
+          ]
+        },
+        {
+          "title": "Mirar la oferta del día",
+          "paragraphs": [
+            "Yo comenzaría por preguntar qué está preparando la cocina y qué producto recomienda. No hay suficiente carta oficial contrastada para asegurar especialidades concretas o repetir un plato de una reseña antigua. La cocina casera se aprovecha mejor escuchando qué se está haciendo ese día que siguiendo una lista rígida."
+          ]
+        },
+        {
+          "title": "Para quién puede funcionar",
+          "paragraphs": [
+            "Puede interesar a quienes buscan una comida chilena y un entorno de restaurante pequeño. Si el grupo es numeroso, conviene confirmar capacidad y reserva antes de llegar. La descripción de casa no implica por sí sola acceso sin escalones, menú infantil ni servicio rápido: esos detalles necesitan una consulta específica."
+          ]
+        },
+        {
+          "title": "Combinar con el casco histórico",
+          "paragraphs": [
+            "La dirección permite continuar con el entorno céntrico después de comer. Propongo elegir una visita cercana y dejar tiempo entre la comida y cualquier actividad con ingreso reservado. Un restaurante pequeño funciona mejor en el itinerario cuando no se le exige resolver todo con una hora de salida inamovible."
+          ]
+        },
+        {
+          "title": "Contacto para verificar",
+          "paragraphs": [
+            "El teléfono publicado por el directorio es +56 9 4000 5640. Antes de reservar, confirma que corresponde a La Casa de Doña María de José Menéndez 832; hay otros negocios con nombres similares. Horarios, precios, redes sociales y condiciones para grupos siguen pendientes de confirmación directa."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "Aquí preferiría una recomendación de la cocina a un pedido armado con fotos de años anteriores. Pregunta por los ingredientes y por el precio antes de decidir. Si quieres una experiencia muy concreta de centolla o cordero, confirma que la ofrecen ese día en vez de asumirla por su categoría regional."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Cinco fotografías distintas no verificadas aún; no utilizar imágenes genéricas para completar.",
+        "La existencia y dirección están contrastadas en fuentes web; apertura comercial del día no confirmada por contacto directo.",
+        "Borrador editorial por debajo de la profundidad objetivo: no presentar como ficha final aprobada."
+      ],
+      "editorial_characters": 1998,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=La%20Casa%20de%20Do%C3%B1a%20Mar%C3%ADa%20Jos%C3%A9%20Men%C3%A9ndez%20832%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "Donde Hueicha",
+      "slug": "donde-hueicha",
+      "category": "Cocina chilota y casera",
+      "address": "Avenida Salvador Allende 0214, Punta Arenas, Chile",
+      "contacts": {
+        "phone": "+56 61 232 5076"
+      },
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d8638761-Reviews-Donde_Hueicha-Punta_Arenas_Magallanes_Region.html",
+        "https://www.restaurants10.com/CL/Punta-Arenas/237695353313487/Donde-Hueicha-Restaurant",
+        "https://www.waze.com/live-map/directions/cl/magallanes-y-la-antartica-chilena/punta-arenas/donde-hueicha?to=place.ChIJ1aajyGFjsr0RIV94o6vSKnE"
+      ],
+      "photo_sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d8638761-Reviews-Donde_Hueicha-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Sabores chilotes en Punta Arenas",
+          "paragraphs": [
+            "Donde Hueicha aparece asociado a cocina casera de raíz chilota. El local se sitúa en Avenida Salvador Allende; su perfil comercial publica 0214, mientras algunos mapas muestran el tramo 201–299. Al organizar la visita, usa el nombre completo y confirma la entrada exacta para evitar una numeración aproximada."
+          ]
+        },
+        {
+          "title": "Una cocina de tradición sureña",
+          "paragraphs": [
+            "Cazuela, curanto, milcaos y pescado frito aparecen entre las referencias de viajeros. La selección expresa el vínculo con la cocina de Chiloé, pero no todos los platos se preparan necesariamente todos los días. Un curanto, por ejemplo, conviene consultarlo de antemano si es el motivo principal de tu visita."
+          ]
+        },
+        {
+          "title": "Qué preguntaría al llegar",
+          "paragraphs": [
+            "Mi primera pregunta sería qué menú o preparación casera hay ese día. Después confirmaría qué incluye la porción y si tiene acompañamientos. Si te interesa probar varias cosas, consulta si hay una forma adecuada de compartir, en vez de pedir distintos fondos sin conocer el tamaño."
+          ]
+        },
+        {
+          "title": "Para salir del circuito de la plaza",
+          "paragraphs": [
+            "Esta parada permite conocer otra zona de la ciudad y ampliar el recorrido gastronómico fuera de los restaurantes más turísticos del centro. Organiza el traslado de ida y de regreso según tu alojamiento. Si el tiempo está desagradable, es preferible confirmar mesa y apertura antes de caminar hasta el local."
+          ]
+        },
+        {
+          "title": "Datos de contacto",
+          "paragraphs": [
+            "Los mapas publican +56 61 232 5076. Los horarios visibles en directorios no se han corroborado directamente, por lo que deben confirmarse antes de la visita. Tampoco se publica un precio basado en opiniones aisladas: pregunta el valor del menú y las bebidas antes de cerrar el pedido."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "Yo reservaría esta experiencia para un día con ganas de comida de casa y de sabores sureños. Si buscas específicamente curanto o milcaos, consulta primero disponibilidad y día de preparación. Esa llamada vale más que llegar con una expectativa construida a partir de una fotografía que puede ser antigua."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Horarios, precios y accesibilidad no confirmados salvo datos añadidos expresamente.",
+        "Fuentes fotográficas identificadas; cinco fotos individuales aún no verificadas.",
+        "Cinco fotografías distintas no verificadas aún; no utilizar imágenes genéricas para completar.",
+        "La existencia y dirección están contrastadas en fuentes web; apertura comercial del día no confirmada por contacto directo.",
+        "Borrador editorial por debajo de la profundidad objetivo: no presentar como ficha final aprobada."
+      ],
+      "editorial_characters": 1953,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=Donde%20Hueicha%20Avenida%20Salvador%20Allende%200214%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "Cocinería Doña Zuny",
+      "slug": "cocineria-dona-zuny",
+      "category": "Cocinería de pescados y mariscos",
+      "address": "Costanera del Estrecho de Magallanes 1466, Mercado Municipal, Punta Arenas, Chile",
+      "contacts": {},
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d6854915-Reviews-Cocineria_Dona_Zuny-Punta_Arenas_Magallanes_Region.html",
+        "https://restaurantguru.com/Zuny-Punta-Arenas"
+      ],
+      "photo_sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d6854915-Reviews-Cocineria_Dona_Zuny-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Comer dentro del Mercado Municipal",
+          "paragraphs": [
+            "Doña Zuny es una cocinería del Mercado Municipal de Punta Arenas, en Costanera del Estrecho de Magallanes 1466. No debe confundirse con otras cocinerías del mismo edificio. Al llegar, busca el nombre del local y pregunta por su ubicación dentro del mercado antes de sentarte en un establecimiento distinto."
+          ]
+        },
+        {
+          "title": "Pescados y mariscos",
+          "paragraphs": [
+            "Su identidad está relacionada con cocina de mar, en un contexto de mercado. Las empanadas de centolla figuran entre las preparaciones comentadas por visitantes. Yo preguntaría qué pescados y mariscos tienen disponibles ese día y cómo se sirven, sin asumir que una carta antigua representa la oferta actual."
+          ]
+        },
+        {
+          "title": "Cómo decidir el almuerzo",
+          "paragraphs": [
+            "Antes de elegir, revisa precio, tamaño e ingredientes de cada plato. La palabra centolla puede aparecer en preparaciones diferentes: pregunta qué proporción y presentación tiene si ese producto es el motivo de tu visita. Para una comida completa, consulta qué acompañamiento viene incluido y qué bebida se cobra aparte."
+          ]
+        },
+        {
+          "title": "El mercado como parte del paseo",
+          "paragraphs": [
+            "La ubicación permite vincular el almuerzo con una visita al mercado y la costanera. Separa tiempo para mirar los puestos y para comer; no todo funciona con el mismo horario. Si compras alimentos para llevar, pregunta por conservación y evita dejarlos varias horas sin refrigeración durante el recorrido."
+          ]
+        },
+        {
+          "title": "Servicios que deben confirmarse",
+          "paragraphs": [
+            "No se dispone de teléfono, WhatsApp ni horario oficial suficientemente contrastados para publicarlos. El acceso al edificio tampoco permite deducir la accesibilidad de cada piso o del local concreto. Si necesitas ascensor, baño adaptado o una mesa para varias personas, verifica esas condiciones antes de organizar la visita."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "Yo identificaría primero a Doña Zuny y después revisaría la oferta del día. Compartir edificio no significa compartir cocina, precios o atención con los otros puestos. Si quieres almorzar aquí después de una navegación, confirma que la cocinería seguirá atendiendo a tu hora real de regreso."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Horarios, precios y accesibilidad no confirmados salvo datos añadidos expresamente.",
+        "Fuentes fotográficas identificadas; cinco fotos individuales aún no verificadas.",
+        "Cinco fotografías distintas no verificadas aún; no utilizar imágenes genéricas para completar.",
+        "La existencia y dirección están contrastadas en fuentes web; apertura comercial del día no confirmada por contacto directo.",
+        "Borrador editorial por debajo de la profundidad objetivo: no presentar como ficha final aprobada."
+      ],
+      "editorial_characters": 2011,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=Cociner%C3%ADa%20Do%C3%B1a%20Zuny%20Costanera%20del%20Estrecho%20de%20Magallanes%201466%2C%20Mercado%20Municipal%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "Restaurante Ventisca",
+      "slug": "restaurante-ventisca",
+      "category": "Cocina patagónica e internacional",
+      "address": "Presidente Manuel Balmaceda 723, Punta Arenas, Chile",
+      "contacts": {
+        "phone": "+56 61 228 4640"
+      },
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d16670591-Reviews-Restaurante_Ventisca-Punta_Arenas_Magallanes_Region.html",
+        "https://cl.todosnegocios.com/restaurante-ventisca-punta-arenas-61-228-4640"
+      ],
+      "photo_sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d16670591-Reviews-Restaurante_Ventisca-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Una casona con propuesta gastronómica",
+          "paragraphs": [
+            "Ventisca está en Presidente Manuel Balmaceda 723. Sus perfiles lo describen como un restaurante instalado en una casona antigua del barrio cívico de Punta Arenas. El contexto permite pensar en una comida de mesa, con un ambiente distinto a las cocinerías del mercado o a las sandwicherías del centro."
+          ]
+        },
+        {
+          "title": "Cocina regional e internacional",
+          "paragraphs": [
+            "La categoría documentada combina pescados, mariscos y cocina internacional. Es una alternativa para buscar productos australes sin limitar la comida a un único estilo. Antes de reservar por una preparación concreta, pide la carta actual y consulta qué se está sirviendo: las publicaciones no bastan para asegurar platos del día."
+          ]
+        },
+        {
+          "title": "Cómo elegir tu comida",
+          "paragraphs": [
+            "Yo preguntaría por el pescado disponible, su preparación y la guarnición. Si prefieres otra opción, consulta los fondos de la carta y el tamaño de cada porción. Para compartir entradas, conviene confirmar cantidades y evitar que una mesa con restricciones alimentarias pida algo que no pueda adaptar."
+          ]
+        },
+        {
+          "title": "Para qué ocasión",
+          "paragraphs": [
+            "El perfil de casona puede interesar para una cena tranquila o un almuerzo con conversación. Lo combinaría con un recorrido por el centro y la zona cívica. Si vienes de una excursión larga, deja margen de llegada y consulta el último pedido de cocina; no comprometas una hora que dependa de una navegación."
+          ]
+        },
+        {
+          "title": "Contacto contrastado",
+          "paragraphs": [
+            "El teléfono publicado es +56 61 228 4640 y el correo, restauranteventisca@gmail.com. Esos canales permiten confirmar horario, reservas y servicios. Circulan perfiles duplicados de Ventisca en plataformas de reseñas; por eso esta ficha toma la dirección de Balmaceda 723 como referencia para comprobar que se trata del mismo local."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "Yo aprovecharía la consulta de reserva para preguntar qué producto regional está destacando la cocina. Si necesitas acceso sin escalones, dilo expresamente: la descripción de casona antigua exige verificar las condiciones reales. No se atribuyen facilidades para niños, dietas especiales o estacionamiento sin documentación específica."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Horarios, precios y accesibilidad no confirmados salvo datos añadidos expresamente.",
+        "Fuentes fotográficas identificadas; cinco fotos individuales aún no verificadas.",
+        "Cinco fotografías distintas no verificadas aún; no utilizar imágenes genéricas para completar.",
+        "La existencia y dirección están contrastadas en fuentes web; apertura comercial del día no confirmada por contacto directo.",
+        "Borrador editorial por debajo de la profundidad objetivo: no presentar como ficha final aprobada."
+      ],
+      "editorial_characters": 2045,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=Restaurante%20Ventisca%20Presidente%20Manuel%20Balmaceda%20723%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "Guana Coffee",
+      "slug": "guana-coffee",
+      "category": "Cafetería",
+      "address": "Hernando de Magallanes 598, local 4, Punta Arenas, Chile",
+      "contacts": {
+        "phone": "+56 9 8251 2992",
+        "website": "https://www.facebook.com/Guanacoffee.cl/"
+      },
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d23475842-Reviews-Guana_Coffee-Punta_Arenas_Magallanes_Region.html",
+        "https://www.facebook.com/Guanacoffee.cl/",
+        "https://www.happycow.net/reviews/guana-coffee-punta-arenas-269663",
+        "https://coffeed.app/shop/666f1388-cbbc-66fd-702c-fc7800000000"
+      ],
+      "photo_sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d23475842-Reviews-Guana_Coffee-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Café al paso con identidad propia",
+          "paragraphs": [
+            "Guana Coffee está documentado en Hernando de Magallanes 598, local 4. También circula una dirección en Bories 512 que corresponde a referencias de otra sucursal o etapa comercial. Esta ficha utiliza Magallanes 598 y exige confirmar esa ubicación al contactar para no mezclar fotografías, horarios o puntos de venta."
+          ]
+        },
+        {
+          "title": "Una pausa centrada en el café",
+          "paragraphs": [
+            "Su propuesta de cafetería permite pensar en una parada breve para una taza y algo de vitrina. Pregunta qué grano y preparaciones tienen disponibles si quieres comparar con otros cafés de la ciudad. Una carta de bebidas puede cambiar de temporada y de sucursal, por lo que conviene mirar la oferta real."
+          ]
+        },
+        {
+          "title": "Opciones vegetales: preguntar primero",
+          "paragraphs": [
+            "HappyCow recoge referencias a bebidas vegetales y pastelería vegana, pero también opiniones recientes que señalan una oferta reducida o cambios. Por eso no lo presentaría como una cafetería exclusivamente vegana ni prometería una comida completa adaptada. Confirma ingredientes y disponibilidad antes de elegirlo por una restricción alimentaria."
+          ]
+        },
+        {
+          "title": "Cómo incluirlo en el día",
+          "paragraphs": [
+            "Lo plantearía como una pausa dentro del recorrido urbano o una bebida para llevar, según la disponibilidad de mesas. Si necesitas trabajar o conectarte, pregunta primero por las condiciones; una cafetería pequeña no garantiza wifi, enchufes ni permanencia prolongada. La pausa gastronómica debe ajustarse al funcionamiento del local."
+          ]
+        },
+        {
+          "title": "Contacto y verificación",
+          "paragraphs": [
+            "El teléfono difundido es +56 9 8251 2992 y el perfil de Facebook identificado es Guanacoffee.cl. Confirma local, apertura y producto antes de desplazarte. No se trasladan los horarios contradictorios de directorios a una tabla cerrada y tampoco se deduce WhatsApp únicamente por tratarse de un móvil."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "Aquí yo pediría una taza que me guste y revisaría la vitrina antes de decidir el acompañamiento. Si buscas opciones veganas, formula una pregunta concreta sobre lo que quieres comer, no solo sobre si “hay algo”. Así evitas que una referencia antigua te haga planificar una comida que hoy no pueden resolver."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Horarios, precios y accesibilidad no confirmados salvo datos añadidos expresamente.",
+        "Fuentes fotográficas identificadas; cinco fotos individuales aún no verificadas.",
+        "Cinco fotografías distintas no verificadas aún; no utilizar imágenes genéricas para completar.",
+        "La existencia y dirección están contrastadas en fuentes web; apertura comercial del día no confirmada por contacto directo.",
+        "Borrador editorial por debajo de la profundidad objetivo: no presentar como ficha final aprobada."
+      ],
+      "editorial_characters": 2070,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=Guana%20Coffee%20Hernando%20de%20Magallanes%20598%2C%20local%204%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "Café Sarmiento",
+      "slug": "cafe-sarmiento",
+      "category": "Cafetería y pastelería",
+      "address": "Almirante Manuel Señoret 1080, Punta Arenas, Chile",
+      "contacts": {},
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d8642611-Reviews-Cafe_Sarmiento-Punta_Arenas_Magallanes_Region.html",
+        "https://serviciosturisticos.sernatur.cl/17647-cafe-sarmiento",
+        "https://cl.todosnegocios.com/caf%C3%A9-sarmiento-9-8827-1827"
+      ],
+      "photo_sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d8642611-Reviews-Cafe_Sarmiento-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Una pausa en el sector del mirador",
+          "paragraphs": [
+            "Café Sarmiento está en Almirante Manuel Señoret 1080. La dirección coincide entre SERNATUR y directorios comerciales. Su ubicación permite relacionar la visita con el sector del Cerro de la Cruz, una alternativa para incorporar cafetería y paseo urbano en la misma parte del día."
+          ]
+        },
+        {
+          "title": "Café y pastelería",
+          "paragraphs": [
+            "La propuesta se clasifica como cafetería, con preparaciones dulces y opciones para una merienda. Yo revisaría la vitrina del día antes de pedir una torta vista en redes o en una reseña. La frescura y la disponibilidad se comprueban mejor mirando la oferta actual que siguiendo una lista histórica."
+          ]
+        },
+        {
+          "title": "El atractivo del entorno",
+          "paragraphs": [
+            "Las reseñas destacan vistas de la ciudad y del estrecho. Eso no significa que todas las mesas tengan la misma perspectiva o que pueda garantizarse una ventana. Si la vista es el principal motivo de la visita, pregunta al llegar qué sectores están disponibles y evita planificar una fotografía como si fuera una reserva asegurada."
+          ]
+        },
+        {
+          "title": "Combinar con Cerro de la Cruz",
+          "paragraphs": [
+            "Yo organizaría el paseo del mirador y después la pausa para entrar en calor. El orden puede cambiar según el clima y la luz. Considera las pendientes del sector y tu movilidad al decidir si subir caminando; una dirección cercana en el mapa no siempre representa un trayecto cómodo para todos."
+          ]
+        },
+        {
+          "title": "Datos antes de ir",
+          "paragraphs": [
+            "El establecimiento figura en el registro de SERNATUR con dirección Señoret 1080. No se publica aquí un horario sin confirmación oficial reciente. Para laptop, grupos, comidas especiales o acceso adaptado, conviene consultar directamente: las experiencias de otros visitantes no establecen una política general del café."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "No haría una subida exclusivamente para encontrar una mesa con vista sin verificar apertura. Aprovecha la visita como parte de un paseo por el sector. Si vas en invierno o con lluvia, organiza el traslado y confirma que la cafetería puede recibirte antes de dedicarle una parte importante de la jornada."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Horarios, precios y accesibilidad no confirmados salvo datos añadidos expresamente.",
+        "Fuentes fotográficas identificadas; cinco fotos individuales aún no verificadas.",
+        "Cinco fotografías distintas no verificadas aún; no utilizar imágenes genéricas para completar.",
+        "La existencia y dirección están contrastadas en fuentes web; apertura comercial del día no confirmada por contacto directo.",
+        "Borrador editorial por debajo de la profundidad objetivo: no presentar como ficha final aprobada."
+      ],
+      "editorial_characters": 1962,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Sarmiento%20Almirante%20Manuel%20Se%C3%B1oret%201080%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "Café Inmigrante",
+      "slug": "cafe-inmigrante",
+      "category": "Salón de té y pastelería",
+      "address": "Quillota 599, esquina Mejicana, Punta Arenas, Chile",
+      "contacts": {
+        "website": "https://natotorres.wixsite.com/cafeinmigrante"
+      },
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d2710817-Reviews-Cafe_Inmigrante-Punta_Arenas_Magallanes_Region.html",
+        "https://natotorres.wixsite.com/cafeinmigrante",
+        "https://menu.fu.do/cafeinmigrante/qr-menu",
+        "https://natotorres.wixsite.com/cafeinmigrante/men-"
+      ],
+      "photo_sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d2710817-Reviews-Cafe_Inmigrante-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Una historia familiar del barrio croata",
+          "paragraphs": [
+            "El proyecto de Café Inmigrante está ligado a la memoria de una familia croata de Punta Arenas. Su historia oficial sitúa la apertura en febrero de 2006 y la relaciona con el propósito de conservar tradiciones. La carta digital actual identifica Quillota 599, esquina Mejicana, dentro del Barrio Croata."
+          ]
+        },
+        {
+          "title": "La once como experiencia",
+          "paragraphs": [
+            "Su propuesta de salón de té y pastelería permite conocer la once como una comida en sí misma. Las referencias incluyen tortas, tartas, panes y preparaciones de cafetería. En lugar de sumar porciones sin mirar, pregunta qué incluye la opción de once vigente y si conviene para una o más personas."
+          ]
+        },
+        {
+          "title": "Cafés con nombres propios",
+          "paragraphs": [
+            "La carta publicada describe preparaciones especiales como el Café del Gaucho de la Pampa, con mezcla de café, cebada y leche. Ese tipo de bebida requiere mirar ingredientes y no pedir solo por el nombre. Si prefieres un café clásico o necesitas evitar leche, pregunta qué alternativas ofrece el local."
+          ]
+        },
+        {
+          "title": "Una visita para la tarde",
+          "paragraphs": [
+            "Lo combinaría con una caminata por el Barrio Croata y su entorno, dejando la pausa para sentarse con tiempo. La propuesta dulce puede reemplazar una merienda importante, así que conviene considerarla al planificar la cena. No trasladaría automáticamente una experiencia de once a un desayuno temprano."
+          ]
+        },
+        {
+          "title": "La dirección que hay que usar",
+          "paragraphs": [
+            "El menú Fudo del establecimiento publica Quillota 599 esquina Mejicana. Existe un aviso distinto de “Café del Inmigrante” con otra dirección, que no debe mezclarse sin comprobar identidad. Para horarios y pedidos, utiliza menu.fu.do/cafeinmigrante y confirma que corresponde a esta casa antes de dirigirte."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "Yo pediría que me expliquen la once y miraría primero la pastelería del día. La historia familiar aporta contexto, pero la elección depende de lo que te apetezca comer. Si viajas con niños o tienes alergias, consulta ingredientes y tamaño de las porciones antes de encargar una selección completa."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Horarios, precios y accesibilidad no confirmados salvo datos añadidos expresamente.",
+        "Fuentes fotográficas identificadas; cinco fotos individuales aún no verificadas.",
+        "Cinco fotografías distintas no verificadas aún; no utilizar imágenes genéricas para completar.",
+        "La existencia y dirección están contrastadas en fuentes web; apertura comercial del día no confirmada por contacto directo.",
+        "Borrador editorial por debajo de la profundidad objetivo: no presentar como ficha final aprobada."
+      ],
+      "editorial_characters": 1965,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Inmigrante%20Quillota%20599%2C%20esquina%20Mejicana%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "La Chocolatta",
+      "slug": "la-chocolatta",
+      "category": "Chocolatería y cafetería",
+      "address": "Gobernador Carlos Bories 852, Punta Arenas, Chile",
+      "contacts": {
+        "phone": "+56 61 224 8150",
+        "website": "https://www.chocolatta.cl/"
+      },
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d2518774-Reviews-La_Chocolatta-Punta_Arenas_Magallanes_Region.html",
+        "https://www.chocolatta.cl/",
+        "https://vitrinapuntaarenas.cl/negocio/chocolatta-baeriswyl"
+      ],
+      "photo_sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d2518774-Reviews-La_Chocolatta-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Tradición suiza en Punta Arenas",
+          "paragraphs": [
+            "La Chocolatta comenzó en el año 2000 por iniciativa de María Isabel Baeriswyl. Su relato oficial conecta la propuesta con tradiciones suizas friburguesas de su familia y con elaboración propia en Punta Arenas. La casa matriz está en Gobernador Carlos Bories 852, dentro del centro de la ciudad."
+          ]
+        },
+        {
+          "title": "Chocolate y sabores australes",
+          "paragraphs": [
+            "La chocolatería ofrece bombones, barras, trufas y alfajores. La web también identifica preparaciones con calafate y ruibarbo. Para llevar un recuerdo gastronómico, pregunta por composición, conservación y formatos de regalo. Elige por sabor e ingredientes: una caja vistosa no indica por sí sola el tipo de chocolate que contiene."
+          ]
+        },
+        {
+          "title": "Una parada de cafetería",
+          "paragraphs": [
+            "El chocolate caliente es una de las referencias de la casa; también hay pastelería y sándwiches. Yo revisaría la vitrina antes de elegir y preguntaría qué está disponible ese día. Si quieres algo salado, confirma la preparación y el tamaño en vez de dar por hecho que toda la oferta es dulce."
+          ]
+        },
+        {
+          "title": "Casa matriz y sucursal",
+          "paragraphs": [
+            "La marca publica dos puntos de venta: Bories 852 y una sucursal en Mercado Zonaustral, local 3. Esta ficha corresponde a Bories; no se deben mezclar teléfonos, horarios o fotografías entre ambos espacios. Si vas a retirar un pedido, revisa con cuidado cuál seleccionaste antes de finalizar la compra."
+          ]
+        },
+        {
+          "title": "Horario y contacto oficial",
+          "paragraphs": [
+            "Para la casa matriz, la web indica lunes a sábado de 08:00 a 22:00 y domingo de 09:00 a 22:00. El teléfono es +56 61 224 8150 y el Instagram, @chocolatta_baeriswyl. La tienda oficial permite consultar la carta vigente; horarios festivos y último pedido conviene reconfirmarlos."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "Lo combinaría con una tarde por el centro y una pausa de chocolate, dejando la compra de regalos para después de probar. Si llevas bombones a otra ciudad, pregunta cómo conservarlos durante el trayecto. Para alergias a frutos secos o lácteos, solicita información específica de producción y contacto cruzado."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Horarios, precios y accesibilidad no confirmados salvo datos añadidos expresamente.",
+        "Fuentes fotográficas identificadas; cinco fotos individuales aún no verificadas.",
+        "Cinco fotografías distintas no verificadas aún; no utilizar imágenes genéricas para completar.",
+        "La existencia y dirección están contrastadas en fuentes web; apertura comercial del día no confirmada por contacto directo.",
+        "Borrador editorial por debajo de la profundidad objetivo: no presentar como ficha final aprobada."
+      ],
+      "editorial_characters": 1954,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=La%20Chocolatta%20Gobernador%20Carlos%20Bories%20852%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "Cafetería Amorío",
+      "slug": "cafeteria-amorio",
+      "category": "Cafetería y pastelería",
+      "address": "Rómulo Correa 684, Punta Arenas, Chile",
+      "contacts": {
+        "phone": "+56 61 264 1318",
+        "website": "https://www.instagram.com/cafeamoriopuq/"
+      },
+      "sources": [
+        "https://www.instagram.com/cafeamoriopuq/",
+        "https://wanderlog.com/place/details/2986127/cafeter%C3%ADa-amor%C3%ADo",
+        "https://by.trip.com/restaurant/chile/punta-arenas/detail/amoro-34926194/"
+      ],
+      "photo_sources": [],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Una cafetería en Rómulo Correa",
+          "paragraphs": [
+            "Amorío está identificado en Rómulo Correa 684, en Punta Arenas. Su perfil se asocia a cafetería, pastelería y preparaciones saladas. Es una posibilidad para ampliar el recorrido gastronómico fuera del núcleo inmediato de la plaza, siempre verificando la apertura antes de desplazarse."
+          ]
+        },
+        {
+          "title": "Dulce y salado para una pausa",
+          "paragraphs": [
+            "Las referencias de viajeros mencionan café, crepes y sándwiches. Son categorías útiles para entender su propuesta, pero la selección del día debe revisarse en el local. Si buscas una comida completa, pregunta qué preparaciones saladas están vigentes y cuánto demoran, sin asumir que una carta antigua permanece igual."
+          ]
+        },
+        {
+          "title": "Qué elegir",
+          "paragraphs": [
+            "Yo empezaría por decidir si quieres una merienda dulce o algo más cercano al almuerzo. Después elegiría la bebida y el acompañamiento. Si hay crepes disponibles, consulta relleno y tamaño; un mismo formato puede funcionar como postre o comida. Para compartir, pregunta cuántas porciones recomienda el equipo."
+          ]
+        },
+        {
+          "title": "Cómo organizar el recorrido",
+          "paragraphs": [
+            "La dirección pide planificar la visita según el sector donde estés alojado o las actividades del día. No merece la pena atravesar la ciudad con poco margen solo para llegar a una cafetería sin confirmar apertura. Agrupa la parada con un paseo cercano y deja tiempo para sentarte, especialmente si vas con más personas."
+          ]
+        },
+        {
+          "title": "Canales identificados",
+          "paragraphs": [
+            "El Instagram publicado es @cafeamoriopuq y el teléfono difundido es +56 61 264 1318. Confirma por sus canales la carta, horarios y modalidad de atención. Algunas reseñas mencionan servicios o propuestas adicionales, pero no hay suficiente verificación para prometerlos como parte permanente de la cafetería."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "Yo miraría sus publicaciones recientes y consultaría por la preparación que te interesa antes de salir. Si necesitas ir con mascota, una opción alimentaria especial o una mesa grande, pregunta expresamente. Esos detalles pueden cambiar y no conviene deducirlos de una opinión aislada o una foto de otra temporada."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Horarios, precios y accesibilidad no confirmados salvo datos añadidos expresamente.",
+        "Fuentes fotográficas identificadas; cinco fotos individuales aún no verificadas.",
+        "Cinco fotografías distintas no verificadas aún; no utilizar imágenes genéricas para completar.",
+        "La existencia y dirección están contrastadas en fuentes web; apertura comercial del día no confirmada por contacto directo.",
+        "Borrador editorial por debajo de la profundidad objetivo: no presentar como ficha final aprobada."
+      ],
+      "editorial_characters": 1986,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=Cafeter%C3%ADa%20Amor%C3%ADo%20R%C3%B3mulo%20Correa%20684%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "Wake Up — Coffee Lab",
+      "slug": "wake-up-coffee-lab",
+      "category": "Café de especialidad",
+      "address": "Presidente Federico Errázuriz 940, segundo piso, Punta Arenas, Chile",
+      "contacts": {
+        "phone": "+56 9 3863 0745",
+        "website": "https://wakeupcafe.cl/"
+      },
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d27531089-Reviews-Wake_Up_Coffee_Lab-Punta_Arenas_Magallanes_Region.html",
+        "https://wakeupcafe.cl/",
+        "https://www.biobiochile.cl/noticias/servicios/toma-nota/2026/02/19/ranking-mundial-de-cafeterias-cuales-son-y-donde-estan-las-3-chilenas-que-aparecieron-en-el-top-100.shtml"
+      ],
+      "photo_sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d27531089-Reviews-Wake_Up_Coffee_Lab-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Un espacio dedicado al café",
+          "paragraphs": [
+            "Wake Up Coffee Lab se identifica en Presidente Federico Errázuriz 940, segundo piso. Se diferencia del Coffee & Brunch de Errázuriz 944, aunque comparte la marca. Aquí la visita puede centrarse en el café, sus métodos y el trabajo con granos de origen, según la propuesta recogida por medios y viajeros."
+          ]
+        },
+        {
+          "title": "Reconocimiento en 2026",
+          "paragraphs": [
+            "BioBioChile informó en febrero de 2026 su inclusión en The World’s 100 Best Coffee Shops, en el puesto 74. Ese dato aporta contexto al proyecto, pero no sustituye tu preferencia personal. Para aprovechar la visita, explica al equipo qué perfil de taza te gusta y qué te gustaría conocer."
+          ]
+        },
+        {
+          "title": "Qué preguntaría al pedir",
+          "paragraphs": [
+            "Consulta por el origen del grano, el tueste y los métodos disponibles. Si nunca has probado filtrados, pregunta por una preparación que permita notar diferencias sin complicar la elección. No se garantiza una demostración de tostado ni una actividad guiada en cada visita; cualquier experiencia especial debe confirmarse directamente."
+          ]
+        },
+        {
+          "title": "Una visita distinta al brunch",
+          "paragraphs": [
+            "Yo lo elegiría para dedicarle atención a la bebida, en vez de usarlo automáticamente como sustituto de un desayuno abundante. Si buscas comida, consulta qué acompañamientos ofrece este espacio. Tener una cafetería y un laboratorio en la misma marca no implica que ambos compartan carta y servicio."
+          ]
+        },
+        {
+          "title": "Contacto y acceso",
+          "paragraphs": [
+            "El número publicado es +56 9 3863 0745 y el correo, contacto@wakeupcafe.cl. Al reservar o consultar, indica Coffee Lab, segundo piso de Errázuriz 940. Esa referencia de planta exige verificar accesibilidad si necesitas ascensor o un acceso sin escaleras; no se dispone de documentación suficiente para prometerlo."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "Yo preguntaría por una taza que no pediría habitualmente y guardaría el nombre del grano si me gusta. Así la visita aporta algo más que una fotografía del café. Si te interesa una cata, taller o compra de granos, consulta disponibilidad: ninguna de esas actividades se presume incluida por entrar al local."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Horarios, precios y accesibilidad no confirmados salvo datos añadidos expresamente.",
+        "Fuentes fotográficas identificadas; cinco fotos individuales aún no verificadas.",
+        "Cinco fotografías distintas no verificadas aún; no utilizar imágenes genéricas para completar.",
+        "La existencia y dirección están contrastadas en fuentes web; apertura comercial del día no confirmada por contacto directo.",
+        "Borrador editorial por debajo de la profundidad objetivo: no presentar como ficha final aprobada."
+      ],
+      "editorial_characters": 1981,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=Wake%20Up%20%E2%80%94%20Coffee%20Lab%20Presidente%20Federico%20Err%C3%A1zuriz%20940%2C%20segundo%20piso%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "Be Happy Café",
+      "slug": "be-happy-cafe",
+      "category": "Cafetería inclusiva",
+      "address": "Lautaro Navarro 739, Punta Arenas, Chile",
+      "contacts": {
+        "website": "https://www.instagram.com/behappycafe.puq/"
+      },
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d24972377-Reviews-Be_Happy_Cafe-Punta_Arenas_Magallanes_Region.html",
+        "https://www.instagram.com/behappycafe.puq/",
+        "https://www.happycow.net/reviews/be-happy-cafe-punta-arenas-305919",
+        "https://cl.todosnegocios.com/be-happy-caf%C3%A9-61-228-9620"
+      ],
+      "photo_sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d24972377-Reviews-Be_Happy_Cafe-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Una cafetería con vocación inclusiva",
+          "paragraphs": [
+            "Be Happy Café está documentado en Lautaro Navarro 739. Su presentación comercial destaca una identidad inclusiva dentro de Punta Arenas. Es una opción para café, brunch y pastelería que puede interesar a viajeros con distintas preferencias, sin asumir que una declaración de inclusión resuelve por sí sola todas las necesidades particulares."
+          ]
+        },
+        {
+          "title": "Pastelería y opciones vegetales",
+          "paragraphs": [
+            "HappyCow recoge preparaciones veganas dulces y saladas, con reseñas recientes de tartas y sándwiches. El establecimiento también sirve otros productos, por lo que no debe presentarse como exclusivamente vegano. Revisa la vitrina y pregunta por la oferta del día si tu elección depende de evitar ingredientes animales."
+          ]
+        },
+        {
+          "title": "Qué pedir según tu hambre",
+          "paragraphs": [
+            "Yo preguntaría qué opciones dulces y saladas tienen listas antes de encargar. Para una merienda, puede bastar bebida y una porción; para una comida más completa, consulta composición y tamaño del sándwich o preparación disponible. No se publican precios sin una carta oficial actual suficientemente contrastada."
+          ]
+        },
+        {
+          "title": "Para una pausa en el centro",
+          "paragraphs": [
+            "Su emplazamiento en Lautaro Navarro permite integrarlo a una jornada urbana. Lo consideraría como descanso entre actividades cercanas o una parada de mañana si la apertura está confirmada. En temporada de visitantes, pregunta por disponibilidad de mesas antes de organizar una reunión de varias personas."
+          ]
+        },
+        {
+          "title": "Contacto y servicios",
+          "paragraphs": [
+            "El perfil identificado es @behappycafe.puq y el correo, behappycafepuq@gmail.com. Hay teléfonos contradictorios en plataformas, por lo que no se publica uno como definitivo. HappyCow señala accesibilidad, pero conviene verificar las condiciones concretas del acceso y baño si son imprescindibles para tu visita."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "Si necesitas comer vegano, formula la consulta por el plato específico y por cómo se prepara, no solo por la etiqueta del café. Yo miraría la pastelería disponible antes de decidir. Para alergias, pregunta por ingredientes y contacto cruzado: una preparación vegetal también puede contener alérgenos."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Horarios, precios y accesibilidad no confirmados salvo datos añadidos expresamente.",
+        "Fuentes fotográficas identificadas; cinco fotos individuales aún no verificadas.",
+        "Cinco fotografías distintas no verificadas aún; no utilizar imágenes genéricas para completar.",
+        "La existencia y dirección están contrastadas en fuentes web; apertura comercial del día no confirmada por contacto directo.",
+        "Borrador editorial por debajo de la profundidad objetivo: no presentar como ficha final aprobada."
+      ],
+      "editorial_characters": 2045,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=Be%20Happy%20Caf%C3%A9%20Lautaro%20Navarro%20739%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "La Mona Crespa Café",
+      "slug": "la-mona-crespa-cafe",
+      "category": "Cafetería y pastelería",
+      "address": "Gobernador Carlos Bories 400-B, Punta Arenas, Chile",
+      "contacts": {},
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d7247479-Reviews-La_Mona_Crespa_Cafe-Punta_Arenas_Magallanes_Region.html",
+        "https://www.vitrinapuntaarenas.cl/negocio/la-mona-crespa-cafe-cafeteria-punta-arenas",
+        "https://www.ubereats.com/cl/store/la-mona-crespa/G_eA4HCcVLiexmFgcmMGCw"
+      ],
+      "photo_sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d7247479-Reviews-La_Mona_Crespa_Cafe-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Café y pastelería en Bories",
+          "paragraphs": [
+            "La Mona Crespa Café está identificada en Gobernador Carlos Bories 400-B. La referencia publicada la sitúa antes de la esquina con Sarmiento. Su perfil combina cafetería y preparaciones de pastelería, una alternativa para una pausa distinta de los restaurantes de fondo y de las cocinerías de mar."
+          ]
+        },
+        {
+          "title": "Qué mirar en la vitrina",
+          "paragraphs": [
+            "Las publicaciones del establecimiento muestran galletas y preparaciones dulces artesanales, además de bebidas de cafetería. Yo revisaría qué está disponible ese día y elegiría después la bebida. La oferta de vitrina cambia, por lo que una caja o producto anunciado para una fecha especial no debe tratarse como servicio permanente."
+          ]
+        },
+        {
+          "title": "Elegir una taza",
+          "paragraphs": [
+            "Si buscas café, comenta si prefieres una preparación con leche, un espresso o una bebida más suave. Pregunta por tamaños y por el perfil del grano. Una visita breve puede servir para comparar estilos de cafeterías de Punta Arenas sin convertir la ruta en una carrera por acumular locales."
+          ]
+        },
+        {
+          "title": "Cuándo incluirla",
+          "paragraphs": [
+            "La plantearía como merienda o descanso durante una jornada por el centro norte. Si tienes otro almuerzo o cena reservado, calcula cuánto quieres comer para no duplicar una comida completa. Para pedidos de tortas o cajas, confirma plazos y disponibilidad en vez de suponer que todo se prepara para retiro inmediato."
+          ]
+        },
+        {
+          "title": "Datos que requieren confirmación",
+          "paragraphs": [
+            "La dirección Bories 400-B coincide en Tripadvisor y directorios locales. Circulan números de teléfono diferentes, por lo que se omite un contacto telefónico no resuelto. Para horarios, pedidos y condiciones especiales, consulta los canales actuales del establecimiento enlazados desde su perfil antes de organizar el recorrido."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "Yo preguntaría qué prepararon hoy y cuál es la porción más adecuada para acompañar el café. Si quieres llevar una caja para el viaje, revisa conservación y transporte. No se atribuyen opciones sin gluten, veganas ni accesibilidad por una fotografía: cualquier necesidad específica merece una respuesta del local."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Horarios, precios y accesibilidad no confirmados salvo datos añadidos expresamente.",
+        "Fuentes fotográficas identificadas; cinco fotos individuales aún no verificadas.",
+        "Cinco fotografías distintas no verificadas aún; no utilizar imágenes genéricas para completar.",
+        "La existencia y dirección están contrastadas en fuentes web; apertura comercial del día no confirmada por contacto directo.",
+        "Borrador editorial por debajo de la profundidad objetivo: no presentar como ficha final aprobada."
+      ],
+      "editorial_characters": 2003,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=La%20Mona%20Crespa%20Caf%C3%A9%20Gobernador%20Carlos%20Bories%20400-B%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "Café Montt",
+      "slug": "cafe-montt",
+      "category": "Cafetería y pastelería",
+      "address": "Presidente Pedro Montt 976, Punta Arenas, Chile",
+      "contacts": {
+        "phone": "+56 61 222 0381"
+      },
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d5999075-Reviews-Cafe_Montt-Punta_Arenas_Magallanes_Region.html",
+        "https://www.waze.com/live-map/directions/cl/magallanes-y-la-antartica-chilena/punta-arenas/cafe-montt?to=place.ChIJR5DRJXpjsr0RszavPmc2xZ4",
+        "https://www.tripadvisor.co/Restaurant_Review-g297401-d5999075-Reviews-Cafe_Montt-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "photo_sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d5999075-Reviews-Cafe_Montt-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Una cafetería del centro",
+          "paragraphs": [
+            "Café Montt está en Presidente Pedro Montt 976, dirección coincidente entre mapas y su ficha comercial. Su propuesta corresponde a una cafetería céntrica con preparaciones dulces y saladas. Puede funcionar como una pausa durante un recorrido urbano, sin alejar la jornada hacia otro sector de la ciudad."
+          ]
+        },
+        {
+          "title": "La carta de cafetería",
+          "paragraphs": [
+            "Su perfil público presenta café y preparaciones para acompañarlo. La mejor forma de elegir es revisar la carta y la vitrina del día: no hay suficiente información oficial reciente para asegurar una especialidad concreta como pedido obligatorio. Pregunta qué preparan en el local y qué opciones están listas."
+          ]
+        },
+        {
+          "title": "Una bebida con referencia regional",
+          "paragraphs": [
+            "Una carta de delivery publica un Café Montt con licor de calafate, espresso, leche y espuma. Es una referencia interesante si buscas un sabor local, pero debe confirmarse en la carta presencial y no es una bebida sin alcohol. Si no deseas licor, pide una alternativa explícitamente."
+          ]
+        },
+        {
+          "title": "Para combinar con el paseo",
+          "paragraphs": [
+            "Pedro Montt permite organizar la parada dentro del circuito del centro, cerca del entorno del Museo Naval y de la costanera. Yo lo elegiría como descanso entre visitas. Confirma el horario del museo por separado: la cercanía no significa que ambos establecimientos funcionen durante la misma franja."
+          ]
+        },
+        {
+          "title": "Contacto y preguntas útiles",
+          "paragraphs": [
+            "El teléfono publicado es +56 61 222 0381 y el correo, contacto@cafemontt.cl. Consulta horarios, reservas o pedidos por los canales del local. Si vas con niños, necesitas acceso adaptado o tienes alguna alergia, pide información concreta antes de ir; esos servicios no quedan demostrados por su categoría de cafetería."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "Yo aprovecharía una pausa aquí para ordenar el resto de la jornada y elegir un acompañamiento de vitrina. Si pides una preparación con calafate, revisa si se trata de fruta, jarabe o licor: son experiencias distintas. Para llevar, confirma envase y temperatura según cuánto falta para consumirlo."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Horarios, precios y accesibilidad no confirmados salvo datos añadidos expresamente.",
+        "Fuentes fotográficas identificadas; cinco fotos individuales aún no verificadas.",
+        "Cinco fotografías distintas no verificadas aún; no utilizar imágenes genéricas para completar.",
+        "La existencia y dirección están contrastadas en fuentes web; apertura comercial del día no confirmada por contacto directo.",
+        "Borrador editorial por debajo de la profundidad objetivo: no presentar como ficha final aprobada."
+      ],
+      "editorial_characters": 1957,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Montt%20Presidente%20Pedro%20Montt%20976%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "Coffee Market",
+      "slug": "coffee-market",
+      "category": "Cafetería de especialidad",
+      "address": "Avenida España 0989, esquina Manantiales, Punta Arenas, Chile",
+      "contacts": {
+        "instagram": "https://www.instagram.com/puq_coffeemarket/"
+      },
+      "sources": [
+        "https://www.vitrinapuntaarenas.cl/negocio/coffee-market",
+        "https://es.restaurantguru.com/Coffee-Market-Punta-Arenas",
+        "https://www.cooperativa.cl/noticias/pais/region-de-magallanes/punta-arenas-la-historia-del-emprendedor-que-ayuda-a-capear-el-frio/2018-04-11/200021.html"
+      ],
+      "photo_sources": [
+        "https://www.vitrinapuntaarenas.cl/negocio/coffee-market"
+      ],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Café en la esquina de España y Manantiales",
+          "paragraphs": [
+            "Coffee Market está identificado en Avenida España 0989, esquina Manantiales. Es una cafetería de especialidad con referencias a granos de distintos orígenes y bebidas preparadas. La dirección es importante: hay fichas de negocios con nombres parecidos y otras numeraciones que no deben mezclarse automáticamente con este local."
+          ]
+        },
+        {
+          "title": "Una historia con gesto de barrio",
+          "paragraphs": [
+            "Cooperativa documentó en abril de 2018 la apertura de un Coffee Market en esta esquina y la iniciativa de su emprendedor para entregar café a trabajadores expuestos al frío. Es un antecedente histórico del lugar; no implica que una promoción o campaña de esa época siga vigente hoy."
+          ]
+        },
+        {
+          "title": "Cómo elegir la taza",
+          "paragraphs": [
+            "Yo preguntaría qué granos están disponibles y si conviene espresso o filtrado según lo que te gusta beber. Las publicaciones actuales mencionan cafés de Colombia y Costa Rica, entre otros orígenes, pero la selección rota. Si buscas descafeinado, confirma disponibilidad y preparación antes de hacer de esa opción el motivo de la visita."
+          ]
+        },
+        {
+          "title": "Bebidas y preparaciones del día",
+          "paragraphs": [
+            "Las publicaciones del local muestran bebidas de café y propuestas frías. Revisa la carta vigente antes de pedir una receta vista en redes: una promoción o lanzamiento puede durar solo unos días. Para alergias o preferencias de leche, consulta ingredientes concretos y las adaptaciones reales de cada bebida."
+          ]
+        },
+        {
+          "title": "Planificar la pausa",
+          "paragraphs": [
+            "La esquina de España con Manantiales permite plantear una parada en ese sector de Punta Arenas, fuera del núcleo inmediato de la plaza. Yo la agruparía con actividades cercanas y confirmaría apertura antes de ir. Los horarios de directorios son contradictorios, así que no se publican como dato definitivo."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "El perfil identificado es @puq_coffeemarket. Indica Avenida España 0989 al consultar para evitar otra sucursal o negocio de nombre parecido. Si quieres comprar café en grano, pregunta por fecha de tueste y molienda adecuada para tu cafetera; llevarte el grano correcto permite prolongar la experiencia en casa."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Fotos del agente photo_library deben vincularse; permisos de reproducción desconocidos.",
+        "Borrador por debajo de profundidad editorial objetivo; no aprobado como ficha final."
+      ],
+      "editorial_characters": 2033,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=Coffee%20Market%20Avenida%20Espa%C3%B1a%200989%2C%20esquina%20Manantiales%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "Cafetería Cohen",
+      "slug": "cafeteria-cohen",
+      "category": "Cafetería y pastelería",
+      "address": "Croacia 602, Punta Arenas, Chile",
+      "contacts": {
+        "instagram": "https://www.instagram.com/cafeteriacohen/"
+      },
+      "sources": [
+        "https://www.vitrinapuntaarenas.cl/negocio/cafeteria-cohen",
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d8614081-Reviews-Cohen-Punta_Arenas_Magallanes_Region.html",
+        "https://www.ubereats.com/cl/store/cafeteria-y-pasteleria-cohen/69bM3T5QQtmiIoiLvbhEJg"
+      ],
+      "photo_sources": [
+        "https://www.vitrinapuntaarenas.cl/negocio/cafeteria-cohen"
+      ],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Cafetería y pastelería en Croacia",
+          "paragraphs": [
+            "Cohen tiene una cafetería identificada en Croacia 602. Su propuesta de café, tortas y galletas está documentada en el directorio local y en plataformas de pedidos. Es una alternativa para una merienda que permite incluir otra zona de la ciudad dentro del recorrido gastronómico."
+          ]
+        },
+        {
+          "title": "La vitrina dulce",
+          "paragraphs": [
+            "La comunicación del establecimiento muestra distintas tortas y preparaciones de pastelería. Antes de pedir, yo miraría la oferta del día y preguntaría por el relleno de cada porción. Los productos anunciados en fechas especiales no deben darse por disponibles en cualquier momento; una torta entera puede requerir encargo."
+          ]
+        },
+        {
+          "title": "Qué probar según tu gusto",
+          "paragraphs": [
+            "Si prefieres algo cremoso, crocante o con fruta, explícalo al equipo para elegir una porción que se ajuste a ti. Las publicaciones mencionan combinaciones con manjar, plátano y nuez. Si necesitas evitar frutos secos o lácteos, consulta ingredientes y contacto cruzado antes de decidir por apariencia."
+          ]
+        },
+        {
+          "title": "No confundir los puntos de venta",
+          "paragraphs": [
+            "El directorio distingue la cafetería de Croacia 602 de la pastelería de Jorge Montt 668. Esta ficha corresponde a Croacia. Al encargar un producto, confirma dónde se retira y qué servicio ofrece cada punto; no se deben reutilizar fotografías de ambientes como si fueran el mismo espacio."
+          ]
+        },
+        {
+          "title": "Contacto antes de visitar",
+          "paragraphs": [
+            "El perfil identificado es @cafeteriacohen. No se copia el teléfono de la pastelería de Jorge Montt como si fuera necesariamente el de la cafetería. Para horarios, mesas, encargos y formas de pago, consulta por Croacia 602 y acuerda los detalles directamente con el establecimiento."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "Yo elegiría la porción después de mirar la vitrina y preguntaría si la torta que me gustó puede encargarse en otro formato. Para un regalo o celebración durante el viaje, confirma tamaño, plazo y conservación. La merienda y el encargo de una torta son servicios distintos y conviene planificarlos por separado."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Fotos del agente photo_library deben vincularse; permisos de reproducción desconocidos.",
+        "Borrador por debajo de profundidad editorial objetivo; no aprobado como ficha final."
+      ],
+      "editorial_characters": 1931,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=Cafeter%C3%ADa%20Cohen%20Croacia%20602%2C%20Punta%20Arenas%2C%20Chile"
+    },
+    {
+      "name": "Anclamar Punta Arenas",
+      "slug": "anclamar",
+      "category": "Pescados y cocina marina",
+      "address": "Armando Sanhueza 936, Punta Arenas, Chile",
+      "contacts": {
+        "instagram": "https://www.instagram.com/restaurant.anclamar.puq/",
+        "phone": "+56 9 8177 2117",
+        "whatsapp": "https://wa.me/56981772117"
+      },
+      "sources": [
+        "https://www.vitrinapuntaarenas.cl/negocio/anclamar",
+        "https://www.gangapp.cl/"
+      ],
+      "photo_sources": [
+        "https://www.vitrinapuntaarenas.cl/negocio/anclamar"
+      ],
+      "photos": [],
+      "sections": [
+        {
+          "title": "Cocina de mar en Punta Arenas",
+          "paragraphs": [
+            "Anclamar tiene un local documentado en Armando Sanhueza 936. Su propuesta se vincula a pescados y cocina marina para almuerzo y cena. Es importante diferenciar esta sucursal de la casa matriz de Porvenir: aquí la dirección, el mapa y las recomendaciones corresponden exclusivamente a Punta Arenas."
+          ]
+        },
+        {
+          "title": "Merluza y otras preparaciones",
+          "paragraphs": [
+            "Las publicaciones del establecimiento incluyen merluza con salsa margarita y otras preparaciones de cocina de mesa. Antes de pedir, consulta qué pescado está disponible, cómo se cocina y qué acompañamiento incluye. La oferta marina cambia y no conviene convertir un plato de redes en una garantía de carta permanente."
+          ]
+        },
+        {
+          "title": "Para una mesa con gustos distintos",
+          "paragraphs": [
+            "La comunicación del local también muestra alternativas que no son pescado. Yo revisaría la carta completa si vas con un grupo: una marisquería puede tener distintas opciones, pero no se debe asumir una variedad que no esté confirmada. Explica alergias antes de hacer el pedido, sobre todo cuando se comparten cocina y salsas."
+          ]
+        },
+        {
+          "title": "Cómo combinar la visita",
+          "paragraphs": [
+            "Armando Sanhueza permite encajar la comida en una jornada urbana por Punta Arenas. Lo plantearía después de un paseo por el centro, dejando margen suficiente para comer y continuar. Si vas después de una excursión, reserva con una hora realista y avisa si el regreso depende de condiciones de navegación."
+          ]
+        },
+        {
+          "title": "Contacto oficial identificado",
+          "paragraphs": [
+            "El directorio enlaza WhatsApp +56 9 8177 2117 y el Instagram @restaurant.anclamar.puq. Úsalos para confirmar mesa, horario y carta de Punta Arenas. Los horarios aparecen próximos a datos de la casa de Porvenir, por lo que no se trasladan sin confirmar que sean los de esta sucursal."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "Yo preguntaría por el pescado del día y confirmaría el precio completo antes de elegir. Hay publicaciones de descuentos de fecha o tarjeta determinada, pero no los presentaría como beneficio permanente: verifica vigencia, condiciones y tope directamente. Una promoción bancaria no debe ser el único dato con que se planifica el almuerzo."
+          ]
+        }
+      ],
+      "status": "identified-with-cross-sources-not-directly-confirmed",
+      "verified_at": "2026-10-18",
+      "notes": [
+        "Fotos del agente photo_library deben vincularse; permisos de reproducción desconocidos.",
+        "Borrador por debajo de profundidad editorial objetivo; no aprobado como ficha final."
+      ],
+      "editorial_characters": 2028,
+      "editorial_status": "draft-below-6500-character-target",
+      "map_search_url": "https://www.google.com/maps/search/?api=1&query=Anclamar%20Punta%20Arenas%20Armando%20Sanhueza%20936%2C%20Punta%20Arenas%2C%20Chile"
+    }
+  ],
+  "excluded": [
+    {
+      "name": "Toques de la Patagonia",
+      "reason": "Señalado cerrado en Minube y Lacarte",
+      "sources": [
+        "https://www.minube.com/rincon/toques-de-la-patagonia-a3675386",
+        "https://lacarte.menu/restaurants/punta-arenas/toques-de-la-patagonia-cerrado"
+      ]
+    },
+    {
+      "name": "Santino",
+      "reason": "Marcado cerrado; no usar sin confirmación directa",
+      "sources": [
+        "https://cl.todosnegocios.com/santino-bar-e-cuccina"
+      ]
+    },
+    {
+      "name": "El Arriero",
+      "reason": "Aviso cierre 31-03-2023 y direcciones contradictorias; no elegible sin confirmación",
+      "sources": [
+        "https://es.restaurantguru.com/Restaurante-El-Arriero-Punta-Arenas"
+      ]
+    },
+    {
+      "name": "La Marmita",
+      "reason": "Señal de cierre o identidad antigua: no publicar hasta confirmación.",
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d1069979-Reviews-La_Marmita-Punta_Arenas_Magallanes_Region.html",
+        "https://www.instagram.com/lamarmitarest/"
+      ]
+    },
+    {
+      "name": "El Fogón de Lalo",
+      "reason": "Señal de cierre o identidad antigua: no publicar hasta confirmación.",
+      "sources": [
+        "https://www.facebook.com/El-Fogon-de-Lalo-1554178391460466/"
+      ]
+    }
+  ]
+}

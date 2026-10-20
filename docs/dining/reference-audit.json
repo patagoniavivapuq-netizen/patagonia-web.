@@ -1,0 +1,51 @@
+{
+  "retrieved_at": "2026-10-18",
+  "sources": [
+    "https://www.ernestinhocarioca.com.br/gastronomia/",
+    "https://www.ernestinhocarioca.com.br/gastronomia/churrascaria-palace/",
+    "https://www.ernestinhocarioca.com.br/gastronomia/aprazivel/"
+  ],
+  "snapshots": {
+    "rio-gastronomia.html": {
+      "sha256": "e6161523dd1aab3fa653a6cd0a834353c97f9f0013600d3b6204a6c2e8c76b24",
+      "bytes": 263310
+    },
+    "rio-palace.html": {
+      "sha256": "fe6e526bca8ea6395782f546b3cc07e0d1eb46a939746c88a128d38c6b4f3474",
+      "bytes": 49052
+    },
+    "rio-aprazivel.html": {
+      "sha256": "5f85c73aaaa702c29c1908b53b0d194c608bbb43809c78a2b8e3fa0c7b21da4d",
+      "bytes": 62891
+    }
+  },
+  "catalog_styles": "assets/css/dining-catalog.css: first inline stylesheet copied verbatim",
+  "detail_styles": "assets/css/dining-detail.css: first inline stylesheet copied; image URL replaced with local CSS variable",
+  "palette": {
+    "ink": "#0d1919",
+    "petrol": "#123b3b",
+    "gold": "#e7b85c",
+    "cream": "#f6f0e6",
+    "muted": "#bac7c0"
+  },
+  "catalog_grid": {
+    "desktop": 4,
+    "under_1000": 3,
+    "under_700": 2,
+    "under_390": 1
+  },
+  "detail_grid": "1.4fr .8fr; display:block below760px",
+  "detail_card": "24px radius, 28px padding desktop / 21px mobile, gold border",
+  "typography": "same type.css already in Patagonia; reference layout uses Georgia/Arial fallbacks",
+  "adaptations": [
+    "Only Punta Arenas content and photos",
+    "Map moved after story and contact grid per explicit PUQ requirement",
+    "No final gallery; unique photos interleaved in story",
+    "No social/contact buttons without confirmed destination"
+  ],
+  "scope": [
+    "gastronomia",
+    "vida-nocturna"
+  ],
+  "unmodified": "Patagonia header/footer and every route outside the two edited sections"
+}

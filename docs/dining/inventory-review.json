@@ -1,0 +1,93 @@
+{
+  "checked_at": "2026-10-18",
+  "scope": "Risk-based independent spot check, not full live verification of all venues",
+  "issues": [
+    {
+      "slug": "cafe-carretero",
+      "severity": "high",
+      "issue": "Fuera del núcleo urbano: Agua Fresca km40,5. No contar entre50ciudad.",
+      "evidence_urls": [
+        "https://www.restaurants10.com/CL/Punta-Arenas/667173683654697/Caf%C3%A9-Carretero"
+      ],
+      "status": "removed_from_latest_restaurants_b"
+    },
+    {
+      "slug": "el-refugio-club-andino",
+      "severity": "high",
+      "issue": "Perfil propio lo sitúa a8km de ciudad, ClubAndino. Usar como extra alrededores y reemplazar para mínimo50urbanos.",
+      "evidence_urls": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d25069370-Reviews-El_Refugio-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "status": "reported_to_coordinator"
+    },
+    {
+      "slug": "opera-bar-grill",
+      "severity": "high",
+      "issue": "Misma dirección y casona que CasaJelva actual Croacia1007; posible ocupante histórico. No afirmar cierre, excluir conteo actual hasta resolver.",
+      "evidence_urls": [
+        "https://casajelva.cl/",
+        "https://operabarpuq.wixsite.com/operarestobar"
+      ],
+      "status": "replacement_in_progress_per_coordinator"
+    },
+    {
+      "slug": "patagon-bowling-restobar",
+      "severity": "high",
+      "issue": "Real, pero centrocomercial publica cierre20:00/19:30. No computar como nocturno habitual sin nueva evidencia.",
+      "evidence_urls": [
+        "https://mizonafranca.cl/tiendas/bowling-patagon/"
+      ],
+      "status": "already_marked_candidate_not_counted"
+    },
+    {
+      "slug": "cuatro-estaciones",
+      "severity": "high",
+      "issue": "Dirección498histórica vs601TripAdvisor coincideCaféBories; evitar mapa exacto no confirmado.",
+      "evidence_urls": [
+        "https://www.tripadvisor.co.uk/Restaurant_Review-g297401-d17382539-Reviews-Cuatro_Estaciones_Pizzeria-Punta_Arenas_Magallanes_Region.html",
+        "https://www.agrosuperfoodservice.cl/wp-content/uploads/GUIA-DELIVERY_ZONA-SUR_28JULIO_compressed.pdf"
+      ],
+      "status": "removed_from_latest_restaurants_b"
+    },
+    {
+      "slug": "restaurant-status",
+      "severity": "low",
+      "issue": "Kran01512 corroborado por postspropios espejadossep2026 y plataformaentrega; no confundir información antigua.",
+      "evidence_urls": [
+        "https://www.findglocal.com/CL/Punta-Arenas/2145979055529516/Restaurant-Status",
+        "https://www.ubereats.com/cl/store/restaurant-status/-ruJIwkpRR27N3Zdfoq0Gw"
+      ],
+      "status": "resolved_address_supported"
+    },
+    {
+      "slug": "cafe-pub-1900",
+      "severity": "low",
+      "issue": "TAficha malformada698/Bories602;793corroboradoWaze800yfotoTA. No usar horarioscorruptosWaze.",
+      "evidence_urls": [
+        "https://www.waze.com/live-map/directions/cl/magallanes-y-la-antartica-chilena/punta-arenas/cafe-pub-1900?to=place.ChIJfWNepjFjsr0R2fxHOGixhbo",
+        "https://www.800.cl/?id=1097&id_Ficha=13033",
+        "https://www.tripadvisor.cl/LocationPhotoDirectLink-g297401-d3738149-i144157908-Cafe_Pub_1900-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "status": "793_supported_hours_pending"
+    },
+    {
+      "slug": "wake-up-coffee-lab",
+      "severity": "info",
+      "issue": "No duplicado de Brunch944:Lab940piso2 listado propio distinto.",
+      "evidence_urls": [
+        "https://www.tripadvisor.com/Restaurant_Review-g297401-d27531089-Reviews-Wake_Up_Coffee_Lab-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "status": "resolved_distinct_branch"
+    },
+    {
+      "slug": "la-tabla-restobar",
+      "severity": "info",
+      "issue": "Mejicana742 actual frenteCarreraPinto675legacy; publicaciones2026confirman nueva sede y noches23h.",
+      "evidence_urls": [
+        "https://www.bars10.com/CL/Punta-Arenas/348205535350516/La-Tabla-Restobar"
+      ],
+      "status": "current_address_supported"
+    }
+  ],
+  "acceptance_note": "Inventory presence does not imply operational status confirmed today; primary contact needed for ambiguous records."
+}

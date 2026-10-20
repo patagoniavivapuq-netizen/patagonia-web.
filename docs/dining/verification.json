@@ -1,0 +1,1346 @@
+{
+  "checked_at": "2026-10-18",
+  "gastronomia_rendered": 51,
+  "nightlife_rendered": 20,
+  "photos": 153,
+  "venues_with_five": 16,
+  "editorial_under_6000": [
+    "sotitos",
+    "savoy",
+    "simple-cafe-gelato",
+    "la-cuisine",
+    "damiana-elena",
+    "wake-up-coffee-brunch",
+    "cafe-tapiz",
+    "kiosko-roca",
+    "la-luna-restaurant",
+    "mesita-grande",
+    "lomitos",
+    "dinos-pizza",
+    "la-casa-de-dona-maria",
+    "donde-hueicha",
+    "cocineria-dona-zuny",
+    "restaurante-ventisca",
+    "guana-coffee",
+    "cafe-sarmiento",
+    "cafe-inmigrante",
+    "chocolatta",
+    "cafeteria-amorio",
+    "wake-up-coffee-lab",
+    "be-happy-cafe",
+    "la-mona-crespa",
+    "cafe-montt",
+    "coffee-market",
+    "cafeteria-cohen",
+    "anclamar",
+    "la-yegua-loca",
+    "cafe-bories",
+    "la-vianda",
+    "cafe-tostado",
+    "buda-express",
+    "parrilla-los-ganaderos",
+    "la-chaira",
+    "a-brasas",
+    "casa-jelva",
+    "the-endurance",
+    "san-telmo",
+    "manifiesto",
+    "kruh-i-kava",
+    "aima",
+    "tavola-de-luna",
+    "patagonia-blend",
+    "luans-restaurant",
+    "la-ruta-de-darwin",
+    "entre-ollas-y-sartenes",
+    "history-coffee",
+    "circulo-italiano",
+    "restaurant-status",
+    "nuevo-siglo",
+    "bar-bulnes",
+    "taberna-bar-club-de-la-union",
+    "la-cerveceria-hdem",
+    "muchacha",
+    "shackleton-bar",
+    "faro-lounge",
+    "ole-tapas-copas",
+    "la-tabla-restobar",
+    "bruna-gastrobar",
+    "bodega-87",
+    "el-arbol-irish-pub",
+    "cafe-pub-1900",
+    "dejavu",
+    "rustico-restobar",
+    "jekus-restobar",
+    "los-brujos",
+    "club-k",
+    "sky-bar-dreams",
+    "lucky-7-dreams",
+    "pub-colonial"
+  ],
+  "photo_deficits": [
+    {
+      "slug": "savoy",
+      "missing": 1
+    },
+    {
+      "slug": "simple-cafe-gelato",
+      "missing": 5
+    },
+    {
+      "slug": "damiana-elena",
+      "missing": 5
+    },
+    {
+      "slug": "wake-up-coffee-brunch",
+      "missing": 5
+    },
+    {
+      "slug": "cafe-tapiz",
+      "missing": 4
+    },
+    {
+      "slug": "la-luna-restaurant",
+      "missing": 3
+    },
+    {
+      "slug": "lomitos",
+      "missing": 5
+    },
+    {
+      "slug": "dinos-pizza",
+      "missing": 4
+    },
+    {
+      "slug": "la-casa-de-dona-maria",
+      "missing": 5
+    },
+    {
+      "slug": "donde-hueicha",
+      "missing": 5
+    },
+    {
+      "slug": "cocineria-dona-zuny",
+      "missing": 5
+    },
+    {
+      "slug": "guana-coffee",
+      "missing": 4
+    },
+    {
+      "slug": "cafe-sarmiento",
+      "missing": 2
+    },
+    {
+      "slug": "cafe-inmigrante",
+      "missing": 2
+    },
+    {
+      "slug": "cafeteria-amorio",
+      "missing": 5
+    },
+    {
+      "slug": "wake-up-coffee-lab",
+      "missing": 5
+    },
+    {
+      "slug": "be-happy-cafe",
+      "missing": 5
+    },
+    {
+      "slug": "cafe-montt",
+      "missing": 5
+    },
+    {
+      "slug": "la-yegua-loca",
+      "missing": 2
+    },
+    {
+      "slug": "cafe-bories",
+      "missing": 5
+    },
+    {
+      "slug": "la-vianda",
+      "missing": 5
+    },
+    {
+      "slug": "cafe-tostado",
+      "missing": 5
+    },
+    {
+      "slug": "buda-express",
+      "missing": 5
+    },
+    {
+      "slug": "parrilla-los-ganaderos",
+      "missing": 5
+    },
+    {
+      "slug": "a-brasas",
+      "missing": 5
+    },
+    {
+      "slug": "casa-jelva",
+      "missing": 5
+    },
+    {
+      "slug": "the-endurance",
+      "missing": 5
+    },
+    {
+      "slug": "san-telmo",
+      "missing": 5
+    },
+    {
+      "slug": "manifiesto",
+      "missing": 5
+    },
+    {
+      "slug": "kruh-i-kava",
+      "missing": 5
+    },
+    {
+      "slug": "tavola-de-luna",
+      "missing": 1
+    },
+    {
+      "slug": "patagonia-blend",
+      "missing": 3
+    },
+    {
+      "slug": "luans-restaurant",
+      "missing": 5
+    },
+    {
+      "slug": "la-ruta-de-darwin",
+      "missing": 5
+    },
+    {
+      "slug": "entre-ollas-y-sartenes",
+      "missing": 5
+    },
+    {
+      "slug": "history-coffee",
+      "missing": 5
+    },
+    {
+      "slug": "circulo-italiano",
+      "missing": 5
+    },
+    {
+      "slug": "restaurant-status",
+      "missing": 1
+    },
+    {
+      "slug": "nuevo-siglo",
+      "missing": 5
+    },
+    {
+      "slug": "bar-bulnes",
+      "missing": 3
+    },
+    {
+      "slug": "taberna-bar-club-de-la-union",
+      "missing": 2
+    },
+    {
+      "slug": "shackleton-bar",
+      "missing": 5
+    },
+    {
+      "slug": "ole-tapas-copas",
+      "missing": 5
+    },
+    {
+      "slug": "la-tabla-restobar",
+      "missing": 5
+    },
+    {
+      "slug": "bodega-87",
+      "missing": 5
+    },
+    {
+      "slug": "el-arbol-irish-pub",
+      "missing": 5
+    },
+    {
+      "slug": "cafe-pub-1900",
+      "missing": 5
+    },
+    {
+      "slug": "dejavu",
+      "missing": 5
+    },
+    {
+      "slug": "rustico-restobar",
+      "missing": 5
+    },
+    {
+      "slug": "jekus-restobar",
+      "missing": 3
+    },
+    {
+      "slug": "los-brujos",
+      "missing": 5
+    },
+    {
+      "slug": "club-k",
+      "missing": 3
+    },
+    {
+      "slug": "sky-bar-dreams",
+      "missing": 4
+    },
+    {
+      "slug": "lucky-7-dreams",
+      "missing": 5
+    },
+    {
+      "slug": "pub-colonial",
+      "missing": 5
+    }
+  ],
+  "approval_ready": false,
+  "errors": [],
+  "unchanged_approved_routes": 122,
+  "browser_qa": "No realizada: entorno managed sin skill control-browser disponible. No se simula aprobación visual.",
+  "map_limit": "URL individual contrastada con dirección investigada; pin físico pendiente de revisión visual.",
+  "rights": "Fotos provisionales; permisos o sustitución pendientes antes de explotación comercial.",
+  "venues": [
+    {
+      "name": "Sotito’s Restaurant",
+      "section": "gastronomia",
+      "slug": "sotitos",
+      "address": "Libertador Bernardo O’Higgins 1138, Punta Arenas, Chile",
+      "characters": 1975,
+      "photos": 7,
+      "missing_photos": 0,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d945710-Reviews-Sotito_s_Restaurant-Punta_Arenas_Magallanes_Region.html",
+        "https://www.facebook.com/Sotitos-Restaurant-20642919262/",
+        "https://www.radiopolar.com/profundo-fallecimiento-jose-sotito-soto-alvarado-anfitrion-alma-tradicional-restaurante-sotitos",
+        "https://wanderlog.com/list/itinerary/9167/4-day-punta-arenas-itinerary"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Restaurante Hotel Savoy",
+      "section": "gastronomia",
+      "slug": "savoy",
+      "address": "José Menéndez 1073, Punta Arenas, Chile",
+      "characters": 1939,
+      "photos": 4,
+      "missing_photos": 1,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d6124649-Reviews-Hotel_Savoy_Restaurant-Punta_Arenas_Magallanes_Region.html",
+        "https://www.hotelsavoy.cl/",
+        "https://www.chilegastronomia.cl/review/ver/hotel-savoy",
+        "https://www.visitapuntaarenas.cl/restaurantes.html"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Simple Café & Gelato",
+      "section": "gastronomia",
+      "slug": "simple-cafe-gelato",
+      "address": "Hernando de Magallanes 926, Punta Arenas, Chile",
+      "characters": 1958,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d26834770-Reviews-Simple_cafe_gelato-Punta_Arenas_Magallanes_Region.html",
+        "https://restaurantguru.com/Simple-Cafe-and-Gelato-Punta-Arenas",
+        "https://www.sluurpy.com/es/punta-arenas/restaurant/8921808/simple-caf%C3%A9-and-gelato"
+      ],
+      "ready": false
+    },
+    {
+      "name": "La Cuisine",
+      "section": "gastronomia",
+      "slug": "la-cuisine",
+      "address": "Libertador Bernardo O’Higgins 1037, Punta Arenas, Chile",
+      "characters": 2064,
+      "photos": 11,
+      "missing_photos": 0,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d3855623-Reviews-La_Cuisine-Punta_Arenas_Magallanes_Region.html",
+        "https://www.facebook.com/pages/La-Cuisine/365599023553537",
+        "https://serviciosturisticos.sernatur.cl/13407-la-cuisine",
+        "https://torresdelpaine.com/en/tourist-attraction/la-cuisine-punta-arenas-2/",
+        "https://www.chilegastronomia.cl/restaurantes-de-moda-en-regiones/la-cuisine-experiencia-francesa-en-tierras-austroles"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Damiana Elena",
+      "section": "gastronomia",
+      "slug": "damiana-elena",
+      "address": "Hernando de Magallanes 341, Punta Arenas, Chile",
+      "characters": 2027,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d804398-Reviews-Damiana_Elena-Punta_Arenas_Magallanes_Region.html",
+        "https://www.waze.com/live-map/directions/damiana-elena-%28restaurant%29-hernando-de-magallanes-341-punta-arenas?to=place.w.189465844.1894658444.36039871",
+        "https://www.latercera.com/la-tercera-sabado/noticia/a-la-mesa-con-gabriel-boric/QDSCJH6LC5BNNANXKD6F3GWJSU/"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Wake Up — Coffee & Brunch",
+      "section": "gastronomia",
+      "slug": "wake-up-coffee-brunch",
+      "address": "Presidente Federico Errázuriz 944, Punta Arenas, Chile",
+      "characters": 1925,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d12223644-Reviews-Wake_Up_Coffee_Brunch-Punta_Arenas_Magallanes_Region.html",
+        "https://wakeupcafe.cl/",
+        "https://visitmagallanes.com/directorio/wake-up-cafe-de-especialidad/index.html"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Café Tapiz",
+      "section": "gastronomia",
+      "slug": "cafe-tapiz",
+      "address": "Presidente Julio A. Roca 912, Punta Arenas, Chile",
+      "characters": 1938,
+      "photos": 1,
+      "missing_photos": 4,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d2244299-Reviews-Tapiz-Punta_Arenas_Magallanes_Region.html",
+        "https://www.instagram.com/tapiz.cafe/",
+        "https://www.topexplora.com/destinos/punta-arenas/atracciones/tapiz/",
+        "https://wanderlog.com/place/details/1278291/tapiz"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Kiosko Roca",
+      "section": "gastronomia",
+      "slug": "kiosko-roca",
+      "address": "Presidente Julio A. Roca 875, Punta Arenas, Chile",
+      "characters": 1979,
+      "photos": 6,
+      "missing_photos": 0,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d3858863-Reviews-Kiosko_Roca_Punta_Arenas-Punta_Arenas_Magallanes_Region.html",
+        "https://kioskoroca.cl/",
+        "https://kioskoroca.cl/contacto/",
+        "https://kioskoroca.cl/productos/"
+      ],
+      "ready": false
+    },
+    {
+      "name": "La Luna Restaurant",
+      "section": "gastronomia",
+      "slug": "la-luna-restaurant",
+      "address": "Libertador Bernardo O’Higgins 1017, Punta Arenas, Chile",
+      "characters": 2086,
+      "photos": 2,
+      "missing_photos": 3,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d1085358-Reviews-La_Luna_Restaurant-Punta_Arenas_Magallanes_Region.html",
+        "https://lalunarestaurant.cl/",
+        "https://www.toliv.com/browse/chile/punta-arenas/la-luna-restaurant-1080"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Mesita Grande — Punta Arenas",
+      "section": "gastronomia",
+      "slug": "mesita-grande",
+      "address": "Libertador Bernardo O’Higgins 1001, Punta Arenas, Chile",
+      "characters": 1943,
+      "photos": 6,
+      "missing_photos": 0,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d6539627-Reviews-Mesita_Grande_Punta_Arenas-Punta_Arenas_Magallanes_Region.html",
+        "https://mesitagrande.cl/",
+        "https://mesitagrande.cl/menu-online-puq/",
+        "https://www.vitrinapuntaarenas.cl/negocio/mesita-grande"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Lomito’s",
+      "section": "gastronomia",
+      "slug": "lomitos",
+      "address": "José Menéndez 722, Punta Arenas, Chile",
+      "characters": 1941,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d1069980-Reviews-Lomito_s-Punta_Arenas_Magallanes_Region.html",
+        "https://laprensaaustral.cl/2026/07/16/a-los-86-anos-muere-el-propietario-del-tradicional-local-lomitos/"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Dino’s Pizza",
+      "section": "gastronomia",
+      "slug": "dinos-pizza",
+      "address": "Gobernador Carlos Bories 557, Punta Arenas, Chile",
+      "characters": 1972,
+      "photos": 1,
+      "missing_photos": 4,
+      "sources": [
+        "https://mapcarta.com/es/W221081248",
+        "https://cl.todosnegocios.com/dinos-pizza-ltda_1Q-61-224-7434",
+        "https://vitrinapuntaarenas.cl/negocio/dinos-pizza",
+        "https://www.latercera.com/la-tercera-sabado/noticia/a-la-mesa-con-gabriel-boric/QDSCJH6LC5BNNANXKD6F3GWJSU/"
+      ],
+      "ready": false
+    },
+    {
+      "name": "La Casa de Doña María",
+      "section": "gastronomia",
+      "slug": "la-casa-de-dona-maria",
+      "address": "José Menéndez 832, Punta Arenas, Chile",
+      "characters": 1998,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d7799372-Reviews-La_Casa_de_Dona_Maria-Punta_Arenas_Magallanes_Region.html",
+        "https://mapcarta.com/es/N4719648604",
+        "https://cl.todosnegocios.com/restaurant-la-casa-de-do%C3%B1a-mar%C3%ADa-9-4000-5640"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Donde Hueicha",
+      "section": "gastronomia",
+      "slug": "donde-hueicha",
+      "address": "Avenida Salvador Allende 0214, Punta Arenas, Chile",
+      "characters": 1953,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d8638761-Reviews-Donde_Hueicha-Punta_Arenas_Magallanes_Region.html",
+        "https://www.restaurants10.com/CL/Punta-Arenas/237695353313487/Donde-Hueicha-Restaurant",
+        "https://www.waze.com/live-map/directions/cl/magallanes-y-la-antartica-chilena/punta-arenas/donde-hueicha?to=place.ChIJ1aajyGFjsr0RIV94o6vSKnE"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Cocinería Doña Zuny",
+      "section": "gastronomia",
+      "slug": "cocineria-dona-zuny",
+      "address": "Costanera del Estrecho de Magallanes 1466, Mercado Municipal, Punta Arenas, Chile",
+      "characters": 2011,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d6854915-Reviews-Cocineria_Dona_Zuny-Punta_Arenas_Magallanes_Region.html",
+        "https://restaurantguru.com/Zuny-Punta-Arenas"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Restaurante Ventisca",
+      "section": "gastronomia",
+      "slug": "restaurante-ventisca",
+      "address": "Presidente Manuel Balmaceda 723, Punta Arenas, Chile",
+      "characters": 2045,
+      "photos": 5,
+      "missing_photos": 0,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d16670591-Reviews-Restaurante_Ventisca-Punta_Arenas_Magallanes_Region.html",
+        "https://cl.todosnegocios.com/restaurante-ventisca-punta-arenas-61-228-4640"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Guana Coffee",
+      "section": "gastronomia",
+      "slug": "guana-coffee",
+      "address": "Hernando de Magallanes 598, local 4, Punta Arenas, Chile",
+      "characters": 2070,
+      "photos": 1,
+      "missing_photos": 4,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d23475842-Reviews-Guana_Coffee-Punta_Arenas_Magallanes_Region.html",
+        "https://www.facebook.com/Guanacoffee.cl/",
+        "https://www.happycow.net/reviews/guana-coffee-punta-arenas-269663",
+        "https://coffeed.app/shop/666f1388-cbbc-66fd-702c-fc7800000000"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Café Sarmiento",
+      "section": "gastronomia",
+      "slug": "cafe-sarmiento",
+      "address": "Almirante Manuel Señoret 1080, Punta Arenas, Chile",
+      "characters": 1962,
+      "photos": 3,
+      "missing_photos": 2,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d8642611-Reviews-Cafe_Sarmiento-Punta_Arenas_Magallanes_Region.html",
+        "https://serviciosturisticos.sernatur.cl/17647-cafe-sarmiento",
+        "https://cl.todosnegocios.com/caf%C3%A9-sarmiento-9-8827-1827"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Café Inmigrante",
+      "section": "gastronomia",
+      "slug": "cafe-inmigrante",
+      "address": "Quillota 599, esquina Mejicana, Punta Arenas, Chile",
+      "characters": 1965,
+      "photos": 3,
+      "missing_photos": 2,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d2710817-Reviews-Cafe_Inmigrante-Punta_Arenas_Magallanes_Region.html",
+        "https://natotorres.wixsite.com/cafeinmigrante",
+        "https://menu.fu.do/cafeinmigrante/qr-menu",
+        "https://natotorres.wixsite.com/cafeinmigrante/men-"
+      ],
+      "ready": false
+    },
+    {
+      "name": "La Chocolatta",
+      "section": "gastronomia",
+      "slug": "chocolatta",
+      "address": "Gobernador Carlos Bories 852, Punta Arenas, Chile",
+      "characters": 1954,
+      "photos": 7,
+      "missing_photos": 0,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d2518774-Reviews-La_Chocolatta-Punta_Arenas_Magallanes_Region.html",
+        "https://www.chocolatta.cl/",
+        "https://vitrinapuntaarenas.cl/negocio/chocolatta-baeriswyl"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Cafetería Amorío",
+      "section": "gastronomia",
+      "slug": "cafeteria-amorio",
+      "address": "Rómulo Correa 684, Punta Arenas, Chile",
+      "characters": 1986,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.instagram.com/cafeamoriopuq/",
+        "https://wanderlog.com/place/details/2986127/cafeter%C3%ADa-amor%C3%ADo",
+        "https://by.trip.com/restaurant/chile/punta-arenas/detail/amoro-34926194/"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Wake Up — Coffee Lab",
+      "section": "gastronomia",
+      "slug": "wake-up-coffee-lab",
+      "address": "Presidente Federico Errázuriz 940, segundo piso, Punta Arenas, Chile",
+      "characters": 1981,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d27531089-Reviews-Wake_Up_Coffee_Lab-Punta_Arenas_Magallanes_Region.html",
+        "https://wakeupcafe.cl/",
+        "https://www.biobiochile.cl/noticias/servicios/toma-nota/2026/02/19/ranking-mundial-de-cafeterias-cuales-son-y-donde-estan-las-3-chilenas-que-aparecieron-en-el-top-100.shtml"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Be Happy Café",
+      "section": "gastronomia",
+      "slug": "be-happy-cafe",
+      "address": "Lautaro Navarro 739, Punta Arenas, Chile",
+      "characters": 2045,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d24972377-Reviews-Be_Happy_Cafe-Punta_Arenas_Magallanes_Region.html",
+        "https://www.instagram.com/behappycafe.puq/",
+        "https://www.happycow.net/reviews/be-happy-cafe-punta-arenas-305919",
+        "https://cl.todosnegocios.com/be-happy-caf%C3%A9-61-228-9620"
+      ],
+      "ready": false
+    },
+    {
+      "name": "La Mona Crespa Café",
+      "section": "gastronomia",
+      "slug": "la-mona-crespa",
+      "address": "Gobernador Carlos Bories 400-B, Punta Arenas, Chile",
+      "characters": 2003,
+      "photos": 6,
+      "missing_photos": 0,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d7247479-Reviews-La_Mona_Crespa_Cafe-Punta_Arenas_Magallanes_Region.html",
+        "https://www.vitrinapuntaarenas.cl/negocio/la-mona-crespa-cafe-cafeteria-punta-arenas",
+        "https://www.ubereats.com/cl/store/la-mona-crespa/G_eA4HCcVLiexmFgcmMGCw"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Café Montt",
+      "section": "gastronomia",
+      "slug": "cafe-montt",
+      "address": "Presidente Pedro Montt 976, Punta Arenas, Chile",
+      "characters": 1957,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d5999075-Reviews-Cafe_Montt-Punta_Arenas_Magallanes_Region.html",
+        "https://www.waze.com/live-map/directions/cl/magallanes-y-la-antartica-chilena/punta-arenas/cafe-montt?to=place.ChIJR5DRJXpjsr0RszavPmc2xZ4",
+        "https://www.tripadvisor.co/Restaurant_Review-g297401-d5999075-Reviews-Cafe_Montt-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Coffee Market",
+      "section": "gastronomia",
+      "slug": "coffee-market",
+      "address": "Avenida España 0989, esquina Manantiales, Punta Arenas, Chile",
+      "characters": 2033,
+      "photos": 6,
+      "missing_photos": 0,
+      "sources": [
+        "https://www.vitrinapuntaarenas.cl/negocio/coffee-market",
+        "https://es.restaurantguru.com/Coffee-Market-Punta-Arenas",
+        "https://www.cooperativa.cl/noticias/pais/region-de-magallanes/punta-arenas-la-historia-del-emprendedor-que-ayuda-a-capear-el-frio/2018-04-11/200021.html"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Cafetería Cohen",
+      "section": "gastronomia",
+      "slug": "cafeteria-cohen",
+      "address": "Croacia 602, Punta Arenas, Chile",
+      "characters": 1931,
+      "photos": 6,
+      "missing_photos": 0,
+      "sources": [
+        "https://www.vitrinapuntaarenas.cl/negocio/cafeteria-cohen",
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d8614081-Reviews-Cohen-Punta_Arenas_Magallanes_Region.html",
+        "https://www.ubereats.com/cl/store/cafeteria-y-pasteleria-cohen/69bM3T5QQtmiIoiLvbhEJg"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Anclamar Punta Arenas",
+      "section": "gastronomia",
+      "slug": "anclamar",
+      "address": "Armando Sanhueza 936, Punta Arenas, Chile",
+      "characters": 2028,
+      "photos": 6,
+      "missing_photos": 0,
+      "sources": [
+        "https://www.vitrinapuntaarenas.cl/negocio/anclamar",
+        "https://www.gangapp.cl/"
+      ],
+      "ready": false
+    },
+    {
+      "name": "La Yegua Loca",
+      "section": "gastronomia",
+      "slug": "la-yegua-loca",
+      "address": "Fagnano 310, Punta Arenas, Chile",
+      "characters": 4364,
+      "photos": 3,
+      "missing_photos": 2,
+      "sources": [
+        "https://yegualoca.com/hotel/restaurante-bar/"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Café Bories",
+      "section": "gastronomia",
+      "slug": "cafe-bories",
+      "address": "Gobernador Carlos Bories 601, Punta Arenas, Chile",
+      "characters": 1591,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://cafebories.buenacarta.com/"
+      ],
+      "ready": false
+    },
+    {
+      "name": "La Vianda Cocaví Regional",
+      "section": "gastronomia",
+      "slug": "la-vianda",
+      "address": "Presidente Federico Errázuriz 928 interior, Punta Arenas, Chile",
+      "characters": 1388,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://serviciosturisticos.sernatur.cl/34912-la-vianda",
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d17465767-Reviews-La_Vianda_Cocavi_Regional-Punta_Arenas_Magallanes_Region.html",
+        "https://www.topexplora.com/destinos/punta-arenas/atracciones/la-vianda-cocavi-regional/"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Café Tostado",
+      "section": "gastronomia",
+      "slug": "cafe-tostado",
+      "address": "Hernando de Magallanes 922, Punta Arenas, Chile",
+      "characters": 1412,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d2687564-Reviews-Cafe_Tostado-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Buda Express",
+      "section": "gastronomia",
+      "slug": "buda-express",
+      "address": "Bernardo O’Higgins 1069, Punta Arenas, Chile",
+      "characters": 1374,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.tripadvisor.cl/Restaurant_Review-g297401-d4177948-Reviews-Buda_Express-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Parrilla Los Ganaderos",
+      "section": "gastronomia",
+      "slug": "parrilla-los-ganaderos",
+      "address": "Bernardo O’Higgins 1166, Punta Arenas, Chile",
+      "characters": 1444,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://serviciosturisticos.sernatur.cl/25456-parrilla-los-ganaderos",
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d2624977-Reviews-Parrilla_Los_Ganaderos-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "ready": false
+    },
+    {
+      "name": "La Chaira Grill & Wines",
+      "section": "gastronomia",
+      "slug": "la-chaira",
+      "address": "21 de Mayo 1650, Punta Arenas, Chile",
+      "characters": 1389,
+      "photos": 5,
+      "missing_photos": 0,
+      "sources": [
+        "https://www.waze.com/live-map/directions/cl/magallanes-y-la-antartica-chilena/punta-arenas/la-chaira-restaurante?to=place.ChIJvSsCjvFjsr0RzaTs9LTasyw",
+        "https://wanderlog.com/place/details/9708685/la-chaira-restaurante"
+      ],
+      "ready": false
+    },
+    {
+      "name": "A Brasas",
+      "section": "gastronomia",
+      "slug": "a-brasas",
+      "address": "Presidente Federico Errázuriz 952, Punta Arenas, Chile",
+      "characters": 1354,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g297401-d27184410-Reviews-A_Brasas_Restaurant-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Casa Jelva",
+      "section": "gastronomia",
+      "slug": "casa-jelva",
+      "address": "Croacia 1007, esquina O’Higgins, Punta Arenas, Chile",
+      "characters": 4419,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://casajelva.cl/",
+        "https://casajelva.cl/contacto/",
+        "https://casajelva.cl/menu/",
+        "https://casajelva.cl/historia/"
+      ],
+      "ready": false
+    },
+    {
+      "name": "The Endurance Restaurant",
+      "section": "gastronomia",
+      "slug": "the-endurance",
+      "address": "Gobernador Carlos Bories 967, Punta Arenas, Chile",
+      "characters": 4421,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.hotelnogueira.com/bar-restaurant-eventos/the-endurance-restaurant/"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Parrilla San Telmo",
+      "section": "gastronomia",
+      "slug": "san-telmo",
+      "address": "Boliviana 789, esquina 21 de Mayo, Punta Arenas, Chile",
+      "characters": 4301,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d1856949-Reviews-Parrilla_San_Telmo-Punta_Arenas_Magallanes_Region.html",
+        "https://www.barhunters.cl/san-telmo"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Manifiesto",
+      "section": "gastronomia",
+      "slug": "manifiesto",
+      "address": "Quillota 646, Punta Arenas, Chile",
+      "characters": 1278,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.tripadvisor.cl/Restaurant_Review-g297401-d16843946-Reviews-Manifiesto-Punta_Arenas_Magallanes_Region.html",
+        "https://wanderlog.com/place/details/3045045/manifiesto"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Kruh i Kava",
+      "section": "gastronomia",
+      "slug": "kruh-i-kava",
+      "address": "Hernando de Magallanes 269, Punta Arenas, Chile",
+      "characters": 1396,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.mercantil.com/empresa/panaderia-y-pasteleria-kruh-i-kava/punta-arenas/300449638/esp/",
+        "https://www.visitapuntaarenas.cl/cafes.html",
+        "https://cl.locale.online/kruh-i-kava-1541653730.html"
+      ],
+      "ready": false
+    },
+    {
+      "name": "AIMA",
+      "section": "gastronomia",
+      "slug": "aima",
+      "address": "Presidente Federico Errázuriz 970, Punta Arenas, Chile",
+      "characters": 4345,
+      "photos": 7,
+      "missing_photos": 0,
+      "sources": [
+        "https://aimapatagonia.com/",
+        "https://aimapatagonia.com/nuestra-cocina-aima/",
+        "https://aimapatagonia.com/experiencia-aima/",
+        "https://aimapatagonia.com/lugar-y-ubicacion-aima/"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Tavola de Luna",
+      "section": "gastronomia",
+      "slug": "tavola-de-luna",
+      "address": "Pasaje Körner 1034, Punta Arenas, Chile",
+      "characters": 4505,
+      "photos": 4,
+      "missing_photos": 1,
+      "sources": [
+        "https://vitrinapuntaarenas.cl/negocio/tavola-de-luna"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Patagonia Blend",
+      "section": "gastronomia",
+      "slug": "patagonia-blend",
+      "address": "Boliviana 629, Punta Arenas, Chile",
+      "characters": 4450,
+      "photos": 2,
+      "missing_photos": 3,
+      "sources": [
+        "https://www.patagoniablend.cl/contacto/",
+        "https://www.patagoniablend.cl/nuestra-tostaduria/",
+        "https://www.patagoniablend.cl/trazabilidad-y-analisis/"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Luans Restaurant",
+      "section": "gastronomia",
+      "slug": "luans-restaurant",
+      "address": "Mejicana1104 esquina Jorge Montt, Punta Arenas, Chile",
+      "characters": 1512,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.tripadvisor.com.br/Restaurant_Review-g297401-d20050007-Reviews-Luans_Restaurant-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "ready": false
+    },
+    {
+      "name": "La Ruta de Darwin",
+      "section": "gastronomia",
+      "slug": "la-ruta-de-darwin",
+      "address": "Bernardo O’Higgins 1077, esquina Presidente Julio Roca, Punta Arenas, Chile",
+      "characters": 1144,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d23068158-Reviews-La_Ruta_de_Darwin-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Entre Ollas y Sartenes",
+      "section": "gastronomia",
+      "slug": "entre-ollas-y-sartenes",
+      "address": "José Ignacio Zenteno 172, Barrio Prat, Punta Arenas, Chile",
+      "characters": 4505,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d3836115-Reviews-Entre_Ollas_y_Sartenes-Punta_Arenas_Magallanes_Region.html",
+        "https://www.interpatagonia.com/puntaarenas/c36831.html"
+      ],
+      "ready": false
+    },
+    {
+      "name": "History Coffee",
+      "section": "gastronomia",
+      "slug": "history-coffee",
+      "address": "Lautaro Navarro 1065, Punta Arenas, Chile",
+      "characters": 1287,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://serviciosturisticos.sernatur.cl/26591-history-coffee",
+        "https://serviciosturisticos.sernatur.cl/26407-history-coffee-en-casino-dreams"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Círculo Italiano",
+      "section": "gastronomia",
+      "slug": "circulo-italiano",
+      "address": "Chiloé 1154, Punta Arenas, Chile",
+      "characters": 1392,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.tripadvisor.co.uk/Restaurant_Review-g297401-d8613947-Reviews-Circulo_Italiano-Punta_Arenas_Magallanes_Region.html",
+        "https://www.tripadvisor.es/Restaurant_Review-g297401-d8613947-Reviews-Circulo_Italiano-Punta_Arenas_Magallanes_Region.html",
+        "https://www.memoriachilena.gob.cl/602/w3-article-80782.html"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Café Restaurant Status",
+      "section": "gastronomia",
+      "slug": "restaurant-status",
+      "address": "Pasaje Kran 01512, Villa Selknam, Punta Arenas, Chile",
+      "characters": 1277,
+      "photos": 4,
+      "missing_photos": 1,
+      "sources": [
+        "https://vitrinapuntaarenas.cl/negocio/cafe-restaurant-status",
+        "https://www.findglocal.com/CL/Punta-Arenas/2145979055529516/Restaurant-Status"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Restaurant Nuevo Siglo",
+      "section": "gastronomia",
+      "slug": "nuevo-siglo",
+      "address": "José Nogueira 1183, Punta Arenas, Chile",
+      "characters": 1315,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.restaurants10.com/CL/Punta-Arenas/615387065484767/Restaurant-Nuevo-siglo--comida-china",
+        "https://mapcarta.com/es/N11939670929"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Bar Bulnes",
+      "section": "vida-nocturna",
+      "slug": "bar-bulnes",
+      "address": "Avenida Presidente Manuel Bulnes 0408",
+      "characters": 3639,
+      "photos": 2,
+      "missing_photos": 3,
+      "sources": [
+        "https://bbulnes.cl/local-punta-arenas/",
+        "https://bbulnes.cl/",
+        "https://bbulnes.cl/carta/"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Taberna Bar Club de la Unión",
+      "section": "vida-nocturna",
+      "slug": "taberna-bar-club-de-la-union",
+      "address": "Plaza Muñoz Gamero 716, subterráneo",
+      "characters": 3515,
+      "photos": 3,
+      "missing_photos": 2,
+      "sources": [
+        "https://tabernabar.cl/sabias-que/",
+        "https://tabernabar.cl/",
+        "https://www.tripadvisor.cl/Restaurant_Review-g297401-d1238529-Reviews-Taberna_Club_De_La_Union-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "ready": false
+    },
+    {
+      "name": "La Cervecería HdeM",
+      "section": "vida-nocturna",
+      "slug": "la-cerveceria-hdem",
+      "address": "Mario Toledo Viola 230",
+      "characters": 3396,
+      "photos": 10,
+      "missing_photos": 0,
+      "sources": [
+        "https://www.lacerveceriahdem.cl/",
+        "https://www.ubereats.com/cl/store/la-cerveceria-hdem-bar/-Ldyd-nCToqwC4IXD1sG3Q"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Muchacha Restobar",
+      "section": "vida-nocturna",
+      "slug": "muchacha",
+      "address": "Avenida Presidente Manuel Bulnes 0574",
+      "characters": 3541,
+      "photos": 5,
+      "missing_photos": 0,
+      "sources": [
+        "https://www.muchacharestobar.cl/",
+        "https://www.tripadvisor.co.uk/Restaurant_Review-g297401-d8283506-Reviews-Muchacha_RestoBar-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Shackleton Bar",
+      "section": "vida-nocturna",
+      "slug": "shackleton-bar",
+      "address": "Gobernador Carlos Bories 967, Hotel José Nogueira",
+      "characters": 4489,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.hotelnogueira.com/bar-restaurant-eventos/shackleton-bar/",
+        "https://www.hotelnogueira.com/hotel/storytelling/",
+        "https://www.hotelnogueira.com/bar-restaurant-eventos/shackleton-bar/"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Faro Lounge",
+      "section": "vida-nocturna",
+      "slug": "faro-lounge",
+      "address": "Plaza Muñoz Gamero 1039, Hotel Cabo de Hornos",
+      "characters": 3666,
+      "photos": 10,
+      "missing_photos": 0,
+      "sources": [
+        "https://www.hotelcabodehornos.com/en/faro-lounge",
+        "https://www.tripadvisor.com/Restaurant_Review-g297401-d27513966-Reviews-Faro_Lounge-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Olé Tapas & Copas",
+      "section": "vida-nocturna",
+      "slug": "ole-tapas-copas",
+      "address": "Plaza Muñoz Gamero 771, segundo piso",
+      "characters": 3529,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.bars10.com/CL/Punta-Arenas/374998876652936/Ol%C3%A9-Tapas-%26-Copas",
+        "https://www.tripadvisor.cl/Restaurant_Review-g297401-d15856047-Reviews-Ole_Tapas_Copas-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "ready": false
+    },
+    {
+      "name": "La Tabla Restobar",
+      "section": "vida-nocturna",
+      "slug": "la-tabla-restobar",
+      "address": "Mejicana 742",
+      "characters": 3301,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.bars10.com/CL/Punta-Arenas/348205535350516/La-Tabla-Restobar",
+        "https://cl.todosnegocios.com/la-tabla-restobar-9-6578-1908"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Bruna Gastrobar",
+      "section": "vida-nocturna",
+      "slug": "bruna-gastrobar",
+      "address": "Avenida Presidente Manuel Bulnes 0606",
+      "characters": 3340,
+      "photos": 12,
+      "missing_photos": 0,
+      "sources": [
+        "https://brunagastrobar.cl/",
+        "https://brunagastrobar.cl/pages/eventos"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Bodega 87",
+      "section": "vida-nocturna",
+      "slug": "bodega-87",
+      "address": "21 de Mayo 1469",
+      "characters": 3262,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.tripadvisor.co/Restaurant_Review-g297401-d12498427-Reviews-Bodega_87-Punta_Arenas_Magallanes_Region.html",
+        "https://cl.todosnegocios.com/bodega_229-61-237-1357",
+        "https://g5noticias.cl/2025/10/01/magallanes-celebra-su-pulso-creativo-en-el-mes-de-la-musica-nacional/"
+      ],
+      "ready": false
+    },
+    {
+      "name": "El Árbol & Irish Pub",
+      "section": "vida-nocturna",
+      "slug": "el-arbol-irish-pub",
+      "address": "Chiloé 543",
+      "characters": 3236,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://serviciosturisticos.sernatur.cl/47298-el-arbol-y-irish-pub",
+        "https://www.tripadvisor.cl/Restaurant_Review-g297401-d32892421-Reviews-El_Arbol_Irish_Pub-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Café Pub 1900",
+      "section": "vida-nocturna",
+      "slug": "cafe-pub-1900",
+      "address": "Gobernador Carlos Bories 793, esquina Colón",
+      "characters": 3431,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.800.cl/?id=1097&id_Ficha=13033",
+        "https://wanderlog.com/es/list/geoCategory/22026/las-mejores-comidas-baratas-en-punta-arenas",
+        "https://in.trip.com/restaurant/chile/punta-arenas/detail/caf-pub-1900-19635753/"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Dejavu",
+      "section": "vida-nocturna",
+      "slug": "dejavu",
+      "address": "Maipú 403",
+      "characters": 3857,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://cl.todosnegocios.com/pub-dejavu-61-222-1564",
+        "https://vitrinapuntaarenas.cl/negocios?type=bar-cafe",
+        "https://www.toliv.com/eventos/chile/punta-arenas/dj-dar-en-espacio-dejavu-jueves-se-baila-26349"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Rústico Restobar",
+      "section": "vida-nocturna",
+      "slug": "rustico-restobar",
+      "address": "Avenida Presidente Manuel Bulnes 299",
+      "characters": 3474,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.bars10.com/CL/Punta-Arenas/563247913777510/R%C3%BAstico-restobar",
+        "https://www.waze.com/live-map/directions/cl/magallanes-y-la-antartica-chilena/punta-arenas/rustico-restobar?to=place.ChIJY0ZvJIBjsr0RLYto0Vz3CpU"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Jekus Restobar",
+      "section": "vida-nocturna",
+      "slug": "jekus-restobar",
+      "address": "Libertador Bernardo O’Higgins 1021",
+      "characters": 3345,
+      "photos": 2,
+      "missing_photos": 3,
+      "sources": [
+        "https://www.bars10.com/CL/Punta-Arenas/2297222770506490/Jekus-Restobar",
+        "https://vitrinapuntaarenas.cl/negocio/jekus-restobar"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Los Brujos",
+      "section": "vida-nocturna",
+      "slug": "los-brujos",
+      "address": "Juan Williams 07772",
+      "characters": 3397,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.bars10.com/CL/Punta-Arenas/338253256355243/Los-Brujos-Puq",
+        "https://www.toliv.com/eventos/chile/punta-arenas/sugar-aniversario-parte-1-21102"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Club K",
+      "section": "vida-nocturna",
+      "slug": "club-k",
+      "address": "Gobernador Carlos Bories 655",
+      "characters": 3357,
+      "photos": 2,
+      "missing_photos": 3,
+      "sources": [
+        "https://clubk.toliv.com/",
+        "https://www.toliv.com/eventos/chile/punta-arenas/especial-dia-del-trabajador-club-k-25150"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Sky Bar Dreams",
+      "section": "vida-nocturna",
+      "slug": "sky-bar-dreams",
+      "address": "O’Higgins 1235, piso 11, Hotel Dreams del Estrecho",
+      "characters": 3296,
+      "photos": 1,
+      "missing_photos": 4,
+      "sources": [
+        "https://punta-arenas.dreams.cl/gastronomia/resto-bar-sky/",
+        "https://icha2025.org/about-conference-venue/",
+        "https://punta-arenas.dreams.cl/newyear/"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Lucky 7 Dreams",
+      "section": "vida-nocturna",
+      "slug": "lucky-7-dreams",
+      "address": "O’Higgins 1235, Casino Dreams Punta Arenas",
+      "characters": 3387,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://punta-arenas.dreams.cl/horarios/",
+        "https://punta-arenas.dreams.cl/dia-del-padre/",
+        "https://punta-arenas.dreams.cl/newyear/"
+      ],
+      "ready": false
+    },
+    {
+      "name": "Pub Colonial",
+      "section": "vida-nocturna",
+      "slug": "pub-colonial",
+      "address": "Presidente Federico Errázuriz 859",
+      "characters": 3976,
+      "photos": 0,
+      "missing_photos": 5,
+      "sources": [
+        "https://www.tripadvisor.cl/Restaurant_Review-g297401-d15014447-Reviews-Pub_Colonial-Punta_Arenas_Magallanes_Region.html",
+        "https://cl.todosnegocios.com/pub-colonial-61-222-4313"
+      ],
+      "ready": false
+    }
+  ]
+}

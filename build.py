@@ -15,6 +15,15 @@ if photo_pack.exists():
     raise ValueError('Ruta de foto no válida')
    pack.extract(info, ROOT)
 from media import CATALOG, CATEGORY_PHOTOS, photos_for
+# Biblioteca nueva empaquetada en un único objeto versionado; rutas estables por local.
+dining_pack=ROOT/'dining-photo-assets.zip'
+if dining_pack.exists():
+ with zipfile.ZipFile(dining_pack) as pack:
+  for info in pack.infolist():
+   path=Path(info.filename)
+   if path.parts[:2] != ('assets','venues') or '..' in path.parts or path.is_absolute():
+    raise ValueError('Ruta de foto gastronómica no válida')
+   pack.extract(info, ROOT)
 OUT=ROOT/'dist' 
 if OUT.exists(): shutil.rmtree(OUT)
 OUT.mkdir();shutil.copytree(ROOT/'assets', OUT/'assets')
@@ -182,4 +191,6 @@ write('/404/',head('No encontramos esta página','Vuelve a explorar Punta Arenas
 shutil.copyfile(OUT/'404/index.html',OUT/'404.html')
 (OUT/'robots.txt').write_text('User-agent: *\nDisallow: /\n')
 (ROOT/'editorial-inventory.json').write_text(json.dumps({'stage':'Primera versión editorial para revisión','categories':len(CATEGORIES),'articles':len(ARTICLES),'review_date':'2026-10-18','sources':S,'items':[{'path':url(a),'title':a['title'],'status':a['status'],'sources':a['sources']} for a in ARTICLES]},ensure_ascii=False,indent=2))
+from dining import render as render_dining
+render_dining(ROOT, OUT, head, footer, write)
 print(json.dumps({'categories':len(CATEGORIES),'articles':len(ARTICLES),'html_files':len(list(OUT.rglob('*.html'))),'output':str(OUT)},ensure_ascii=False))
