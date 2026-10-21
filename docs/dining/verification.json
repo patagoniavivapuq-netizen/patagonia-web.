@@ -2,8 +2,8 @@
   "checked_at": "2026-10-21",
   "gastronomia_rendered": 50,
   "nightlife_rendered": 20,
-  "photos": 203,
-  "venues_with_five": 21,
+  "photos": 216,
+  "venues_with_five": 23,
   "editorial_under_6000": [
     "simple-cafe-gelato",
     "wake-up-coffee-brunch",
@@ -154,10 +154,6 @@
       "missing": 5
     },
     {
-      "slug": "the-endurance",
-      "missing": 5
-    },
-    {
       "slug": "san-telmo",
       "missing": 5
     },
@@ -194,10 +190,6 @@
       "missing": 1
     },
     {
-      "slug": "surista-punta-arenas",
-      "missing": 5
-    },
-    {
       "slug": "bar-bulnes",
       "missing": 3
     },
@@ -219,7 +211,7 @@
     },
     {
       "slug": "dejavu",
-      "missing": 5
+      "missing": 4
     },
     {
       "slug": "rustico-restobar",
@@ -862,8 +854,8 @@
       "slug": "the-endurance",
       "address": "Gobernador Carlos Bories 967, Punta Arenas, Chile",
       "characters": 6417,
-      "photos": 0,
-      "missing_photos": 5,
+      "photos": 6,
+      "missing_photos": 0,
       "sources": [
         "https://www.hotelnogueira.com/bar-restaurant-eventos/the-endurance-restaurant/"
       ],
@@ -1041,8 +1033,8 @@
       "slug": "surista-punta-arenas",
       "address": "Armando Sanhueza 965, Punta Arenas, Chile",
       "characters": 7211,
-      "photos": 0,
-      "missing_photos": 5,
+      "photos": 6,
+      "missing_photos": 0,
       "sources": [
         "https://surista.cl/",
         "https://surista.cl/punta-arenas",
@@ -1229,8 +1221,8 @@
       "slug": "dejavu",
       "address": "Maipú 403",
       "characters": 3857,
-      "photos": 0,
-      "missing_photos": 5,
+      "photos": 1,
+      "missing_photos": 4,
       "sources": [
         "https://cl.todosnegocios.com/pub-dejavu-61-222-1564",
         "https://vitrinapuntaarenas.cl/negocios?type=bar-cafe",

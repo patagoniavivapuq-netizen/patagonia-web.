@@ -26,6 +26,7 @@ def audit():
         f=ROOT/p['path']
         if not f.is_file():errors.append('Foto ausente: '+p['path']);continue
         h=hashlib.sha256(f.read_bytes()).hexdigest()
+        if p.get('sha256') and h!=p['sha256']:errors.append('Foto distinta del inventario: '+p['path'])
         if h in hashes:errors.append('Foto repetida: '+p['path'])
         hashes.add(h)
         with Image.open(f) as im:

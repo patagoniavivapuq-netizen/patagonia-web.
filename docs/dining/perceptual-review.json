@@ -1,4 +1,6 @@
 {
+  "reviewed_at": "2026-10-21",
+  "photos_checked": 216,
   "candidates": [],
-  "note": "dHash256<=4; revisión visual antes de eliminar candidatos."
+  "note": "dHash256<=4; coincidencias requieren revisión visual."
 }

@@ -4654,8 +4654,8 @@
       ],
       "publishable": true,
       "researched_at": "2026-10-20",
-      "photo_count": 0,
-      "photo_gap": 5,
+      "photo_count": 6,
+      "photo_gap": 0,
       "editorial_characters": 6417,
       "acceptance_ready": false
     },
@@ -6587,8 +6587,8 @@
       ],
       "publishable": true,
       "researched_at": "2026-10-20",
-      "photo_count": 0,
-      "photo_gap": 5,
+      "photo_count": 6,
+      "photo_gap": 0,
       "editorial_characters": 7211,
       "acceptance_ready": false
     },
@@ -7851,8 +7851,8 @@
       "issues": [],
       "publishable": true,
       "researched_at": "2026-10-18",
-      "photo_count": 0,
-      "photo_gap": 5,
+      "photo_count": 1,
+      "photo_gap": 4,
       "editorial_characters": 3857,
       "acceptance_ready": false
     },

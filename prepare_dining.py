@@ -13,6 +13,10 @@ ALIASES = {'sotito-s-restaurant':'sotitos','restaurante-hotel-savoy':'savoy','ho
 def canonical(slug):
     return ALIASES.get(slug, slug)
 
+def research_input(name):
+    candidate=RESEARCH/name
+    return candidate if candidate.exists() else DEST/name
+
 venues = []
 exclusions = []
 overlays = {}
@@ -23,9 +27,11 @@ unavailable_contact_urls=set()
 if external_audit.exists():
     unavailable_contact_urls={r['url'] for r in json.loads(external_audit.read_text()).get('results',[]) if r.get('status') in [404,410]}
 for raw_file in ['research-restaurants-a.json','research-restaurants-b.json','research-nightlife.json']:
-    if (RESEARCH/raw_file).exists():
-        base_slugs.update(r['slug'] for r in json.loads((RESEARCH/raw_file).read_text())['records'])
-for overlay_file in sorted(list(RESEARCH.glob('editorial-food-*.json')) + list(RESEARCH.glob('editorial-night-*.json'))):
+    if research_input(raw_file).exists():
+        base_slugs.update(r['slug'] for r in json.loads(research_input(raw_file).read_text())['records'])
+overlay_files={p.name:p for pattern in ['editorial-food-*.json','editorial-night-*.json'] for p in DEST.glob(pattern)}
+overlay_files.update({p.name:p for pattern in ['editorial-food-*.json','editorial-night-*.json'] for p in RESEARCH.glob(pattern)})
+for overlay_file in sorted(overlay_files.values()):
     document=json.loads(overlay_file.read_text())
     records=document if isinstance(document,list) else document.get('records',[])
     (DEST/overlay_file.name).write_text(json.dumps(document,ensure_ascii=False,indent=2))
@@ -33,9 +39,9 @@ for overlay_file in sorted(list(RESEARCH.glob('editorial-food-*.json')) + list(R
         overlays[record['slug']]=record
         overlay_sections[record['slug']]='vida-nocturna' if overlay_file.name.startswith('editorial-night-') else 'gastronomia'
 for file, section in [('research-restaurants-a.json','gastronomia'),('research-restaurants-b.json','gastronomia'),('research-nightlife.json','vida-nocturna')]:
-    p = RESEARCH / file
+    p = research_input(file)
     if not p.exists():
-        continue
+        raise FileNotFoundError('Falta un documento de investigación; no se reemplaza el inventario: '+file)
     document = json.loads(p.read_text())
     (DEST / file).write_text(json.dumps(document, ensure_ascii=False, indent=2))
     exclusions.extend(document.get('excluded', document.get('candidates_excluded', [])))
@@ -92,9 +98,13 @@ for file, section in [('research-restaurants-a.json','gastronomia'),('research-r
         else:
             exclusions.append({'slug':slug,'reason':'Identidad duplicada entre catálogos; no computar dos veces.'})
 
+if not venues:
+    raise ValueError('No hay investigación disponible; se conserva el inventario existente.')
+existing_photos_file=DEST/'photos.json'
+existing_photos=json.loads(existing_photos_file.read_text()).get('photos',[]) if existing_photos_file.exists() else []
 photos=[]
 hashes=set()
-for file in ['photos-new.json','night-photos-new.json','more-food-photos.json','more-night-photos.json']:
+for file in ['photos-new.json','night-photos-new.json','more-food-photos.json','more-night-photos.json','batch21-photos.json']:
     p=RESEARCH/file
     if not p.exists():continue
     for r in json.loads(p.read_text()):
@@ -107,6 +117,13 @@ for file in ['photos-new.json','night-photos-new.json','more-food-photos.json','
         hashes.add(sha)
         subject_review=r.get('visual_review', r.get('subject_verified',False))
         photos.append(dict(r,venue_id=venue,sha256=sha,verified_subject=bool(subject_review),permission_status='provisional_pending_authorization',author=r.get('author') or 'No identificado'))
+
+# Conservar las fotos ya revisadas cuando no estén los archivos temporales de búsqueda.
+venue_ids={v['id'] for v in venues}
+for p in existing_photos:
+    if p.get('venue_id') not in venue_ids or not p.get('sha256') or p['sha256'] in hashes:continue
+    hashes.add(p['sha256'])
+    photos.append(p)
 
 # Material del primer lote: solo locales concretos; ninguna foto temática se hereda.
 catalog=json.loads((ROOT/'photo-catalog.json').read_text())
@@ -138,5 +155,5 @@ for p in photos:
 
 labels={'cafes':'Cafés y dulces','mar':'Pescados y mar','carnes':'Carnes y parrillas','italiana':'Pastas y pizza','regional':'Cocina regional','internacional':'Cocina internacional','cervecerias':'Cervecerías','cocteleria':'Coctelería','musica':'Música y baile','bares':'Bares y pubs'}
 (DEST/'venues.json').write_text(json.dumps({'review_date':'2026-10-20','stage':'Investigación y vista previa; pendiente aceptación','filter_labels':labels,'venues':venues,'excluded':exclusions},ensure_ascii=False,indent=2))
-(DEST/'photos.json').write_text(json.dumps({'review_date':'2026-10-20','rights':'Material provisional de terceros. Autorización o sustitución antes de explotación comercial.','photos':photos},ensure_ascii=False,indent=2))
+(DEST/'photos.json').write_text(json.dumps({'review_date':'2026-10-21','rights':'Material provisional de terceros. Autorización o sustitución antes de explotación comercial.','photos':photos},ensure_ascii=False,indent=2))
 print(json.dumps({'records':len(venues),'gastronomia':sum(v['publishable'] and v['section']=='gastronomia' for v in venues),'vida_nocturna':sum(v['publishable'] and v['section']=='vida-nocturna' for v in venues),'photos':len(photos),'with_five':sum(v['photo_count']>=5 for v in venues),'ready':sum(v['acceptance_ready'] for v in venues)},ensure_ascii=False))
