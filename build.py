@@ -16,14 +16,15 @@ if photo_pack.exists():
    pack.extract(info, ROOT)
 from media import CATALOG, CATEGORY_PHOTOS, photos_for
 # Biblioteca nueva empaquetada en un único objeto versionado; rutas estables por local.
-dining_pack=ROOT/'dining-photo-assets.zip'
-if dining_pack.exists():
- with zipfile.ZipFile(dining_pack) as pack:
-  for info in pack.infolist():
-   path=Path(info.filename)
-   if path.parts[:2] != ('assets','venues') or '..' in path.parts or path.is_absolute():
-    raise ValueError('Ruta de foto gastronómica no válida')
-   pack.extract(info, ROOT)
+for dining_pack_name in ['dining-photo-assets.zip','dining-photo-assets-extra.zip']:
+ dining_pack=ROOT/dining_pack_name
+ if dining_pack.exists():
+  with zipfile.ZipFile(dining_pack) as pack:
+   for info in pack.infolist():
+    path=Path(info.filename)
+    if path.parts[:2] != ('assets','venues') or '..' in path.parts or path.is_absolute():
+     raise ValueError('Ruta de foto gastronómica no válida')
+    pack.extract(info, ROOT)
 OUT=ROOT/'dist' 
 if OUT.exists(): shutil.rmtree(OUT)
 OUT.mkdir();shutil.copytree(ROOT/'assets', OUT/'assets')

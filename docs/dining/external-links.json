@@ -1,0 +1,218 @@
+{
+  "checked_at": "2026-10-20",
+  "note": "Network failures and bot restrictions do not establish closure or a broken visitor link. Review individually.",
+  "results": [
+    {
+      "url": "https://aima.meitre.com/",
+      "status": 200,
+      "final_url": "https://aima.meitre.com/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://aimapatagonia.com/",
+      "status": 200,
+      "final_url": "https://aimapatagonia.com/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://bbulnes.cl/",
+      "status": 200,
+      "final_url": "https://bbulnes.cl/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://brunagastrobar.cl/",
+      "status": 200,
+      "final_url": "https://brunagastrobar.cl/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://casajelva.cl/",
+      "status": 403,
+      "result": "inconclusive"
+    },
+    {
+      "url": "https://clubk.toliv.com/",
+      "status": 200,
+      "final_url": "https://clubk.toliv.com/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://kioskoroca.cl/",
+      "status": 406,
+      "result": "review_required"
+    },
+    {
+      "url": "https://lachaira.cl/",
+      "status": 503,
+      "result": "review_required"
+    },
+    {
+      "url": "https://lalunarestaurant.cl/",
+      "status": 200,
+      "final_url": "https://lalunarestaurant.cl/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://mesitagrande.cl/",
+      "status": 406,
+      "result": "review_required"
+    },
+    {
+      "url": "https://natotorres.wixsite.com/cafeinmigrante",
+      "status": 200,
+      "final_url": "https://natotorres.wixsite.com/cafeinmigrante",
+      "result": "reachable"
+    },
+    {
+      "url": "https://punta-arenas.dreams.cl/",
+      "status": 200,
+      "final_url": "https://punta-arenas.dreams.cl/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://wa.me/56953360534",
+      "result": "inconclusive",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://wa.me/56981772117",
+      "result": "inconclusive",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://wa.me/56992671205",
+      "result": "inconclusive",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://wakeupcafe.cl/",
+      "status": 200,
+      "final_url": "https://wakeupcafe.cl/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.budaexpress.com/punta-arenas/",
+      "status": 404,
+      "result": "review_required"
+    },
+    {
+      "url": "https://www.chocolatta.cl/",
+      "status": 200,
+      "final_url": "https://www.chocolatta.cl/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.facebook.com/Guanacoffee.cl/",
+      "status": 200,
+      "final_url": "https://www.facebook.com/Guanacoffee.cl/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.facebook.com/Sotitos-Restaurant-20642919262/",
+      "result": "inconclusive",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.facebook.com/pages/La-Cuisine/365599023553537",
+      "status": 200,
+      "final_url": "https://www.facebook.com/pages/La-Cuisine/365599023553537",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.hotelnogueira.com/",
+      "result": "inconclusive",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.hotelsavoy.cl/",
+      "result": "inconclusive",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.instagram.com/aimarestaurant/",
+      "result": "inconclusive",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.instagram.com/behappycafe.puq/",
+      "result": "inconclusive",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.instagram.com/bodega_87/",
+      "result": "inconclusive",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.instagram.com/cafeamoriopuq/",
+      "result": "inconclusive",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.instagram.com/cafeteriacohen/",
+      "result": "inconclusive",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.instagram.com/clubk_puq/",
+      "result": "inconclusive",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.instagram.com/latablarestobar/",
+      "result": "inconclusive",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.instagram.com/manifiesto11/",
+      "result": "inconclusive",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.instagram.com/pubdejavupuq/",
+      "result": "inconclusive",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.instagram.com/puq_coffeemarket/",
+      "result": "inconclusive",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.instagram.com/restaurant.anclamar.puq/",
+      "result": "inconclusive",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.instagram.com/simplecafeygelato/",
+      "result": "inconclusive",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.instagram.com/tapiz.cafe/",
+      "result": "inconclusive",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.instagram.com/tavoladeluna/",
+      "result": "inconclusive",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.muchacharestobar.cl/",
+      "result": "inconclusive",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.patagoniablend.cl/",
+      "result": "inconclusive",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://yegualoca.com/",
+      "result": "inconclusive",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ]
+}

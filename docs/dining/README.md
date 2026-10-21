@@ -2,25 +2,29 @@
 
 Rama: `revision/gastronomia-vida-nocturna-20261018`. Producción sin cambios.
 
-## Estado de esta tanda
+## Lote consolidado · 21 de octubre de 2026
 
-- 51 fichas gastronómicas y 20 nocturnas construidas para revisión.
-- 153 fotografías identificadas; 16 locales reúnen cinco imágenes.
-- La Cafetera y Xiaoyan quedan fuera del catálogo confirmado por discrepancias de ubicación.
-- Las fichas todavía requieren ampliación editorial y completar la biblioteca visual. No están listas para aprobación final.
+- 50 fichas gastronómicas y 20 nocturnas construidas para revisión.
+- 203 fotografías identificadas, sin coincidencias dHash256 en la revisión realizada.
+- 21 locales reúnen al menos cinco fotografías. Las brechas restantes están documentadas, sin rellenar con fotografías genéricas.
+- Cuatro locales quedan fuera del catálogo confirmado por ubicación u operación actual no corroborada: La Cafetera, Xiaoyan, Círculo Italiano y Nuevo Siglo. No se afirma que estén cerrados.
+- Se incorporó Surista con información oficial de su sede de Punta Arenas.
+- No está listo para aprobación final: falta completar fotografías, revisar visualmente escritorio/móvil y comprobar los pines físicos de los mapas.
 
-## Referencia y alcance
+## Sistema visual
 
-El CSS del catálogo se extrajo del primer bloque inline de la página real de Gastronomía EC. Las fichas conservan el primer bloque de estilos de Palace, sustituyendo únicamente la URL de portada por una variable local. Las adaptaciones se cargan solo en Gastronomía y Vida nocturna. Los consejos llevan un recuadro dorado con texto verde oscuro y el mapa aparece al final de cada ficha.
+El catálogo conserva el bloque real de estilos de Gastronomía EC. Las fichas usan los componentes de Palace y las proporciones verificadas de ¡Venga! Ipanema: portada de 72vh/62vh en móvil, columnas 1.45fr/.8fr, tarjetas verdes y mapa final. El consejo de Ernestinho se distingue con fondo dorado y texto oscuro. Los ajustes sólo se cargan en las dos secciones.
 
 ## Validación
 
-`python3 build.py` compila. `python3 audit_dining.py` no detecta archivos de imagen ausentes, fotografías idénticas por SHA, IDs duplicados, enlaces internos rotos ni discrepancia entre la dirección investigada y la consulta del mapa. Las 122 rutas de la base fuera de ambas secciones coinciden byte a byte. La auditoría no equivale a comprobar visualmente cada pin ni la adaptación móvil: ambas revisiones permanecen pendientes.
+`python3 build.py` compila. `python3 audit_dining.py` no detecta archivos de imagen ausentes, fotografías idénticas por SHA, IDs duplicados, enlaces internos rotos ni discrepancia entre la dirección investigada y la consulta del mapa. Las 122 rutas de la base fuera de ambas secciones coinciden byte a byte. No se simula QA de navegador ni verificación visual de cada pin.
+
+La vista previa de Vercel no pudo verificarse: su conexión devuelve 403 para el equipo Patagonia, que requiere conceder acceso a esa conexión. No se desplegó en producción.
 
 ## Inventario y procedencia
 
-`inventory.csv` conserva nombre, categoría, dirección, cantidad de imágenes y brechas. `data/dining/photos.json` registra URL de imagen y página original, autor cuando se conoce, huella y permisos provisionales. No se atribuye autorización comercial a las imágenes de terceros. Los datos consultados el 18 de octubre conservan esa fecha; los nuevos hallazgos se registran por separado.
+`inventory.csv` conserva nombre, categoría, dirección, fotos, extensión y fuentes. `data/dining/photos.json` registra URL original, página, autor cuando se conoce, huella y permisos provisionales pendientes. Los documentos de investigación conservan la fecha y las incertidumbres. La revisión ampliada se realizó el 20 de octubre y los controles locales se repitieron el 21.
 
 ## Reproducción
 
-Construir con `python3 build.py`. El paquete `dining-photo-assets.zip` restaura las imágenes por establecimiento antes de la compilación. `prepare_dining.py` requiere los documentos de investigación en la carpeta superior y es una herramienta de importación, no un requisito para construir el repositorio.
+Construir con `python3 build.py`. Los paquetes `dining-photo-assets.zip` y `dining-photo-assets-extra.zip` restauran las imágenes por establecimiento antes de compilar. `prepare_dining.py` es un importador de investigación, no un requisito de compilación.

@@ -47,5 +47,12 @@
     "gastronomia",
     "vida-nocturna"
   ],
-  "unmodified": "Patagonia header/footer and every route outside the two edited sections"
+  "unmodified": "Patagonia header/footer and every route outside the two edited sections",
+  "additional_reference": "https://www.ernestinhocarioca.com.br/gastronomia/venga-ipanema/",
+  "additional_reference_date": "2026-10-20",
+  "additional_reference_adaptations": [
+    "Hero72vh/62vh en móvil, clamp30px7vw100px",
+    "Grid1.45fr.8fr; mapa360px/300pxmóvil y radio18px",
+    "Se mantiene texto18pxlegible; no se copia declaración accidental de30px en el cuerpo de .card"
+  ]
 }

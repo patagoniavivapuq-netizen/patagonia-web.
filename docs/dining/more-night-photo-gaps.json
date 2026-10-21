@@ -1,0 +1,252 @@
+{
+  "checked_at": "2026-10-20",
+  "new_photos": {
+    "shackleton-bar": 6,
+    "ole-tapas-copas": 6,
+    "cafe-pub-1900": 3,
+    "pub-colonial": 1,
+    "bodega-87": 6,
+    "la-tabla-restobar": 2
+  },
+  "still_under_five": {
+    "el-arbol-irish-pub": 5,
+    "la-tabla-restobar": 3,
+    "cafe-pub-1900": 2,
+    "dejavu": 5,
+    "rustico-restobar": 5,
+    "los-brujos": 5,
+    "lucky-7-dreams": 5,
+    "pub-colonial": 4
+  },
+  "download_failures": [
+    {
+      "venue": "bodega-87",
+      "source_url": "https://elpinguino.com/uploads/images/large/fc03b8f3841558b205a27eeb90fda6a9.jpg",
+      "source_page": "https://elpinguino.com/noticia/2018/04/09/bodega-87-el-bar-restaurant-que-promete-ser-el-punto-de-encuentro-del-adulto-joven",
+      "title": "Bodega 87, el bar restaurant que promete ser el punto de encuentro del adulto joven | ELPINGUINO.COM (https://elpinguino.com/noticia/2018/04/09/bodega-87-el-bar-restaurant-que-promete-ser-el-punto-de-encuentro-del-adulto-joven)",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "venue": "la-tabla-restobar",
+      "source_url": "https://foto2.sluurpy.com/locali/cl/4307809/69130010.jpg",
+      "source_page": "https://www.sluurpy.com/es/punta-arenas/restaurant/4307809/la-tabla-restobar",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "la-tabla-restobar",
+      "source_url": "https://foto2.sluurpy.com/locali/cl/4307809/69130018.jpg",
+      "source_page": "https://www.sluurpy.com/es/punta-arenas/restaurant/4307809/la-tabla-restobar",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "la-tabla-restobar",
+      "source_url": "https://foto2.sluurpy.com/locali/cl/4307809/69130004.jpg",
+      "source_page": "https://www.sluurpy.com/es/punta-arenas/restaurant/4307809/la-tabla-restobar",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "la-tabla-restobar",
+      "source_url": "https://foto2.sluurpy.com/locali/cl/4307809/69129997.jpg",
+      "source_page": "https://www.sluurpy.com/es/punta-arenas/restaurant/4307809/la-tabla-restobar",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "la-tabla-restobar",
+      "source_url": "https://foto2.sluurpy.com/locali/cl/4307809/69130000.jpg",
+      "source_page": "https://www.sluurpy.com/es/punta-arenas/restaurant/4307809/la-tabla-restobar",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "la-tabla-restobar",
+      "source_url": "https://foto2.sluurpy.com/locali/cl/4307809/69129990.jpg",
+      "source_page": "https://www.sluurpy.com/es/punta-arenas/restaurant/4307809/la-tabla-restobar",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "la-tabla-restobar",
+      "source_url": "https://foto2.sluurpy.com/locali/cl/4307809/69129993.jpg",
+      "source_page": "https://www.sluurpy.com/es/punta-arenas/restaurant/4307809/la-tabla-restobar",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "la-tabla-restobar",
+      "source_url": "https://foto2.sluurpy.com/locali/cl/4307809/69129984.jpg",
+      "source_page": "https://www.sluurpy.com/es/punta-arenas/restaurant/4307809/la-tabla-restobar",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cafe-pub-1900",
+      "source_url": "https://foto2.sluurpy.com/locali/cl/4306699/46880601.jpg",
+      "source_page": "https://www.sluurpy.com/es/punta-arenas/restaurant/4306699/cafe-pub-1900",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cafe-pub-1900",
+      "source_url": "https://foto2.sluurpy.com/locali/cl/4306699/46880603.jpg",
+      "source_page": "https://www.sluurpy.com/es/punta-arenas/restaurant/4306699/cafe-pub-1900",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cafe-pub-1900",
+      "source_url": "https://foto2.sluurpy.com/locali/cl/4306699/46880594.jpg",
+      "source_page": "https://www.sluurpy.com/es/punta-arenas/restaurant/4306699/cafe-pub-1900",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cafe-pub-1900",
+      "source_url": "https://foto2.sluurpy.com/locali/cl/4306699/46880598.jpg",
+      "source_page": "https://www.sluurpy.com/es/punta-arenas/restaurant/4306699/cafe-pub-1900",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cafe-pub-1900",
+      "source_url": "https://foto2.sluurpy.com/locali/cl/4306699/46880587.jpg",
+      "source_page": "https://www.sluurpy.com/es/punta-arenas/restaurant/4306699/cafe-pub-1900",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cafe-pub-1900",
+      "source_url": "https://foto2.sluurpy.com/locali/cl/4306699/46880589.jpg",
+      "source_page": "https://www.sluurpy.com/es/punta-arenas/restaurant/4306699/cafe-pub-1900",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cafe-pub-1900",
+      "source_url": "https://foto2.sluurpy.com/locali/cl/4306699/46880591.jpg",
+      "source_page": "https://www.sluurpy.com/es/punta-arenas/restaurant/4306699/cafe-pub-1900",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cafe-pub-1900",
+      "source_url": "https://foto2.sluurpy.com/locali/cl/4306699/46880584.jpg",
+      "source_page": "https://www.sluurpy.com/es/punta-arenas/restaurant/4306699/cafe-pub-1900",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cafe-pub-1900",
+      "source_url": "https://foto2.sluurpy.com/locali/cl/4306699/46880586.jpg",
+      "source_page": "https://www.sluurpy.com/es/punta-arenas/restaurant/4306699/cafe-pub-1900",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cafe-pub-1900",
+      "source_url": "https://foto2.sluurpy.com/locali/cl/4306699/69124752.jpg",
+      "source_page": "https://www.sluurpy.com/es/punta-arenas/restaurant/4306699/cafe-pub-1900",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "ole-tapas-copas",
+      "source_url": "https://chilegastronomia.cl/uploads/contenido/contenido_galeria/carousel_f27014d97c9652865c8d39fb7d792e099771a495.jpg",
+      "source_page": "https://chilegastronomia.cl/restaurantes-de-moda-en-regiones/ole-tapas-y-copas-restobar-espanol-en-punta-arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "ole-tapas-copas",
+      "source_url": "https://chilegastronomia.cl/uploads/contenido/contenido_galeria/carousel_aeaa4612198196faf96e4d7a25affd04111545c6.jpg",
+      "source_page": "https://chilegastronomia.cl/restaurantes-de-moda-en-regiones/ole-tapas-y-copas-restobar-espanol-en-punta-arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "ole-tapas-copas",
+      "source_url": "https://chilegastronomia.cl/uploads/contenido/contenido_galeria/carousel_ab5b5a62e8dd43f430f58ca67b9620dee3d92262.jpg",
+      "source_page": "https://chilegastronomia.cl/restaurantes-de-moda-en-regiones/ole-tapas-y-copas-restobar-espanol-en-punta-arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "ole-tapas-copas",
+      "source_url": "https://chilegastronomia.cl/uploads/contenido/contenido_galeria/carousel_f34212bf5c3ad56c67b817e6918fbd9cc10b9fcc.jpg",
+      "source_page": "https://chilegastronomia.cl/restaurantes-de-moda-en-regiones/ole-tapas-y-copas-restobar-espanol-en-punta-arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "ole-tapas-copas",
+      "source_url": "https://chilegastronomia.cl/uploads/contenido/contenido_galeria/carousel_664fcfecafb9834e48f801bbdc566fd4e0d36d5b.jpg",
+      "source_page": "https://chilegastronomia.cl/restaurantes-de-moda-en-regiones/ole-tapas-y-copas-restobar-espanol-en-punta-arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "ole-tapas-copas",
+      "source_url": "https://chilegastronomia.cl/uploads/userfiles/images/7%20(1%20TEXTO).jpg",
+      "source_page": "https://chilegastronomia.cl/restaurantes-de-moda-en-regiones/ole-tapas-y-copas-restobar-espanol-en-punta-arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "ole-tapas-copas",
+      "source_url": "https://chilegastronomia.cl/uploads/userfiles/images/8%20(2TEXTO).jpg",
+      "source_page": "https://chilegastronomia.cl/restaurantes-de-moda-en-regiones/ole-tapas-y-copas-restobar-espanol-en-punta-arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "ole-tapas-copas",
+      "source_url": "https://chilegastronomia.cl/uploads/userfiles/images/3%20(3TEXTO).jpg",
+      "source_page": "https://chilegastronomia.cl/restaurantes-de-moda-en-regiones/ole-tapas-y-copas-restobar-espanol-en-punta-arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "ole-tapas-copas",
+      "source_url": "https://chilegastronomia.cl/uploads/userfiles/images/10%20(4TEXTO).jpg",
+      "source_page": "https://chilegastronomia.cl/restaurantes-de-moda-en-regiones/ole-tapas-y-copas-restobar-espanol-en-punta-arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "lucky-7-dreams",
+      "source_url": "https://dreams.cl/content/uploads/sites/8/2021/09/1234.jpg",
+      "source_page": "https://punta-arenas.dreams.cl/gastronomia/lucky-7/",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "lucky-7-dreams",
+      "source_url": "https://dreams.cl/content/uploads/sites/8/2021/09/pagina-1920x560-1.jpg",
+      "source_page": "https://punta-arenas.dreams.cl/gastronomia/lucky-7/",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "lucky-7-dreams",
+      "source_url": "https://dreams.cl/content/uploads/sites/8/2021/09/1920x700-px.jpg",
+      "source_page": "https://punta-arenas.dreams.cl/gastronomia/lucky-7/",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "lucky-7-dreams",
+      "source_url": "https://dreams.cl/content/uploads/sites/8/2021/09/c1.jpg",
+      "source_page": "https://punta-arenas.dreams.cl/gastronomia/lucky-7/",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "lucky-7-dreams",
+      "source_url": "https://dreams.cl/content/uploads/sites/8/2021/09/c2.jpg",
+      "source_page": "https://punta-arenas.dreams.cl/gastronomia/lucky-7/",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "lucky-7-dreams",
+      "source_url": "https://dreams.cl/content/uploads/sites/8/2021/09/c3.jpg",
+      "source_page": "https://punta-arenas.dreams.cl/gastronomia/lucky-7/",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "lucky-7-dreams",
+      "source_url": "https://dreams.cl/content/uploads/sites/8/2021/09/c4.jpg",
+      "source_page": "https://punta-arenas.dreams.cl/gastronomia/lucky-7/",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "lucky-7-dreams",
+      "source_url": "https://dreams.cl/content/uploads/sites/8/2021/09/c5.jpg",
+      "source_page": "https://punta-arenas.dreams.cl/gastronomia/lucky-7/",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ],
+  "visual_rejections": [
+    "Los Brujos image search returned Argentine band album covers, rejected.",
+    "El Árbol image search returned multi-venue inspection report without specific local identity, rejected.",
+    "Rústico Apparta image belongs to another city, rejected.",
+    "Pub Colonial GitHub travel site duplicate/provenance unknown, rejected.",
+    "Guessed Sluurpy PubColonial identifier4312520 resolved to Roxans in Viña del Mar, rejected without extracting assets.",
+    "La Tabla images of old facade or old interior were not used. Only two food images from own listing accepted.",
+    "Bodega87 menu, bottle opener detail and redundant wall sign rejected.",
+    "Shackleton collection of artwork reduced to two meaningful historical details; no gallery of repetitive artworks used."
+  ],
+  "duplicates_rejected": [],
+  "blocking": "Network approval was cancelled; later requests return Tunnel connection failed403. No retries or bypass attempted for denied assets."
+}

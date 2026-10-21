@@ -2,16 +2,16 @@
 .pv-dining{background:#0d1919;color:#f6f0e6}
 .pv-dining .topbar{font:700 12px/1.4 Arial,sans-serif}
 .pv-dining-detail{--i:#0d1919;--p:#123b3b;--g:#e7b85c;--c:#f6f0e6;--m:#bac7c0}
-.pv-dining-detail .hero{min-height:70vh;border-radius:0;max-width:none;margin:0;background:linear-gradient(90deg,#071313ee,#07131322),var(--venue-hero,none) center/cover}
+.pv-dining-detail .hero{min-height:72vh;padding:clamp(30px,7vw,100px);border-radius:0;max-width:none;margin:0;background:linear-gradient(90deg,#071313ee,#07131326),var(--venue-hero,none) center/cover}
 .pv-dining-detail .hero>div{max-width:1000px}
-.pv-dining-detail .hero p{max-width:760px;color:#f6f0e6;font:18px/1.7 Georgia,serif}
-.pv-dining-detail .hero h1{color:#f6f0e6;overflow-wrap:anywhere}
-.pv-dining-detail .wrap{font:18px/1.7 Georgia,serif}
+.pv-dining-detail .hero p{max-width:760px;color:#f6f0e6;font:18px/1.7 var(--sans)}
+.pv-dining-detail .hero h1{color:#f6f0e6;font-size:clamp(46px,8vw,100px);line-height:.9;max-width:900px;margin:14px 0;overflow-wrap:anywhere}
+.pv-dining-detail .wrap{padding:28px 24px;font:18px/1.7 var(--sans)}
 .pv-dining-detail .card p{color:#f6f0e6}
 .pv-dining-detail .card.facts p{color:#bac7c0}
 .pv-dining-detail .card h2{line-height:1.2;color:#e7b85c}
 .pv-dining-detail .card .ey{color:#e7b85c;font:700 12px Arial,sans-serif;letter-spacing:.18em}
-.pv-dining-detail .grid{align-items:start}
+.pv-dining-detail .grid{align-items:start;grid-template-columns:1.45fr .8fr}
 .pv-dining-detail .venue-story,.pv-dining-detail aside{min-width:0}
 .pv-dining-detail .inline-photo img{height:auto}
 .pv-dining-detail .facts a{overflow-wrap:anywhere}
@@ -19,7 +19,7 @@
 .pv-dining-detail .venue-tip{background:#e7b85c;border-color:#e7b85c;color:#123b3b}
 .pv-dining-detail .venue-tip p,.pv-dining-detail .venue-tip h2,.pv-dining-detail .venue-tip .ey{color:#123b3b}
 .pv-dining-detail .venue-map{margin-top:36px}
-.pv-dining-detail .venue-map .map{display:block;margin:20px 0}
+.pv-dining-detail .venue-map .map{display:block;height:360px;border-radius:18px;margin:20px 0}
 .pv-dining [hidden]{display:none!important}
 .pv-dining a:focus-visible,.pv-dining button:focus-visible{outline:3px solid #e7b85c;outline-offset:4px}
-@media(max-width:760px){.pv-dining-detail .hero h1{font-size:clamp(40px,11vw,70px)}.pv-dining-detail .wrap{font-size:17px}.pv-dining-detail .grid{display:block}}
+@media(max-width:760px){.pv-dining-detail .hero{min-height:62vh;padding:25px}.pv-dining-detail .hero h1{font-size:clamp(46px,8vw,100px)}.pv-dining-detail .wrap{padding:18px 14px;font-size:17px}.pv-dining-detail .grid{display:block}.pv-dining-detail .venue-map .map{height:300px}.pv-dining-detail .inline-photo img{max-height:360px}}

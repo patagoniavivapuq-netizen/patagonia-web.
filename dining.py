@@ -34,6 +34,12 @@ def render(root, out, site_head, site_footer, write):
     def figure(p, v, eager=False):
         return '<figure class="inline-photo">' + image_tag(p, v['name'], eager) + (('<figcaption>' + E(p['caption']) + '</figcaption>') if p.get('caption') else '') + '</figure>'
 
+    def researched_date(v):
+        raw=v.get('researched_at','2026-10-18')
+        year,month,day=raw.split('-')
+        months=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre']
+        return str(int(day))+' de '+months[int(month)-1]+' de '+year
+
     def url(v):
         return '/' + v['section'] + '/' + v['slug'] + '/'
 
@@ -43,7 +49,7 @@ def render(root, out, site_head, site_footer, write):
         # El encabezado y pie aprobados de Patagonia se conservan.
         s = site_head(title, description, 'home')
         css = 'dining-detail' if detail else 'dining-catalog'
-        s = s.replace('</head>', '<link rel="stylesheet" href="/assets/css/' + css + '.css"><link rel="stylesheet" href="/assets/css/dining-adaptation.css"><link rel="stylesheet" href="/assets/css/type.css"></head>')
+        s = s.replace('</head>', '<link rel="stylesheet" href="/assets/css/' + css + '.css"><link rel="stylesheet" href="/assets/css/dining-adaptation.css">' + ('<link rel="stylesheet" href="/assets/css/type.css">' if detail else '') + '</head>')
         return s.replace('class="page-home"', 'class="page-home pv-dining ' + ('pv-dining-detail' if detail else 'pv-dining-catalog') + '"')
 
     def tags(v):
@@ -101,7 +107,7 @@ def render(root, out, site_head, site_footer, write):
                 tel = re.sub(r'[^\d+]', '', contact['phone'])
                 s += '<p><strong>Teléfono</strong><br><a href="tel:' + tel + '">' + E(contact['phone']) + '</a></p>'
             q = quote(v['name'] + ', ' + v['address'] + ', Punta Arenas, Chile')
-            s += '<a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=' + q + '" target="_blank" rel="noopener noreferrer">Cómo llegar ↗</a><p class="venue-date">Información consultada el 18 de octubre de 2026. Confirma carta, horarios y disponibilidad al reservar.</p></article>'
+            s += '<a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=' + q + '" target="_blank" rel="noopener noreferrer">Cómo llegar ↗</a><p class="venue-date">Información consultada el ' + researched_date(v) + '. Confirma carta, horarios y disponibilidad al reservar.</p></article>'
             other = [x for x in vv if x['id'] != v['id'] and x['sector'] == v['sector']][:3]
             if len(other) < 3:
                 other += [x for x in vv if x['id'] != v['id'] and x not in other][:3 - len(other)]

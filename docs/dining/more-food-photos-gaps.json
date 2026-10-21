@@ -1,0 +1,779 @@
+{
+  "checked_at": "2026-10-20",
+  "accepted_photos": 26,
+  "collages_rejected": true,
+  "existing_and_new_perceptual_dedup": "256-bit dHash threshold4; global comparison against existing153 photos and acceptednew; no duplicates detected among accepted",
+  "network_block": "Original RestaurantGuru img05 CDN denied HTTP403 Tunnel; further network work stopped per parent. Alternative public thumbnail route failed502; not retried.",
+  "download_failures": [
+    {
+      "venue": "cafe-bories",
+      "source_url": "https://img05.restaurantguru.com/re48-Cafe-Bories-meals.jpg",
+      "source_page": "https://restaurantguru.com/Cafe-Bories-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cafe-bories",
+      "source_url": "https://img05.restaurantguru.com/r83e-food-Cafe-Bories.jpg",
+      "source_page": "https://restaurantguru.com/Cafe-Bories-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cafe-bories",
+      "source_url": "https://img05.restaurantguru.com/rf52-meals-Cafe-Bories.jpg",
+      "source_page": "https://restaurantguru.com/Cafe-Bories-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cafe-bories",
+      "source_url": "https://img05.restaurantguru.com/r9db-Cafe-Bories-meals-2025-11.jpg",
+      "source_page": "https://restaurantguru.com/Cafe-Bories-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cafe-bories",
+      "source_url": "https://img05.restaurantguru.com/rc41-Cafe-Bories-food.jpg",
+      "source_page": "https://restaurantguru.com/Cafe-Bories-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cafe-bories",
+      "source_url": "https://img05.restaurantguru.com/r272-Cafe-Bories-food-2025-11.jpg",
+      "source_page": "https://restaurantguru.com/Cafe-Bories-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cafe-bories",
+      "source_url": "https://img05.restaurantguru.com/ra1d-Cafe-Bories-dishes-2025-11.jpg",
+      "source_page": "https://restaurantguru.com/Cafe-Bories-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cafe-bories",
+      "source_url": "https://img05.restaurantguru.com/r416-meals-Cafe-Bories-2025-11.jpg",
+      "source_page": "https://restaurantguru.com/Cafe-Bories-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "parrilla-los-ganaderos",
+      "source_url": "https://img05.restaurantguru.com/rda6-interior-Parrilla-Los-Ganaderos.jpg",
+      "source_page": "https://restaurantguru.com/Parrilla-Los-Ganaderos-Punta-Arenas-3",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "parrilla-los-ganaderos",
+      "source_url": "https://img05.restaurantguru.com/rba0-Parrilla-Los-Ganaderos-interior.jpg",
+      "source_page": "https://restaurantguru.com/Parrilla-Los-Ganaderos-Punta-Arenas-3",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "parrilla-los-ganaderos",
+      "source_url": "https://img05.restaurantguru.com/r172-Parrilla-Los-Ganaderos-design.jpg",
+      "source_page": "https://restaurantguru.com/Parrilla-Los-Ganaderos-Punta-Arenas-3",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "parrilla-los-ganaderos",
+      "source_url": "https://img05.restaurantguru.com/r4af-design-Parrilla-Los-Ganaderos.jpg",
+      "source_page": "https://restaurantguru.com/Parrilla-Los-Ganaderos-Punta-Arenas-3",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "parrilla-los-ganaderos",
+      "source_url": "https://img05.restaurantguru.com/rd03-Parrilla-Los-Ganaderos-interior-2025-11.jpg",
+      "source_page": "https://restaurantguru.com/Parrilla-Los-Ganaderos-Punta-Arenas-3",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "parrilla-los-ganaderos",
+      "source_url": "https://img05.restaurantguru.com/r510-Parrilla-Los-Ganaderos-design-2025-11.jpg",
+      "source_page": "https://restaurantguru.com/Parrilla-Los-Ganaderos-Punta-Arenas-3",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "parrilla-los-ganaderos",
+      "source_url": "https://img05.restaurantguru.com/r87a-design-Parrilla-Los-Ganaderos-2025-11.jpg",
+      "source_page": "https://restaurantguru.com/Parrilla-Los-Ganaderos-Punta-Arenas-3",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "parrilla-los-ganaderos",
+      "source_url": "https://img05.restaurantguru.com/r59e-interior-Parrilla-Los-Ganaderos-2025-11.jpg",
+      "source_page": "https://restaurantguru.com/Parrilla-Los-Ganaderos-Punta-Arenas-3",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "damiana-elena",
+      "source_url": "https://img05.restaurantguru.com/r366-Restaurant-Damiana-Elena-ravioli.jpg",
+      "source_page": "https://restaurantguru.com/Restaurant-Damiana-Elena-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "damiana-elena",
+      "source_url": "https://img05.restaurantguru.com/rca4-Restaurant-Damiana-Elena-food.jpg",
+      "source_page": "https://restaurantguru.com/Restaurant-Damiana-Elena-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "damiana-elena",
+      "source_url": "https://img05.restaurantguru.com/r9b3-Restaurant-Damiana-Elena-meals.jpg",
+      "source_page": "https://restaurantguru.com/Restaurant-Damiana-Elena-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "damiana-elena",
+      "source_url": "https://img05.restaurantguru.com/r800-Restaurant-Damiana-Elena-shrimp-scampi.jpg",
+      "source_page": "https://restaurantguru.com/Restaurant-Damiana-Elena-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "damiana-elena",
+      "source_url": "https://img05.restaurantguru.com/r708-Restaurant-Damiana-Elena-dishes.jpg",
+      "source_page": "https://restaurantguru.com/Restaurant-Damiana-Elena-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "damiana-elena",
+      "source_url": "https://img05.restaurantguru.com/rc2c-Restaurant-Damiana-Elena-interior.jpg",
+      "source_page": "https://restaurantguru.com/Restaurant-Damiana-Elena-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "damiana-elena",
+      "source_url": "https://img05.restaurantguru.com/r061-Restaurant-Damiana-Elena-design.jpg",
+      "source_page": "https://restaurantguru.com/Restaurant-Damiana-Elena-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "la-vianda",
+      "source_url": "https://img05.restaurantguru.com/r096-La-Vianda-Cocavi-regional-interior.jpg",
+      "source_page": "https://restaurantguru.com/La-Vianda-Cocavi-regional-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "la-vianda",
+      "source_url": "https://img05.restaurantguru.com/rb3f-La-Vianda-Cocavi-regional-design.jpg",
+      "source_page": "https://restaurantguru.com/La-Vianda-Cocavi-regional-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "la-vianda",
+      "source_url": "https://img05.restaurantguru.com/re5d-interior-La-Vianda-Cocavi-regional.jpg",
+      "source_page": "https://restaurantguru.com/La-Vianda-Cocavi-regional-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "la-vianda",
+      "source_url": "https://img05.restaurantguru.com/r5ca-design-La-Vianda-Cocavi-regional.jpg",
+      "source_page": "https://restaurantguru.com/La-Vianda-Cocavi-regional-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "la-vianda",
+      "source_url": "https://img05.restaurantguru.com/r3f8-La-Vianda-Cocavi-regional-chocolate-cake.jpg",
+      "source_page": "https://restaurantguru.com/La-Vianda-Cocavi-regional-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "la-vianda",
+      "source_url": "https://img05.restaurantguru.com/rd76-La-Vianda-Cocavi-regional-meals.jpg",
+      "source_page": "https://restaurantguru.com/La-Vianda-Cocavi-regional-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "la-vianda",
+      "source_url": "https://img05.restaurantguru.com/r6e6-La-Vianda-Cocavi-regional-food.jpg",
+      "source_page": "https://restaurantguru.com/La-Vianda-Cocavi-regional-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "la-vianda",
+      "source_url": "https://img05.restaurantguru.com/rfdf-La-Vianda-Cocavi-regional-dishes.jpg",
+      "source_page": "https://restaurantguru.com/La-Vianda-Cocavi-regional-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "la-casa-de-dona-maria",
+      "source_url": "https://img05.restaurantguru.com/ra1e-meals-Restaurant-La-Casa-De-Dona-Maria.jpg",
+      "source_page": "https://restaurantguru.com/Restaurant-La-Casa-De-Dona-Maria-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "la-casa-de-dona-maria",
+      "source_url": "https://img05.restaurantguru.com/r5aa-dishes-Restaurant-La-Casa-De-Dona-Maria.jpg",
+      "source_page": "https://restaurantguru.com/Restaurant-La-Casa-De-Dona-Maria-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "la-casa-de-dona-maria",
+      "source_url": "https://img05.restaurantguru.com/rea0-food-Restaurant-La-Casa-De-Dona-Maria-2026-06.jpg",
+      "source_page": "https://restaurantguru.com/Restaurant-La-Casa-De-Dona-Maria-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "la-casa-de-dona-maria",
+      "source_url": "https://img05.restaurantguru.com/r415-meals-Restaurant-La-Casa-De-Dona-Maria-2026-06.jpg",
+      "source_page": "https://restaurantguru.com/Restaurant-La-Casa-De-Dona-Maria-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "la-casa-de-dona-maria",
+      "source_url": "https://img05.restaurantguru.com/r40d-Restaurant-La-Casa-De-Dona-Maria-dishes-2026-06.jpg",
+      "source_page": "https://restaurantguru.com/Restaurant-La-Casa-De-Dona-Maria-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "la-casa-de-dona-maria",
+      "source_url": "https://img05.restaurantguru.com/rcd5-Restaurant-La-Casa-De-Dona-Maria-meals.jpg",
+      "source_page": "https://restaurantguru.com/Restaurant-La-Casa-De-Dona-Maria-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "la-casa-de-dona-maria",
+      "source_url": "https://img05.restaurantguru.com/r57b-Restaurant-La-Casa-De-Dona-Maria-meals-2026-06.jpg",
+      "source_page": "https://restaurantguru.com/Restaurant-La-Casa-De-Dona-Maria-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "la-casa-de-dona-maria",
+      "source_url": "https://img05.restaurantguru.com/rb89-Restaurant-La-Casa-De-Dona-Maria-steak.jpg",
+      "source_page": "https://restaurantguru.com/Restaurant-La-Casa-De-Dona-Maria-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cafe-tostado",
+      "source_url": "https://img05.restaurantguru.com/r2f5-Cafe-Tostado-beverage-2025-11.jpg",
+      "source_page": "https://restaurantguru.com/Cafe-Tostado-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cafe-tostado",
+      "source_url": "https://img05.restaurantguru.com/rb40-beverage-Cafe-Tostado-2025-11.jpg",
+      "source_page": "https://restaurantguru.com/Cafe-Tostado-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cafe-tostado",
+      "source_url": "https://img05.restaurantguru.com/r113-Cafe-Tostado-dishes-2025-11-1.jpg",
+      "source_page": "https://restaurantguru.com/Cafe-Tostado-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cafe-tostado",
+      "source_url": "https://img05.restaurantguru.com/r1ec-food-Cafe-Tostado-2025-11-1.jpg",
+      "source_page": "https://restaurantguru.com/Cafe-Tostado-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "donde-hueicha",
+      "source_url": "https://img05.restaurantguru.com/r0ba-food-Donde-Hueicha.jpg",
+      "source_page": "https://restaurantguru.com/Donde-Hueicha-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "donde-hueicha",
+      "source_url": "https://img05.restaurantguru.com/r606-Donde-Hueicha-meals-2026-06.jpg",
+      "source_page": "https://restaurantguru.com/Donde-Hueicha-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "donde-hueicha",
+      "source_url": "https://img05.restaurantguru.com/r492-dishes-Donde-Hueicha-2026-06.jpg",
+      "source_page": "https://restaurantguru.com/Donde-Hueicha-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "donde-hueicha",
+      "source_url": "https://img05.restaurantguru.com/r5db-dishes-Donde-Hueicha.jpg",
+      "source_page": "https://restaurantguru.com/Donde-Hueicha-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "donde-hueicha",
+      "source_url": "https://img05.restaurantguru.com/rfca-food-Donde-Hueicha-2026-06.jpg",
+      "source_page": "https://restaurantguru.com/Donde-Hueicha-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "donde-hueicha",
+      "source_url": "https://img05.restaurantguru.com/rd47-food-Donde-Hueicha-2026-06-1.jpg",
+      "source_page": "https://restaurantguru.com/Donde-Hueicha-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "donde-hueicha",
+      "source_url": "https://img05.restaurantguru.com/r9d6-meals-Donde-Hueicha-2026-06-1.jpg",
+      "source_page": "https://restaurantguru.com/Donde-Hueicha-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "donde-hueicha",
+      "source_url": "https://img05.restaurantguru.com/rdaf-meals-Donde-Hueicha-2026-06.jpg",
+      "source_page": "https://restaurantguru.com/Donde-Hueicha-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "a-brasas",
+      "source_url": "https://img05.restaurantguru.com/r114-A-Brasas-Restaurant-interior.jpg",
+      "source_page": "https://restaurantguru.com/A-Brasas-Restaurant-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "a-brasas",
+      "source_url": "https://img05.restaurantguru.com/r93f-interior-A-Brasas-Restaurant.jpg",
+      "source_page": "https://restaurantguru.com/A-Brasas-Restaurant-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "a-brasas",
+      "source_url": "https://img05.restaurantguru.com/r67d-design-A-Brasas-Restaurant.jpg",
+      "source_page": "https://restaurantguru.com/A-Brasas-Restaurant-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "a-brasas",
+      "source_url": "https://img05.restaurantguru.com/r6d6-A-Brasas-Restaurant-interior-2025-11.jpg",
+      "source_page": "https://restaurantguru.com/A-Brasas-Restaurant-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "a-brasas",
+      "source_url": "https://img05.restaurantguru.com/r580-A-Brasas-Restaurant-food.jpg",
+      "source_page": "https://restaurantguru.com/A-Brasas-Restaurant-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "a-brasas",
+      "source_url": "https://img05.restaurantguru.com/r1be-A-Brasas-Restaurant-meals.jpg",
+      "source_page": "https://restaurantguru.com/A-Brasas-Restaurant-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "a-brasas",
+      "source_url": "https://img05.restaurantguru.com/rbfa-A-Brasas-Restaurant-food-2025-11.jpg",
+      "source_page": "https://restaurantguru.com/A-Brasas-Restaurant-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "a-brasas",
+      "source_url": "https://img05.restaurantguru.com/r290-A-Brasas-Restaurant-meals-2025-11.jpg",
+      "source_page": "https://restaurantguru.com/A-Brasas-Restaurant-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "lomitos",
+      "source_url": "https://img05.restaurantguru.com/r64d-Lomitos-design-2025-11.jpg",
+      "source_page": "https://restaurantguru.com/Lomitos-Punta-Arenas-2",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "lomitos",
+      "source_url": "https://img05.restaurantguru.com/r383-design-Lomitos-2025-11-1.jpg",
+      "source_page": "https://restaurantguru.com/Lomitos-Punta-Arenas-2",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "lomitos",
+      "source_url": "https://img05.restaurantguru.com/r64f-Lomitos-interior-2025-11-2.jpg",
+      "source_page": "https://restaurantguru.com/Lomitos-Punta-Arenas-2",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "lomitos",
+      "source_url": "https://img05.restaurantguru.com/re4a-Lomitos-design-2025-11-2.jpg",
+      "source_page": "https://restaurantguru.com/Lomitos-Punta-Arenas-2",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "lomitos",
+      "source_url": "https://img05.restaurantguru.com/rb76-interior-Lomitos-2025-11.jpg",
+      "source_page": "https://restaurantguru.com/Lomitos-Punta-Arenas-2",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "lomitos",
+      "source_url": "https://img05.restaurantguru.com/rd68-design-Lomitos-2025-11.jpg",
+      "source_page": "https://restaurantguru.com/Lomitos-Punta-Arenas-2",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "lomitos",
+      "source_url": "https://img05.restaurantguru.com/rdf2-Lomitos-design-2025-11-1.jpg",
+      "source_page": "https://restaurantguru.com/Lomitos-Punta-Arenas-2",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "lomitos",
+      "source_url": "https://img05.restaurantguru.com/r3a6-interior-Lomitos-2025-11-1.jpg",
+      "source_page": "https://restaurantguru.com/Lomitos-Punta-Arenas-2",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "simple-cafe-gelato",
+      "source_url": "https://img05.restaurantguru.com/ra64-meals-Simple-Cafe-and-Gelato.jpg",
+      "source_page": "https://restaurantguru.com/Simple-Cafe-and-Gelato-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "simple-cafe-gelato",
+      "source_url": "https://img05.restaurantguru.com/rc09-dishes-Simple-Cafe-and-Gelato.jpg",
+      "source_page": "https://restaurantguru.com/Simple-Cafe-and-Gelato-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "simple-cafe-gelato",
+      "source_url": "https://img05.restaurantguru.com/r3da-Simple-Cafe-and-Gelato-dishes-2025-11.jpg",
+      "source_page": "https://restaurantguru.com/Simple-Cafe-and-Gelato-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "simple-cafe-gelato",
+      "source_url": "https://img05.restaurantguru.com/r2f1-food-Simple-Cafe-and-Gelato-2025-11.jpg",
+      "source_page": "https://restaurantguru.com/Simple-Cafe-and-Gelato-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "simple-cafe-gelato",
+      "source_url": "https://img05.restaurantguru.com/rb5b-Simple-Cafe-and-Gelato-food.jpg",
+      "source_page": "https://restaurantguru.com/Simple-Cafe-and-Gelato-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "simple-cafe-gelato",
+      "source_url": "https://img05.restaurantguru.com/r990-Simple-Cafe-and-Gelato-dishes.jpg",
+      "source_page": "https://restaurantguru.com/Simple-Cafe-and-Gelato-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "simple-cafe-gelato",
+      "source_url": "https://img05.restaurantguru.com/r6dc-Simple-Cafe-and-Gelato-food-2025-11.jpg",
+      "source_page": "https://restaurantguru.com/Simple-Cafe-and-Gelato-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "simple-cafe-gelato",
+      "source_url": "https://img05.restaurantguru.com/r56d-dishes-Simple-Cafe-and-Gelato-2025-11.jpg",
+      "source_page": "https://restaurantguru.com/Simple-Cafe-and-Gelato-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cocineria-dona-zuny",
+      "source_url": "https://img05.restaurantguru.com/r0a9-Zuny-food-2025-11.jpg",
+      "source_page": "https://restaurantguru.com/Zuny-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cocineria-dona-zuny",
+      "source_url": "https://img05.restaurantguru.com/r407-Zuny-meals-2025-11.jpg",
+      "source_page": "https://restaurantguru.com/Zuny-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cocineria-dona-zuny",
+      "source_url": "https://img05.restaurantguru.com/r923-Zuny-ceviche.jpg",
+      "source_page": "https://restaurantguru.com/Zuny-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cocineria-dona-zuny",
+      "source_url": "https://img05.restaurantguru.com/r605-dishes-Zuny-2025-11.jpg",
+      "source_page": "https://restaurantguru.com/Zuny-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cocineria-dona-zuny",
+      "source_url": "https://img05.restaurantguru.com/r0a2-Zuny-dishes-2025-11.jpg",
+      "source_page": "https://restaurantguru.com/Zuny-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cocineria-dona-zuny",
+      "source_url": "https://img05.restaurantguru.com/r52d-food-Zuny-2025-11.jpg",
+      "source_page": "https://restaurantguru.com/Zuny-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cocineria-dona-zuny",
+      "source_url": "https://img05.restaurantguru.com/r1a8-Zuny-food-2025-11-1.jpg",
+      "source_page": "https://restaurantguru.com/Zuny-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "cocineria-dona-zuny",
+      "source_url": "https://img05.restaurantguru.com/r036-meals-Zuny-2025-11.jpg",
+      "source_page": "https://restaurantguru.com/Zuny-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "la-cafetera",
+      "source_url": "https://img05.restaurantguru.com/r81f-La-Cafetera-sandwich-2021-09.jpg",
+      "source_page": "https://es.restaurantguru.com/La-Cafetera-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "la-cafetera",
+      "source_url": "https://img05.restaurantguru.com/rf20-dessert-La-Cafetera-2021-09-10.jpg",
+      "source_page": "https://es.restaurantguru.com/La-Cafetera-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "venue": "la-cafetera",
+      "source_url": "https://img05.restaurantguru.com/rd5c-La-Cafetera-beer-2021-09-3.jpg",
+      "source_page": "https://es.restaurantguru.com/La-Cafetera-Punta-Arenas",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ],
+  "source_failures": [
+    {
+      "venue": "cafeteria-amorio",
+      "page": "https://restaurantguru.com/Cafe-Amorio-Punta-Arenas",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "venue": "kruh-i-kava",
+      "page": "https://restaurantguru.com/Kruh-i-Kava-Punta-Arenas",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "venue": "nuevo-siglo",
+      "page": "https://restaurantguru.com/Nuevo-Siglo-Punta-Arenas",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "venue": "la-ruta-de-darwin",
+      "page": "https://restaurantguru.com/La-Ruta-de-Darwin-Punta-Arenas",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "venue": "manifiesto",
+      "page": "https://restaurantguru.com/Manifiesto-Punta-Arenas",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "venue": "the-endurance",
+      "page": "https://restaurantguru.com/The-Endurance-Restaurant-Punta-Arenas",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "venue": "cafe-montt",
+      "page": "https://restaurantguru.com/Cafe-Montt-Punta-Arenas",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "venue": "buda-express",
+      "page": "https://restaurantguru.com/Buda-Express-Punta-Arenas",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "venue": "san-telmo",
+      "page": "https://restaurantguru.com/San-Telmo-Punta-Arenas",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "venue": "history-coffee",
+      "page": "https://restaurantguru.com/History-Coffee-Punta-Arenas",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "venue": "wake-up-coffee-brunch",
+      "page": "https://restaurantguru.com/Wake-Up-Coffee-and-Brunch-Punta-Arenas",
+      "error": "HTTP Error 503: Service Unavailable"
+    }
+  ],
+  "remaining": [
+    {
+      "venue": "simple-cafe-gelato",
+      "known_total_after_this_batch": 1,
+      "missing_for_five": 4
+    },
+    {
+      "venue": "damiana-elena",
+      "known_total_after_this_batch": 1,
+      "missing_for_five": 4
+    },
+    {
+      "venue": "wake-up-coffee-brunch",
+      "known_total_after_this_batch": 0,
+      "missing_for_five": 5
+    },
+    {
+      "venue": "cafe-tapiz",
+      "known_total_after_this_batch": 1,
+      "missing_for_five": 4
+    },
+    {
+      "venue": "la-luna-restaurant",
+      "known_total_after_this_batch": 2,
+      "missing_for_five": 3
+    },
+    {
+      "venue": "lomitos",
+      "known_total_after_this_batch": 1,
+      "missing_for_five": 4
+    },
+    {
+      "venue": "dinos-pizza",
+      "known_total_after_this_batch": 1,
+      "missing_for_five": 4
+    },
+    {
+      "venue": "la-casa-de-dona-maria",
+      "known_total_after_this_batch": 1,
+      "missing_for_five": 4
+    },
+    {
+      "venue": "donde-hueicha",
+      "known_total_after_this_batch": 1,
+      "missing_for_five": 4
+    },
+    {
+      "venue": "cocineria-dona-zuny",
+      "known_total_after_this_batch": 1,
+      "missing_for_five": 4
+    },
+    {
+      "venue": "guana-coffee",
+      "known_total_after_this_batch": 1,
+      "missing_for_five": 4
+    },
+    {
+      "venue": "cafe-sarmiento",
+      "known_total_after_this_batch": 3,
+      "missing_for_five": 2
+    },
+    {
+      "venue": "cafe-inmigrante",
+      "known_total_after_this_batch": 3,
+      "missing_for_five": 2
+    },
+    {
+      "venue": "cafeteria-amorio",
+      "known_total_after_this_batch": 0,
+      "missing_for_five": 5
+    },
+    {
+      "venue": "wake-up-coffee-lab",
+      "known_total_after_this_batch": 0,
+      "missing_for_five": 5
+    },
+    {
+      "venue": "be-happy-cafe",
+      "known_total_after_this_batch": 0,
+      "missing_for_five": 5
+    },
+    {
+      "venue": "cafe-montt",
+      "known_total_after_this_batch": 0,
+      "missing_for_five": 5
+    },
+    {
+      "venue": "la-yegua-loca",
+      "known_total_after_this_batch": 3,
+      "missing_for_five": 2
+    },
+    {
+      "venue": "cafe-bories",
+      "known_total_after_this_batch": 1,
+      "missing_for_five": 4
+    },
+    {
+      "venue": "la-vianda",
+      "known_total_after_this_batch": 1,
+      "missing_for_five": 4
+    },
+    {
+      "venue": "cafe-tostado",
+      "known_total_after_this_batch": 1,
+      "missing_for_five": 4
+    },
+    {
+      "venue": "buda-express",
+      "known_total_after_this_batch": 0,
+      "missing_for_five": 5
+    },
+    {
+      "venue": "parrilla-los-ganaderos",
+      "known_total_after_this_batch": 1,
+      "missing_for_five": 4
+    },
+    {
+      "venue": "a-brasas",
+      "known_total_after_this_batch": 1,
+      "missing_for_five": 4
+    },
+    {
+      "venue": "casa-jelva",
+      "known_total_after_this_batch": 0,
+      "missing_for_five": 5
+    },
+    {
+      "venue": "the-endurance",
+      "known_total_after_this_batch": 0,
+      "missing_for_five": 5
+    },
+    {
+      "venue": "san-telmo",
+      "known_total_after_this_batch": 0,
+      "missing_for_five": 5
+    },
+    {
+      "venue": "manifiesto",
+      "known_total_after_this_batch": 0,
+      "missing_for_five": 5
+    },
+    {
+      "venue": "kruh-i-kava",
+      "known_total_after_this_batch": 0,
+      "missing_for_five": 5
+    },
+    {
+      "venue": "la-cafetera",
+      "known_total_after_this_batch": 0,
+      "missing_for_five": 5
+    },
+    {
+      "venue": "tavola-de-luna",
+      "known_total_after_this_batch": 4,
+      "missing_for_five": 1
+    },
+    {
+      "venue": "patagonia-blend",
+      "known_total_after_this_batch": 2,
+      "missing_for_five": 3
+    },
+    {
+      "venue": "xiaoyan-gourmet",
+      "known_total_after_this_batch": 0,
+      "missing_for_five": 5
+    },
+    {
+      "venue": "luans-restaurant",
+      "known_total_after_this_batch": 0,
+      "missing_for_five": 5
+    },
+    {
+      "venue": "la-ruta-de-darwin",
+      "known_total_after_this_batch": 0,
+      "missing_for_five": 5
+    },
+    {
+      "venue": "history-coffee",
+      "known_total_after_this_batch": 0,
+      "missing_for_five": 5
+    },
+    {
+      "venue": "circulo-italiano",
+      "known_total_after_this_batch": 0,
+      "missing_for_five": 5
+    },
+    {
+      "venue": "restaurant-status",
+      "known_total_after_this_batch": 4,
+      "missing_for_five": 1
+    },
+    {
+      "venue": "nuevo-siglo",
+      "known_total_after_this_batch": 0,
+      "missing_for_five": 5
+    }
+  ]
+}
