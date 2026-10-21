@@ -1,0 +1,169 @@
+{
+  "review_date": "2026-10-21",
+  "photos": 359,
+  "with_at_least_five": 45,
+  "remaining": [
+    {
+      "name": "Café Tapiz",
+      "id": "cafe-tapiz",
+      "photos": 1,
+      "missing_to_six": 5
+    },
+    {
+      "name": "Donde Hueicha",
+      "id": "donde-hueicha",
+      "photos": 4,
+      "missing_to_six": 2
+    },
+    {
+      "name": "Cocinería Doña Zuny",
+      "id": "cocineria-dona-zuny",
+      "photos": 5,
+      "missing_to_six": 1
+    },
+    {
+      "name": "Guana Coffee",
+      "id": "guana-coffee",
+      "photos": 1,
+      "missing_to_six": 5
+    },
+    {
+      "name": "Wake Up — Coffee Lab",
+      "id": "wake-up-coffee-lab",
+      "photos": 4,
+      "missing_to_six": 2
+    },
+    {
+      "name": "La Mona Crespa Café",
+      "id": "la-mona-crespa",
+      "photos": 4,
+      "missing_to_six": 2
+    },
+    {
+      "name": "Café Bories",
+      "id": "cafe-bories",
+      "photos": 1,
+      "missing_to_six": 5
+    },
+    {
+      "name": "La Vianda Cocaví Regional",
+      "id": "la-vianda",
+      "photos": 5,
+      "missing_to_six": 1
+    },
+    {
+      "name": "A Brasas",
+      "id": "a-brasas",
+      "photos": 0,
+      "missing_to_six": 6
+    },
+    {
+      "name": "Casa Jelva",
+      "id": "casa-jelva",
+      "photos": 0,
+      "missing_to_six": 6
+    },
+    {
+      "name": "Parrilla San Telmo",
+      "id": "san-telmo",
+      "photos": 0,
+      "missing_to_six": 6
+    },
+    {
+      "name": "Kruh i Kava",
+      "id": "kruh-i-kava",
+      "photos": 3,
+      "missing_to_six": 3
+    },
+    {
+      "name": "Tavola de Luna",
+      "id": "tavola-de-luna",
+      "photos": 4,
+      "missing_to_six": 2
+    },
+    {
+      "name": "Patagonia Blend",
+      "id": "patagonia-blend",
+      "photos": 2,
+      "missing_to_six": 4
+    },
+    {
+      "name": "History Coffee",
+      "id": "history-coffee",
+      "photos": 3,
+      "missing_to_six": 3
+    },
+    {
+      "name": "Café Restaurant Status",
+      "id": "restaurant-status",
+      "photos": 4,
+      "missing_to_six": 2
+    },
+    {
+      "name": "Bar Bulnes",
+      "id": "bar-bulnes",
+      "photos": 2,
+      "missing_to_six": 4
+    },
+    {
+      "name": "Taberna Bar Club de la Unión",
+      "id": "taberna-bar-club-de-la-union",
+      "photos": 3,
+      "missing_to_six": 3
+    },
+    {
+      "name": "Muchacha Restobar",
+      "id": "muchacha",
+      "photos": 1,
+      "missing_to_six": 5
+    },
+    {
+      "name": "La Tabla Restobar",
+      "id": "la-tabla-restobar",
+      "photos": 2,
+      "missing_to_six": 4
+    },
+    {
+      "name": "El Árbol & Irish Pub",
+      "id": "el-arbol-irish-pub",
+      "photos": 0,
+      "missing_to_six": 6
+    },
+    {
+      "name": "Dejavu",
+      "id": "dejavu",
+      "photos": 1,
+      "missing_to_six": 5
+    },
+    {
+      "name": "Jekus Restobar",
+      "id": "jekus-restobar",
+      "photos": 2,
+      "missing_to_six": 4
+    },
+    {
+      "name": "Los Brujos",
+      "id": "los-brujos",
+      "photos": 0,
+      "missing_to_six": 6
+    },
+    {
+      "name": "Club K",
+      "id": "club-k",
+      "photos": 2,
+      "missing_to_six": 4
+    },
+    {
+      "name": "Sky Bar Dreams",
+      "id": "sky-bar-dreams",
+      "photos": 0,
+      "missing_to_six": 6
+    },
+    {
+      "name": "Pub Colonial",
+      "id": "pub-colonial",
+      "photos": 1,
+      "missing_to_six": 5
+    }
+  ]
+}

@@ -16,8 +16,7 @@ if photo_pack.exists():
    pack.extract(info, ROOT)
 from media import CATALOG, CATEGORY_PHOTOS, photos_for
 # Biblioteca empaquetada en archivos versionados; rutas estables por local.
-for dining_pack_name in ['dining-photo-assets.zip','dining-photo-assets-extra.zip']:
- dining_pack=ROOT/dining_pack_name
+for dining_pack in sorted(ROOT.glob('dining-photo-assets*.zip')):
  if dining_pack.exists():
   with zipfile.ZipFile(dining_pack) as pack:
    for info in pack.infolist():

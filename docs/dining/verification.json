@@ -2,8 +2,8 @@
   "checked_at": "2026-10-21",
   "gastronomia_rendered": 50,
   "nightlife_rendered": 20,
-  "photos": 216,
-  "venues_with_five": 23,
+  "photos": 359,
+  "venues_with_five": 45,
   "editorial_under_6000": [
     "simple-cafe-gelato",
     "wake-up-coffee-brunch",
@@ -54,100 +54,32 @@
   ],
   "photo_deficits": [
     {
-      "slug": "simple-cafe-gelato",
-      "missing": 4
-    },
-    {
-      "slug": "damiana-elena",
-      "missing": 4
-    },
-    {
-      "slug": "wake-up-coffee-brunch",
-      "missing": 5
-    },
-    {
       "slug": "cafe-tapiz",
       "missing": 4
     },
     {
-      "slug": "la-luna-restaurant",
-      "missing": 3
-    },
-    {
-      "slug": "lomitos",
-      "missing": 4
-    },
-    {
-      "slug": "dinos-pizza",
-      "missing": 4
-    },
-    {
-      "slug": "la-casa-de-dona-maria",
-      "missing": 4
-    },
-    {
       "slug": "donde-hueicha",
-      "missing": 4
-    },
-    {
-      "slug": "cocineria-dona-zuny",
-      "missing": 4
+      "missing": 1
     },
     {
       "slug": "guana-coffee",
       "missing": 4
     },
     {
-      "slug": "cafe-sarmiento",
-      "missing": 2
-    },
-    {
-      "slug": "cafe-inmigrante",
-      "missing": 2
-    },
-    {
-      "slug": "cafeteria-amorio",
-      "missing": 5
-    },
-    {
       "slug": "wake-up-coffee-lab",
-      "missing": 5
+      "missing": 1
     },
     {
-      "slug": "be-happy-cafe",
-      "missing": 5
-    },
-    {
-      "slug": "cafe-montt",
-      "missing": 5
-    },
-    {
-      "slug": "la-yegua-loca",
-      "missing": 2
+      "slug": "la-mona-crespa",
+      "missing": 1
     },
     {
       "slug": "cafe-bories",
       "missing": 4
     },
     {
-      "slug": "la-vianda",
-      "missing": 4
-    },
-    {
-      "slug": "cafe-tostado",
-      "missing": 4
-    },
-    {
-      "slug": "buda-express",
-      "missing": 5
-    },
-    {
-      "slug": "parrilla-los-ganaderos",
-      "missing": 4
-    },
-    {
       "slug": "a-brasas",
-      "missing": 4
+      "missing": 5
     },
     {
       "slug": "casa-jelva",
@@ -158,12 +90,8 @@
       "missing": 5
     },
     {
-      "slug": "manifiesto",
-      "missing": 5
-    },
-    {
       "slug": "kruh-i-kava",
-      "missing": 5
+      "missing": 2
     },
     {
       "slug": "tavola-de-luna",
@@ -174,16 +102,8 @@
       "missing": 3
     },
     {
-      "slug": "luans-restaurant",
-      "missing": 5
-    },
-    {
-      "slug": "la-ruta-de-darwin",
-      "missing": 5
-    },
-    {
       "slug": "history-coffee",
-      "missing": 5
+      "missing": 2
     },
     {
       "slug": "restaurant-status",
@@ -198,6 +118,10 @@
       "missing": 2
     },
     {
+      "slug": "muchacha",
+      "missing": 4
+    },
+    {
       "slug": "la-tabla-restobar",
       "missing": 3
     },
@@ -206,16 +130,8 @@
       "missing": 5
     },
     {
-      "slug": "cafe-pub-1900",
-      "missing": 2
-    },
-    {
       "slug": "dejavu",
       "missing": 4
-    },
-    {
-      "slug": "rustico-restobar",
-      "missing": 5
     },
     {
       "slug": "jekus-restobar",
@@ -231,10 +147,6 @@
     },
     {
       "slug": "sky-bar-dreams",
-      "missing": 4
-    },
-    {
-      "slug": "lucky-7-dreams",
       "missing": 5
     },
     {
@@ -291,8 +203,8 @@
       "slug": "simple-cafe-gelato",
       "address": "Hernando de Magallanes 926, Punta Arenas, Chile",
       "characters": 5560,
-      "photos": 1,
-      "missing_photos": 4,
+      "photos": 6,
+      "missing_photos": 0,
       "sources": [
         "https://www.tripadvisor.es/Restaurant_Review-g297401-d26834770-Reviews-Simple_cafe_gelato-Punta_Arenas_Magallanes_Region.html",
         "https://restaurantguru.com/Simple-Cafe-and-Gelato-Punta-Arenas",
@@ -328,8 +240,8 @@
       "slug": "damiana-elena",
       "address": "Hernando de Magallanes 341, Punta Arenas, Chile",
       "characters": 7102,
-      "photos": 1,
-      "missing_photos": 4,
+      "photos": 6,
+      "missing_photos": 0,
       "sources": [
         "https://www.tripadvisor.es/Restaurant_Review-g297401-d804398-Reviews-Damiana_Elena-Punta_Arenas_Magallanes_Region.html",
         "https://www.waze.com/live-map/directions/damiana-elena-%28restaurant%29-hernando-de-magallanes-341-punta-arenas?to=place.w.189465844.1894658444.36039871",
@@ -345,8 +257,8 @@
       "slug": "wake-up-coffee-brunch",
       "address": "Presidente Federico Errázuriz 944, Punta Arenas, Chile",
       "characters": 5388,
-      "photos": 0,
-      "missing_photos": 5,
+      "photos": 6,
+      "missing_photos": 0,
       "sources": [
         "https://www.tripadvisor.es/Restaurant_Review-g297401-d12223644-Reviews-Wake_Up_Coffee_Brunch-Punta_Arenas_Magallanes_Region.html",
         "https://wakeupcafe.cl/",
@@ -400,8 +312,8 @@
       "slug": "la-luna-restaurant",
       "address": "Libertador Bernardo O’Higgins 1017, Punta Arenas, Chile",
       "characters": 7094,
-      "photos": 2,
-      "missing_photos": 3,
+      "photos": 6,
+      "missing_photos": 0,
       "sources": [
         "https://www.tripadvisor.es/Restaurant_Review-g297401-d1085358-Reviews-La_Luna_Restaurant-Punta_Arenas_Magallanes_Region.html",
         "https://lalunarestaurant.cl/",
@@ -436,8 +348,8 @@
       "slug": "lomitos",
       "address": "José Menéndez 722, Punta Arenas, Chile",
       "characters": 5365,
-      "photos": 1,
-      "missing_photos": 4,
+      "photos": 6,
+      "missing_photos": 0,
       "sources": [
         "https://www.tripadvisor.es/Restaurant_Review-g297401-d1069980-Reviews-Lomito_s-Punta_Arenas_Magallanes_Region.html",
         "https://laprensaaustral.cl/2026/07/16/a-los-86-anos-muere-el-propietario-del-tradicional-local-lomitos/",
@@ -452,8 +364,8 @@
       "slug": "dinos-pizza",
       "address": "Gobernador Carlos Bories 557, Punta Arenas, Chile",
       "characters": 5372,
-      "photos": 1,
-      "missing_photos": 4,
+      "photos": 8,
+      "missing_photos": 0,
       "sources": [
         "https://mapcarta.com/es/W221081248",
         "https://cl.todosnegocios.com/dinos-pizza-ltda_1Q-61-224-7434",
@@ -471,8 +383,8 @@
       "slug": "la-casa-de-dona-maria",
       "address": "José Menéndez 832, Punta Arenas, Chile",
       "characters": 5367,
-      "photos": 1,
-      "missing_photos": 4,
+      "photos": 6,
+      "missing_photos": 0,
       "sources": [
         "https://www.tripadvisor.es/Restaurant_Review-g297401-d7799372-Reviews-La_Casa_de_Dona_Maria-Punta_Arenas_Magallanes_Region.html",
         "https://mapcarta.com/es/N4719648604",
@@ -488,8 +400,8 @@
       "slug": "donde-hueicha",
       "address": "Avenida Salvador Allende 0214, Punta Arenas, Chile",
       "characters": 5395,
-      "photos": 1,
-      "missing_photos": 4,
+      "photos": 4,
+      "missing_photos": 1,
       "sources": [
         "https://www.tripadvisor.es/Restaurant_Review-g297401-d8638761-Reviews-Donde_Hueicha-Punta_Arenas_Magallanes_Region.html",
         "https://www.restaurants10.com/CL/Punta-Arenas/237695353313487/Donde-Hueicha-Restaurant",
@@ -507,8 +419,8 @@
       "slug": "cocineria-dona-zuny",
       "address": "Costanera del Estrecho de Magallanes 1466, Mercado Municipal, Punta Arenas, Chile",
       "characters": 4816,
-      "photos": 1,
-      "missing_photos": 4,
+      "photos": 5,
+      "missing_photos": 0,
       "sources": [
         "https://www.tripadvisor.es/Restaurant_Review-g297401-d6854915-Reviews-Cocineria_Dona_Zuny-Punta_Arenas_Magallanes_Region.html",
         "https://restaurantguru.com/Zuny-Punta-Arenas",
@@ -522,7 +434,7 @@
       "slug": "restaurante-ventisca",
       "address": "Presidente Manuel Balmaceda 723, Punta Arenas, Chile",
       "characters": 4842,
-      "photos": 5,
+      "photos": 8,
       "missing_photos": 0,
       "sources": [
         "https://www.tripadvisor.es/Restaurant_Review-g297401-d16670591-Reviews-Restaurante_Ventisca-Punta_Arenas_Magallanes_Region.html",
@@ -558,8 +470,8 @@
       "slug": "cafe-sarmiento",
       "address": "Almirante Manuel Señoret 1080, Punta Arenas, Chile",
       "characters": 6246,
-      "photos": 3,
-      "missing_photos": 2,
+      "photos": 6,
+      "missing_photos": 0,
       "sources": [
         "https://www.tripadvisor.es/Restaurant_Review-g297401-d8642611-Reviews-Cafe_Sarmiento-Punta_Arenas_Magallanes_Region.html",
         "https://serviciosturisticos.sernatur.cl/17647-cafe-sarmiento",
@@ -574,8 +486,8 @@
       "slug": "cafe-inmigrante",
       "address": "Quillota 599, esquina Mejicana, Punta Arenas, Chile",
       "characters": 6241,
-      "photos": 3,
-      "missing_photos": 2,
+      "photos": 9,
+      "missing_photos": 0,
       "sources": [
         "https://www.tripadvisor.es/Restaurant_Review-g297401-d2710817-Reviews-Cafe_Inmigrante-Punta_Arenas_Magallanes_Region.html",
         "https://natotorres.wixsite.com/cafeinmigrante",
@@ -605,8 +517,8 @@
       "slug": "cafeteria-amorio",
       "address": "Rómulo Correa 684, Punta Arenas, Chile",
       "characters": 4834,
-      "photos": 0,
-      "missing_photos": 5,
+      "photos": 6,
+      "missing_photos": 0,
       "sources": [
         "https://www.instagram.com/cafeamoriopuq/",
         "https://wanderlog.com/place/details/2986127/cafeter%C3%ADa-amor%C3%ADo",
@@ -622,8 +534,8 @@
       "slug": "wake-up-coffee-lab",
       "address": "Presidente Federico Errázuriz 940, segundo piso, Punta Arenas, Chile",
       "characters": 6373,
-      "photos": 0,
-      "missing_photos": 5,
+      "photos": 4,
+      "missing_photos": 1,
       "sources": [
         "https://www.tripadvisor.es/Restaurant_Review-g297401-d27531089-Reviews-Wake_Up_Coffee_Lab-Punta_Arenas_Magallanes_Region.html",
         "https://wakeupcafe.cl/",
@@ -639,8 +551,8 @@
       "slug": "be-happy-cafe",
       "address": "Lautaro Navarro 739, Punta Arenas, Chile",
       "characters": 4861,
-      "photos": 0,
-      "missing_photos": 5,
+      "photos": 6,
+      "missing_photos": 0,
       "sources": [
         "https://www.tripadvisor.es/Restaurant_Review-g297401-d24972377-Reviews-Be_Happy_Cafe-Punta_Arenas_Magallanes_Region.html",
         "https://www.instagram.com/behappycafe.puq/",
@@ -655,8 +567,8 @@
       "slug": "la-mona-crespa",
       "address": "Gobernador Carlos Bories 400-B, Punta Arenas, Chile",
       "characters": 4830,
-      "photos": 6,
-      "missing_photos": 0,
+      "photos": 4,
+      "missing_photos": 1,
       "sources": [
         "https://www.tripadvisor.es/Restaurant_Review-g297401-d7247479-Reviews-La_Mona_Crespa_Cafe-Punta_Arenas_Magallanes_Region.html",
         "https://www.vitrinapuntaarenas.cl/negocio/la-mona-crespa-cafe-cafeteria-punta-arenas",
@@ -671,8 +583,8 @@
       "slug": "cafe-montt",
       "address": "Presidente Pedro Montt 976, Punta Arenas, Chile",
       "characters": 4805,
-      "photos": 0,
-      "missing_photos": 5,
+      "photos": 6,
+      "missing_photos": 0,
       "sources": [
         "https://www.tripadvisor.es/Restaurant_Review-g297401-d5999075-Reviews-Cafe_Montt-Punta_Arenas_Magallanes_Region.html",
         "https://www.waze.com/live-map/directions/cl/magallanes-y-la-antartica-chilena/punta-arenas/cafe-montt?to=place.ChIJR5DRJXpjsr0RszavPmc2xZ4",
@@ -701,7 +613,7 @@
       "slug": "cafeteria-cohen",
       "address": "Croacia 602, Punta Arenas, Chile",
       "characters": 4783,
-      "photos": 6,
+      "photos": 7,
       "missing_photos": 0,
       "sources": [
         "https://www.vitrinapuntaarenas.cl/negocio/cafeteria-cohen",
@@ -730,8 +642,8 @@
       "slug": "la-yegua-loca",
       "address": "Fagnano 310, Punta Arenas, Chile",
       "characters": 6533,
-      "photos": 3,
-      "missing_photos": 2,
+      "photos": 8,
+      "missing_photos": 0,
       "sources": [
         "https://yegualoca.com/hotel/restaurante-bar/"
       ],
@@ -756,8 +668,8 @@
       "slug": "la-vianda",
       "address": "Presidente Federico Errázuriz 928 interior, Punta Arenas, Chile",
       "characters": 4605,
-      "photos": 1,
-      "missing_photos": 4,
+      "photos": 5,
+      "missing_photos": 0,
       "sources": [
         "https://serviciosturisticos.sernatur.cl/34912-la-vianda",
         "https://www.tripadvisor.es/Restaurant_Review-g297401-d17465767-Reviews-La_Vianda_Cocavi_Regional-Punta_Arenas_Magallanes_Region.html",
@@ -771,8 +683,8 @@
       "slug": "cafe-tostado",
       "address": "Hernando de Magallanes 922, Punta Arenas, Chile",
       "characters": 4479,
-      "photos": 1,
-      "missing_photos": 4,
+      "photos": 6,
+      "missing_photos": 0,
       "sources": [
         "https://www.tripadvisor.es/Restaurant_Review-g297401-d2687564-Reviews-Cafe_Tostado-Punta_Arenas_Magallanes_Region.html"
       ],
@@ -784,8 +696,8 @@
       "slug": "buda-express",
       "address": "Bernardo O’Higgins 1069, Punta Arenas, Chile",
       "characters": 4531,
-      "photos": 0,
-      "missing_photos": 5,
+      "photos": 6,
+      "missing_photos": 0,
       "sources": [
         "https://www.tripadvisor.cl/Restaurant_Review-g297401-d4177948-Reviews-Buda_Express-Punta_Arenas_Magallanes_Region.html"
       ],
@@ -797,8 +709,8 @@
       "slug": "parrilla-los-ganaderos",
       "address": "Bernardo O’Higgins 1166, Punta Arenas, Chile",
       "characters": 4668,
-      "photos": 1,
-      "missing_photos": 4,
+      "photos": 6,
+      "missing_photos": 0,
       "sources": [
         "https://serviciosturisticos.sernatur.cl/25456-parrilla-los-ganaderos",
         "https://www.tripadvisor.es/Restaurant_Review-g297401-d2624977-Reviews-Parrilla_Los_Ganaderos-Punta_Arenas_Magallanes_Region.html"
@@ -811,7 +723,7 @@
       "slug": "la-chaira",
       "address": "21 de Mayo 1650, Punta Arenas, Chile",
       "characters": 4416,
-      "photos": 5,
+      "photos": 9,
       "missing_photos": 0,
       "sources": [
         "https://www.waze.com/live-map/directions/cl/magallanes-y-la-antartica-chilena/punta-arenas/la-chaira-restaurante?to=place.ChIJvSsCjvFjsr0RzaTs9LTasyw",
@@ -825,8 +737,8 @@
       "slug": "a-brasas",
       "address": "Presidente Federico Errázuriz 952, Punta Arenas, Chile",
       "characters": 4346,
-      "photos": 1,
-      "missing_photos": 4,
+      "photos": 0,
+      "missing_photos": 5,
       "sources": [
         "https://www.tripadvisor.com/Restaurant_Review-g297401-d27184410-Reviews-A_Brasas_Restaurant-Punta_Arenas_Magallanes_Region.html"
       ],
@@ -881,8 +793,8 @@
       "slug": "manifiesto",
       "address": "Quillota 646, Punta Arenas, Chile",
       "characters": 4348,
-      "photos": 0,
-      "missing_photos": 5,
+      "photos": 6,
+      "missing_photos": 0,
       "sources": [
         "https://www.tripadvisor.cl/Restaurant_Review-g297401-d16843946-Reviews-Manifiesto-Punta_Arenas_Magallanes_Region.html",
         "https://wanderlog.com/place/details/3045045/manifiesto",
@@ -897,8 +809,8 @@
       "slug": "kruh-i-kava",
       "address": "Hernando de Magallanes 269, Punta Arenas, Chile",
       "characters": 4561,
-      "photos": 0,
-      "missing_photos": 5,
+      "photos": 3,
+      "missing_photos": 2,
       "sources": [
         "https://www.mercantil.com/empresa/panaderia-y-pasteleria-kruh-i-kava/punta-arenas/300449638/esp/",
         "https://www.visitapuntaarenas.cl/cafes.html",
@@ -957,8 +869,8 @@
       "slug": "luans-restaurant",
       "address": "Mejicana1104 esquina Jorge Montt, Punta Arenas, Chile",
       "characters": 6232,
-      "photos": 0,
-      "missing_photos": 5,
+      "photos": 6,
+      "missing_photos": 0,
       "sources": [
         "https://www.tripadvisor.com.br/Restaurant_Review-g297401-d20050007-Reviews-Luans_Restaurant-Punta_Arenas_Magallanes_Region.html",
         "https://es.restaurantguru.com/Luans-Restaurant-Punta-Arenas",
@@ -972,8 +884,8 @@
       "slug": "la-ruta-de-darwin",
       "address": "Bernardo O’Higgins 1077, esquina Presidente Julio Roca, Punta Arenas, Chile",
       "characters": 6026,
-      "photos": 0,
-      "missing_photos": 5,
+      "photos": 6,
+      "missing_photos": 0,
       "sources": [
         "https://www.tripadvisor.es/Restaurant_Review-g297401-d23068158-Reviews-La_Ruta_de_Darwin-Punta_Arenas_Magallanes_Region.html",
         "https://es.restaurantguru.com/Restaurante-La-Ruta-de-Darwin-Punta-Arenas/menu"
@@ -1001,8 +913,8 @@
       "slug": "history-coffee",
       "address": "Lautaro Navarro 1065, Punta Arenas, Chile",
       "characters": 6087,
-      "photos": 0,
-      "missing_photos": 5,
+      "photos": 3,
+      "missing_photos": 2,
       "sources": [
         "https://serviciosturisticos.sernatur.cl/26591-history-coffee",
         "https://serviciosturisticos.sernatur.cl/26407-history-coffee-en-casino-dreams",
@@ -1092,8 +1004,8 @@
       "slug": "muchacha",
       "address": "Avenida Presidente Manuel Bulnes 0574",
       "characters": 3541,
-      "photos": 5,
-      "missing_photos": 0,
+      "photos": 1,
+      "missing_photos": 4,
       "sources": [
         "https://www.muchacharestobar.cl/",
         "https://www.tripadvisor.co.uk/Restaurant_Review-g297401-d8283506-Reviews-Muchacha_RestoBar-Punta_Arenas_Magallanes_Region.html"
@@ -1206,8 +1118,8 @@
       "slug": "cafe-pub-1900",
       "address": "Gobernador Carlos Bories 793, esquina Colón",
       "characters": 3431,
-      "photos": 3,
-      "missing_photos": 2,
+      "photos": 8,
+      "missing_photos": 0,
       "sources": [
         "https://www.800.cl/?id=1097&id_Ficha=13033",
         "https://wanderlog.com/es/list/geoCategory/22026/las-mejores-comidas-baratas-en-punta-arenas",
@@ -1236,8 +1148,8 @@
       "slug": "rustico-restobar",
       "address": "Avenida Presidente Manuel Bulnes 299",
       "characters": 3474,
-      "photos": 0,
-      "missing_photos": 5,
+      "photos": 6,
+      "missing_photos": 0,
       "sources": [
         "https://www.bars10.com/CL/Punta-Arenas/563247913777510/R%C3%BAstico-restobar",
         "https://www.waze.com/live-map/directions/cl/magallanes-y-la-antartica-chilena/punta-arenas/rustico-restobar?to=place.ChIJY0ZvJIBjsr0RLYto0Vz3CpU"
@@ -1292,8 +1204,8 @@
       "slug": "sky-bar-dreams",
       "address": "O’Higgins 1235, piso 11, Hotel Dreams del Estrecho",
       "characters": 3296,
-      "photos": 1,
-      "missing_photos": 4,
+      "photos": 0,
+      "missing_photos": 5,
       "sources": [
         "https://punta-arenas.dreams.cl/gastronomia/resto-bar-sky/",
         "https://icha2025.org/about-conference-venue/",
@@ -1307,8 +1219,8 @@
       "slug": "lucky-7-dreams",
       "address": "O’Higgins 1235, Casino Dreams Punta Arenas",
       "characters": 3387,
-      "photos": 0,
-      "missing_photos": 5,
+      "photos": 8,
+      "missing_photos": 0,
       "sources": [
         "https://punta-arenas.dreams.cl/horarios/",
         "https://punta-arenas.dreams.cl/dia-del-padre/",

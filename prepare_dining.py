@@ -118,6 +118,31 @@ for file in ['photos-new.json','night-photos-new.json','more-food-photos.json','
         subject_review=r.get('visual_review', r.get('subject_verified',False))
         photos.append(dict(r,venue_id=venue,sha256=sha,verified_subject=bool(subject_review),permission_status='provisional_pending_authorization',author=r.get('author') or 'No identificado'))
 
+# Incorporaciones revisadas y persistidas: no dependen de la carpeta temporal de investigación.
+additions_file=DEST/'photo-additions.json'
+if additions_file.exists():
+    for p in json.loads(additions_file.read_text()).get('photos',[]):
+        venue=canonical(p.get('venue_id',p.get('venue','')))
+        if venue not in {v['id'] for v in venues}:continue
+        path=ROOT/p['path']
+        if path.is_file():
+            photo_bytes=path.read_bytes()
+        else:
+            # En un clon limpio, build.py todavía no ha extraído la biblioteca.
+            import zipfile
+            photo_bytes=None
+            for photo_pack in ROOT.glob('dining-photo-assets*.zip'):
+                with zipfile.ZipFile(photo_pack) as pack:
+                    if p['path'] in pack.namelist():
+                        photo_bytes=pack.read(p['path'])
+                        break
+            if photo_bytes is None:raise ValueError('Foto incorporada ausente: '+p['path'])
+        sha=hashlib.sha256(photo_bytes).hexdigest()
+        if p.get('sha256') and sha!=p['sha256']:raise ValueError('Foto incorporada distinta del inventario: '+p['path'])
+        if sha in hashes:continue
+        hashes.add(sha)
+        photos.append(dict(p,venue_id=venue,sha256=sha,permission_status='provisional_pending_authorization'))
+
 # Conservar las fotos ya revisadas cuando no estén los archivos temporales de búsqueda.
 venue_ids={v['id'] for v in venues}
 for p in existing_photos:
@@ -137,6 +162,15 @@ for venue,keys in old_keys.items():
         if sha in hashes:continue
         hashes.add(sha)
         photos.append({'venue_id':venue,'path':p['path'],'source_url':p['source_url'],'source_page':p.get('source_page'),'caption':p.get('caption',''),'width':p.get('width',1280),'height':p.get('height',850),'sha256':sha,'author':'No identificado','permission_status':'provisional_pending_authorization','verified_subject':True,'visual_review':'Identificación conservada del lote previo; fuente concreta del establecimiento.'})
+
+curation_file=DEST/'photo-curation.json'
+if curation_file.exists():
+    curation=json.loads(curation_file.read_text())
+    excluded_paths=set(curation.get('excluded_paths',[]))
+    photos=[p for p in photos if p['path'] not in excluded_paths]
+    for p in photos:
+        preferred=curation.get('hero_paths',{}).get(p['venue_id'])
+        if preferred:p['recommended_hero']=p['path']==preferred
 
 for v in venues:
     pp=[p for p in photos if p['venue_id']==v['id']]
