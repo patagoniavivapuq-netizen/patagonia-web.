@@ -787,12 +787,12 @@
     {
       "id": "casa-azul",
       "slug": "casa-azul-del-arte",
-      "name": "Escuela Municipal de Arte y Cultura Casa Azul",
+      "name": "Casa Azul del Arte y formación artística municipal",
       "section": "cultura",
       "group": "centros-culturales",
-      "address": "Avenida España 1672",
-      "sector": "Barrio San Miguel",
-      "intro": "La histórica Casa Azul del Arte en su ubicación del Barrio San Miguel: formación y vida artística local, con una etapa institucional nueva documentada en 2026.",
+      "address": "Sede histórica de Casa Azul: Avenida España 1672. Talleres municipales 2026: Avenida 21 de Mayo 2421.",
+      "sector": "Barrio San Miguel / Centro Cultural",
+      "intro": "La historia de Casa Azul del Arte y la formación artística municipal: fotografías de su etapa anterior e información sobre los talleres anunciados en 2026.",
       "tags": [
         "Escuela artística",
         "Talleres",
@@ -805,7 +805,7 @@
         {
           "title": "Su lugar en Punta Arenas",
           "paragraphs": [
-            "Casa Azul forma parte de la memoria artística de Punta Arenas. La información local más reciente consultada mantiene su funcionamiento en Avenida España 1672 y describe su incorporación a la estructura cultural municipal. Esta ubicación reemplaza referencias antiguas de Avenida Colón que todavía circulan en directorios. Antes de ir, confirma la atención y la actividad concreta de esta etapa."
+            "Casa Azul forma parte de la memoria artística de Punta Arenas. Avenida España 1672 corresponde a la sede histórica que muestran las fotografías de esta ficha. Tras la reorganización de 2026, la Fundación Cultural anunció talleres de la Escuela Municipal de Arte y Cultura en el Centro Cultural Claudio Paredes Chamorro. No debe suponerse que la antigua casa mantiene atención abierta: confirma la sede de cada actividad antes de salir."
           ]
         },
         {
@@ -855,11 +855,14 @@
         "information": "https://fundacionculturalpuntaarenas.cl/"
       },
       "sources": [
-        "https://laprensaaustral.cl/2026/02/28/tras-semanas-de-incertidumbre-anuncian-la-reactivacion-de-la-casa-azul-del-arte/"
+        "https://laprensaaustral.cl/2026/02/28/tras-semanas-de-incertidumbre-anuncian-la-reactivacion-de-la-casa-azul-del-arte/",
+        "https://fundacionculturalpuntaarenas.cl/escuela-municipal-de-arte-y-cultura-de-punta-arenas-abre-inscripciones-para-sus-talleres-2026/"
       ],
       "publishable": true,
       "researched_at": "2026-10-22",
-      "status": "Etapa institucional y atención a confirmar antes de acudir."
+      "status": "La Fundación Cultural anunció los talleres de 2026 en el Centro Cultural Claudio Paredes Chamorro. No se confirma atención turística abierta en la antigua sede de Avenida España.",
+      "map_query": "Centro Cultural Claudio Paredes Chamorro, Avenida 21 de Mayo 2421, Punta Arenas, Chile",
+      "map_note": "El mapa señala el Centro Cultural, sede anunciada para los talleres municipales de 2026. La casa de Avenida España 1672 aparece como referencia histórica; confirma el lugar de tu actividad."
     },
     {
       "id": "sala-zonaustral",

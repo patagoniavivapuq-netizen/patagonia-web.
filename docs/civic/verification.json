@@ -2,8 +2,9 @@
   "review_date": "2026-10-22",
   "base_commit": "29819de",
   "venues": 32,
-  "words": 14601,
-  "photos": 72,
+  "words": 14612,
+  "photos": 139,
+  "venues_with_five_photos": 22,
   "catalogs": {
     "cultura": 33,
     "cultura/iglesias": 8,
@@ -16,90 +17,9 @@
   "html_pages": 257,
   "photo_gaps": [
     {
-      "id": "catedral",
-      "route": "/cultura/catedral-sagrado-corazon/",
-      "words": 515,
-      "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
-      "map": true
-    },
-    {
-      "id": "auxiliadora",
-      "route": "/cultura/santuario-maria-auxiliadora/",
-      "words": 495,
-      "sections": 8,
-      "photos": 2,
-      "photo_gap": 3,
-      "map": true
-    },
-    {
-      "id": "san-miguel",
-      "route": "/cultura/parroquia-san-miguel/",
-      "words": 492,
-      "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
-      "map": true
-    },
-    {
-      "id": "cristo-obrero",
-      "route": "/cultura/parroquia-cristo-obrero/",
-      "words": 491,
-      "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
-      "map": true
-    },
-    {
-      "id": "fatima",
-      "route": "/cultura/parroquia-nuestra-senora-fatima/",
-      "words": 480,
-      "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
-      "map": true
-    },
-    {
-      "id": "santa-teresa",
-      "route": "/cultura/parroquia-santa-teresa-andes/",
-      "words": 488,
-      "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
-      "map": true
-    },
-    {
       "id": "padre-pio",
       "route": "/cultura/parroquia-padre-pio/",
       "words": 482,
-      "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
-      "map": true
-    },
-    {
-      "id": "nazareno",
-      "route": "/cultura/santuario-jesus-nazareno/",
-      "words": 495,
-      "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
-      "map": true
-    },
-    {
-      "id": "centro-cultural",
-      "route": "/cultura/centro-cultural-claudio-paredes/",
-      "words": 468,
-      "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
-      "map": true
-    },
-    {
-      "id": "teatro",
-      "route": "/cultura/teatro-municipal-jose-bohr/",
-      "words": 456,
       "sections": 8,
       "photos": 2,
       "photo_gap": 3,
@@ -108,10 +28,10 @@
     {
       "id": "casa-azul",
       "route": "/cultura/casa-azul-del-arte/",
-      "words": 456,
+      "words": 467,
       "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
+      "photos": 3,
+      "photo_gap": 2,
       "map": true
     },
     {
@@ -119,8 +39,8 @@
       "route": "/cultura/cine-sala-estrella/",
       "words": 457,
       "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
+      "photos": 2,
+      "photo_gap": 3,
       "map": true
     },
     {
@@ -128,8 +48,8 @@
       "route": "/cultura/cine-star-punta-arenas/",
       "words": 456,
       "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
+      "photos": 3,
+      "photo_gap": 2,
       "map": true
     },
     {
@@ -137,8 +57,8 @@
       "route": "/cultura/biblioteca-gobernador-viel/",
       "words": 457,
       "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
+      "photos": 3,
+      "photo_gap": 2,
       "map": true
     },
     {
@@ -146,8 +66,8 @@
       "route": "/cultura/biblioteca-gabriela-mistral/",
       "words": 456,
       "sections": 8,
-      "photos": 3,
-      "photo_gap": 2,
+      "photos": 4,
+      "photo_gap": 1,
       "map": true
     },
     {
@@ -155,17 +75,8 @@
       "route": "/familia/patagon-bowling/",
       "words": 455,
       "sections": 8,
-      "photos": 2,
-      "photo_gap": 3,
-      "map": true
-    },
-    {
-      "id": "karting",
-      "route": "/familia/rally-kart/",
-      "words": 440,
-      "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
+      "photos": 4,
+      "photo_gap": 1,
       "map": true
     },
     {
@@ -173,26 +84,8 @@
       "route": "/familia/family-park-pionero/",
       "words": 427,
       "sections": 8,
-      "photos": 2,
-      "photo_gap": 3,
-      "map": true
-    },
-    {
-      "id": "tres-puentes",
-      "route": "/familia/humedal-tres-puentes/",
-      "words": 433,
-      "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
-      "map": true
-    },
-    {
-      "id": "lenadura",
-      "route": "/familia/parque-lenadura/",
-      "words": 424,
-      "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
+      "photos": 3,
+      "photo_gap": 2,
       "map": true
     },
     {
@@ -205,39 +98,12 @@
       "map": true
     },
     {
-      "id": "costanera",
-      "route": "/familia/costanera-en-familia/",
-      "words": 444,
-      "sections": 8,
-      "photos": 2,
-      "photo_gap": 3,
-      "map": true
-    },
-    {
       "id": "eco-enap",
       "route": "/familia/ecoparque-infantil-enap/",
       "words": 440,
       "sections": 8,
       "photos": 1,
       "photo_gap": 4,
-      "map": true
-    },
-    {
-      "id": "dinosaurios",
-      "route": "/familia/plaza-dinosaurios/",
-      "words": 449,
-      "sections": 8,
-      "photos": 3,
-      "photo_gap": 2,
-      "map": true
-    },
-    {
-      "id": "parque-costanera",
-      "route": "/familia/parque-juegos-costanera/",
-      "words": 437,
-      "sections": 8,
-      "photos": 2,
-      "photo_gap": 3,
       "map": true
     }
   ],
@@ -247,8 +113,8 @@
       "route": "/cultura/catedral-sagrado-corazon/",
       "words": 515,
       "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
+      "photos": 6,
+      "photo_gap": 0,
       "map": true
     },
     {
@@ -256,8 +122,8 @@
       "route": "/cultura/santuario-maria-auxiliadora/",
       "words": 495,
       "sections": 8,
-      "photos": 2,
-      "photo_gap": 3,
+      "photos": 5,
+      "photo_gap": 0,
       "map": true
     },
     {
@@ -265,8 +131,8 @@
       "route": "/cultura/parroquia-san-miguel/",
       "words": 492,
       "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
+      "photos": 5,
+      "photo_gap": 0,
       "map": true
     },
     {
@@ -274,8 +140,8 @@
       "route": "/cultura/parroquia-cristo-obrero/",
       "words": 491,
       "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
+      "photos": 5,
+      "photo_gap": 0,
       "map": true
     },
     {
@@ -283,8 +149,8 @@
       "route": "/cultura/parroquia-nuestra-senora-fatima/",
       "words": 480,
       "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
+      "photos": 5,
+      "photo_gap": 0,
       "map": true
     },
     {
@@ -292,8 +158,8 @@
       "route": "/cultura/parroquia-santa-teresa-andes/",
       "words": 488,
       "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
+      "photos": 5,
+      "photo_gap": 0,
       "map": true
     },
     {
@@ -301,8 +167,8 @@
       "route": "/cultura/parroquia-padre-pio/",
       "words": 482,
       "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
+      "photos": 2,
+      "photo_gap": 3,
       "map": true
     },
     {
@@ -310,8 +176,8 @@
       "route": "/cultura/santuario-jesus-nazareno/",
       "words": 495,
       "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
+      "photos": 5,
+      "photo_gap": 0,
       "map": true
     },
     {
@@ -319,8 +185,8 @@
       "route": "/cultura/centro-cultural-claudio-paredes/",
       "words": 468,
       "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
+      "photos": 5,
+      "photo_gap": 0,
       "map": true
     },
     {
@@ -328,17 +194,17 @@
       "route": "/cultura/teatro-municipal-jose-bohr/",
       "words": 456,
       "sections": 8,
-      "photos": 2,
-      "photo_gap": 3,
+      "photos": 5,
+      "photo_gap": 0,
       "map": true
     },
     {
       "id": "casa-azul",
       "route": "/cultura/casa-azul-del-arte/",
-      "words": 456,
+      "words": 467,
       "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
+      "photos": 3,
+      "photo_gap": 2,
       "map": true
     },
     {
@@ -355,8 +221,8 @@
       "route": "/cultura/cine-sala-estrella/",
       "words": 457,
       "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
+      "photos": 2,
+      "photo_gap": 3,
       "map": true
     },
     {
@@ -364,8 +230,8 @@
       "route": "/cultura/cine-star-punta-arenas/",
       "words": 456,
       "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
+      "photos": 3,
+      "photo_gap": 2,
       "map": true
     },
     {
@@ -373,8 +239,8 @@
       "route": "/cultura/biblioteca-gobernador-viel/",
       "words": 457,
       "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
+      "photos": 3,
+      "photo_gap": 2,
       "map": true
     },
     {
@@ -382,8 +248,8 @@
       "route": "/cultura/biblioteca-gabriela-mistral/",
       "words": 456,
       "sections": 8,
-      "photos": 3,
-      "photo_gap": 2,
+      "photos": 4,
+      "photo_gap": 1,
       "map": true
     },
     {
@@ -391,8 +257,8 @@
       "route": "/familia/patagon-bowling/",
       "words": 455,
       "sections": 8,
-      "photos": 2,
-      "photo_gap": 3,
+      "photos": 4,
+      "photo_gap": 1,
       "map": true
     },
     {
@@ -400,8 +266,8 @@
       "route": "/familia/rally-kart/",
       "words": 440,
       "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
+      "photos": 5,
+      "photo_gap": 0,
       "map": true
     },
     {
@@ -427,8 +293,8 @@
       "route": "/familia/family-park-pionero/",
       "words": 427,
       "sections": 8,
-      "photos": 2,
-      "photo_gap": 3,
+      "photos": 3,
+      "photo_gap": 2,
       "map": true
     },
     {
@@ -454,8 +320,8 @@
       "route": "/familia/humedal-tres-puentes/",
       "words": 433,
       "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
+      "photos": 5,
+      "photo_gap": 0,
       "map": true
     },
     {
@@ -481,8 +347,8 @@
       "route": "/familia/parque-lenadura/",
       "words": 424,
       "sections": 8,
-      "photos": 1,
-      "photo_gap": 4,
+      "photos": 5,
+      "photo_gap": 0,
       "map": true
     },
     {
@@ -499,8 +365,8 @@
       "route": "/familia/costanera-en-familia/",
       "words": 444,
       "sections": 8,
-      "photos": 2,
-      "photo_gap": 3,
+      "photos": 5,
+      "photo_gap": 0,
       "map": true
     },
     {
@@ -517,8 +383,8 @@
       "route": "/familia/plaza-dinosaurios/",
       "words": 449,
       "sections": 8,
-      "photos": 3,
-      "photo_gap": 2,
+      "photos": 5,
+      "photo_gap": 0,
       "map": true
     },
     {
@@ -526,12 +392,12 @@
       "route": "/familia/parque-juegos-costanera/",
       "words": 437,
       "sections": 8,
-      "photos": 2,
-      "photo_gap": 3,
+      "photos": 5,
+      "photo_gap": 0,
       "map": true
     }
   ],
   "errors": [],
-  "rights": "All third-party photographs remain provisional; provenance recorded. No generated or generic substitution.",
+  "rights": "Fotografías con procedencia individual registrada. Las imágenes de Wikimedia Commons incluyen autor y licencia; las demás son material provisional de terceros pendiente de autorización o sustitución.",
   "map_note": "Individual map search uses researched place and address. No undocumented exact GPS pins invented."
 }

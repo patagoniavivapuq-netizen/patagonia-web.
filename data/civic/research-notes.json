@@ -12,7 +12,7 @@
     },
     {
       "place": "Casa Azul",
-      "decision": "Use Avenida España 1672, new institutional stage described 2026; do not route to former Colon building."
+      "decision": "Avenida España 1672 se identifica como sede histórica. El anuncio oficial de la Fundación Cultural para 2026 sitúa los talleres municipales en Centro Cultural Claudio Paredes, Avenida21deMayo2421. Mapa y advertencia actualizados. Se descarta casaazuldelarte.cl: el dominio consultado muestra publicidad de apuestas ajena a la institución."
     },
     {
       "place": "Parque Maria Behety",
@@ -45,5 +45,13 @@
   ],
   "external_data": "Schedules, prices, access and events remain subject to operator confirmation. No fixed cinema showtimes or invented WhatsApp links.",
   "photo_goal": 5,
-  "photo_gaps": "Recorded per venue in docs/civic/verification.json; missing photos are never replaced by unrelated locations."
+  "photo_gaps": "Recorded per venue in docs/civic/verification.json; missing photos are never replaced by unrelated locations.",
+  "photo_followup": {
+    "date": "2026-10-22",
+    "added": 67,
+    "total": 139,
+    "selection": "Inspección visual de hojas de contacto; comparación con 609 imágenes anteriores mediante SHA y hash perceptual. Se revisaron variantes y fotografías de eventos con varias sedes para impedir atribuciones incorrectas.",
+    "unavailable": "Algunas imágenes de Commons devolvieron 429, Vicentinos devolvió403 y Tripadvisor bloqueó la descarga. No se contabilizan fotos inaccesibles ni se completan cupos con imágenes genéricas.",
+    "remaining_gaps": "Ver docs/civic/verification.json."
+  }
 }

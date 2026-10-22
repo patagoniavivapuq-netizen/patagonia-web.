@@ -28,7 +28,10 @@ def render(root,out,site_head,site_footer,write):
     def figure(p, v, eager=False):
         # No ampliar originales pequeños hasta volverlos borrosos.
         size = (' style="max-width:' + str(p['width']) + 'px;margin-inline:auto"') if p.get('width', 1280) < 750 else ''
-        return '<figure class="inline-photo"' + size + '>' + image_tag(p, v['name'], eager) + (('<figcaption>' + E(p['caption']) + '</figcaption>') if p.get('caption') else '') + '</figure>'
+        caption = E(p.get('caption', ''))
+        if p.get('license_url') and p.get('source_page'):
+            caption += ' Foto: <a href="' + E(p['source_page'], quote=True) + '" target="_blank" rel="noopener noreferrer">' + E(p['author']) + '</a> · <a href="' + E(p['license_url'], quote=True) + '" target="_blank" rel="noopener noreferrer">' + E(p['license']) + '</a>.'
+        return '<figure class="inline-photo"' + size + '>' + image_tag(p, v['name'], eager) + (('<figcaption>' + caption + '</figcaption>') if caption else '') + '</figure>'
 
     def researched_date(v):
         raw=v.get('researched_at','2026-10-18')

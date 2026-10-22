@@ -58,7 +58,7 @@ def audit(root=ROOT):
  assert catalog_counts['cultura/cines']==2
  assert catalog_counts['cultura/centros-culturales']==4
  assert catalog_counts['cultura/bibliotecas']==2
- report=dict(review_date='2026-10-22',base_commit='29819de',venues=len(venues),words=sum(r['words']for r in rows),photos=len(photos),catalogs=catalog_counts,previous_pages_preserved=preserved,html_pages=len(list(out.rglob('*.html'))),photo_gaps=[r for r in rows if r['photo_gap']],details=rows,errors=errors,rights='All third-party photographs remain provisional; provenance recorded. No generated or generic substitution.',map_note='Individual map search uses researched place and address. No undocumented exact GPS pins invented.')
+ report=dict(review_date='2026-10-22',base_commit='29819de',venues=len(venues),words=sum(r['words']for r in rows),photos=len(photos),venues_with_five_photos=sum(r['photos']>=5 for r in rows),catalogs=catalog_counts,previous_pages_preserved=preserved,html_pages=len(list(out.rglob('*.html'))),photo_gaps=[r for r in rows if r['photo_gap']],details=rows,errors=errors,rights=json.loads((root/'data/civic/photos.json').read_text()).get('rights','Provenance recorded.'),map_note='Individual map search uses researched place and address. No undocumented exact GPS pins invented.')
  return report
 if __name__=='__main__':
  r=audit();p=ROOT/'docs/civic';p.mkdir(exist_ok=True);(p/'verification.json').write_text(json.dumps(r,ensure_ascii=False,indent=2)+'\n');print(json.dumps({k:v for k,v in r.items()if k not in ['details','photo_gaps']},ensure_ascii=False));raise SystemExit(bool(r['errors']))
