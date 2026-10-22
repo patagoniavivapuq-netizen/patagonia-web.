@@ -46,7 +46,8 @@ def render(root,out,site_head,site_footer,write):
         s = site_head(title, description, 'home')
         css = 'dining-detail' if detail else 'dining-catalog'
         s = s.replace('</head>', '<link rel="stylesheet" href="/assets/css/' + css + '.css"><link rel="stylesheet" href="/assets/css/dining-adaptation.css">' + ('<link rel="stylesheet" href="/assets/css/type.css">' if detail else '') + '</head>')
-        return s.replace('class="page-home"', 'class="page-home pv-dining ' + ('pv-dining-detail' if detail else 'pv-dining-catalog') + '"')
+        s=s.replace('</head>','<style>.pv-civic.pv-dining-detail .hero>div{position:relative;z-index:2}</style></head>')
+        return s.replace('class="page-home"', 'class="page-home pv-civic pv-dining ' + ('pv-dining-detail' if detail else 'pv-dining-catalog') + '"')
 
     def tags(v):
         return '<div class="restaurant-tags">' + ''.join('<span class="tag">' + E(t) + '</span>' for t in v['tags'][:4]) + '</div>'
