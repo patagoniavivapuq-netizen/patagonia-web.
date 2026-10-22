@@ -141,45 +141,38 @@ def showcase_tour(a):
  return page+'</div></main>'+footer()
 
 EVENT_STYLE="""<style>
-body:has(.event-feature) {background:#061d1d}
-.event-feature{--gold:#efbc6b;--teal:#38cfcb;max-width:1120px;margin:auto}
-.event-feature .kicker{color:var(--gold);font-size:13px;letter-spacing:.22em;text-transform:uppercase}
-.event-feature h1{font-size:clamp(42px,6vw,77px);line-height:1.03;letter-spacing:-.035em;max-width:970px}
-.event-feature .ec-inline-photo{margin:24px 0 38px;border-radius:23px;overflow:hidden;border:1px solid #38645a;background:#113636;box-shadow:0 18px 48px #0006}
-.event-feature .ec-inline-photo img{display:block;width:100%;height:auto;max-height:580px;object-fit:cover}
-.event-feature .ec-inline-photo figcaption{background:#102d2d;color:#d4e4dd;padding:12px 20px;font-size:13px}
-.event-feature .article-intro{font-size:clamp(19px,2.25vw,26px);line-height:1.62;max-width:850px;color:#f1eee4}
-.event-feature .items{display:grid;grid-template-columns:minmax(0,1fr);gap:20px;margin:35px 0}
-.event-feature .items article{border:1px solid #37655d!important;border-radius:20px!important;background:linear-gradient(135deg,#123b39 0%,#092827 100%)!important;padding:clamp(24px,4vw,42px)!important;margin:0!important;box-shadow:0 8px 20px #0002}
-.event-feature .items article>span{display:inline-flex;align-items:center;justify-content:center;background:var(--gold);color:#122a28;font-size:15px;font-weight:900;border-radius:9px;padding:7px 12px;margin:0 0 15px}
-.event-feature .items article h2{font-size:clamp(24px,2.9vw,34px);line-height:1.15;color:#fff!important;margin:0 0 16px}
-.event-feature .items article p{font-size:17px;line-height:1.85;color:#e0ebe7!important}
-.event-feature .tip{border:2px solid #e1ab5a!important;border-radius:22px!important;background:linear-gradient(135deg,#493015,#241f18)!important;padding:clamp(25px,4vw,40px)!important;color:#fff3db!important}
-.event-feature .tip b{color:#ffd28d!important;font-size:18px}
-.event-feature .tip p{font-size:19px;line-height:1.7;color:#fff3db!important}
-.event-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:28px 0}
-.event-facts>div{background:#0f3c3b;border:1px solid #438177;border-radius:15px;padding:20px;color:#e8f8f3}
-.event-facts small{display:block;color:#ffc879;text-transform:uppercase;letter-spacing:.08em;font-size:11px;font-weight:800;margin-bottom:9px}
-.event-facts strong{font-size:16px;line-height:1.4}
-.event-action{margin:25px 0;padding:25px;background:#11332f;border:1px solid #438177;border-radius:18px}
-.event-action h2{color:#fff!important;margin:0 0 12px}
-.event-action a{display:inline-block;margin:8px 12px 0 0;padding:13px 17px;background:#eabb6a;color:#17322e!important;border-radius:10px;font-weight:800;text-decoration:none}
-@media(max-width:680px){.event-facts{grid-template-columns:1fr}.event-feature .items article{padding:22px!important}}
-
-.event-feature .event-layout{display:grid;grid-template-columns:minmax(0,1fr) 315px;gap:27px;align-items:start;margin-top:30px}
-.event-feature .event-main .items{margin-top:0}
-.event-feature .event-sidebar{position:sticky;top:94px;display:grid;gap:17px}
-.event-feature .event-side-card{border:1px solid #47746a;border-radius:19px;padding:23px;background:linear-gradient(145deg,#123d39,#0a2928);color:#eaf6ef}
-.event-feature .event-side-card:nth-child(2){background:linear-gradient(145deg,#4b311a,#2d261d);border-color:#bb8d4b}
-.event-feature .event-side-card h2{color:#f6cb81;font-size:21px;line-height:1.22;margin:0 0 14px}
-.event-feature .event-side-card p,.event-feature .event-side-card li{color:#e9f2ed;line-height:1.6;font-size:15px}
+/* Eventos comparte la misma superficie editorial clara de Gastronomía. */
+body:has(.event-feature){background:#fff!important}
+.event-feature{max-width:1120px!important;background:#fff!important;color:#0f172a!important}
+.event-feature .kicker{color:#805812!important}
+.event-feature h1{color:#0f172a!important}
+.event-feature .article-intro{color:#526174!important;line-height:1.75;font-size:19px}
+.event-feature .event-layout{display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:24px;align-items:start;margin-top:30px}
+.event-feature .event-main .items{margin:0;display:grid;gap:16px}
+.event-feature .items article{background:#fff!important;color:#0f172a!important;border:1px solid #e5eaf0!important;border-radius:24px!important;padding:28px 30px!important;box-shadow:0 8px 28px #0f172a0a!important}
+.event-feature .items article>span{color:#0b968a!important;background:transparent!important;font:900 12px Arial!important;letter-spacing:.13em}
+.event-feature .items article h2{color:#0f172a!important;font-size:clamp(24px,2.5vw,32px);line-height:1.2}
+.event-feature .items article p{color:#526174!important;font-size:16px;line-height:1.75}
+.event-feature .ec-inline-photo{border-radius:28px!important;background:#f7f9fb!important;border:1px solid #e5eaf0!important;box-shadow:none!important;overflow:hidden}
+.event-feature .ec-inline-photo img{display:block;width:100%;max-height:590px;object-fit:cover}
+.event-feature .ec-inline-photo figcaption{color:#526174!important;background:#fff!important;padding:13px 17px;font-size:13px}
+.event-feature .event-sidebar{position:sticky;top:94px;display:grid;gap:16px}
+.event-feature .event-side-card{padding:24px;border:1px solid #dfe9e6;border-radius:24px;background:#f7f9fb;color:#0f172a}
+.event-feature .event-side-card h2{color:#123d39!important;margin:0 0 15px;font-size:21px}
+.event-feature .event-side-card p,.event-feature .event-side-card li{color:#526174!important;line-height:1.7;font-size:15px}
 .event-feature .event-side-card ul{padding-left:19px}
-.event-feature .event-side-card a{display:block;margin-top:12px;text-align:center;border-radius:10px;background:#e8b96b;color:#142a28;padding:11px;font-weight:800;text-decoration:none}
-.event-feature .event-side-card .event-facts{display:block;margin:0}
-.event-feature .event-side-card .event-facts>div{margin-top:10px;padding:12px}
+.event-feature .event-side-card:nth-child(2){background:#082a27!important;color:#fff!important;border-color:#082a27!important}
+.event-feature .event-side-card:nth-child(2) h2{color:#f5b72e!important}
+.event-feature .event-side-card:nth-child(2) p{color:#e4efed!important}
+.event-feature .event-side-card a{display:block;margin-top:12px;text-align:center;padding:12px;background:#123d39;color:#fff!important;border-radius:99px;font-weight:700;text-decoration:none}
+.event-feature .event-facts{display:block;margin:0}
+.event-feature .event-facts>div{padding:12px 0;border-bottom:1px solid #dfe9e6}
+.event-feature .event-facts>div:last-child{border:0}
+.event-feature .event-facts small{display:block;color:#805812;font-size:11px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:7px;font-weight:800}
+.event-feature .event-facts strong{color:#0f172a;font-size:15px}
 @media(max-width:900px){.event-feature .event-layout{grid-template-columns:1fr}.event-feature .event-sidebar{position:static;grid-row:1;grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:600px){.event-feature .event-sidebar{grid-template-columns:1fr}}
-</style>"""
+@media(max-width:600px){.event-feature .event-sidebar{grid-template-columns:1fr}.event-feature .items article{padding:22px!important}}
+</style>
 EVENT_FACTS={
  'chapuzon':('27 de junio de 2026 · histórico','Costanera del Estrecho · sector Letras','Participación con inscripción oficial'),
  'carnaval-de-invierno':('4 y 5 de julio de 2026 · histórico','Costanera del Estrecho','Carros, comparsas y música'),
