@@ -162,7 +162,7 @@ body:has(.event-feature){background:#061817!important;color:#f5f0e7!important}
 .event-feature h1{color:#fff6e7!important}
 .event-feature .article-intro{color:#e0ede6!important;font-size:19px;line-height:1.78}
 .event-feature .event-layout{display:grid;grid-template-columns:minmax(0,1fr) 315px;gap:24px;align-items:start;margin-top:30px}
-.event-feature .event-main .items{margin:0;display:grid;gap:18px}
+.event-feature .event-main .items{margin:0;display:grid;gap:0}.event-feature .event-main .items article{margin-bottom:0!important;border-radius:0!important;border-bottom:0!important}.event-feature .event-main .items article:first-child{border-radius:23px 23px 0 0!important}.event-feature .event-main .items article:last-child{border-bottom:1px solid #d7a43b!important;border-radius:0 0 23px 23px!important}.event-feature .event-main .items .ec-inline-photo{margin:0!important;border-radius:0!important}
 .event-feature .items article{background:linear-gradient(140deg,#123d39,#092522)!important;color:#f7f1e7!important;border:1px solid #d7a43b!important;border-radius:24px!important;padding:30px!important;box-shadow:0 12px 35px #0003!important}
 .event-feature .items article>span{display:inline-block;color:#f4c879!important;background:transparent!important;font:900 13px Arial!important;letter-spacing:.14em}
 .event-feature .items article h2{color:#fff4da!important;font-size:clamp(24px,2.6vw,32px);line-height:1.2}
@@ -194,7 +194,10 @@ body:has(.event-feature){background:#061817!important;color:#f5f0e7!important}
 EVENT_FACTS={
  'chapuzon':('27 de junio de 2026 · histórico','Costanera del Estrecho · sector Letras','Participación con inscripción oficial'),
  'carnaval-de-invierno':('4 y 5 de julio de 2026 · histórico','Costanera del Estrecho','Carros, comparsas y música'),
- 'festival-folclorico':('30 julio – 1 agosto 2026 · histórico','Gimnasio Confederación Deportiva','Tres jornadas · cartelera por noche')
+ 'festival-folclorico':('30 julio – 1 agosto 2026 · histórico','Gimnasio Confederación Deportiva','Tres jornadas · cartelera por noche'),
+ 'ano-nuevo':('31 diciembre · celebración anual','Distintos lugares de la ciudad','Cenas y planes según programación'),
+ 'fiestas-patrias':('Septiembre · celebración anual','Actividades en diferentes recintos','Gastronomía, música y tradiciones'),
+ 'encuentro-acordeonistas':('14–16 agosto 2026 · histórico','Centro Cultural Claudio Paredes Chamorro','Chamamé y galas musicales')
 }
 def event_facts(a):
  facts=EVENT_FACTS.get(a['slug'])
@@ -219,7 +222,7 @@ for a in ARTICLES:
   interleaved.setdefault(after,[]).append('p-'+media_key)
  page+='<section class="items">'
  for i,sec in enumerate(a['sections'],1):
-  page+='<article id="tema-'+str(i)+'"><span>'+f'{i:02d}'+'</span><h2>'+E(sec['title'])+'</h2><p>'+E(sec['text'])+'</p></article>'
+  page+='<article id="tema-'+str(i)+'">'+('' if cat=='eventos' else '<span>'+f'{i:02d}'+'</span>')+'<h2>'+E(sec['title'])+'</h2><p>'+E(sec['text'])+'</p></article>'
   for inline_photo in interleaved.get(i,[]):page+=photo(inline_photo)
   if cat=='eventos' and a['slug'] in EVENT_PHOTOS:
    others=EVENT_PHOTOS[a['slug']][1:]
