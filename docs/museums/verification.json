@@ -1,0 +1,152 @@
+{
+  "checked_at": "2026-10-22",
+  "venues": 17,
+  "photos": 95,
+  "with_five_photos": 16,
+  "photo_gaps": [
+    "croata"
+  ],
+  "unchanged_previous_pages": 203,
+  "html_pages": 221,
+  "details": [
+    {
+      "id": "inach",
+      "route": "/cultura/coleccion-paleontologica-inach/",
+      "words": 742,
+      "sections": 8,
+      "photos": 5,
+      "map": true
+    },
+    {
+      "id": "militar",
+      "route": "/cultura/museo-militar-magallanes/",
+      "words": 704,
+      "sections": 8,
+      "photos": 6,
+      "map": true
+    },
+    {
+      "id": "vieja",
+      "route": "/cultura/vieja-patagonia-museo-cosas/",
+      "words": 699,
+      "sections": 8,
+      "photos": 6,
+      "map": true
+    },
+    {
+      "id": "galeria",
+      "route": "/cultura/la-galeria-arte-diseno/",
+      "words": 658,
+      "sections": 7,
+      "photos": 6,
+      "map": true
+    },
+    {
+      "id": "origenes",
+      "route": "/cultura/casa-origenes-patagonia/",
+      "words": 665,
+      "sections": 7,
+      "photos": 6,
+      "map": true
+    },
+    {
+      "id": "artesanal",
+      "route": "/cultura/centro-artesanal-municipal/",
+      "words": 658,
+      "sections": 7,
+      "photos": 6,
+      "map": true
+    },
+    {
+      "id": "sara-braun",
+      "route": "/cultura/palacio-sara-braun/",
+      "words": 746,
+      "sections": 8,
+      "photos": 6,
+      "map": true
+    },
+    {
+      "id": "keuken",
+      "route": "/cultura/parque-etnico-keu-ken/",
+      "words": 779,
+      "sections": 8,
+      "photos": 6,
+      "map": true
+    },
+    {
+      "id": "croata",
+      "route": "/cultura/museo-inmigracion-croata/",
+      "words": 737,
+      "sections": 8,
+      "photos": 1,
+      "map": true
+    },
+    {
+      "id": "bomberos",
+      "route": "/cultura/museo-bomba-magallanes/",
+      "words": 722,
+      "sections": 8,
+      "photos": 5,
+      "map": true
+    },
+    {
+      "id": "borgatello",
+      "route": "/cultura/maggiorino-borgatello/",
+      "words": 745,
+      "sections": 8,
+      "photos": 6,
+      "map": true
+    },
+    {
+      "id": "regional",
+      "route": "/cultura/museo-regional/",
+      "words": 762,
+      "sections": 8,
+      "photos": 6,
+      "map": true
+    },
+    {
+      "id": "recuerdo",
+      "route": "/cultura/museo-del-recuerdo/",
+      "words": 770,
+      "sections": 8,
+      "photos": 6,
+      "map": true
+    },
+    {
+      "id": "rio-seco",
+      "route": "/cultura/museo-historia-natural-rio-seco/",
+      "words": 768,
+      "sections": 8,
+      "photos": 6,
+      "map": true
+    },
+    {
+      "id": "naval",
+      "route": "/cultura/museo-naval-maritimo/",
+      "words": 763,
+      "sections": 8,
+      "photos": 6,
+      "map": true
+    },
+    {
+      "id": "nao",
+      "route": "/cultura/museo-nao-victoria/",
+      "words": 752,
+      "sections": 8,
+      "photos": 6,
+      "map": true
+    },
+    {
+      "id": "estrecho",
+      "route": "/cultura/museo-del-estrecho/",
+      "words": 881,
+      "sections": 9,
+      "photos": 6,
+      "map": true
+    }
+  ],
+  "errors": [],
+  "clean_build": true,
+  "baseline_commit": "cb66907ec36ca8e654886b9ac984def5a435553e"
+}

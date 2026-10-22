@@ -1,0 +1,804 @@
+"""Guía editorial original. Datos operativos contrastados el 22-10-2026.
+
+Las fuentes y los permisos fotográficos se conservan fuera de la interfaz.
+"""
+VENUES=[]
+def venue(id,name,slug,sector,address,tags,intro,contacts,hours,price,story,sources,**extra):
+    blocks=[]
+    for b in story.strip().split('\n## '):
+        title,*paras=b.strip().split('\n\n')
+        blocks.append({'title':title.removeprefix('## '),'paragraphs':[p.replace('\n',' ') for p in paras]})
+    v=dict(id=id,name=name,slug=slug,section='cultura',sector=sector,address=address,tags=tags,
+           filters=extra.pop('filters',['museos']),intro=intro,contacts=contacts,hours=hours,
+           price=price,sections=blocks,sources=sources,researched_at='2026-10-22',publishable=True,**extra)
+    VENUES.append(v);return v
+
+venue('inach','Colección Paleontológica de Antártica y Patagonia · INACH','coleccion-paleontologica-inach','Centro · Lautaro Navarro',
+'Lautaro Navarro 1245, Edificio de Laboratorios Embajador Jorge Berguño Barnes',
+['Paleontología','Colección científica','Ingreso gratuito'],
+'Fósiles, investigación y divulgación para descubrir cómo se estudia la historia natural antártica desde los laboratorios del INACH en Punta Arenas.',
+{'website':'https://www.inach.cl/','instagram':'https://www.instagram.com/inach_gob/','phone':'+56 61 229 8149','email':'colecciones@inach.cl'},
+'RMC actualizado en abril de 2026: miércoles y viernes 14:15–17:30. Confirmar acceso, grupos y programación con Colecciones del INACH. Los calendarios de exposiciones de 2025 no se consideran vigentes.',
+'Ingreso gratuito según Registro de Museos de Chile. Consultar cupos y condiciones de actividades especiales.',
+'''Una puerta a la ciencia antártica
+
+La Colección Paleontológica de Antártica y Patagonia se conserva en los laboratorios del Instituto Antártico Chileno en Punta Arenas. Su interés va más allá de mirar fósiles: permite acercarse a la forma en que se preparan, documentan y estudian evidencias de la vida y los ambientes del pasado.
+
+No es la sede administrativa del INACH que mira a la plaza Muñoz Gamero. La dirección de esta visita es Lautaro Navarro 1245, en el edificio de laboratorios Jorge Berguño Barnes. Esa diferencia es importante al usar mapas, solicitar una visita o llegar a una actividad anunciada por la institución.
+## Qué conserva y qué puede exhibirse
+
+El registro institucional describe fósiles de Antártica y Patagonia, con improntas vegetales, vertebrados, invertebrados marinos y trazas. La colección científica y la muestra pública no son lo mismo: una parte importante de los fondos requiere condiciones de conservación y trabajo que no corresponden a un recorrido de libre acceso.
+
+Consulta qué ejemplares y recursos estarán disponibles el día de tu visita. No se promete acceso a depósitos, manipulación de fósiles ni participación en investigación. Si buscas una pieza o tema concreto, dilo al escribir para que el equipo pueda orientar la consulta o explicar sus límites.
+## Leer un fósil con preguntas
+
+Una hoja conservada en roca puede ser tan interesante como un hueso grande si se conoce la pregunta que permite responder. ¿Qué nos dice de la vegetación? ¿Qué información aporta sobre un ambiente antiguo? ¿Cómo se distingue la observación de una interpretación? Son buenos puntos de partida para conversar durante la visita.
+
+En paleontología, la procedencia y el contexto de una pieza son fundamentales. El lugar de hallazgo, la asociación con otros materiales y su documentación hacen posible investigar. La colección permite valorar ese trabajo, que a menudo resulta menos visible que una imagen espectacular de un descubrimiento.
+## Investigación, archivo y nuevas formas de divulgar
+
+La institución ha documentado iniciativas de organización y digitalización de sus fondos, además de actividades de divulgación. En 2025 presentó “Archivo Fósil”, una experiencia de artes mediales y realidad virtual vinculada a la colección paleobotánica, desarrollada con Liquenlab y el colectivo Últimaesperanza.
+
+Esa exposición se menciona como antecedente de programación, no como actividad permanente confirmada para 2026. Las fotografías de su lanzamiento y del trabajo científico se identifican como documentación de esas experiencias. Antes de ir especialmente por realidad virtual, consulta si la instalación está disponible y cuáles son sus condiciones de uso.
+## Horarios y visitas de grupos
+
+El Registro de Museos actualizado en abril de 2026 informa apertura los miércoles y viernes por la tarde. Confirma con el correo de Colecciones que ese horario se mantiene, qué acceso usar y si es necesario reservar. Un laboratorio puede ajustar su atención por trabajo científico, actividades o necesidades de conservación.
+
+Para colegios, universidades o grupos, indica edades, cantidad de personas, fecha y tema de interés. Pregunta por duración, cupos y recursos educativos. Una visita de divulgación para público general es diferente de una solicitud de estudio de colecciones: esta última necesita una coordinación específica y no se resuelve presentándose durante el horario de apertura.
+## Familias, accesibilidad y cuidados
+
+El RMC documenta rutas accesibles y lectura simplificada. Es recomendable consultar el recorrido concreto, los baños y cualquier requerimiento para aprovechar una actividad guiada. Si hay recursos de realidad virtual o audiovisuales, pregunta por edad sugerida, duración y alternativas para quien prefiera otra modalidad.
+
+Con niños funciona preparar una pregunta sobre cambios en la naturaleza y elegir pocas piezas para observar con atención. No se tocan fósiles, equipos o materiales de trabajo sin autorización. Pregunta por fotografía y uso de flash; conservar una imagen no debe poner en riesgo los originales ni interferir con otras personas.
+## Combinar ciencia y paseo urbano
+
+Los laboratorios están en una zona céntrica que permite continuar hacia la costanera o una comida sin organizar un viaje fuera de Punta Arenas. Para ampliar la historia natural, Río Seco aporta otra mirada, pero requiere un traslado y coordinación propios. El Museo Naval ayuda a conectar la actividad antártica con su dimensión marítima.
+
+Deja margen entre una visita con cupo y cualquier reserva de restaurante. Si la programación cambia, el centro ofrece un paseo alternativo a pie. No confundas un anuncio de charla en la sede de la plaza con una exhibición en Lautaro Navarro: revisa siempre el edificio indicado para cada actividad.
+## Consejo para llevarse algo más que una foto
+
+Yo entraría con una pregunta sencilla: cómo sabemos que la Antártica tuvo ambientes distintos a los actuales. Elegiría una pieza y seguiría la explicación hasta comprender qué evidencia aporta y qué no permite concluir. Ese ejercicio deja una idea más duradera del trabajo científico que intentar memorizar nombres de todas las especies.
+''',['https://www.registromuseoschile.cl/663/w3-article-118021.html','https://www.inach.cl/exhibicion-archivo-fosil-abre-sus-puertas-en-el-laboratorio-de-inach/','https://www.inach.cl/con-esta-herramienta-sera-mas-facil-apoyar-nuevas-investigaciones-paleontologicas/'],filters=['museos','ciencia'],accessibility='Rutas accesibles y lectura simplificada informadas por RMC. Confirmar circuito y recursos disponibles al coordinar.')
+
+venue('militar','Museo Militar de Magallanes · Itinerante','museo-militar-magallanes','Punta Arenas · Itinerante',
+'Referencia administrativa en RMC: Capitán Ignacio Carrera Pinto 376. Las exposiciones se realizan en sedes variables; confirmar el lugar del montaje vigente.',
+['Museo itinerante','Historia civil y militar','Consultar programación'],
+'Una colección privada de documentos, uniformes y objetos históricos que se presenta mediante exposiciones itinerantes, con sede de visita variable.',
+{'website':'https://www.registromuseoschile.cl/663/w3-article-120692.html','phone':'+56 9 4759 9359','email':'museomilitarmagallanes@gmail.com'},
+'Sin apertura permanente: funciona solamente mediante itinerancias. El RMC menciona montajes usuales de 11:00–19:00, sujetos al evento. Confirmar fecha y sede antes de desplazarse.',
+'Ingreso gratuito según RMC; confirmar condiciones del montaje anunciado.',
+'''Una colección que se mueve
+
+El Museo Militar de Magallanes se define como una institución privada itinerante. Su actividad consiste en reunir, investigar y presentar patrimonio civil y militar mediante montajes en diferentes espacios. Para visitarlo, el dato decisivo es la programación concreta, no un horario de puerta abierta en una dirección fija.
+
+La dirección de Carrera Pinto 376 aparece como referencia en el Registro de Museos. No la presentamos como una sala permanente visitable. El mapa conserva esa función de referencia y debe complementarse con la sede que el equipo confirme para la próxima exposición.
+## Qué tipo de patrimonio reúne
+
+La descripción institucional menciona cartas, libros, uniformes y objetos de interés historiográfico. El origen de la colección se vincula con antigüedades familiares, donaciones y adquisiciones, además de la colaboración de la Hermandad de la Costa para realizar algunas muestras. Cada montaje puede seleccionar materiales distintos.
+
+No se garantiza que todas las piezas descritas en el registro se exhiban juntas. Si te interesa un período, un objeto o una investigación, consulta antes de acudir. Una colección itinerante puede ofrecer una experiencia cercana de conversación, pero depende de las condiciones del espacio anfitrión y del equipo disponible.
+## Cómo mirar uniformes y documentos
+
+Los objetos de indumentaria permiten preguntar por funciones, materiales y cambios en el tiempo. Los documentos, por su parte, ofrecen nombres, fechas y formas de escritura que ayudan a situar un relato. Es útil observar cómo se acredita una identificación y distinguir piezas originales de reproducciones cuando el montaje las incluya.
+
+El patrimonio militar también forma parte de una historia social. Pregunta por vínculos con la vida civil, la colonia y las transformaciones de Magallanes. Una visita crítica no se limita a reconocer insignias: busca comprender para qué se usaron los objetos y qué experiencias conservan.
+## Consultar un montaje antes de ir
+
+Escribe o llama al contacto del museo para saber cuál es la próxima muestra, su dirección exacta, fechas y condiciones de acceso. Pide el nombre del recinto anfitrión y comprueba que coincide con el mapa de la actividad. No basta con que una publicación antigua mencione una exposición en la ciudad.
+
+El registro anuncia gratuidad, pero eso no informa automáticamente sobre cupos, inscripción o actividades complementarias. Si viajas especialmente para una muestra, confirma que seguirá instalada el día de tu llegada. Un horario habitual de montaje no equivale a una apertura semanal durante todo el año.
+## Duración, familias y consulta especializada
+
+El tiempo depende de la escala de la exposición. Como orientación editorial, reservaría entre media hora y una hora para un montaje pequeño y preguntaría si existe una explicación acompañada. Con niños, puede ser interesante comparar un documento con una prenda y pensar qué información aporta cada uno.
+
+Para investigación, indica tema y período al contactar. No se debe asumir que el fondo completo está disponible para consulta durante una actividad pública. Pregunta por manejo de originales, fotografía y reproducción; la conservación y la disponibilidad del equipo definen lo que se puede hacer.
+## Accesibilidad y servicios según la sede
+
+Una institución itinerante no tiene una única condición de acceso físico. Escaleras, baños, asientos y rutas accesibles dependen del lugar donde se presente cada muestra. Solicita esa información al confirmar el evento y evita trasladar a una sede las condiciones de otra exposición anterior.
+
+El RMC no anuncia una infraestructura permanente de atención al público. Si necesitas un servicio concreto, pregúntalo expresamente. Para un grupo educativo, acuerda número de participantes, hora y objetivos antes de llegar; el museo debe poder organizar el montaje y el acompañamiento posibles.
+## Diferenciarlo de otros museos
+
+Esta colección privada no es el Museo Naval y Marítimo de Pedro Montt ni debe confundirse con referencias históricas a un Museo Histórico Militar del Ejército. Los nombres parecidos pueden llevar a ubicar fotografías y contactos en la institución equivocada. En esta ficha solo se utilizan materiales identificados con este museo itinerante.
+
+Si no coincide ninguna exposición con tu estancia, el Museo Naval o el Museo del Recuerdo ofrecen alternativas con condiciones de apertura propias. No cambies de destino pensando que encontrarás la misma colección: son propuestas independientes y se consultan por separado.
+## Consejo para planificar sin una sede fija
+
+Yo guardaría el contacto y revisaría la programación cerca de la fecha del viaje. Solo después de tener dirección y horario incorporaría la visita al itinerario. Si se confirma una muestra, aprovecharía para preguntar por el origen de una pieza: el trabajo de reunir una colección suele explicar tanto como su presentación pública.
+''',['https://www.registromuseoschile.cl/663/w3-article-120692.html'],filters=['museos','historia'],status='Itinerante · confirmar sede',map_query='Capitán Ignacio Carrera Pinto 376, Punta Arenas, Chile',map_note='Referencia administrativa del RMC. No es una sala de apertura permanente: pide la ubicación exacta de la exposición vigente al museo antes de viajar.',accessibility='Depende de la sede de cada exposición. Consultar acceso, baños y servicios del montaje confirmado.')
+
+venue('vieja','Vieja Patagonia · Museo de las Cosas','vieja-patagonia-museo-cosas','Centro histórico',
+'Lautaro Navarro 894',['Museo y antigüedades','Vida cotidiana','Memoria local'],
+'Objetos, libros y pequeñas historias de Magallanes en una tienda patrimonial que amplió su propuesta con el Museo de las Cosas.',
+{'instagram':'https://www.instagram.com/viejapatagonia1/','phone':'+56 9 9837 4630','whatsapp':'https://wa.me/56998374630','email':'alejandrotorosanchez@gmail.com'},
+'El directorio local informa lunes–viernes 11:00–13:00 y 17:00–19:30; sábado 11:00–13:00 y 16:00–19:30. Confirmar horario propio del museo, especialmente tras su nueva etapa de 2026.',
+'Confirmar entrada al Museo de las Cosas y servicios disponibles. Los precios de antigüedades y libros no son tarifas de acceso.',
+'''La memoria de los objetos de todos los días
+
+Vieja Patagonia propone mirar la historia desde cosas que formaron parte de hogares, trabajos y comercios. Libros, utensilios, envases, aparatos y muebles pueden despertar recuerdos o preguntas sobre usos que ya no son evidentes. Es una visita adecuada para quien disfruta los detalles y las conversaciones alrededor de una pieza.
+
+El proyecto reúne una tienda de antigüedades y un espacio museográfico. Esa convivencia requiere distinguir qué está a la venta, qué forma parte de una colección y qué puede tocarse. Pregunta antes de manipular cualquier objeto: su aspecto cotidiano no elimina su valor patrimonial ni su fragilidad.
+## De la Esquina del Remate al Museo de las Cosas
+
+La prensa local ha documentado la transformación de la antigua Esquina del Remate, en Lautaro Navarro 894, hacia Vieja Patagonia. En 2026, nuevas noticias describen la ampliación del proyecto de Alejandro Toro con un Museo de las Cosas y un periódico vinculado al patrimonio regional.
+
+Es importante separar esa nueva etapa de las fotografías de la tienda tomadas años antes. Las imágenes históricas permiten reconocer el lugar y su recorrido, pero no aseguran que cada ambiente se mantenga igual. Confirma cómo se organizan hoy tienda y museo y por dónde empieza la visita.
+## Qué buscar entre ambientaciones y colecciones
+
+Los relatos recientes del proyecto mencionan escenas de cocina, peluquería, cantina y almacén, además de recuerdos deportivos. El interés está en relacionar objetos con oficios y formas de vivir. Una balanza o un aparato de comunicación cuentan más cuando se explica quién lo utilizaba y en qué contexto.
+
+No todo lo antiguo representa exclusivamente a Punta Arenas. Pregunta por la procedencia regional de una pieza, cómo llegó a la colección y qué historia se conoce de ella. Esa información permite distinguir un objeto de época de un testimonio documentado de la vida magallánica.
+## Una visita de conversación
+
+Como orientación editorial, dejaría entre 45 y 75 minutos si quieres recorrer con calma y conversar, ajustándolo a la visita disponible. Si solo buscas un libro o una antigüedad, la dinámica será otra. Al contactar, especifica si te interesa la tienda, el museo o una visita de grupo.
+
+Las colecciones pueden crecer y reorganizarse. En lugar de buscar una pieza que viste en una foto antigua, pregunta por los temas del recorrido actual. La gracia del lugar puede estar en un detalle pequeño y en la historia que alguien recuerda a partir de él.
+## Horarios, entrada y compra
+
+El directorio local publica un horario partido para la tienda. No lo convertimos automáticamente en horario garantizado de toda la nueva muestra. Confirma por teléfono o Instagram la apertura del museo, su eventual tarifa y la forma de pago antes de organizar una visita con hora fija.
+
+Si compras una antigüedad, consulta estado, medidas, fragilidad y condiciones de traslado. Los objetos expuestos como colección no deben suponerse disponibles para venta. Para libros o materiales patrimoniales, pregunta por edición y procedencia; una compra puede complementar la visita sin sustituir su recorrido.
+## Familias, acceso y fotografía
+
+Con niños o adolescentes, comparar un aparato antiguo con su equivalente actual suele generar una buena conversación. Acuerda primero qué se puede tocar o probar. La curiosidad se disfruta más cuando no pone en riesgo objetos, pasillos o la circulación de otras personas.
+
+No se ha confirmado la accesibilidad integral de los espacios nuevos. Consulta anchos de paso, desniveles, baños y acceso al museo según tus necesidades. Pide permiso para fotografiar interiores y evita retratar a otras personas sin su acuerdo, especialmente si una visita o actividad se desarrolla en un espacio reducido.
+## El centro y sus historias cercanas
+
+La dirección permite combinar la visita con la plaza, la costanera y una pausa gastronómica. Para una jornada de memoria material, el Museo del Recuerdo aporta otra escala, aunque requiere desplazarse al Instituto de la Patagonia. No son la misma colección ni comparten entrada.
+
+Si estás armando un paseo a pie, intercala esta visita con el Museo Naval o una galería cercana, siempre con aperturas confirmadas. El horario de mediodía puede ser corto: evita llegar justo cuando termina el primer turno si tu interés es recorrer el museo con conversación.
+## Consejo para encontrar una historia propia
+
+Yo elegiría un objeto conocido de la casa de un familiar y otro que nunca haya visto. Preguntaría por ambos y compararía sus usos. Esa combinación entre memoria personal y descubrimiento es una buena forma de recorrer Vieja Patagonia sin convertir la experiencia en una simple búsqueda de souvenirs.
+''',['https://www.vitrinapuntaarenas.cl/negocio/vieja-patagonia','https://www.ovejeronoticias.cl/2026/10/en-pleno-centro-de-punta-arenas-abrio-sus-puertas-el-museo-de-las-cosas/','https://radiopolar.cms-mspress.com/alejandro-toro-presenta-etapa-vieja-patagonia-tienda-museo-periodico-patrimonial','https://laprensaaustral.cl/2021/06/26/la-reinvencion-de-una-historica-esquina/'],filters=['museos','historia'],accessibility='Consultar disposición de la nueva muestra, desniveles y circulación. No se ha verificado accesibilidad integral.')
+
+venue('galeria','La Galería · Tienda de Arte y Diseño','la-galeria-arte-diseno','Centro · Avenida Colón',
+'Avenida Cristóbal Colón 511, esquina Armando Sanhueza',
+['Galería de arte','Paola Vezzani','Diseño local'],
+'Un espacio de arte y diseño vinculado a la escultora Paola Vezzani, donde las obras y objetos dialogan con el paisaje de la Patagonia.',
+{'website':'https://www.lagaleriatienda.cl/','instagram':'https://www.instagram.com/lagaleriatienda/','phone':'+56 9 9233 8008','email':'lagaleriatienda@gmail.com'},
+'Sitio oficial: lunes–sábado 10:00–13:00 y 15:00–19:00. Confirmar festivos, actividades y visitas de grupo.',
+'No se ha identificado un cobro general de entrada publicado. Consultar talleres y actividades; las obras y productos tienen precios propios.',
+'''Arte y diseño con mirada austral
+
+La Galería es un espacio cultural y comercial fundado por la escultora Paola Vezzani. Su propuesta reúne creación artística y objetos de diseño escogidos en diálogo con el territorio. Es una buena parada para quien quiere acercarse al trabajo contemporáneo de la región y llevarse algo más personal que un recuerdo producido en serie.
+
+Tripadvisor la incluye en su selección de museos, pero aquí se identifica como galería y tienda de arte. No se presenta como una colección museológica histórica ni se promete una visita guiada permanente. La experiencia depende de las obras, exposiciones y actividades disponibles al momento de pasar.
+## Cómo recorrer las obras
+
+Empieza por mirar las formas y materiales antes de leer nombres o precios. Las referencias al paisaje pueden aparecer en siluetas, ritmos, texturas y relaciones entre vacío y materia. Preguntar por el proceso de una pieza ayuda a entender decisiones que una fotografía de catálogo no muestra.
+
+La relación con Paola Vezzani no significa que todo lo exhibido sea de su autoría. El sitio presenta también trabajos de otros artistas y diseñadores. Consulta autor, técnica, edición y procedencia para reconocer la diversidad de la selección y distinguir una obra única de un objeto producido en varias unidades.
+## Tienda, exposiciones y talleres
+
+La propuesta del espacio combina exhibición y venta de arte y diseño. Puede haber exposiciones o actividades en fechas concretas. Revisa la programación en sus canales oficiales si quieres asistir a una inauguración, un taller o una conversación; no se debe extrapolar una actividad pasada como servicio diario.
+
+Como orientación editorial, entre media hora y una hora puede permitir mirar y conversar sin apuro, con más tiempo si una exposición te interesa especialmente. Para grupos o una visita con explicación, consulta previamente. Una tienda abierta no garantiza que la artista o una persona mediadora esté disponible a toda hora.
+## Elegir una pieza y trasladarla
+
+Si quieres comprar, pregunta por medidas, materiales, cuidados y embalaje. Para una escultura u objeto frágil, verifica cómo viajará en equipaje o envío y qué condiciones ofrece la galería. Es más útil resolverlo allí que descubrir después que la pieza no cabe o necesita protección especial.
+
+Consultar el nombre de quien creó el trabajo y guardar su información permite seguir la relación después del viaje. No presupongas que todos los objetos son de producción local: la selección puede incluir artistas de distintos lugares. La procedencia concreta es parte de una elección informada.
+## Horarios y contactos
+
+La página oficial de contacto anuncia lunes a sábado en dos turnos, de mañana y tarde. El cierre de mediodía importa si estás recorriendo el centro: deja tiempo para mirar antes de que termine el turno. Confirma funcionamiento en festivos y cambios de agenda por Instagram o teléfono.
+
+El sitio web permite conocer parte de la propuesta antes de ir. Un catálogo en línea no garantiza que cada pieza se encuentre físicamente disponible en la tienda. Si viajas por una obra concreta, solicita confirmación de disponibilidad y condiciones sin asumir una reserva por haberla visto publicada.
+## Acceso, familias y fotografía
+
+No se ha verificado un circuito accesible completo. Consulta escalones, ancho de ingreso y disposición interior si lo necesitas. Con niños, mirar formas y materiales puede ser una actividad breve y atractiva, manteniendo cuidado con las piezas y preguntando antes de tocar.
+
+Pide permiso para fotografiar obras y revisa las condiciones si quieres utilizar una imagen en otro contexto. La visita sirve para conocer un trabajo creativo, no para asumir derechos de reproducción. No se debe apoyar equipo ni mochilas en piezas o muebles de exhibición.
+## Colón y una combinación a pie
+
+La dirección está en Colón 511, esquina Armando Sanhueza. En el mismo eje del centro puedes combinar arte, arquitectura y café. Casa Orígenes informa una dirección cercana en Colón 497, pero es otra propuesta y mantiene su propia selección y horario.
+
+Yo visitaría La Galería después de un museo histórico para cambiar de registro: primero conocer el territorio desde sus colecciones y luego observar cómo lo interpretan artistas actuales. Esa alternancia conecta pasado y creación contemporánea sin llamar museo a todos los espacios culturales de la ciudad.
+''',['https://www.lagaleriatienda.cl/','https://www.lagaleriatienda.cl/cont%C3%A1ctanos','https://www.lagaleriatienda.cl/nosotros','https://cna.mop.gob.cl/artistas/paola-vezzani/'],filters=['galerias'],accessibility='Consultar ingreso y circulación interior. No hay confirmación de accesibilidad integral.')
+
+venue('origenes','Casa Orígenes de la Patagonia','casa-origenes-patagonia','Centro · Avenida Colón',
+'Avenida Cristóbal Colón 497. Directorios anteriores muestran Armando Sanhueza 110: confirmar la sede actual antes de desplazarse.',
+['Tienda colaborativa','Diseño regional','Artesanía'],
+'Una selección colaborativa de marcas regionales para conocer oficios, materiales y objetos de diseño de la Patagonia.',
+{'instagram':'https://www.instagram.com/origenesdelapatagonia/','phone':'+56 9 7579 0752'},
+'El directorio local anuncia lunes–sábado 11:00–20:00. Otras fichas conservan horarios diferentes: confirmar dirección y apertura por Instagram.',
+'Productos con precios propios; no se ha identificado una tarifa de acceso publicada. Consultar actividades especiales.',
+'''Una casa para distintas marcas
+
+Casa Orígenes se presenta como una tienda colaborativa que agrupa pequeñas marcas regionales y productos hechos a mano. Su interés está en la selección de creadores y en la posibilidad de relacionar un objeto con quien lo produce. Es un complemento para un paseo cultural y de compras en Punta Arenas.
+
+Aunque figura en la categoría de museos de Tripadvisor, no es un museo histórico. Aquí se mantiene como tienda y espacio de diseño, con su identidad real. No se promete una colección permanente, explicación museográfica ni visita guiada que no hayan sido confirmadas por el establecimiento.
+## Qué mirar antes de elegir
+
+Una visita interesante puede partir por materiales y usos: textiles, piezas de decoración, accesorios u otros productos disponibles en la selección del día. Pregunta por la marca, la técnica y el lugar de producción de cada objeto. La identidad regional se entiende mejor con esa información que con una etiqueta general de “souvenir”.
+
+No todos los productos que aparecen en imágenes antiguas necesariamente siguen en venta. Las marcas y existencias pueden cambiar. Si buscas una pieza concreta, envía la consulta al canal oficial y confirma medidas, color, precio y disponibilidad antes de organizar el traslado.
+## Dirección: un dato que debe revisarse
+
+Las fuentes consultadas no coinciden completamente: el directorio local y algunas versiones de Tripadvisor indican Colón 497, mientras que otras fichas conservan Armando Sanhueza 110. Utilizamos la referencia de Colón y dejamos constancia de la diferencia para que el visitante pueda verificarla directamente.
+
+Las fotografías documentan el establecimiento y su propuesta, pero no deben utilizarse por sí solas para identificar una sede actual. Antes de salir, pregunta cuál es el acceso vigente. La sucursal anunciada en Puerto Natales corresponde a otra ciudad y no forma parte del mapa de esta ficha.
+## Comprar con información útil
+
+Para un objeto artesanal, pregunta por cuidados, resistencia y embalaje. Si será un regalo, confirma medidas y condiciones de cambio. Para materiales naturales, solicita información concreta sobre composición y procedencia en lugar de deducirla por apariencia o por la estética de la tienda.
+
+Guardar el nombre de la marca permite seguir su trabajo después del viaje. Una compra informada también distingue entre piezas hechas a mano, productos diseñados localmente y artículos de otra procedencia. La tienda puede orientar esa conversación sin que todos los objetos tengan necesariamente la misma técnica o escala de producción.
+## Horarios, contacto y actividades
+
+El horario publicado por el directorio local se presenta como referencia, porque otros listados muestran turnos diferentes. Instagram es el canal identificado para confirmar funcionamiento y cambios. El teléfono proviene de un directorio comercial contrastado; si no hay respuesta, utiliza el perfil del negocio antes de desplazarte por una compra específica.
+
+No se ha localizado un sitio web propio independiente confirmado ni una agenda estable de actividades. Si ves anunciado un taller o evento, revisa fecha, sede y reserva. Una publicación compartida por una marca no implica que el evento se realice en la tienda de Punta Arenas.
+## Familias y necesidades de acceso
+
+Puede ser una parada breve para mirar objetos y hablar sobre materiales y trabajo local. Con niños, pide autorización antes de tocar y cuida la circulación entre muebles y productos. El tiempo de visita depende del interés por comprar o conversar; una estimación editorial razonable para mirar es de unos 20 a 40 minutos.
+
+No hay información suficiente para afirmar accesibilidad integral. Consulta ingreso, escalones y disposición interior en la sede que se confirme. También conviene preguntar por medios de pago y disponibilidad de embalaje si vienes desde lejos o necesitas resolver una compra en una sola visita.
+## Un paseo por arte y diseño en Colón
+
+La referencia de Colón permite pensar una combinación con La Galería, en el número 511. Son establecimientos independientes con propuestas distintas. Verifica ambas aperturas y deja tiempo para conversar en lugar de tratarlas como dos tarjetas de una lista.
+
+Yo sumaría Casa Orígenes a una tarde de paseo por el centro y una pausa en un café. La visita tiene más sentido cuando se conecta con el trabajo de los creadores que cuando se busca solamente completar una categoría de “museos”. Su valor está precisamente en mostrar producción contemporánea y colaboración regional.
+''',['https://vitrinapuntaarenas.cl/negocio/origenes-de-la-patagonia-casa-or-genes','https://www.tripadvisor.com/Attraction_Review-g297401-d32814251-Reviews-Casa_Origenes_De_La_Patagonia-Punta_Arenas_Magallanes_Region.html','https://wanderlog.com/es/place/details/12463689/casa-or%C3%ADgenes-de-la-patagonia'],filters=['galerias'],map_query='Casa Orígenes de la Patagonia, Avenida Cristóbal Colón 497, Punta Arenas, Chile',accessibility='Consultar condiciones de la sede vigente; las fuentes difieren en dirección y no documentan un circuito accesible completo.')
+
+venue('artesanal','Centro Artesanal Municipal de Punta Arenas','centro-artesanal-municipal','Centro sur · 21 de Mayo',
+'21 de Mayo 1463',['Artesanía','Oficios y materiales','Espacio comercial'],
+'Puestos y productos de artesanía en un edificio propio del centro sur, para conocer materiales, conversar con vendedores y elegir recuerdos con procedencia.',
+{'website':'https://www.puntaarenas.cl/','facebook':'https://www.facebook.com/100063736292915/'},
+'Horario general y apertura de cada puesto por confirmar. No se utiliza un horario de una actividad pasada como calendario actual.',
+'Compras según cada puesto. No se ha identificado una tarifa general de acceso publicada.',
+'''Artesanía dentro del paseo cultural
+
+El Centro Artesanal de 21 de Mayo 1463 reúne puestos y productos en un edificio comercial vinculado a la artesanía. Es un lugar para mirar materiales, preguntar por técnicas y elegir un recuerdo con información sobre su origen. La conversación con quien vende o produce puede aportar tanto como el objeto que te llevas.
+
+Tripadvisor lo incluye entre museos y galerías, pero no se presenta aquí como museo. No se ha verificado una colección museográfica permanente ni un recorrido histórico guiado. Su función es comercial y artesanal, y esa identidad es suficiente para incorporarlo con claridad al paseo cultural.
+## No confundirlo con el Mercado Municipal
+
+En las reseñas y fotos de internet se mezclan a veces el Centro Artesanal y los puestos del Mercado Municipal. Esta ficha corresponde exclusivamente al edificio de 21 de Mayo 1463. Las imágenes seleccionadas muestran ese recinto, su acceso y sus pasillos, evitando usar la fachada del mercado para ilustrarlo.
+
+Al planificar, utiliza el número de calle y confirma el acceso. La cercanía relativa de distintos lugares de compras en el centro no significa que sean el mismo establecimiento. Si tu interés es un puesto concreto, pregunta dónde funciona actualmente antes de buscarlo en otro edificio.
+## Qué preguntar por una pieza
+
+El primer paso es conocer material, técnica y procedencia. Una prenda tejida, una pieza de madera o un objeto decorativo pueden tener procesos muy distintos. Pregunta si fue realizado por quien atiende, por un taller regional o por otro productor, sin deducirlo del diseño o de un nombre patagónico.
+
+Si un producto se vincula a un pueblo originario, solicita información sobre autoría y contexto con respeto. Una estética o un símbolo no acreditan por sí solos esa relación. Elegir con datos permite valorar el trabajo real y evitar confundir producción artesanal con un recuerdo genérico de distribución masiva.
+## Comprar y transportar
+
+Consulta precio final, medios de pago y condiciones de cambio en cada puesto. No existe una única política que pueda darse por válida para todos los comerciantes. Para productos frágiles o voluminosos, revisa embalaje y espacio disponible en el equipaje antes de pagar.
+
+Cuando un objeto use materiales naturales, pide composición y procedencia precisa. Si continuarás a otro país, verifica sus requisitos de ingreso en las fuentes de la autoridad correspondiente; el hecho de comprar un artículo como artesanía no garantiza que pueda cruzar cualquier frontera sin revisión.
+## Tiempo de visita y horarios
+
+Como orientación editorial, entre media hora y una hora permite recorrer y comparar sin apuro. La disponibilidad depende de qué puestos estén abiertos. No se ha podido confirmar un horario general actual suficientemente claro, de modo que conviene consultar la página del recinto o información municipal antes de ir especialmente.
+
+El sitio municipal es una referencia institucional y no una reserva de visita. Tampoco se publica en esta ficha el teléfono de un comerciante como si fuera la central del centro. Si buscas una persona o taller, utiliza su propio contacto y verifica que siga atendiendo en el edificio.
+## Acceso, familias y fotografía
+
+El edificio tiene circulación y niveles que deben consultarse según las necesidades del visitante. No se ha verificado una ruta accesible completa ni el acceso a todos los puestos sin escaleras. Pregunta por alternativas si utilizas silla de ruedas, cochecito o necesitas evitar desniveles.
+
+Con niños puede ser interesante observar una técnica o comparar materiales, siempre con autorización antes de tocar productos. Pide permiso para fotografiar puestos y personas. Mantén despejados pasillos y accesos mientras eliges o conversas, especialmente cuando coincidan grupos de visitantes.
+## Cómo integrarlo al centro
+
+Se puede sumar a un paseo por 21 de Mayo y la costanera, con una comida o café en el centro. Organiza compras y paseo según el clima y los horarios confirmados; no es necesario convertirlo en una excursión independiente si ya estarás recorriendo el sector.
+
+Yo elegiría pocas piezas y haría preguntas sobre cómo están hechas. Una compra con autor, material y procedencia conocidos deja una relación más concreta con el viaje. Para una visita museística propiamente tal, continúa hacia las fichas del Naval, Borgatello o Recuerdo y verifica su apertura por separado.
+''',['https://serviciosturisticos.sernatur.cl/13776-maravillas-magallanicas-centro-artesanal-punta-arenas','https://www.puntaarenas.cl/transparencia2010/normativa/REGL167.pdf','https://www.tripadvisor.cl/Attraction_Review-g297401-d8861428-Reviews-Centro_Artesanal-Punta_Arenas_Magallanes_Region.html'],filters=['galerias'],accessibility='Consultar niveles, escaleras y acceso a puestos. Sin confirmación de accesibilidad integral.',map_query='Centro Artesanal Punta Arenas, 21 de Mayo 1463, Punta Arenas, Chile')
+
+venue('sara-braun','Palacio Sara Braun · Club de la Unión','palacio-sara-braun','Centro histórico',
+'Plaza Muñoz Gamero 716',['Palacio patrimonial','Club de la Unión','Visita a coordinar'],
+'Arquitectura y salones históricos frente a la plaza: un palacio con vida institucional, hotelera y gastronómica, cuyo acceso patrimonial requiere consulta propia.',
+{'website':'https://www.clubunionpuntaarenas.cl/otras_dependencias.html','phone':'+56 9 9753 5837','email':'gerencia.clubunion@gmail.com'},
+'Consultar visitas regulares con el Club de la Unión. La apertura patrimonial del 31 de mayo de 2026 fue un evento específico y no constituye un horario semanal.',
+'Tarifa de visita patrimonial por confirmar. Consumir en el bar o alojarse en el hotel no equivale a comprar una visita a los salones.',
+'''Un palacio que se reconoce desde la plaza
+
+El palacio Sara Braun es una de las construcciones que dan carácter al entorno de la plaza Muñoz Gamero. Su escala, ornamentación y jardín de invierno permiten observar cómo parte de la sociedad de Punta Arenas quiso representar su posición económica y sus vínculos culturales a través de la arquitectura.
+
+Es un edificio patrimonial con usos actuales, entre ellos el Club de la Unión y dependencias del Hotel José Nogueira. Conviene visitarlo entendiendo esa convivencia: algunas áreas tienen funcionamiento propio y no todo el inmueble está abierto al paseo espontáneo de visitantes.
+## Qué se puede conocer y qué debe coordinarse
+
+El programa oficial del Día del Patrimonio 2026 documentó recorridos por dos pisos, con salón de recepción, salón de música, sala del directorio y sala de billar, además de dependencias del hotel. Esa referencia confirma la riqueza de sus interiores, pero no garantiza que esas mismas salas se visiten todos los días.
+
+Para una visita regular, consulta directamente al Club de la Unión por apertura, valor, reserva, idioma y recorrido permitido. El teléfono y correo de esta ficha corresponden al contacto institucional publicado para la actividad patrimonial. No uses una reserva de restaurante como confirmación de ingreso a salones privados.
+## Cómo mirar la arquitectura
+
+Desde el exterior, fíjate en la esquina, las rejas, los vanos y la relación entre jardín e interior. La luz cambia la lectura de las superficies y del volumen, por lo que una vuelta a la plaza puede ser más interesante que buscar un único punto para fotografiarlo. Mantén libre la vereda y respeta los accesos en uso.
+
+Si logras una visita de interiores, dedica tiempo a los detalles: cielos, pisos, mobiliario y transiciones entre habitaciones. Más que sumar objetos, intenta reconstruir cómo circulaban huéspedes, residentes y trabajadores. Pregunta cuáles son originales, restaurados o incorporados después, sin asumir que todo pertenece al mismo momento.
+## El palacio no es el Museo Regional
+
+Sara Braun y Braun Menéndez son edificios distintos, aunque estén cerca y compartan referencias familiares en las historias de la ciudad. El Museo Regional está en Magallanes 949 y permanece cerrado temporalmente. Este palacio está frente a la plaza y tiene otra administración.
+
+La confusión afecta mapas, fotografías y expectativas de visita. Al reservar, menciona el nombre del edificio y pregunta por los salones concretos. Una fotografía de un interior bonito no basta para identificar a cuál de los dos palacios pertenece; la ubicación y la procedencia de la imagen deben acompañar la investigación.
+## Hotel, bares y patrimonio
+
+La presencia del hotel y de propuestas gastronómicas permite relacionar el edificio con la ciudad actual. Puedes consultar las fichas de Taberna Club de la Unión y Shackleton Bar para organizar una comida o una salida, con sus propias condiciones de reserva y horarios. Son experiencias diferentes del recorrido patrimonial.
+
+Si tu objetivo principal es conocer la casa, dilo al contactar y confirma qué entrada debes utilizar. Los accesos de huéspedes, trabajadores y clientes no son necesariamente los del recorrido. No entres a dependencias privadas siguiendo a otro visitante ni asumas que una puerta abierta habilita una visita.
+## Familias y accesibilidad
+
+Para una visita con niños, un recorrido breve que compare dos salones puede ser más útil que una explicación larga de apellidos y fechas. Pregunta por duración y reglas de fotografía. El patrimonio de una casa se disfruta mejor si se observan las piezas sin tocar muebles, textiles o decoraciones.
+
+No se ha confirmado un circuito accesible a todos los pisos. Consulta escalones, baños, ascensores o alternativas de visita según tus necesidades. La facilidad de entrar a un servicio comercial de la planta baja no demuestra accesibilidad a la totalidad de los salones históricos.
+## Un paseo por el centro histórico
+
+Su ubicación permite combinar el exterior con la plaza, la catedral y la costanera, manteniendo un paseo a pie. Si la visita interior no está disponible, el edificio conserva interés como parte del conjunto urbano. Otra opción cultural cercana es el Museo Naval, previa confirmación de su apertura.
+
+Deja la hora de comida independiente de la visita al palacio. El centro ofrece cafés y restaurantes a poca distancia, pero cada uno tiene condiciones propias. Con viento fuerte, organiza el paseo para alternar tramos exteriores y una pausa en un lugar abierto, sin dar por disponible el acceso a este edificio.
+## Consejo para preparar la visita
+
+Yo confirmaría el recorrido antes de incluirlo como una actividad con hora fija. Si hay acceso, preguntaría por una habitación y un detalle arquitectónico que distingan la casa. Si no lo hay, lo integraría a un paseo de fachadas y guardaría el tiempo de interiores para un museo abierto; el valor patrimonial del palacio no depende de prometer una entrada que nadie ha confirmado.
+''',['https://www.diadelpatrimonio.cl/actividad/visita-al-palacio-sara-braun-club-de-la-union-de-punta-arenas','https://www.clubunionpuntaarenas.cl/otras_dependencias.html','https://tabernabar.cl/sabias-que-en-sus-origenes-el-local-que-hoy-todos-conocemos-como-taberna-club-de-la-union/'],filters=['patrimonio','historia'],accessibility='Consultar acceso a salones y pisos. No se ha verificado un recorrido integral sin barreras.')
+
+venue('keuken','Parque Étnico Keu Ken','parque-etnico-keu-ken','Ruta sur · Agua Fresca',
+'Fundo San Fernando, ruta 9, kilómetro 42 sur, sector Agua Fresca',
+['Circuito interpretativo','Visita guiada','Pueblos originarios'],
+'Un recorrido guiado por estaciones interpretativas al aire libre que aborda historias de los pueblos originarios y transformaciones del territorio austral.',
+{'website':'https://www.fundosanfernando.cl/web/parque-keu-ken/','instagram':'https://www.instagram.com/parquekeuken/','phone':'+56 9 9764 0520','email':'info@fundosanfernando.cl'},
+'Recorridos anunciados a las 10:30 y 15:30, excepto miércoles. Confirmar reserva, cupos, clima y funcionamiento en festivos.',
+'Entrada de pago. RMC informa categorías de $15.000, $10.000 y $7.000 sin rotulación suficiente en la versión consultada: solicitar tarifa por edad y condición. Personas con discapacidad: gratuidad informada por RMC, sujeta a confirmación de requisitos.',
+'''Un circuito de interpretación en el bosque
+
+Keu Ken está dentro del Fundo San Fernando, al sur de Punta Arenas. Su propuesta es un recorrido temático guiado con estaciones, representaciones y recursos audiovisuales, en un entorno de bosque y cursos de agua. Es una experiencia de interpretación histórica al aire libre, con una dinámica diferente a la de salas y vitrinas.
+
+La ficha oficial lo clasifica como sala de exposición museográfica, centro de interpretación y parque patrimonial. Las figuras y ambientaciones forman parte de una recreación contemporánea: no se trata de un asentamiento indígena histórico conservado en su lugar ni de una demostración de vida cotidiana de una comunidad actual.
+## Qué historia propone contar
+
+El relato del circuito aborda el poblamiento de la Patagonia y llega hasta transformaciones de comienzos del siglo XX. La descripción oficial destaca contenidos sobre aónikenk y kawésqar, junto con episodios de violencia colonial y exhibición de personas en los llamados zoológicos humanos. Son asuntos que merecen atención y contexto.
+
+Conviene diferenciar pueblos, épocas y fuentes. Un recorrido interpretativo puede ser una introducción, pero no reemplaza la diversidad de voces y experiencias de las comunidades. Pregunta al guía por el origen del relato, los recursos utilizados y las formas actuales de trabajar la memoria del territorio.
+## Estaciones, pasarelas y guía
+
+La propuesta anuncia 18 estaciones con figuras a tamaño real y recursos sonoros y audiovisuales. El sendero cruza el río Canelo Sur e incluye puentes, escaleras, pasarelas y miradores. El operador estima unas dos horas de recorrido acompañado por guía bilingüe; confirma el idioma concreto de tu salida.
+
+Ese tiempo debe sumarse al traslado desde Punta Arenas y a cualquier otra actividad del fundo. No programes llegar tarde pensando que podrás incorporarte sin afectar la explicación. Pregunta con cuánta anticipación debes presentarte y cuál es el procedimiento en caso de lluvia, viento o cambios de ruta.
+## Cómo reservar y entender el precio
+
+El sitio anuncia salidas a las 10:30 y 15:30, con cierre los miércoles. Es importante consultar cupos y confirmar tu visita por el contacto del operador. La reserva de una excursión en una agencia debe especificar si incluye entrada, guía y transporte, para evitar pagar dos veces o asumir servicios que no están incorporados.
+
+Las tablas antiguas del fundo no se utilizan aquí como precio actual. El Registro de Museos publica valores, pero la versión accesible no identifica con suficiente claridad todas las categorías. Solicita un presupuesto según edades y número de personas, junto con forma de pago y condiciones de cambio antes de confirmar.
+## Familias y contenidos sensibles
+
+El recorrido puede resultar atractivo para familias interesadas en historia y naturaleza. Sin embargo, también aborda violencia y despojo. Pregunta por la adecuación del relato a niños pequeños y prepara la visita según sus edades; una actividad educativa puede necesitar conversación antes y después del paseo.
+
+El tramo exterior requiere caminar y seguir indicaciones del guía. No se debe subir a figuras, puentes o estructuras fuera del uso indicado. Lleva abrigo, agua y calzado adecuado, y consulta si existen alternativas cuando una persona no pueda completar el circuito habitual.
+## Accesibilidad y condiciones del terreno
+
+La descripción oficial menciona escaleras y pasarelas. No se ha confirmado una ruta integral accesible para silla de ruedas o cochecito. Antes de reservar, explica tus necesidades y pregunta por distancia, pendientes, superficies, baños y posibilidades reales de asistencia o circuito alternativo.
+
+La gratuidad que informa el registro para personas con discapacidad no elimina esas barreras físicas. Es mejor resolver el recorrido posible con anticipación que llegar a un acceso que no permita disfrutar la actividad. En invierno, consulta estado de caminos y condiciones de escarcha tanto en el fundo como en el traslado.
+## El fundo y las actividades adicionales
+
+Fundo San Fernando presenta otras propuestas de turismo y recreación. No deben darse por incluidas en la entrada al circuito Keu Ken: horarios, cupos y tarifas pueden ser independientes. Si quieres comer allí o sumar una actividad, solicita un programa concreto que indique qué podrás hacer y cuánto tiempo necesitarás.
+
+Las fotografías de esta ficha corresponden al parque interpretativo y a su recorrido. No se utilizan imágenes de otros establecimientos para completar la visita. Algunas provienen de la galería histórica oficial y permiten reconocer la propuesta, sin garantizar que cada ambientación conserve hoy idéntica disposición.
+## Ruta sur y consejo de planificación
+
+El acceso está en el kilómetro 42 sur de la ruta 9, en Agua Fresca. Asegura transporte de ida y regreso, especialmente si sales sin vehículo propio. No se ha verificado una línea urbana regular que te deje en la puerta y coincida con la salida guiada.
+
+Se puede pensar en una combinación con el Museo del Estrecho, situado más al sur, pero yo la haría solo con horarios confirmados y una jornada amplia. Dos horas guiadas más otro parque, traslado y comida requieren margen. Prioriza la calidad de cada visita sobre la cantidad de lugares que aparezcan en la ruta.
+''',['https://www.fundosanfernando.cl/web/parque-keu-ken/','https://www.registromuseoschile.cl/663/w3-article-64946.html','https://www.fundosanfernando.cl/web/'],filters=['museos','historia','aire-libre'],accessibility='Circuito con puentes, pasarelas y escaleras. Confirmar alternativas y condiciones de baño; no se ha verificado acceso integral.')
+
+venue('croata','Museo de la Inmigración Croata en Magallanes','museo-inmigracion-croata','Centro histórico',
+'Presidente Federico Errázuriz 812, Club Croata de Punta Arenas',
+['Memoria migrante','Club Croata','Ingreso gratuito'],
+'Una sala patrimonial vinculada al Club Croata y a la Sociedad Croata de Socorros Mutuos para acercarse a la memoria de la inmigración en Magallanes.',
+{'website':'https://clubcroatapuntaarenas.cl/','instagram':'https://www.instagram.com/clubcroatapuntaarenas/','phone':'+56 9 3558 5135','email':'secretariaadministrativa@clubcroatapuntaarenas.cl'},
+'RMC: lunes–viernes 15:00–19:30. Confirmar acceso al museo, visitas guiadas y cierres de festivos con la secretaría del Club.',
+'Ingreso gratuito según Registro de Museos de Chile.',
+'''La memoria de una comunidad
+
+El Museo de la Inmigración Croata en Magallanes conserva la historia de fundadores y socios del Club Croata y de la Sociedad Croata de Socorros Mutuos. Es una buena oportunidad para acercarse a la vida asociativa y a la forma en que las familias migrantes construyeron vínculos en una ciudad alejada de sus lugares de origen.
+
+La escala de una sala patrimonial invita a mirar con calma y a preguntar. No hay que esperar un museo de grandes salas ni confundir su tamaño con su interés: los archivos y objetos de una comunidad pueden aportar una perspectiva que las colecciones generales solo alcanzan a mencionar.
+## El Club como contexto de la colección
+
+El Club Croata tiene una trayectoria que se remonta a 1915. Esa fecha pertenece a la institución y no debe utilizarse como fecha de inauguración del museo sin un respaldo específico. La sala se entiende dentro de una historia asociativa que continúa en actividades culturales y sociales del presente.
+
+Al visitarla, pregunta cómo se ha formado la colección y qué vínculos mantiene con familias y organizaciones de la ciudad. Una fotografía, un documento o un objeto personal puede cambiar de sentido cuando se conoce quién lo conservó y por qué llegó a formar parte del patrimonio común.
+## Qué observar y qué preguntar
+
+El recorrido puede organizarse alrededor de la memoria de los primeros socios y sus redes. Busca, cuando estén disponibles en la exhibición, referencias a lugares de procedencia, oficios, reuniones y formas de ayuda mutua. Pregunta por el contexto de los nombres y no asumas que todos los inmigrantes tuvieron una experiencia idéntica.
+
+La inmigración también se relaciona con una sociedad regional ya existente y con transformaciones económicas y políticas. Es interesante pensar cómo convivieron distintas comunidades y cómo se transmitieron lenguas, costumbres y recuerdos. La visita gana profundidad cuando se conecta con el resto de la ciudad en lugar de tratarla como una historia aislada.
+## Consultar una visita y organizar el tiempo
+
+El RMC actualizado en mayo de 2026 anuncia acceso de lunes a viernes por la tarde y entrada gratuita. Aun así, conviene confirmar con secretaría que la sala estará disponible el día elegido, especialmente si necesitas guía, viajas en grupo o solo dispones de una franja corta.
+
+Como orientación editorial, una visita de unos 45 a 60 minutos puede ser un buen punto de partida, ajustándola a la explicación y al material habilitado. Indica si tu interés es turístico, familiar, escolar o de investigación: no todas esas modalidades requieren el mismo tipo de coordinación.
+## Familias, genealogía y archivos
+
+Con niños o adolescentes, una historia familiar concreta puede servir como hilo conductor. Preguntar qué se llevaba en un viaje o cómo se mantenía contacto con parientes lejanos permite conectar el patrimonio con experiencias comprensibles. No es necesario tener ascendencia croata para disfrutar la visita.
+
+Para búsquedas genealógicas o consulta documental, escribe previamente con nombres, fechas aproximadas y finalidad. La presencia de una colección no garantiza que todo el archivo sea de libre consulta ni que el equipo pueda resolver una investigación en una visita espontánea. Consulta además las condiciones de fotografía y reproducción.
+## Acceso y servicios
+
+El registro menciona biblioteca, actividades educativas y servicios en otros idiomas. Su disponibilidad concreta debe coordinarse. No se ha verificado un recorrido completo sin barreras: pregunta por el ingreso, la ubicación de la sala, escaleras y baños según tus necesidades.
+
+La sede mantiene usos propios del Club. Respeta las áreas privadas y los horarios indicados para el museo. Si quieres combinar la visita con un servicio gastronómico o una actividad cultural, verifica reserva y condiciones por separado; el ingreso gratuito a la sala no implica acceso irrestricto a todo el edificio.
+## Caminar la ciudad después de la visita
+
+La dirección de Errázuriz 812 está en el centro, lo que facilita combinar la sala con un paseo urbano y una comida. Puede ser una buena continuación del Museo Regional en formato digital o del Museo del Recuerdo, para contrastar objetos de vida cotidiana con historias de asociación e inmigración.
+
+No todos los lugares vinculados a la comunidad croata están en la misma cuadra ni pertenecen al mismo circuito de visita. Si quieres profundizar, pide referencias al equipo y organiza desplazamientos reales. Un apellido en una fachada no sustituye la explicación histórica del lugar.
+## Consejo para una visita con sentido
+
+Yo elegiría un tema —la ayuda mutua, la lengua, el trabajo o la memoria familiar— y recorrería la colección buscándolo. Esa pregunta ayuda a relacionar documentos y objetos sin necesidad de conocer de antemano la historia migratoria. El valor de una sala pequeña suele aparecer en el detalle y en la conversación con quien conoce sus fondos.
+''',['https://www.registromuseoschile.cl/663/w3-article-120369.html','https://clubcroatapuntaarenas.cl/','https://clubcroatapuntaarenas.cl/historia-del-club/'],filters=['museos','historia'],accessibility='Consultar ingreso, escaleras y ubicación de la sala. Servicios en otros idiomas y lectura simplificada informados por RMC.')
+
+venue('bomberos','Salón de Honor y Museo Bomba Magallanes','museo-bomba-magallanes','Centro histórico',
+'Presidente Julio Roca 826, Primera Compañía de Bomberos de Punta Arenas',
+['Patrimonio bomberil','Salón de Honor','Coordinar visita'],
+'La memoria de la Primera Compañía en un cuartel activo: documentos, objetos y un Salón de Honor ligado a la historia cívica de Punta Arenas.',
+{'website':'https://www.registromuseoschile.cl/663/w3-article-98577.html','phone':'+56 61 222 3133','email':'bombamagallanes.director@gmail.com'},
+'RMC informa atención del cuartel de 09:00 a 18:00. No debe entenderse como visita museográfica garantizada: coordinar apertura del salón y disponibilidad de personal.',
+'Ingreso gratuito según RMC. Visitas sujetas a disponibilidad y funcionamiento del cuartel.',
+'''Un patrimonio que sigue en servicio
+
+El Salón de Honor y museo de la Primera Compañía conserva patrimonio bomberil dentro de una institución activa. La experiencia conecta objetos y documentos con una historia de organización cívica, voluntariado y respuesta a emergencias. No es un cuartel convertido por completo en una atracción turística.
+
+Eso determina el modo de visitar: confirma el acceso, llega a la hora acordada y entiende que una necesidad operativa puede cambiar el plan. La prioridad de la compañía es su servicio. El número publicado en esta ficha es un contacto institucional para consultas de visita; una emergencia requiere utilizar los canales de emergencia correspondientes.
+## El Salón de Honor y su memoria
+
+El RMC describe un salón construido en 1911 que se convirtió en un punto significativo para la vida de la compañía. Allí se conservan escritos fundacionales, implementos de primeras décadas, retratos y fotografías. Más que una acumulación de antigüedades, el conjunto permite pensar en cómo una institución conserva su propia memoria.
+
+Al observar una pieza, pregunta quién la usaba, cómo se relaciona con la evolución del servicio y por qué fue preservada. Los documentos y retratos también permiten conocer redes de vecinos y prácticas asociativas. No es necesario tener conocimientos técnicos de extinción de incendios para encontrar una historia interesante.
+## El vínculo con la historia antártica
+
+Fuentes de Bomberos de Chile vinculan el Salón de Honor con visitas de Ernest Shackleton y Luis Pardo. Es un puente entre la vida institucional de Punta Arenas y las expediciones antárticas. Consulta qué testimonios concretos pueden mostrarse durante tu recorrido y qué condiciones de conservación regulan su exposición.
+
+No supongas que todo documento mencionado en una publicación estará siempre a la vista. La exhibición de originales puede variar. Para profundizar, combina la visita con el Museo Naval y con fuentes históricas sobre el rescate antártico, diferenciando el relato general de las piezas que realmente conserva cada institución.
+## Restauración y usos actuales del cuartel
+
+El Gobierno Regional informó la inauguración de la restauración del cuartel en diciembre de 2025, con una zona museográfica y renovación de dependencias. Es un cambio relevante respecto de fotografías y descripciones anteriores. Las imágenes históricas ayudan a documentar el patrimonio, pero no sustituyen la consulta sobre el circuito habilitado hoy.
+
+La visita debería concentrarse en el salón y las áreas autorizadas. No circules por dormitorios, salas técnicas o zonas de máquinas sin indicación. Una puerta abierta puede responder al funcionamiento del cuartel y no al acceso público. Mantén despejadas entradas y rutas de vehículos.
+## Cómo coordinar y cuánto tiempo dejar
+
+El registro entrega un horario de atención del cuartel, pero no una agenda de recorridos museográficos con salidas garantizadas. Llama o escribe para confirmar fecha, cantidad de personas, duración y disponibilidad de un acompañamiento. Si eres parte de un colegio u organización, explica el objetivo educativo del grupo.
+
+Como orientación editorial, dejaría entre 45 y 60 minutos, ajustándome a lo que ofrezca la compañía. Evita programar una actividad inmediatamente después sin margen. Si hay una modificación de última hora, el centro permite continuar hacia otra visita cultural o un paseo por la plaza.
+## Familias, fotografía y accesibilidad
+
+Para niños puede ser una oportunidad de conocer el trabajo comunitario y el cuidado del patrimonio. Explica antes que los equipos no son juguetes y que algunas áreas deben permanecer libres. Pregunta por reglas de fotografía, flash y uso de trípodes, especialmente frente a documentos o retratos.
+
+No se ha verificado la accesibilidad completa del salón después de la restauración. Consulta escalones, ubicación, baños y alternativas según tu situación. La renovación del edificio no debe traducirse automáticamente en una afirmación de accesibilidad universal sin documentación específica del circuito de visita.
+## Llegar y combinar el centro
+
+La sede está en Roca 826, cerca del núcleo histórico. Para llegar a pie, verifica el acceso indicado por la compañía y evita esperar frente a los portones de salida. Si vas en automóvil, estaciona donde esté permitido sin bloquear el funcionamiento del cuartel.
+
+Una combinación posible es museo, plaza y costanera, o una comida en el centro después de la visita. Para un recorrido sobre memorias de la ciudad, el Club Croata ofrece otra perspectiva institucional; cada acceso requiere su propia coordinación y no existe una entrada conjunta anunciada en esta guía.
+## Consejo para valorar la colección
+
+Yo preguntaría por un documento y una herramienta: dos formas distintas de conocer la misma institución. La conversación sobre quién los conservó suele aportar tanto como el objeto. Ir con tiempo, respetar la actividad del cuartel y aceptar cambios es parte de visitar un patrimonio que sigue vivo en su función original.
+''',['https://www.registromuseoschile.cl/663/w3-article-98577.html','https://www.bomberos.cl/contenidos/home-noticias/con-exito-finaliza-el-primer-seminario-patrimonio-y-memoria-austral-de-bomberos-de-chile','https://www.goremagallanes.cl/vuelve-la-bomba-magallanes-autoridades-inauguran-restaurada-y-renovada-primera-compania-de-bomberos-de-punta-arenas/'],filters=['museos','historia'],accessibility='Consultar el circuito habilitado tras la restauración de 2025; no se ha verificado acceso integral sin barreras.')
+
+venue('borgatello','Museo Salesiano Maggiorino Borgatello','maggiorino-borgatello','Centro norte',
+'Avenida Presidente Manuel Bulnes 336',['Historia natural','Pueblos originarios','Cuatro niveles'],
+'Un recorrido por la naturaleza, las culturas y la historia de Magallanes, en uno de los museos con mayor trayectoria de Punta Arenas.',
+{'website':'https://museomaggiorinoborgatello.cl/','instagram':'https://www.instagram.com/mmborgatello/','phone':'+56 61 224 7515','phone2':'+56 9 2607 7823'},
+'10:00–12:30 y 14:00–17:30. La página de visitas indica miércoles a sábado y su pie indica martes a sábado: confirma la apertura del martes antes de ir.',
+'Tarifario 2026–2027: adulto general $9.000 CLP o USD 9; adulto nacional $7.500. Mayores de 60: general $5.000 y nacional $2.000; estudiantes superiores: $4.000 y $1.000; adolescentes 13–17: $2.000 y $500. Niños según categoría infantil del tarifario: ingreso libre. Tarjeta Punta Arenas: descuentos con credencial vigente.',
+'''Una primera lectura de Magallanes
+
+El Maggiorino Borgatello es una buena puerta de entrada para entender por qué el extremo austral no se explica con una sola historia. Sus colecciones enlazan animales, territorios, pueblos, navegación, misiones e industrias. La experiencia funciona mejor si se recorre con curiosidad y tiempo para leer, sin tratar cada vitrina como una parada aislada.
+
+La institución salesiana, cuya trayectoria se remonta a 1893, conserva materiales reunidos en distintos momentos de la historia regional. Esa antigüedad también invita a observar cómo han cambiado las formas de coleccionar y representar la Patagonia. Conviene distinguir el contexto de las piezas de las interpretaciones históricas con las que fueron exhibidas.
+## Cómo organizar los cuatro niveles
+
+La distribución oficial permite ordenar la visita por intereses. El primer nivel reúne fauna y contenidos extraterritoriales; el segundo aborda pueblos originarios, la misión salesiana y Alberto de Agostini; el tercero incorpora cosmovisión selk’nam, inmigración y Antártica; el cuarto se relaciona con geología, carbón, ENAP y aviación.
+
+Como orientación editorial, reservaría entre una hora y media y dos horas para una primera visita tranquila. Quien tenga poco tiempo puede elegir dos temas y profundizar en ellos. Antes de empezar, pregunta qué niveles están habilitados y si existe alguna actividad que cambie el circuito habitual.
+## Naturaleza y piezas que merecen una pausa
+
+Los montajes de fauna permiten comparar tamaños, formas y adaptaciones. Con niños resulta más entretenido buscar diferencias entre aves, mamíferos y ambientes que intentar leer todas las etiquetas. Los ejemplares forman parte de una colección de historia natural: no son animales vivos ni una experiencia de contacto.
+
+Entre los recursos digitales del museo figuran objetos en tres dimensiones, incluida una cruz vinculada a la memoria del capitán Pringle Stokes. Se pueden explorar antes o después del recorrido; una reproducción digital ayuda a mirar detalles sin manipular los originales y a preparar preguntas para el equipo.
+## Pueblos originarios y lectura respetuosa
+
+Las secciones dedicadas a selk’nam, aónikenk, kawésqar y yagán merecen tiempo propio. Son pueblos distintos, con territorios, lenguas y experiencias históricas diferentes. Evita leerlos como una sola cultura o como un pasado sin continuidad: el patrimonio material dialoga con comunidades y memorias presentes.
+
+Al recorrer contenidos sobre misiones y colonización, es útil preguntar quién reunió cada objeto, qué información acompaña su procedencia y qué voces incorpora la explicación. Una visita valiosa puede dejar preguntas abiertas; no es necesario reducir una historia compleja a una sucesión de fechas o personajes.
+## Entradas, pago y organización de grupos
+
+El sitio permite la entrada individual o familiar sin reserva dentro de los horarios de atención. Los grupos de agencias, escuelas u organizaciones deben consultar sus condiciones. El tarifario distingue público general, nacional y beneficiarios de Tarjeta Punta Arenas: lleva la acreditación que corresponda para evitar confusiones en boletería.
+
+Para pago nacional se informa efectivo o transferencia; el pago general se anuncia solamente en efectivo. No conviene depender de una tarjeta bancaria sin consultarlo. El ticket es válido por el día, según la información oficial; confirma cómo funciona una eventual salida y reingreso y no lo confundas con una entrada para varios días.
+## Familias, accesibilidad y servicios
+
+El museo anuncia baños, zona de descanso, lockers, wifi y tienda de libros y recuerdos. También informa rampas para las escaleras de entrada. Esto no permite asegurar acceso autónomo a los cuatro niveles: si utilizas silla de ruedas o tienes dificultades con escaleras, consulta el recorrido efectivamente disponible antes de comprar.
+
+Las personas con discapacidad pueden preguntar por tarifa preferente y condiciones de acceso a los teléfonos publicados. Con niños pequeños resulta razonable hacer pausas, elegir salas concretas y consultar las reglas para cochecitos. Pregunta asimismo por fotografía, flash y manejo de mochilas; la conservación de las piezas define esas condiciones.
+## Cómo llegar y qué combinar cerca
+
+Está junto al Santuario María Auxiliadora, en el comienzo del eje de avenida Bulnes. Su web identifica paraderos cercanos en Bulnes 345, en sentido sur a norte, y en Chiloé entre Maipú y Sarmiento, en sentido norte a sur. Verifica el recorrido del día en la guía de micros antes de subir.
+
+Se puede combinar con una caminata por el sector patrimonial del centro norte y una pausa en Café Bories o una comida en Damiana Elena, consultando sus propias fichas y horarios. Deja margen para el cierre de mediodía: la pausa entre ambos turnos impide tratar la jornada como un horario continuo.
+## Consejo para aprovecharlo
+
+Yo empezaría por la naturaleza, seguiría con las culturas y terminaría con los cambios económicos del territorio. Ese orden ayuda a relacionar lo que ves en las salas con los paisajes del viaje. Si después visitarás Río Seco o el Museo del Estrecho, anota una pregunta para comparar sus distintas formas de contar Magallanes.
+''', ['https://museomaggiorinoborgatello.cl/','https://museomaggiorinoborgatello.cl/planifica-tu-visita/','https://www.registromuseoschile.cl/663/w3-article-50718.html'],accessibility='Rampas anunciadas para la entrada. Consultar acceso a cada nivel y tarifa preferente; no se ha confirmado un circuito completo sin escaleras.')
+
+venue('regional','Museo Regional de Magallanes','museo-regional','Centro histórico',
+'Hernando de Magallanes 949',['Cerrado temporalmente','Palacio Braun Menéndez','Patrimonio regional'],
+'El palacio Braun Menéndez y las colecciones regionales: una ficha para conocer su historia y explorar sus recursos digitales mientras continúa el cierre por conservación.',
+{'website':'https://www.museodemagallanes.gob.cl/','instagram':'https://www.instagram.com/museoregionaldemagallanes/','phone':'+56 61 274 6480','email':'museo.magallanes@museoschile.gob.cl','virtual':'https://www.patrimoniovirtual.gob.cl/recorridos/rv-museo-regional-de-magallanes.html'},
+'Cerrado temporalmente al público. No hay fecha de reapertura confirmada en esta guía. Consultar los avisos oficiales del museo.',
+'No se ofrecen entradas para una visita presencial durante el cierre. Recursos digitales disponibles desde los enlaces oficiales.',
+'''Primero, el estado de visita
+
+El Museo Regional de Magallanes informa un cierre temporal por traslado de colecciones y trabajos de conservación del edificio. Esta condición prevalece sobre horarios antiguos y opiniones de viajeros que describen visitas previas. No planifiques entrar al palacio hasta que la institución comunique una reapertura.
+
+Las fotografías de interiores que acompañan esta ficha documentan el museo y su presentación histórica; no representan salas actualmente abiertas. El teléfono y el correo sirven para consultar el estado institucional, las actividades de extensión y los recursos disponibles, sin que una respuesta administrativa equivalga a una reserva de acceso al inmueble.
+## El palacio y la historia del museo
+
+La sede se conoce como palacio Braun Menéndez. Su arquitectura y sus interiores ayudan a comprender la sociedad urbana asociada al auge económico de Magallanes. La institución tiene una historia anterior a su instalación en esta casa: el Museo de la Patagonia fue creado en 1969 y posteriormente se estableció en el edificio que hoy identifica al Museo Regional.
+
+Al acercarte a la fachada, observa escala, ornamentación, cierre y relación con la calle. Es una forma de leer el centro histórico desde el espacio público. Respeta cierres de obra y señalización; una fotografía desde la vereda debe hacerse sin interrumpir el paso ni invadir recintos en conservación.
+## Una casa que permite hacer preguntas
+
+Los salones, muebles y decoraciones permiten pensar en la vida doméstica de un sector acomodado de la ciudad. Más allá de la belleza de los objetos, vale la pena preguntarse cómo se construía esa vida: quién trabajaba en la casa, de dónde venían sus materiales y qué redes económicas conectaban Punta Arenas con otros puertos.
+
+La lectura del patrimonio regional también exige considerar la colonización, las desigualdades y los efectos sobre los pueblos originarios. Un palacio no resume toda la experiencia de Magallanes; es una pieza de una historia más amplia que conviene contrastar con otros museos, archivos y relatos del territorio.
+## Qué mirar en el recorrido virtual
+
+El enlace a Patrimonio Virtual permite acercarse a los interiores sin trasladarse a un recinto cerrado. Empieza por reconocer la disposición de las habitaciones y luego detente en revestimientos, iluminación, mobiliario y circulaciones. Comparar un salón de recepción con espacios de uso cotidiano ayuda a interpretar la casa como un conjunto.
+
+Con niños o estudiantes puede funcionar elegir tres detalles y explicar qué cuentan sobre la época. La experiencia digital tiene sus propios límites: no sustituye una visita física ni garantiza que cada sala conserve la misma disposición al reabrir. Es, en cambio, una herramienta útil para preparar un futuro recorrido.
+## Colecciones, archivo y consulta
+
+El museo publica colecciones digitales, material audiovisual, noticias y publicaciones. Quien investiga historia local debería partir de esos canales y explicar con precisión qué busca: tema, período, finalidad de la consulta y tipo de documento. Las solicitudes de archivo o reproducción se coordinan con la institución y pueden tener condiciones específicas.
+
+No asumas que una fotografía publicada autoriza su reproducción comercial o que el cierre del edificio implica que todas las áreas de trabajo estén suspendidas. El equipo sigue siendo el interlocutor para conocer actividades, colecciones y procedimientos vigentes. Para una visita escolar, solicita la oferta educativa disponible durante este período.
+## Una alternativa presencial en el centro
+
+La dirección está a pasos de la plaza Muñoz Gamero, en una zona adecuada para un paseo patrimonial a pie. Puedes observar el exterior y continuar hacia la plaza y la costanera. Para entrar a otro museo, consulta la ficha del Naval y Marítimo; para una visita de mayor amplitud temática, revisa el Maggiorino Borgatello.
+
+El palacio Sara Braun es otro edificio y tiene administración y condiciones de visita propias. La cercanía y los apellidos de familias históricas generan confusiones frecuentes: no uses la reserva de un restaurante o de un hotel en Sara Braun como si fuera una entrada al Museo Regional.
+## Accesibilidad, familias y fotografía
+
+Durante el cierre no hay circuito público de interiores que podamos describir como accesible. Para una futura visita, pregunta por ingreso, baños, ascensores o alternativas de circulación cuando se anuncie la reapertura. No extrapoles las condiciones de un recorrido antiguo a un edificio que atraviesa obras.
+
+Si tu interés es fotografiar patrimonio, el entorno de la plaza ofrece una alternativa de visita independiente del museo. Consulta restricciones temporales en la vía pública y evita apoyar equipos en las rejas. Para imágenes de colecciones, utiliza los canales de consulta del museo y las condiciones de cada recurso digital.
+## Consejo para el itinerario
+
+Mantendría esta parada como una lectura exterior breve y trasladaría el tiempo de museo a un recinto con apertura confirmada. El recorrido virtual se puede hacer antes del viaje o una tarde desde el alojamiento. Así conoces la importancia de la institución sin perder una mañana esperando entrar donde todavía no existe atención presencial.
+''',['https://www.museodemagallanes.gob.cl/','https://www.museodemagallanes.gob.cl/node/1200','https://www.museodemagallanes.gob.cl/equipo','https://www.registromuseoschile.cl/663/w3-article-50702.html','https://www.museodemagallanes.gob.cl/multimedia/ubicacion-del-museo-regional-de-magallanes'],status='Cerrado temporalmente',filters=['museos','historia'],accessibility='Sin visita pública al inmueble durante el cierre; confirmar nuevas condiciones cuando se anuncie la reapertura.')
+
+venue('recuerdo','Museo del Recuerdo','museo-del-recuerdo','Avenida Bulnes',
+'Avenida Presidente Manuel Bulnes 01890, Instituto de la Patagonia, Universidad de Magallanes',
+['Parque patrimonial','Maquinaria histórica','Universidad de Magallanes'],
+'Casas, oficios, carruajes y maquinaria para mirar la vida cotidiana y los cambios productivos de Magallanes dentro del Instituto de la Patagonia.',
+{'website':'https://institutodelapatagonia.umag.cl/?page_id=213','instagram':'https://www.instagram.com/museodelrecuerdo/','phone':'+56 61 220 7051','email':'museodelrecuerdo@umag.cl'},
+'RMC: baja temporada lunes–viernes 09:00–11:30 y 14:30–16:30; sábado 09:30–11:30; domingo cerrado. Alta: lunes–viernes 08:30–12:30 y 14:00–17:30; sábado y domingo 09:30–17:00. Confirmar fecha de cambio de temporada por Instagram o correo.',
+'Consultar tarifario vigente por categoría y residencia. Hay diferencias entre valores de redes y registro. El RMC informa gratuidad para adultos mayores nacionales y visitas educativas/culturales coordinadas de instituciones y organizaciones.',
+'''Un museo que también se camina
+
+El Museo del Recuerdo ocupa un parque con piezas al aire libre y pabellones temáticos. El recorrido combina escalas muy diferentes: una máquina de gran tamaño puede explicar cambios en el trabajo, mientras que una herramienta o un interior doméstico permite acercarse a la vida cotidiana. Esa alternancia hace que no se sienta como una sucesión de vitrinas.
+
+Pertenece a la Universidad de Magallanes y se encuentra en el Instituto de la Patagonia. Los nombres del instituto y del museo aparecen por separado en algunos directorios, pero para esta visita corresponden al mismo conjunto. Aquí los reunimos en una ficha para que no programes dos traslados a la misma dirección.
+## De 1971 a un conjunto de edificios y oficios
+
+La universidad sitúa su creación en 1971. La muestra inicial de carruajes, carretas, locomóviles y maquinaria se fue ampliando con pabellones de ganadería, garaje, cocheras, casas y patrimonio marítimo. Varios funcionan en construcciones de época trasladadas y restauradas, de modo que el edificio también forma parte de lo que se conserva.
+
+Al recorrerlo, observa cómo se relacionan los objetos con el espacio donde se presentan. Una casa permite pensar en tareas domésticas y diferencias sociales; un galpón, en mantenimiento y producción. Conviene preguntar qué pabellones están abiertos ese día y si existe un orden recomendado para conocerlos.
+## Qué mirar entre máquinas y carruajes
+
+Las piezas de exterior permiten imaginar transporte, energía y trabajo antes de la vida motorizada actual. No hace falta conocer mecánica para disfrutarlas: busca qué se movía, qué fuente de energía requería y qué trabajo humano quedaba detrás. Con niños, comparar ruedas, enganches y materiales suele ser una buena forma de iniciar la conversación.
+
+Los interiores añaden otras preguntas: cómo se guardaban productos, cómo se reparaban equipos y qué objetos se conservaban durante generaciones. El museo no debe confundirse con un parque de juegos. Evita subir a piezas o manipular herramientas, aunque estén al aire libre, y consulta las normas de fotografía en cada pabellón.
+## Cuánto tiempo dedicar y cómo vestirse
+
+Como orientación editorial, dejaría entre una hora y media y dos horas para combinar exteriores y pabellones sin apuro. El tiempo real depende de las salas habilitadas, la lectura y el clima. Si llegas cerca de un cierre de mediodía, pregunta por la posibilidad de terminar el circuito o volver en el siguiente turno.
+
+Lleva una capa que corte el viento y calzado cómodo. Aunque parte de la experiencia sea bajo techo, no todo el desplazamiento lo es. Un día frío no impide necesariamente la visita, pero cambia su ritmo; consulta condiciones del terreno cuando haya lluvia, escarcha o nieve.
+## Horarios, entradas y reserva educativa
+
+El Registro de Museos publica horarios diferentes para temporada alta y baja, sin fijar en la ficha las fechas exactas de cambio. La propia universidad deriva las consultas operativas al correo y a las redes del museo. Verifica el horario correspondiente a tu día, especialmente para fines de semana.
+
+Las tarifas requieren confirmación directa porque las fuentes consultadas muestran valores distintos. No publicamos una cifra única que podría corresponder a otra residencia o temporada. Las instituciones y organizaciones que solicitan visitas guiadas educativas o culturales pueden consultar las condiciones de gratuidad informadas en el registro; eso no equivale a una reserva automática para cualquier grupo.
+## Familias y necesidades de acceso
+
+El RMC documenta baño para personas con discapacidad. La existencia de ese servicio no confirma que todos los edificios, desniveles y caminos sean accesibles de la misma manera. Consulta el circuito adaptado posible, las superficies del parque y las entradas de los pabellones que te interesen.
+
+Para familias, elegir una casa, una pieza de transporte y una máquina permite armar una visita con un hilo conductor. Si vas con niños pequeños o cochecito, pregunta por las rutas más cómodas. Un grupo escolar debería coordinar objetivos, cantidad de participantes y tiempo con el equipo, en lugar de llegar sin aviso.
+## Llegar al Instituto y seguir hacia el norte
+
+La dirección es avenida Bulnes 01890; conserva el cero inicial al buscarla. No es una sede del centro histórico. Planifica el transporte hacia el instituto y verifica el acceso peatonal correspondiente. Para micros o taxi colectivo, comprueba recorrido y parada; una aplicación puede ayudarte con el traslado sin sustituir esa revisión.
+
+Es posible organizar una jornada por el eje norte y combinarlo con Nao Victoria o Río Seco, pero son recintos distintos y separados. Confirma antes los horarios de ambos extremos y acuerda el regreso si dependes de un automóvil. No deduzcas cercanía caminable solo porque todos estén al norte de la plaza.
+## Consejo para conectar las colecciones
+
+Yo buscaría un oficio y seguiría sus huellas por todo el conjunto: transporte, ganadería, comercio o vida doméstica. Esa elección transforma una colección extensa en una historia comprensible. Después puedes contrastar esta mirada material con las salas del Borgatello y preguntar qué aspectos sociales cuenta cada museo y cuáles quedan fuera.
+''',['https://institutodelapatagonia.umag.cl/?page_id=213','https://www.registromuseoschile.cl/663/w3-article-50620.html','https://www.instagram.com/museodelrecuerdo/'],accessibility='Baño accesible documentado por RMC. Confirmar superficies, desniveles y acceso a cada pabellón.',filters=['museos','historia','aire-libre'])
+
+venue('rio-seco','Museo de Historia Natural Río Seco','museo-historia-natural-rio-seco','Río Seco',
+'Juan Williams 012812, Río Seco', ['Historia natural','Ciencia y arte','Patrimonio industrial'],
+'Esqueletos, investigación y memorias obreras dentro de los galpones del antiguo frigorífico de Río Seco, junto al estrecho de Magallanes.',
+{'website':'https://mhnrioseco.com/','instagram':'https://www.instagram.com/mhnrioseco_oficial/','facebook':'https://www.facebook.com/mhnrioseco','phone':'+56 9 5100 3791','phone2':'+56 9 6204 9210','email':'museodehistorianaturalrioseco@gmail.com'},
+'Consultar apertura y modalidad de visita con el museo. Su web pide agendar las visitas educativas al +56 9 5100 3791; no publica una parrilla semanal completa para público general.',
+'Tarifa general y condiciones de actividades por confirmar directamente con el museo.',
+'''Un encuentro entre cuerpos y arquitectura
+
+Río Seco propone una experiencia distinta a la del museo de salones históricos. Sus colecciones conviven con grandes estructuras industriales del antiguo frigorífico, en un entorno donde el estrecho y la memoria del trabajo siguen presentes. La escala de los galpones y de algunos esqueletos hace visible una relación poco habitual entre patrimonio construido e historia natural.
+
+La institución desarrolla investigación, conservación y difusión desde el diálogo entre ciencia, arte y educación. Es importante recordar que no todo espacio de trabajo es necesariamente una sala abierta: al coordinar la visita, pregunta cuáles son las áreas disponibles y cómo se organiza el recorrido de ese día.
+## El lugar también cuenta una historia
+
+El museo se sitúa en el antiguo frigorífico de Río Seco de la South American Export Syndicate, en terrenos que su sitio identifica con la empresa Productos Químicos Algina. No es un decorado industrial construido para turistas. Los edificios forman parte del patrimonio que el proyecto busca conservar y activar con nuevos usos.
+
+Mirar cerchas, materiales, dimensiones y relación con la costa ayuda a comprender por qué este emplazamiento es significativo. Evita entrar en áreas sin señalización de visita o explorar ruinas por tu cuenta. Un conjunto industrial puede mantener zonas de trabajo y sectores con condiciones diferentes de circulación.
+## Cetáceos, osteotecnia y observación
+
+Entre sus espacios oficiales están el Pabellón de Grandes Cetáceos, la sala de exhibición, el depósito y el taller de osteotecnia. La observación de huesos permite pensar en escala, locomoción, alimentación y adaptación. Pregunta qué ejemplares se muestran y cuál es su historia; una identificación precisa debe venir de la etiqueta o del equipo.
+
+No todos los huesos son fósiles ni todos los montajes son réplicas. Esa diferencia es una buena pregunta para una visita de historia natural. La osteotecnia permite preparar y estudiar estructuras óseas, mientras que la paleontología trabaja con evidencias de otras edades geológicas. El museo ofrece un contexto para entender cómo se construye ese conocimiento.
+## Memorias, cine y vida comunitaria
+
+La web identifica una Sala de Memorias Obreras, una sala de cine, un jardín comunitario y un laboratorio paleontológico. Estas áreas amplían la experiencia más allá de la fauna. La programación también incluye actividades artísticas y educativas: conviene revisar qué exposición, taller o proyección coincide con tu estancia.
+
+Una actividad anunciada en una fecha determinada no implica que se repita a diario. Si viajas especialmente por un evento, confirma inscripción, cupos, idioma y duración. Las fotografías de talleres o investigaciones deben entenderse como documentación de la institución, no como promesa de que el visitante podrá participar en todas esas tareas.
+## Planificar la visita antes de salir
+
+El sitio oficial no entrega un horario semanal completo para público general. Por eso, el primer paso es llamar o escribir. Indica fecha, número de personas y si buscas una visita familiar, escolar o especializada. Solicita también el precio, la forma de pago y la duración del recorrido disponible.
+
+Para establecimientos educativos se anuncia coordinación al número +56 9 5100 3791. Una consulta previa es especialmente útil para necesidades de accesibilidad, grupos grandes o intereses específicos. Evita desplazarte suponiendo que el funcionamiento es idéntico al de un museo céntrico con boletería permanente.
+## Familias y accesibilidad
+
+Con niños, la escala de los esqueletos puede ser una buena entrada a preguntas científicas. Conviene explicar antes que se trata de colecciones de estudio y conservación: no se tocan ni se trepa a las estructuras. Consulta si el recorrido incluye contenidos o materiales que quieras preparar según la edad.
+
+No se ha verificado un circuito accesible completo. Pregunta por ingreso, baños, superficies, desniveles y distancia entre galpones. Lleva abrigo incluso si la visita incluye interiores, porque la escala de los edificios industriales y los tramos de exterior pueden hacer que la sensación térmica sea distinta de una sala calefaccionada convencional.
+## Llegar a Río Seco y organizar el regreso
+
+Está en Juan Williams 012812, en el sector de Río Seco, fuera del núcleo de la plaza Muñoz Gamero. Usa el mapa de esta ficha y el enlace oficial para distinguir la dirección del museo de otras instalaciones industriales del sector. Confirma dónde se ingresa y dónde se puede estacionar o esperar un traslado.
+
+Si dependes de taxi o aplicaciones, acuerda el regreso antes de empezar. Puedes combinarlo con Nao Victoria en una jornada al norte, pero solo después de verificar las dos aperturas. No asumas que una micro urbana te deja en la puerta ni que tendrás un vehículo disponible inmediatamente al salir.
+## Consejo para mirar con más detalle
+
+Yo reservaría esta visita para un momento sin otra actividad pegada al horario de salida. Llevaría una pregunta sobre un animal y otra sobre el edificio: cómo llegó la pieza y qué trabajo se hacía en ese espacio. Esa doble mirada permite apreciar lo singular del proyecto y evita reducirlo a una fotografía frente a un esqueleto.
+''',['https://mhnrioseco.com/','https://www.tripadvisor.cl/Attraction_Review-g297401-d14057131-Reviews-Museo_de_Historia_Natural_Rio_Seco-Punta_Arenas_Magallanes_Region.html'],accessibility='Consultar ingreso a galpones, superficies, baños y circuito disponible; no se ha confirmado accesibilidad integral.',filters=['museos','ciencia','patrimonio'])
+
+venue('naval','Museo Naval y Marítimo de Punta Arenas','museo-naval-maritimo','Centro histórico',
+'Presidente Pedro Montt 981',['Historia marítima','Armada de Chile','Navegación austral'],
+'Una mirada al estrecho, los faros, los barcos y la presencia naval en el extremo sur, dentro de un edificio histórico del centro de Punta Arenas.',
+{'website':'https://www.armada.cl/tradicion-e-historia/museos-navales-de-chile','instagram':'https://www.instagram.com/museo_naval_pta_arenas/','phone':'+56 9 8796 1887','email':'museomaritimoaustral@gmail.com','reservation':'https://www.armada.cl/formularios-de-visitas/tercera-zona-naval/formulario-de-visitas-museo-naval'},
+'RMC actualizado en mayo de 2026: martes–viernes 10:00–12:00 y 13:00–16:00; sábado 10:00–15:00. La web general de Armada conserva otro horario: confirmar por teléfono o Instagram. Consultar cierres de festivos.',
+'Cobro de entrada. El RMC informa $1.000 para niños hasta 14 años y estudiantes con TNE. Confirmar tarifa de adultos, extranjeros y demás categorías en boletería.',
+'''La ciudad vista desde el mar
+
+En Punta Arenas, el mar no es solo paisaje. El Museo Naval y Marítimo permite acercarse a la navegación, los faros, las campañas y el trabajo de la Armada en un territorio definido por el estrecho y los canales. Es una visita especialmente adecuada para quien quiere relacionar la costanera actual con la historia de los barcos que la recorrieron.
+
+Su enfoque institucional es naval y marítimo. Puede complementarse con la experiencia de subir a réplicas en Nao Victoria, pero son propuestas diferentes: aquí el interés está en las colecciones y el relato de las salas, mientras que allá cobra protagonismo la escala física de las embarcaciones.
+## Un edificio con trayectoria propia
+
+El Registro de Museos sitúa la creación de la institución el 4 de noviembre de 1994 y su apertura en enero de 1995. La sede, construida entre 1908 y 1910, fue originalmente la Comandancia en Jefe del Apostadero Naval de Magallanes. La arquitectura es, por lo tanto, parte del vínculo entre el museo y la ciudad.
+
+Observa la esquina, las proporciones de las ventanas y su relación con las calles del centro. Antes de entrar, confirma qué salas están habilitadas. La ficha corresponde al Museo Naval de Pedro Montt 981 y no a otras colecciones militares o exposiciones itinerantes que pueden aparecer en búsquedas de internet.
+## Barcos, instrumentos y vida de navegación
+
+Las salas permiten mirar modelos de embarcaciones, objetos vinculados a la navegación y distintos aspectos del patrimonio marítimo regional. En lugar de intentar reconocer cada buque, puede ser más interesante preguntar qué función cumplía, qué problema resolvía y cómo se relacionaba con las condiciones australes.
+
+Los detalles de una maqueta o de un instrumento son una buena oportunidad para entender oficios y decisiones técnicas. Busca información sobre orientación, comunicaciones y seguridad cuando esté presente en la exhibición. No manipules equipos salvo que el museo los identifique expresamente como recursos de interacción.
+## Faros, estrecho y Antártica
+
+El relato institucional incluye la navegación del estrecho, la red de faros y las campañas antárticas. Estos temas ayudan a conectar la visita con lugares que quizá observes después desde tierra o durante una navegación. Un faro no es únicamente una postal: forma parte de una red para orientarse y operar en un territorio complejo.
+
+Si te interesa la historia antártica, compara aquí los medios de transporte y apoyo con la dimensión científica que presenta el INACH. Son perspectivas complementarias y no intercambiables. Pregunta qué piezas o documentos están relacionados con la época que te interesa, porque la disposición de las colecciones puede cambiar.
+## Horario, entrada y coordinación
+
+Las fuentes oficiales no coinciden completamente: el Registro de Museos actualizado en 2026 entrega turnos más acotados que la página general de museos de Armada. En la información práctica se conserva esa diferencia para que puedas verificarla. Una llamada o mensaje al perfil del museo resulta más útil que confiar en un horario antiguo de un directorio.
+
+Existe un formulario oficial de visitas de la Tercera Zona Naval. Para grupos, consulta cupos, fecha, idioma y requisitos antes de enviar una solicitud. La recepción de un formulario no garantiza confirmación. Para precios, pregunta por cada categoría y lleva TNE si solicitarás el valor de estudiante que informa el registro.
+## Una visita con niños o intereses específicos
+
+Como orientación editorial, una primera visita puede ocupar alrededor de una hora, con más tiempo si te detienes en documentos y modelos. Con niños funciona elegir un barco, un instrumento y una pregunta sobre el mar. No es necesario convertir el recorrido en una clase técnica para que resulte atractivo.
+
+La información disponible menciona servicios en otros idiomas, pero conviene confirmar disponibilidad concreta. Tampoco permite asegurar un circuito completo sin barreras: pregunta por escalones de ingreso, circulación entre salas y baños si necesitas condiciones específicas. Los días festivos requieren revisión propia, aunque caigan dentro de la semana de apertura habitual.
+## Qué hacer a pocos pasos
+
+Su ubicación céntrica permite combinar museo, plaza Muñoz Gamero y costanera sin organizar una excursión fuera de la ciudad. La Cuisine y Kiosko Roca son alternativas gastronómicas del sector que tienen fichas propias; elige según el tiempo y el tipo de comida que busques, revisando sus horarios por separado.
+
+Si continúas hacia otra institución, recuerda que el Museo Regional permanece cerrado y que el palacio Sara Braun tiene condiciones de acceso independientes. Un paseo a pie entre fachadas puede complementar la visita, pero no debe presentarse como un circuito de interiores garantizados.
+## Consejo para enlazar la experiencia
+
+Yo llevaría al museo una pregunta nacida en la costanera: cómo se orientaban los barcos, por qué se instalaron ciertos faros o cómo se apoyan las operaciones antárticas. Al salir, mirar el estrecho con esa pregunta resuelta cambia el paseo. Si después visitas Nao Victoria, compara las escalas y necesidades de embarcaciones de épocas diferentes.
+''',['https://www.registromuseoschile.cl/663/w3-article-50670.html','https://www.armada.cl/tradicion-e-historia/museos-navales-de-chile','https://www.armada.cl/formularios-de-visitas/tercera-zona-naval/formulario-de-visitas-museo-naval'],accessibility='Servicios en otros idiomas documentados. Consultar escalones, baños y recorrido sin barreras.',filters=['museos','historia'])
+
+venue('nao','Museo Nao Victoria','museo-nao-victoria','Costa norte',
+'Kilómetro 7,5 norte, ruta Y-565, sector Tres Puentes',
+['Réplicas a escala real','Historia marítima','Aire libre'],
+'Subir a bordo de réplicas de embarcaciones históricas para imaginar viajes, trabajo y supervivencia en los mares australes.',
+{'website':'https://www.naovictoria.cl/','phone':'+56 9 9640 0772','email':'naovictoriamuseo@gmail.com'},
+'Confirmar horario directamente antes de ir. Tripadvisor muestra jornadas amplias, pero no se ha podido contrastar una parrilla vigente en el sitio oficial.',
+'Entrada de pago. Consultar tarifa vigente, categorías y medios de pago; las cifras históricas publicadas en reseñas no se toman como tarifario actual.',
+'''La historia a escala humana
+
+La propuesta de Nao Victoria es comprender embarcaciones históricas a partir de réplicas a tamaño real. La experiencia permite observar cubiertas, cascos y espacios de una manera que una maqueta pequeña no consigue. Es especialmente atractiva para quien disfruta la navegación, la exploración o las historias de supervivencia.
+
+Son reproducciones construidas para interpretar barcos históricos; no los navíos originales. Esa distinción ayuda a disfrutar el trabajo de reconstrucción sin confundir una visita contemporánea con el acceso a una pieza del siglo XVI. Antes de entrar, pregunta qué embarcaciones están habilitadas y qué sectores se pueden recorrer.
+## Victoria y la primera circunnavegación
+
+La nao Victoria se relaciona con la expedición iniciada bajo el mando de Fernando de Magallanes y la primera circunnavegación, completada por Juan Sebastián Elcano. Al mirar la réplica, el tamaño es una buena forma de pensar en provisiones, convivencia y exposición al tiempo durante un viaje de esa magnitud.
+
+Subir por sus accesos, cuando estén abiertos, permite entender que una cubierta es también un lugar de trabajo. Busca la relación entre maniobra, espacio de carga y circulación. La visita gana interés si se acompaña con la lectura de los paneles y no se limita a una fotografía del exterior.
+## Beagle y Goleta Ancud: viajes diferentes
+
+El conjunto presenta también réplicas vinculadas al HMS Beagle y a la goleta Ancud. El primero permite conectar las exploraciones y la cartografía austral con el viaje de Charles Darwin; la segunda remite a la expedición chilena de 1843 y al establecimiento de Fuerte Bulnes. No corresponden a la misma época ni tuvieron el mismo propósito.
+
+Comparar funciones y dimensiones es una actividad interesante para familias. Pregunta qué necesitaba transportar cada barco, qué tripulación requería y por qué sus formas son distintas. Si después visitarás el Museo del Estrecho, la historia de la Ancud sirve como enlace entre ambos lugares.
+## James Caird y la supervivencia antártica
+
+La reproducción del bote James Caird permite acercarse a otra escala de navegación: la de la expedición de Ernest Shackleton y la búsqueda de ayuda tras la pérdida del Endurance. Mirar un bote pequeño junto a barcos mayores ayuda a dimensionar la dificultad de viajar por aguas australes.
+
+No hace falta romantizar el riesgo para comprender la historia. Piensa en abrigo, navegación, alimentación y límites físicos. Si te interesa profundizar en el rescate y la memoria antártica, combina la visita con fuentes y colecciones del Museo Naval y con el patrimonio de Bomberos, consultando su acceso por separado.
+## Exterior, escaleras y condiciones del día
+
+Buena parte de la visita transcurre al aire libre junto al estrecho. Lleva ropa que corte el viento y calzado firme; las escaleras y cambios de nivel requieren atención. En caso de lluvia, escarcha o viento intenso, consulta las restricciones del recorrido y evita subir a un sector que el personal mantenga cerrado.
+
+No está documentado un acceso completo sin escaleras a las embarcaciones. Si viajas con silla de ruedas, movilidad reducida o cochecito, pide información específica sobre el tramo posible desde tierra. La existencia de un espacio de recepción no significa que las cubiertas sean accesibles para todas las personas.
+## Horarios, contacto y duración
+
+El sitio oficial identificado en los registros no ha permitido verificar un horario semanal actual. Por eso publicamos el contacto registrado por SERNATUR y recomendamos confirmar apertura, precio y forma de pago antes del traslado. El registro turístico consultado figura no vigente; no lo presentamos como una certificación actual del servicio.
+
+Como orientación editorial, dejaría entre una hora y una hora y media, dependiendo de los barcos habilitados y del interés por leer los paneles. Para un grupo o una visita con guía, consulta reserva, idiomas y duración real. Los servicios complementarios mencionados en opiniones de viajeros deben confirmarse al llegar.
+## Cómo llegar y volver desde la costa norte
+
+Está en el kilómetro 7,5 de la ruta hacia Río Seco, al norte de la ciudad. Usa la ubicación del museo, no la de un operador que venda una excursión. Si vas en taxi o aplicación, acuerda cómo regresar: la disponibilidad al terminar puede ser diferente de la que encuentras al salir del centro.
+
+La visita puede integrarse a una jornada con el Museo del Recuerdo o Río Seco, pero cada recinto requiere verificar sus horarios. No programes las tres paradas como si compartieran una entrada o estuvieran juntas. Deja margen para traslados y considera el viento al decidir cuánto caminar por el sector.
+## Consejo para elegir el recorrido
+
+Yo empezaría por una vista general desde tierra y luego elegiría dos barcos para comparar con calma. En cada uno, buscaría dónde se dormía, se trabajaba y se guardaban provisiones, siempre dentro de los sectores permitidos. Esa lectura convierte las réplicas en una experiencia histórica más rica que una lista de fotografías.
+''',['https://serviciosturisticos.sernatur.cl/21193-museo-nao-victoria','https://www.tripadvisor.cl/Attraction_Review-g297401-d2359550-Reviews-Museo_Nao_Victoria-Punta_Arenas_Magallanes_Region.html','https://www.visitapuntaarenas.cl/naovictoria.html'],accessibility='Recorrido exterior con escaleras y cubiertas. Consultar alternativa desde tierra; no se ha confirmado acceso integral a bordo.',filters=['museos','historia','aire-libre'])
+
+venue('estrecho','Museo del Estrecho y Parque del Estrecho','museo-del-estrecho','Ruta sur · Punta Santa Ana',
+'Parque del Estrecho de Magallanes, kilómetro 52 al sur de Punta Arenas, península Santa Ana',
+['Museo y parque patrimonial','Fuerte Bulnes','Historia y naturaleza'],
+'Salas contemporáneas, navegación, historia humana y naturaleza dentro del parque que reúne el Museo del Estrecho, Fuerte Bulnes y Puerto del Hambre.',
+{'website':'https://parquedelestrecho.cl/atractivos/museo-del-estrecho/','instagram':'https://www.instagram.com/parquedelestrecho/','phone':'+56 9 6658 3212','whatsapp':'https://wa.me/56966583212','email':'info@parquedelestrecho.cl','reservation':'https://parquedelestrecho.cl/tour/entrada-parque/','guide':'https://parquedelestrecho.cl/planifica-tu-visita/'},
+'Parque: todos los días, incluidos festivos, 10:00–19:00; último ingreso 17:30. Confirmar condiciones del día y horarios de salas y servicios.',
+'Hasta el 30/04/2027: chilenos y residentes adulto $13.000, +60 $10.000, niños 6–17 $6.000; extranjeros adulto y +60 $22.000, niños $10.000; menores de 6 gratis. Socios: tarifas propias. Acceso liberado con credencial de discapacidad RND o equivalente e identificación, según condiciones oficiales.',
+'''Un museo dentro de un paisaje histórico
+
+El Museo del Estrecho forma parte del Parque del Estrecho de Magallanes, a 52 kilómetros al sur de Punta Arenas. Conviene entender la visita como un conjunto: salas museográficas, miradores, senderos y lugares históricos. No son dos instituciones independientes que necesiten duplicarse en el itinerario.
+
+El edificio del museo está en la península Santa Ana, en el camino interior entre la portería Laguna Honda y Fuerte Bulnes. La dirección de una oficina urbana o de una agencia no sirve para llegar a sus salas. El mapa de esta ficha apunta al parque y la información oficial permite preparar el recorrido interno.
+## Las salas: territorio, navegación e historia humana
+
+La propuesta combina historia natural y humana del estrecho con recursos museográficos contemporáneos. Réplicas de embarcaciones, una bóveda de constelaciones, teatro de papel y proyecciones son parte de los contenidos descritos por el parque. La idea es relacionar geografía, exploraciones y formas de habitar el territorio.
+
+El operador recomienda dedicar aproximadamente una hora y media al museo. Es un buen tiempo de referencia para leer y observar sin convertirlo en una parada de paso. Pregunta qué exposiciones están disponibles y si hay alguna actividad del día que convenga integrar antes de salir hacia el fuerte.
+## Fuerte Bulnes y Puerto del Hambre
+
+El parque reúne dos monumentos históricos asociados a intentos de asentamiento separados por siglos: Fuerte Bulnes y Ciudad Rey Don Felipe, conocida como Puerto del Hambre. Son lugares distintos y sus contextos no deben mezclarse. Las salas ayudan a situarlos antes de recorrer el paisaje donde se encuentran.
+
+La presencia humana en este territorio es mucho anterior a esos asentamientos europeos y chilenos. Al organizar la visita, deja espacio para esa perspectiva y no la reduzcas a una secuencia de fundaciones. Consulta los recorridos guiados del fuerte por idioma y horario; no todos coinciden con la hora de tu llegada.
+## Una jornada con tiempo suficiente
+
+La web recomienda entre tres y cuatro horas dentro del parque y entre una hora y media y dos horas de conducción total desde Punta Arenas. Esto sitúa la excursión en una escala diferente a la de un museo del centro. Si quieres almorzar, observar aves o caminar despacio, considera dedicarle más tiempo.
+
+El último ingreso no es la hora de cierre de las salas ni una garantía de poder completar todo el circuito. Llegar a las 17:30 deja un margen mucho menor que entrar por la mañana. La distribución de actividades debería partir del transporte de vuelta y del tiempo necesario para recorrer los lugares que más te interesen.
+## Entradas, compra y documentos
+
+El tarifario oficial distingue extranjeros, chilenos y residentes, además de socios del Club del Estrecho. La tabla vigente consultada llega hasta el 30 de abril de 2027. Lleva identificación y, si corresponde, credenciales para descuentos o liberación de entrada; no basta con seleccionar una categoría sin cumplir sus condiciones.
+
+La compra en línea genera un código que se presenta en portería. También se informa compra en el acceso. Revisa qué incluye la entrada, las condiciones de cambio y los servicios que se pagan aparte antes de confirmar. Las tarifas de cafetería, traslado o actividades adicionales no se confunden con el acceso al parque.
+## Café, tienda y pausas con paisaje
+
+El museo cuenta con cafetería, tienda, galería de exposiciones y auditorio. El Café del Estrecho permite organizar una pausa sin volver a la ciudad; confirma horario, disponibilidad y opciones de alimentación si dependes de ese servicio. Llevar agua y una colación adecuada sigue siendo prudente para un paseo de varias horas.
+
+La terraza y los miradores permiten mirar hacia el estrecho y sus costas. La observación de fauna depende de condiciones naturales y nunca se garantiza un avistamiento. Si te interesa la fotografía, deja margen para cambios de luz y evita acercarte a bordes o salirte de senderos para mejorar un encuadre.
+## Familias, accesibilidad y clima
+
+Hay tramos bajo techo y otros exteriores. El museo tiene varios niveles; consulta circulación accesible, baños y qué senderos son adecuados a tus necesidades. La gratuidad asociada a una credencial de discapacidad es una condición tarifaria, no una afirmación de que todos los caminos del parque carezcan de barreras.
+
+Con niños, alternar salas y una caminata corta puede funcionar mejor que completar todos los senderos. Lleva capas, abrigo y calzado firme. En otoño e invierno verifica estado de ruta y escarcha; las recomendaciones del operador dependen de las condiciones del día y no sustituyen revisar el tiempo antes de conducir.
+## Cómo llegar y combinar la ruta sur
+
+El acceso está en la ruta hacia Punta Santa Ana, con ingreso por portería Laguna Honda. La web describe un camino pavimentado y una ruta interna de cuatro kilómetros hasta Fuerte Bulnes, con el centro de visitantes aproximadamente a mitad de camino. Usa la guía oficial y consulta qué sectores recorrer en vehículo y cuáles a pie.
+
+Si contratas un traslado o excursión, pide que indique cuánto tiempo real incluye en el museo, fuerte y senderos. No dependas de conseguir un viaje espontáneo de regreso desde el parque. Keu Ken queda en otro punto de la ruta sur y puede ser una combinación, pero solo si encajan sus visitas guiadas y dispones de una jornada amplia.
+## Consejo para ordenar el día
+
+Yo empezaría por el museo para leer el paisaje con más contexto y continuaría hacia Fuerte Bulnes y un sendero elegido según el clima. Guardaría un margen final para la cafetería o el mirador. Intentar hacerlo todo a última hora suele dejar fuera precisamente las salas que explican por qué este lugar es importante.
+''',['https://parquedelestrecho.cl/atractivos/museo-del-estrecho/','https://parquedelestrecho.cl/planifica-tu-visita/','https://parquedelestrecho.cl/tour/entrada-parque/','https://parquedelestrecho.cl/'],accessibility='Consultar niveles del museo, baños y senderos disponibles. La exención de entrada con credencial no implica accesibilidad integral.',filters=['museos','historia','aire-libre'])

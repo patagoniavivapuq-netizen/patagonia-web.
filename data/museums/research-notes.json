@@ -1,0 +1,110 @@
+{
+  "checked_at": "2026-10-22",
+  "tripadvisor_entries": [
+    {
+      "name": "1. Museo Nao Victoria",
+      "url": "https://www.tripadvisor.cl/Attraction_Review-g297401-d2359550-Reviews-Museo_Nao_Victoria-Punta_Arenas_Magallanes_Region.html"
+    },
+    {
+      "name": "2. Palácio Sara Braun",
+      "url": "https://www.tripadvisor.cl/Attraction_Review-g297401-d6537485-Reviews-Palacio_Sara_Braun-Punta_Arenas_Magallanes_Region.html"
+    },
+    {
+      "name": "3. Museo Salesiano Maggiorino Borgatello",
+      "url": "https://www.tripadvisor.cl/Attraction_Review-g297401-d3219757-Reviews-Museo_Salesiano_Magiorinno_Borgatello-Punta_Arenas_Magallanes_Region.html"
+    },
+    {
+      "name": "4. Museo Regional De Magallanes",
+      "url": "https://www.tripadvisor.cl/Attraction_Review-g297401-d2318874-Reviews-Museo_Regional_De_Magallanes-Punta_Arenas_Magallanes_Region.html"
+    },
+    {
+      "name": "5. La Galería: Tienda de Arte y Diseño",
+      "url": "https://www.tripadvisor.cl/Attraction_Review-g297401-d11826888-Reviews-La_Galeria_Tienda_de_Arte_y_Diseno-Punta_Arenas_Magallanes_Region.html"
+    },
+    {
+      "name": "6. Museo de Historia Natural Río Seco",
+      "url": "https://www.tripadvisor.cl/Attraction_Review-g297401-d14057131-Reviews-Museo_de_Historia_Natural_Rio_Seco-Punta_Arenas_Magallanes_Region.html"
+    },
+    {
+      "name": "7. Museo Naval y Maritimo",
+      "url": "https://www.tripadvisor.cl/Attraction_Review-g297401-d6157441-Reviews-Museo_Naval_y_Maritimo-Punta_Arenas_Magallanes_Region.html"
+    },
+    {
+      "name": "8. Museo Del Recuerdo",
+      "url": "https://www.tripadvisor.cl/Attraction_Review-g297401-d6031384-Reviews-Museo_Del_Recuerdo-Punta_Arenas_Magallanes_Region.html"
+    },
+    {
+      "name": "9. Centro Artesanal",
+      "url": "https://www.tripadvisor.cl/Attraction_Review-g297401-d8861428-Reviews-Centro_Artesanal-Punta_Arenas_Magallanes_Region.html"
+    },
+    {
+      "name": "10. Vieja Patagonia",
+      "url": "https://www.tripadvisor.cl/Attraction_Review-g297401-d9554689-Reviews-Vieja_Patagonia-Punta_Arenas_Magallanes_Region.html"
+    },
+    {
+      "name": "11. Instituto De La Patagoonia",
+      "url": "https://www.tripadvisor.cl/Attraction_Review-g297401-d10086519-Reviews-Instituto_De_La_Patagoonia-Punta_Arenas_Magallanes_Region.html"
+    },
+    {
+      "name": "12. Museo del Estrecho",
+      "url": "https://www.tripadvisor.cl/Attraction_Review-g297401-d20719226-Reviews-Museo_del_Estrecho-Punta_Arenas_Magallanes_Region.html"
+    },
+    {
+      "name": "13. Casa Orígenes De La Patagonia",
+      "url": "https://www.tripadvisor.cl/Attraction_Review-g297401-d32814251-Reviews-Casa_Origenes_De_La_Patagonia-Punta_Arenas_Magallanes_Region.html"
+    },
+    {
+      "name": "14. Parque Del Estrecho De Magallanes",
+      "url": "https://www.tripadvisor.cl/Attraction_Review-g297401-d318183-Reviews-Parque_del_Estrecho_de_Magallanes-Punta_Arenas_Magallanes_Region.html"
+    },
+    {
+      "name": "15. Museo Etnico",
+      "url": "https://www.tripadvisor.cl/Attraction_Review-g297401-d32981839-Reviews-Museo_Etnico-Punta_Arenas_Magallanes_Region.html"
+    },
+    {
+      "name": "16. Museo del Recuerdo",
+      "url": "https://www.tripadvisor.cl/Attraction_Review-g297401-d34746663-Reviews-Museo_del_Recuerdo-Punta_Arenas_Magallanes_Region.html"
+    }
+  ],
+  "deduplication": [
+    "Museo del Recuerdo d6031384, d34746663 e Instituto de la Patagoonia d10086519: un solo conjunto.",
+    "Museo del Estrecho y Parque del Estrecho: una ficha con el museo y el parque."
+  ],
+  "rejected": [
+    "Museo Etnico d32981839: referencias a Providencia y estaciones de Metro Salvador/Baquedano. No se ha usado como fuente del Parque Keu Ken.",
+    "Antiguo Museo Histórico Militar del Ejército: no confundir con Museo Militar de Magallanes itinerante."
+  ],
+  "photo_counts": {
+    "inach": 5,
+    "militar": 6,
+    "vieja": 6,
+    "galeria": 6,
+    "origenes": 6,
+    "artesanal": 6,
+    "sara-braun": 6,
+    "keuken": 6,
+    "croata": 1,
+    "bomberos": 5,
+    "borgatello": 6,
+    "regional": 6,
+    "recuerdo": 6,
+    "rio-seco": 6,
+    "naval": 6,
+    "nao": 6,
+    "estrecho": 6
+  },
+  "photo_gaps": [
+    {
+      "venue_id": "croata",
+      "count": 1,
+      "reason": "Solo se ha verificado una imagen específica de la sede. Solicitar al Club fotografías de sala, colección y actividad; no completar con retratos o imágenes de otra institución."
+    }
+  ],
+  "fact_conflicts": {
+    "borgatello": "Página de visita miércoles–sábado; pie martes–sábado. Se explicita y se pide confirmar martes.",
+    "naval": "RMC 2026 y página general Armada difieren. Se privilegia RMC actualizado con aviso de confirmación.",
+    "recuerdo": "Tarifas de redes y RMC difieren; no se fija una tarifa única.",
+    "origenes": "Colón 497 frente a Armando Sanhueza 110 en fichas anteriores. Ambas referencias documentadas; mapa Colón 497 y confirmación al canal oficial.",
+    "militar": "Itinerante sin inmueble público fijo; mapa solo referencia administrativa."
+  }
+}

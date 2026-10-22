@@ -26,6 +26,14 @@ for dining_pack in sorted(ROOT.glob('dining-photo-assets*.zip')):
     # Una sustitución posterior ya presente prevalece sobre la foto provisional.
     if not (ROOT/path).exists():
      pack.extract(info, ROOT)
+for museum_pack in sorted(ROOT.glob('museum-photo-assets*.zip')):
+ with zipfile.ZipFile(museum_pack) as pack:
+  for info in pack.infolist():
+   path=Path(info.filename)
+   if path.parts[:2] != ('assets','museums') or '..' in path.parts or path.is_absolute():
+    raise ValueError('Ruta de foto de museo no válida')
+   if not (ROOT/path).exists():
+    pack.extract(info, ROOT)
 OUT=ROOT/'dist' 
 if OUT.exists(): shutil.rmtree(OUT)
 OUT.mkdir();shutil.copytree(ROOT/'assets', OUT/'assets')
@@ -197,4 +205,6 @@ from dining import render as render_dining
 render_dining(ROOT, OUT, head, footer, write)
 from transport import render as render_transport
 render_transport(ROOT, OUT, head, footer, write)
+from museums import render as render_museums
+render_museums(ROOT, OUT, head, footer, write)
 print(json.dumps({'categories':len(CATEGORIES),'articles':len(ARTICLES),'html_files':len(list(OUT.rglob('*.html'))),'output':str(OUT)},ensure_ascii=False))
