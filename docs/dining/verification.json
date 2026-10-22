@@ -2,7 +2,7 @@
   "checked_at": "2026-10-21",
   "gastronomia_rendered": 50,
   "nightlife_rendered": 21,
-  "photos": 438,
+  "photos": 442,
   "venues_with_five": 58,
   "editorial_under_6000": [
     "simple-cafe-gelato",
@@ -107,7 +107,7 @@
   ],
   "approval_ready": false,
   "errors": [],
-  "unchanged_approved_routes": 122,
+  "unchanged_approved_routes": 161,
   "browser_qa": "No realizada: entorno managed sin skill control-browser disponible. No se simula aprobación visual.",
   "map_limit": "URL individual contrastada con dirección investigada; pin físico pendiente de revisión visual.",
   "rights": "Fotos provisionales; permisos o sustitución pendientes antes de explotación comercial.",
@@ -118,7 +118,7 @@
       "slug": "sotitos",
       "address": "Libertador Bernardo O’Higgins 1138, Punta Arenas, Chile",
       "characters": 7552,
-      "photos": 7,
+      "photos": 8,
       "missing_photos": 0,
       "sources": [
         "https://www.tripadvisor.es/Restaurant_Review-g297401-d945710-Reviews-Sotito_s_Restaurant-Punta_Arenas_Magallanes_Region.html",
@@ -172,7 +172,7 @@
       "slug": "la-cuisine",
       "address": "Libertador Bernardo O’Higgins 1037, Punta Arenas, Chile",
       "characters": 7217,
-      "photos": 11,
+      "photos": 12,
       "missing_photos": 0,
       "sources": [
         "https://www.tripadvisor.es/Restaurant_Review-g297401-d3855623-Reviews-La_Cuisine-Punta_Arenas_Magallanes_Region.html",
@@ -263,7 +263,7 @@
       "slug": "la-luna-restaurant",
       "address": "Libertador Bernardo O’Higgins 1017, Punta Arenas, Chile",
       "characters": 7094,
-      "photos": 6,
+      "photos": 7,
       "missing_photos": 0,
       "sources": [
         "https://www.tripadvisor.es/Restaurant_Review-g297401-d1085358-Reviews-La_Luna_Restaurant-Punta_Arenas_Magallanes_Region.html",
@@ -271,7 +271,8 @@
         "https://www.toliv.com/browse/chile/punta-arenas/la-luna-restaurant-1080",
         "https://lalunarestaurant.cl/historia/",
         "https://www.museodemagallanes.gob.cl/inmuebles/museo-regional-de-magallanes",
-        "https://museomaggiorinoborgatello.cl/planifica-tu-visita/"
+        "https://museomaggiorinoborgatello.cl/planifica-tu-visita/",
+        "https://lalunarestaurant.cl/contacto/"
       ],
       "ready": false
     },
@@ -593,7 +594,7 @@
       "slug": "la-yegua-loca",
       "address": "Fagnano 310, Punta Arenas, Chile",
       "characters": 6533,
-      "photos": 8,
+      "photos": 9,
       "missing_photos": 0,
       "sources": [
         "https://yegualoca.com/hotel/restaurante-bar/"

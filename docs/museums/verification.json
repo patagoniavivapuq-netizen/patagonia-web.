@@ -6,8 +6,8 @@
   "photo_gaps": [
     "croata"
   ],
-  "unchanged_previous_pages": 203,
-  "html_pages": 221,
+  "unchanged_previous_pages": 0,
+  "html_pages": 224,
   "details": [
     {
       "id": "inach",
@@ -146,7 +146,5 @@
       "map": true
     }
   ],
-  "errors": [],
-  "clean_build": true,
-  "baseline_commit": "36d7446dc72a6a3eb0e35c2c939d8405372d1bc0"
+  "errors": []
 }

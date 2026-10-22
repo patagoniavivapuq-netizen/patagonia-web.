@@ -1,7 +1,7 @@
 {
   "stage": "Primera versión editorial para revisión",
   "categories": 15,
-  "articles": 83,
+  "articles": 122,
   "review_date": "2026-10-18",
   "sources": {
     "chile": [
@@ -166,6 +166,101 @@
     ]
   },
   "items": [
+    {
+      "path": "/guia/seguridad-y-emergencias/",
+      "title": "Seguridad y emergencias en Punta Arenas",
+      "status": null,
+      "sources": [
+        "salud",
+        "sernatur",
+        "chile"
+      ]
+    },
+    {
+      "path": "/guia/presupuesto/",
+      "title": "Cuánto cuesta viajar a Punta Arenas",
+      "status": null,
+      "sources": [
+        "chile",
+        "sernatur"
+      ]
+    },
+    {
+      "path": "/guia/informacion-practica/",
+      "title": "Información práctica antes de viajar a Punta Arenas",
+      "status": null,
+      "sources": [
+        "chile",
+        "puq",
+        "sernatur"
+      ]
+    },
+    {
+      "path": "/guia/puerta-patagonia/",
+      "title": "Punta Arenas: puerta de entrada a la Patagonia",
+      "status": null,
+      "sources": [
+        "chile",
+        "natales",
+        "barcaza",
+        "estrecho",
+        "sernatur"
+      ]
+    },
+    {
+      "path": "/guia/conducir-patagonia/",
+      "title": "Arrendar un vehículo y conducir por Patagonia",
+      "status": null,
+      "sources": [
+        "chile",
+        "barcaza",
+        "angostura",
+        "sernatur"
+      ]
+    },
+    {
+      "path": "/guia/mejor-epoca/",
+      "title": "Mejor época para viajar a Punta Arenas",
+      "status": null,
+      "sources": [
+        "chile",
+        "sernatur",
+        "invernadas"
+      ]
+    },
+    {
+      "path": "/guia/costumbres-magallanicas/",
+      "title": "Costumbres y vida cotidiana magallánica",
+      "status": null,
+      "sources": [
+        "museo-regional",
+        "invernadas",
+        "chile"
+      ]
+    },
+    {
+      "path": "/guia/primera-visita/",
+      "title": "Punta Arenas por primera vez",
+      "status": null,
+      "sources": [
+        "chile",
+        "puq",
+        "museo",
+        "estrecho"
+      ]
+    },
+    {
+      "path": "/guia/mal-tiempo/",
+      "title": "Qué hacer con viento, lluvia o nieve en Punta Arenas",
+      "status": null,
+      "sources": [
+        "museo",
+        "borgatello",
+        "museos",
+        "municipio",
+        "fundacion"
+      ]
+    },
     {
       "path": "/guia/mes-a-mes/",
       "title": "Punta Arenas mes a mes",
@@ -380,8 +475,9 @@
       "title": "Carnaval de Invierno",
       "status": null,
       "sources": [
-        "invernadas",
-        "fundacion"
+        "municipio",
+        "fundacion",
+        "invernadas"
       ]
     },
     {
@@ -389,8 +485,9 @@
       "title": "Chapuzón del Estrecho",
       "status": null,
       "sources": [
+        "municipio",
         "invernadas",
-        "municipio"
+        "fundacion"
       ]
     },
     {
@@ -398,7 +495,8 @@
       "title": "Festival Folclórico en la Patagonia",
       "status": null,
       "sources": [
-        "fundacion"
+        "fundacion",
+        "municipio"
       ]
     },
     {
@@ -461,11 +559,9 @@
     },
     {
       "path": "/gastronomia/sotitos/",
-      "title": "Sotito’s",
+      "title": "Sotito’s Restaurant",
       "status": null,
-      "sources": [
-        "restaurantes"
-      ]
+      "sources": []
     },
     {
       "path": "/gastronomia/savoy/",
@@ -717,6 +813,156 @@
       ]
     },
     {
+      "path": "/tours/isla-marta-magdalena/",
+      "title": "Islas Magdalena y Marta",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/tours/ballenas-glaciares/",
+      "title": "Ballenas y glaciares",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/tours/ruta-glaciares/",
+      "title": "Ruta de los Glaciares",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/tours/kayak-estrecho/",
+      "title": "Kayak en el Estrecho de Magallanes",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/tours/cabalgata-bosques/",
+      "title": "Cabalgata por bosques australes",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/tours/delfines-australes/",
+      "title": "Avistamiento de delfines australes",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/tours/reserva-magallanes/",
+      "title": "Reserva Nacional Magallanes",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/tours/faro-san-isidro/",
+      "title": "Trekking Faro San Isidro",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/tours/monte-tarn/",
+      "title": "Trekking Monte Tarn",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/tours/pali-aike/",
+      "title": "Parque Nacional Pali Aike",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/tours/torres-del-paine/",
+      "title": "Torres del Paine · full day",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/tours/base-torres/",
+      "title": "Trekking Base Torres",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/tours/cabo-froward/",
+      "title": "Cabo Froward · aventura austral",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/tours/full-day-punta-arenas/",
+      "title": "Punta Arenas full day",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/tours/walking-tour/",
+      "title": "Walking tour por el centro histórico",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/tours/nao-victoria-tour/",
+      "title": "Museo Nao Victoria",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/tours/cementerio-patrimonial/",
+      "title": "Cementerio Sara Braun · recorrido patrimonial",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/tours/ruta-gastronomica/",
+      "title": "Sabores de Magallanes · tour gastronómico",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/tours/compras-zona-franca/",
+      "title": "Tour de compras · Zona Franca",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/tours/cruceristas/",
+      "title": "Punta Arenas para cruceristas",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/tours/safari-fotografico/",
+      "title": "Safari fotográfico de fauna austral",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/tours/avistamiento-aves/",
+      "title": "Avistamiento de aves de Magallanes",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/tours/estancia-patagonica/",
+      "title": "Estancia patagónica y tradiciones rurales",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/tours/tour-privado-punta-arenas/",
+      "title": "Tour privado de Punta Arenas",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/tours/laguna-parrillar-tour/",
+      "title": "Laguna Parrillar · naturaleza austral",
+      "status": null,
+      "sources": []
+    },
+    {
       "path": "/barrios/centro-historico/",
       "title": "Centro histórico",
       "status": null,
@@ -849,6 +1095,39 @@
         "pinguinos",
         "rey"
       ]
+    },
+    {
+      "path": "/eventos/encuentro-acordeonistas/",
+      "title": "Encuentro Internacional de Acordeonistas Ramón Bahamonde",
+      "status": null,
+      "sources": [
+        "municipio",
+        "fundacion"
+      ]
+    },
+    {
+      "path": "/gastronomia/la-marmita/",
+      "title": "La Marmita",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/gastronomia/la-luna/",
+      "title": "La Luna Restaurant",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/gastronomia/la-yegua-loca/",
+      "title": "Restaurante La Yegua Loca",
+      "status": null,
+      "sources": []
+    },
+    {
+      "path": "/gastronomia/la-cuisine/",
+      "title": "La Cuisine",
+      "status": null,
+      "sources": []
     }
   ]
 }

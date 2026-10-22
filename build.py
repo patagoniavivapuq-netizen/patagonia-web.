@@ -53,10 +53,26 @@ for category,media_key in CATEGORY_PHOTOS.items():
 
 def img(key):
  return '/assets/photos/'+Path(CATALOG[key[2:]]['path']).name if key and key.startswith('p-') else '/assets/images/'+IMAGES.get(key,IMAGES['ciudad'])
+EVENT_PHOTOS={"chapuzon":[["https://services.meteored.com/img/article/chapuzon-del-estrecho-2024-fecha-inscripciones-y-origen-del-evento-que-desafia-al-frio-de-la-patagonia-1718584160591_1280.png","Vista del Chapuzón, archivo 2024"],["https://rhk91h.infiniteuploads.cloud/2023/07/WhatsApp-Image-2023-07-08-at-5.08.12-PM-1024x657.jpeg","Participantes del Chapuzón, archivo 2023"],["https://mundografico.emol.cl/2016/07/24/37630_7514_23378154.jpg","Celebración del Chapuzón, archivo 2016"]],"carnaval-de-invierno":[["https://s3-mspro.nyc3.cdn.digitaloceanspaces.com/tenant/658d9f90f0909def6c18fa2c/mediaLibrary/photo/71064280-de62-4a59-afa3-4f2c882eb37c-extra-large-standard-q100.jpeg?v=1783308127","Disfraz del Carnaval de Invierno 2026"],["https://cloudfront-us-east-1.images.arcpublishing.com/copesa/YQQCNTRALNFS3EJ6VOTS35OZJM.jpg","Comparsa del Carnaval, archivo 2024"]],"festival-folclorico":[["https://www.cooperativa.cl/noticias/site/artic/20180823/imag/foto_0000001120180823225229.jpg","Ballet Municipal en el Festival Folclórico, archivo 2018"],["https://cdn.lpa.cl/2022/08/22-23-600x400.jpg","Danzas del Festival Folclórico, archivo 2022"]]}
+EVENT_PHOTOS.update({"ano-nuevo":[["https://chileestuyo.cl/wp-content/uploads/2021/07/Costanera-Punta-Arenas.jpg","Atardecer en la Costanera del Estrecho; imagen de contexto, no de una fiesta de Año Nuevo"],["https://image-tc.galaxy.tf/wijpeg-2igh8fujxfhev1zllsgppk5uk/img-7826.jpg?width=1920","Plaza Muñoz Gamero iluminada; imagen de contexto de Punta Arenas"]],"fiestas-patrias":[["https://www.armada.cl/armada/site/artic/20250918/imag/foto_0000003020250918194404/miembros_alma_marinera_en_pie_de_cueca_en_plaza_de.jpg","Celebración de cueca en Punta Arenas, archivo septiembre de 2025"],["https://cdn.lpa.cl/2025/09/2GANADORA-MEJOR-EMPANADA-SANDRA-ZAMORA-RM9-667x400.jpg","Concurso de mejor empanada en Punta Arenas, archivo 2025"],["https://elpinguino.com/uploads/images/large/5fb5f35b46492ca362460f35e16a9e44.png","Empanadas de concurso gastronómico, archivo 2023"]],"encuentro-acordeonistas":[["https://viveacordeon.cl/wp-content/uploads/2022/08/Fabian-Ramirez-scaled.jpg","Músicos en el Encuentro Internacional de Acordeonistas Ramón Bahamonde, archivo 2022"],["https://viveacordeon.cl/wp-content/uploads/2022/08/Sebastian-Bravo-scaled.jpg","Acordeonista en el Encuentro Ramón Bahamonde, archivo 2022"]]})
+EVENT_PHOTOS_EXTRA={"fiestas-patrias":[["https://s3-mspro.nyc3.cdn.digitaloceanspaces.com/tenant/658d9f90f0909def6c18fa2c/mediaLibrary/photo/75e8a6d8-c023-4f67-ae88-c9c416745e2d-medium-standard-q100.jpg?v=1725144607","Esquinazo y cueca en Punta Arenas, fotografía de archivo"],["https://www.armada.cl/armada/site/artic/20250918/imag/foto_0000003020250918194404/miembros_alma_marinera_en_pie_de_cueca_en_plaza_de.jpg","Cueca durante Fiestas Patrias en Punta Arenas, 2025"]],"ano-nuevo":[["https://img.soy-chile.cl/Fotos/2017/10/10/file_20171010140121.jpg","Imagen histórica de fuegos artificiales en Punta Arenas publicada en 2017; no representa la programación actual"]],"encuentro-acordeonistas":[["https://viveacordeon.cl/wp-content/uploads/2022/08/Fabian-Ramirez-scaled.jpg","Presentación del Encuentro Ramón Bahamonde, 2022"]]}
+EVENT_PHOTOS_EXTRA.setdefault("ano-nuevo",[]).extend([
+ ["https://cdn.lpa.cl/2026/01/ASADOS-EN-LAGUNA-PARRILLAR-RM2-Mediano-1-600x400.jpeg","Familias recibiendo 2026 en Laguna Parrillar, fotografía de La Prensa Austral (enero 2026)"],
+ ["https://cdn.lpa.cl/2024/01/19ASADOS-CHABUNCO-FAMILIA-1-GL1-667x400.jpg","Familias celebrando Año Nuevo en Parque Chabunco, fotografía de La Prensa Austral (enero 2024)"]
+])
+for slug,photos in EVENT_PHOTOS_EXTRA.items():
+ existing=EVENT_PHOTOS.get(slug,[])
+ existing_urls={src for src,_ in existing}
+ EVENT_PHOTOS[slug]=existing+[entry for entry in photos if entry[0] not in existing_urls]
+def event_photo(entry,priority=False):
+ src,caption=entry
+ return '<figure class="ec-inline-photo"><img src="'+E(src,quote=True)+'" alt="'+E(caption,quote=True)+'" '+('fetchpriority="high"' if priority else 'loading="lazy"')+' width="1280" height="800"><figcaption>'+E(caption)+'</figcaption></figure>'
+
 def article_image(a):
  selected=photos_for(a)
  if selected:return 'p-'+selected[0]
  if a['category']=='vida-nocturna' and a['slug'] in ('el-trebol','kamikaze'):return None
+ if a['category']=='eventos' and a['slug'] in EVENT_PHOTOS:return None
  return ARTICLEIMG.get((a['category'],a['slug']),a['image'])
 TOUR_PRICES={"city-tour":48000,"isla-magdalena":120000,"tierra-del-fuego":120000,"parque-del-estrecho":48000,"isla-marta-magdalena":156000,"ballenas-glaciares":294000,"ruta-glaciares":270000,"kayak-estrecho":138000,"cabalgata-bosques":156000,"delfines-australes":162000,"reserva-magallanes":48000,"faro-san-isidro":60000,"monte-tarn":102000,"pali-aike":96000,"torres-del-paine":108000,"base-torres":132000,"cabo-froward":336000,"full-day-punta-arenas":96000}
 def url(a):return '/'+a['category']+'/'+a['slug']+'/'
@@ -95,6 +111,19 @@ def thumb(a):
   return '<a class="pv-tour-card" href="'+url(a)+'"><div class="pv-tour-photo">'+('<img src="'+E(photo_src,quote=True)+'" alt="'+E(a['title'],quote=True)+'" loading="lazy" width="640" height="420">' if photo_src else '<div class="pv-tour-photo-empty">Imagen del tour pendiente</div>')+'<span class="pv-tour-price">'+badge+'</span></div><div class="pv-tour-body"><h3>'+E(a['title'])+'</h3></div></a>'
  visual='<img class="guide-thumb" src="'+img(key)+'" alt="" loading="lazy" width="640" height="420">' if key else ''
  return '<a href="'+url(a)+'">'+visual+'<b>'+E(a['title'])+'</b><span>ABRIR GUÍA →</span></a>'
+EVENT_CATEGORY_STYLE="""<style>
+body:has(.pv-events-catalog){background:#061817!important;color:#f8efdd!important}
+.pv-events-catalog{background:#092522!important;color:#f8efdd!important}
+.pv-events-catalog .category-hero{background:linear-gradient(125deg,#061817,#123d39)!important;border-bottom:2px solid #d7a43b}
+.pv-events-catalog .category-controls{background:#092522!important;color:#f5dfb0!important;padding:22px!important;margin:0 auto!important}
+.pv-events-catalog .category-controls a{color:#eec36f!important}
+.pv-events-catalog .guide-group{background:#092522!important;color:#fff!important}
+.pv-events-catalog .guide-group h2{color:#f3c674!important}
+.pv-events-catalog .guide-grid a{background:#123d39!important;border:1px solid #d7a43b!important;border-radius:24px!important;color:#fff!important}
+.pv-events-catalog .guide-grid b{color:#fff7e5!important}
+.pv-events-catalog .guide-grid span{color:#f2c374!important}
+.pv-events-catalog .empty-results{color:#fff!important}
+</style>"""
 # Home: mantiene clases, CSS y jerarquía de la referencia pública autorizada.
 home=head('Guía de Punta Arenas y Patagonia','Descubre Punta Arenas: guía práctica, tours, transportes, alojamiento, gastronomía y vida local.')
 home+='<main id="inicio"><section class="hero"><picture class="hero-visual"><img src="'+img('ciudad')+'" alt="Punta Arenas y el Estrecho de Magallanes" width="1600" height="900" fetchpriority="high"></picture><div class="hero-copy"><p class="kicker">PATAGONIA VIVA · PUNTA ARENAS</p><h1>Punta Arenas<br>no se visita.<br><em>Se vive.</em></h1><p class="lead">Mi guía para descubrir Punta Arenas: cómo preparar tu viaje, dónde comer, cómo moverte y experiencias que vas a recordar.</p><a class="primary" href="#explora">DESCUBRIR PUNTA ARENAS</a></div></section>'
@@ -110,7 +139,7 @@ home+='</section></main>'+footer();write('/',home)
 # Portadas de categoría: tarjetas con miniatura y página propia por tema.
 for cat,title,desc,key in CATEGORIES:
  articles=[a for a in ARTICLES if a['category']==cat];key=CATIMG.get(cat,key)
- page=(head(title,desc,'category')+("<style>\n.guide-grid>a.pv-tour-card,.guide-grid>a.pv-tour-card:hover,.guide-grid>a.pv-tour-card::before,.guide-grid>a.pv-tour-card::after,.pv-tour-photo,.pv-tour-photo::before,.pv-tour-photo::after,.pv-tour-body,.pv-tour-body::before,.pv-tour-body::after{box-shadow:none!important;text-shadow:none!important;background-image:none!important;filter:none!important}.pv-tour-photo::before,.pv-tour-photo::after,.guide-grid>a.pv-tour-card::before,.guide-grid>a.pv-tour-card::after{content:none!important;display:none!important}.guide-grid>a.pv-tour-card .pv-tour-price{z-index:30!important;position:absolute!important;top:12px!important;right:12px!important;bottom:auto!important;left:auto!important;display:inline-flex!important;opacity:1!important;visibility:visible!important;background-color:#ffd037!important;background-image:none!important;color:#102a25!important;border:1px solid #d29b00!important;box-shadow:none!important;filter:none!important;text-shadow:none!important;font-size:16px!important;font-weight:950!important}.sc-photo-credit{font-size:12px;padding:0 12px 24px;color:#54645f}.sc-photo-credit a{color:#137b77;margin-right:12px}body:has(.pv-tour-card) .guide-group .guide-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}\nbody:has(.pv-tour-card) .guide-grid>a.pv-tour-card{display:block;overflow:hidden;padding:0;background:#fff;border:1px solid #e2e8e7;border-radius:28px;box-shadow:none!important;text-decoration:none;color:#132626;transition:transform .2s,box-shadow .2s}\nbody:has(.pv-tour-card) .guide-grid>a.pv-tour-card:hover{transform:translateY(-5px);box-shadow:none!important}\n.pv-tour-photo{position:relative;aspect-ratio:1.58;overflow:hidden;background:#d9eee8}\n.pv-tour-photo img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .4s}\n.pv-tour-card:hover .pv-tour-photo img{transform:scale(1.035)}\n.guide-grid>a.pv-tour-card .pv-tour-photo>.pv-tour-price{position:absolute!important;z-index:5;display:inline-flex!important;max-width:calc(100% - 25px);right:12px!important;left:auto!important;top:12px!important;bottom:auto!important;width:auto!important;height:auto!important;transform:none!important;padding:11px 18px;border-radius:16px;background:#f7c746;color:#0c2422;font-weight:950;font-size:17px;box-shadow:none}\n.pv-tour-photo-empty{display:grid;place-items:center;height:100%;font-size:13px;color:#235e59;font-weight:800}\n.pv-tour-body{padding:23px 25px 25px}.pv-tour-body h3{font-family:Georgia,serif;color:#152a29;font-size:clamp(23px,2vw,32px);margin:0 0 14px;line-height:1.15}.pv-tour-body p{color:#536b70;line-height:1.6;font-size:17px;margin:0 0 18px}.pv-tour-body strong{color:#966d02;font-size:12px;font-weight:950;letter-spacing:.07em}\n@media(max-width:950px){body:has(.pv-tour-card) .guide-group .guide-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}\n@media(max-width:620px){body:has(.pv-tour-card) .guide-group .guide-grid{grid-template-columns:1fr}.pv-tour-price{font-size:15px}}\n</style>" if cat=='tours' else ''))+'<main id="inicio"><section class="hero category-hero"><div class="hero-copy"><p class="kicker">PATAGONIA VIVA · PUNTA ARENAS</p><h1>'+E(title)+'.</h1><p class="lead">'+E(desc)+'</p></div></section><div class="category-controls"><a href="/">← Inicio</a><span>'+str(len(articles))+' temas para explorar</span><label class="search-label">Buscar en esta sección<input type="search" data-filter placeholder="Escribe un tema…" autocomplete="off"></label></div>'
+ page=(head(title,desc,'category')+(EVENT_CATEGORY_STYLE if cat=='eventos' else '')+("<style>\n.guide-grid>a.pv-tour-card,.guide-grid>a.pv-tour-card:hover,.guide-grid>a.pv-tour-card::before,.guide-grid>a.pv-tour-card::after,.pv-tour-photo,.pv-tour-photo::before,.pv-tour-photo::after,.pv-tour-body,.pv-tour-body::before,.pv-tour-body::after{box-shadow:none!important;text-shadow:none!important;background-image:none!important;filter:none!important}.pv-tour-photo::before,.pv-tour-photo::after,.guide-grid>a.pv-tour-card::before,.guide-grid>a.pv-tour-card::after{content:none!important;display:none!important}.guide-grid>a.pv-tour-card .pv-tour-price{z-index:30!important;position:absolute!important;top:12px!important;right:12px!important;bottom:auto!important;left:auto!important;display:inline-flex!important;opacity:1!important;visibility:visible!important;background-color:#ffd037!important;background-image:none!important;color:#102a25!important;border:1px solid #d29b00!important;box-shadow:none!important;filter:none!important;text-shadow:none!important;font-size:16px!important;font-weight:950!important}.sc-photo-credit{font-size:12px;padding:0 12px 24px;color:#54645f}.sc-photo-credit a{color:#137b77;margin-right:12px}body:has(.pv-tour-card) .guide-group .guide-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}\nbody:has(.pv-tour-card) .guide-grid>a.pv-tour-card{display:block;overflow:hidden;padding:0;background:#fff;border:1px solid #e2e8e7;border-radius:28px;box-shadow:none!important;text-decoration:none;color:#132626;transition:transform .2s,box-shadow .2s}\nbody:has(.pv-tour-card) .guide-grid>a.pv-tour-card:hover{transform:translateY(-5px);box-shadow:none!important}\n.pv-tour-photo{position:relative;aspect-ratio:1.58;overflow:hidden;background:#d9eee8}\n.pv-tour-photo img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .4s}\n.pv-tour-card:hover .pv-tour-photo img{transform:scale(1.035)}\n.guide-grid>a.pv-tour-card .pv-tour-photo>.pv-tour-price{position:absolute!important;z-index:5;display:inline-flex!important;max-width:calc(100% - 25px);right:12px!important;left:auto!important;top:12px!important;bottom:auto!important;width:auto!important;height:auto!important;transform:none!important;padding:11px 18px;border-radius:16px;background:#f7c746;color:#0c2422;font-weight:950;font-size:17px;box-shadow:none}\n.pv-tour-photo-empty{display:grid;place-items:center;height:100%;font-size:13px;color:#235e59;font-weight:800}\n.pv-tour-body{padding:23px 25px 25px}.pv-tour-body h3{font-family:Georgia,serif;color:#152a29;font-size:clamp(23px,2vw,32px);margin:0 0 14px;line-height:1.15}.pv-tour-body p{color:#536b70;line-height:1.6;font-size:17px;margin:0 0 18px}.pv-tour-body strong{color:#966d02;font-size:12px;font-weight:950;letter-spacing:.07em}\n@media(max-width:950px){body:has(.pv-tour-card) .guide-group .guide-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}\n@media(max-width:620px){body:has(.pv-tour-card) .guide-group .guide-grid{grid-template-columns:1fr}.pv-tour-price{font-size:15px}}\n</style>" if cat=='tours' else ''))+'<main id="inicio"><section class="hero category-hero"><div class="hero-copy"><p class="kicker">PATAGONIA VIVA · PUNTA ARENAS</p><h1>'+E(title)+'.</h1><p class="lead">'+E(desc)+'</p></div></section><div class="category-controls"><a href="/">← Inicio</a><span>'+str(len(articles))+' temas para explorar</span><label class="search-label">Buscar en esta sección<input type="search" data-filter placeholder="Escribe un tema…" autocomplete="off"></label></div>'
  groups=defaultdict(list)
  for a in articles:groups[a['group']].append(a)
  for group,aa in groups.items():
@@ -153,24 +182,137 @@ def showcase_tour(a):
 
  return page+'</div></main>'+footer()
 
+
+EVENT_STYLE="""<style>
+body:has(.event-feature){background:#061817!important;color:#f5f0e7!important}
+.event-feature{max-width:1180px!important;background:#092522!important;color:#f5f0e7!important}
+.event-feature .breadcrumbs,.event-feature .breadcrumbs a{color:#e1c895!important}
+.event-feature .kicker,.event-feature>.kicker{color:#e8bd63!important}
+.event-feature h1{color:#fff6e7!important}
+.event-feature .article-intro{color:#e0ede6!important;font-size:19px;line-height:1.78}
+.event-feature .event-layout{display:grid;grid-template-columns:minmax(0,1fr) 315px;gap:24px;align-items:start;margin-top:30px}
+.event-feature .event-main .items{margin:0;display:grid;gap:0}.event-feature .event-main .items article{margin-bottom:0!important;border-radius:0!important;border-bottom:0!important}.event-feature .event-main .items article:first-child{border-radius:23px 23px 0 0!important}.event-feature .event-main .items article:last-child{border-bottom:1px solid #d7a43b!important;border-radius:0 0 23px 23px!important}.event-feature .event-main .items .ec-inline-photo{margin:0!important;border-radius:0!important}
+.event-feature .items article{background:linear-gradient(140deg,#123d39,#092522)!important;color:#f7f1e7!important;border:1px solid #d7a43b!important;border-radius:24px!important;padding:30px!important;box-shadow:0 12px 35px #0003!important}
+.event-feature .items article>span{display:inline-block;color:#f4c879!important;background:transparent!important;font:900 13px Arial!important;letter-spacing:.14em}
+.event-feature .items article h2{color:#fff4da!important;font-size:clamp(24px,2.6vw,32px);line-height:1.2}
+.event-feature .items article p{color:#e3eee9!important;font-size:17px;line-height:1.83}
+.event-feature .ec-inline-photo{border-radius:24px!important;background:#0d302c!important;border:1px solid #d7a43b!important;box-shadow:0 15px 34px #0003!important;overflow:hidden}
+.event-feature .ec-inline-photo img{display:block;width:100%;max-height:590px;object-fit:cover}
+.event-feature .ec-inline-photo figcaption{color:#f0d79e!important;background:#123d39!important;padding:13px 17px;font-size:13px}
+.event-feature .event-sidebar{position:sticky;top:92px;display:grid;gap:17px}
+.event-feature .event-side-card{padding:24px;border:1px solid #d7a43b!important;border-radius:23px;background:linear-gradient(145deg,#123d39,#082b28)!important;color:#fff!important}
+.event-feature .event-side-card h2{color:#f1c778!important;margin:0 0 15px;font-size:21px}
+.event-feature .event-side-card p,.event-feature .event-side-card li{color:#e7f0e9!important;line-height:1.7;font-size:15px}
+.event-feature .event-side-card ul{padding-left:19px}
+.event-feature .event-side-card:nth-child(2){background:#0b2623!important;border:2px solid #f0bc63!important}
+.event-feature .event-side-card a{display:block;margin-top:12px;text-align:center;padding:12px;background:#d7a43b!important;color:#092522!important;border-radius:99px;font-weight:800;text-decoration:none}
+.event-feature .event-facts{display:block;margin:0}
+.event-feature .event-facts>div{padding:12px 0;border-bottom:1px solid #ad874d}
+.event-feature .event-facts>div:last-child{border:0}
+.event-feature .event-facts small{display:block;color:#f0c16b!important;font-size:11px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:7px;font-weight:800}
+.event-feature .event-facts strong{color:#fff4df!important;font-size:15px}
+.event-feature .map-section{background:#103832!important;border:1px solid #d7a43b!important;color:#fff!important;border-radius:23px;padding:25px;margin:28px 0}
+.event-feature .map-section h2,.event-feature .map-section p{color:#fff4df!important}
+.event-feature .map-section iframe{display:block;width:100%;height:350px;border:0;border-radius:16px;margin-top:17px;background:#fff}
+.event-feature .map-section a{background:#d7a43b!important;color:#092522!important}
+.event-feature .official-links{background:#103832!important;border:1px solid #d7a43b!important;color:#fff!important}
+.event-feature .official-links summary,.event-feature .official-links a{color:#f1c778!important}
+@media(max-width:900px){.event-feature .event-layout{grid-template-columns:1fr}.event-feature .event-sidebar{position:static;grid-row:1;grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.event-feature .event-sidebar{grid-template-columns:1fr}.event-feature .items article{padding:23px!important}}
+</style>"""
+EVENT_FACTS={
+ 'chapuzon':('27 de junio de 2026 · histórico','Costanera del Estrecho · sector Letras','Participación con inscripción oficial'),
+ 'carnaval-de-invierno':('4 y 5 de julio de 2026 · histórico','Costanera del Estrecho','Carros, comparsas y música'),
+ 'festival-folclorico':('30 julio – 1 agosto 2026 · histórico','Gimnasio Confederación Deportiva','Tres jornadas · cartelera por noche'),
+ 'ano-nuevo':('31 diciembre · celebración anual','Distintos lugares de la ciudad','Cenas y planes según programación'),
+ 'fiestas-patrias':('Septiembre · celebración anual','Actividades en diferentes recintos','Gastronomía, música y tradiciones'),
+ 'encuentro-acordeonistas':('14–16 agosto 2026 · histórico','Centro Cultural Claudio Paredes Chamorro','Chamamé y galas musicales')
+}
+def event_facts(a):
+ facts=EVENT_FACTS.get(a['slug'])
+ if not facts:return ''
+ return '<div class="event-facts">'+''.join('<div><small>'+label+'</small><strong>'+E(value)+'</strong></div>' for label,value in zip(('Edición','Lugar','Experiencia'),facts))+'</div>'
+def event_links(a):
+ return '<section class="event-action"><h2>Información oficial y próximas ediciones</h2><p>Las fechas, entradas y condiciones anteriores corresponden a 2026. Para futuras ediciones consulta los anuncios actualizados.</p><a href="https://puntaarenas.cl/" rel="noopener noreferrer" target="_blank">Municipalidad ↗</a><a href="https://fundacionculturalpuntaarenas.cl/" rel="noopener noreferrer" target="_blank">Fundación Cultural ↗</a></section>'
+ 
 # Fichas: imagen bajo título, bloques numerados, foto intercalada y consejo propio.
+
+# Plantilla editorial gastronómica: estructura y CSS de referencia Venga Ipanema (solo lectura).
+GASTRO_RIO_CSS=":root{--ink:#0d1919;--petrol:#123b3b;--gold:#e7b85c;--cream:#f6f0e6;--muted:#bac7c0;--red:#ef766f}*{box-sizing:border-box}body{margin:0;background:var(--ink);color:var(--cream);font:18px/1.7 Georgia,serif}a{color:var(--gold)}.back{max-width:1200px;margin:auto;padding:20px 24px;font:14px Arial}.hero{min-height:72vh;padding:clamp(30px,7vw,100px);display:flex;align-items:end;background:linear-gradient(90deg,#071313ee,#07131326),var(--hero) center/cover}.hero h1{font-size:clamp(46px,8vw,100px);line-height:.9;max-width:900px;margin:14px 0}.ey{color:var(--gold);font:700 12px Arial;letter-spacing:.18em;text-transform:uppercase}.wrap{max-width:1200px;margin:auto;padding:28px 24px}.grid{display:grid;grid-template-columns:1.45fr .8fr;gap:24px}.card{background:var(--petrol);border:1px solid #e7b85c44;border-radius:24px;padding:28px;margin:22px 0;box-shadow:none!important;font-size:30px;margin-top:0}.facts{font:15px/1.8 Arial;color:var(--muted)}.facts strong{color:var(--cream)}.map{width:100%;height:360px;border:0;border-radius:18px}.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.gallery figure{margin:0;background:#071212;border-radius:16px;overflow:hidden}.gallery img{width:100%;height:280px;object-fit:cover;display:block}.gallery figure:first-child{grid-column:span 2}.gallery figure:first-child img{height:430px}.gallery figcaption,.inline-photo figcaption{padding:10px 12px;color:var(--muted);font:12px Arial}.tags{display:flex;flex-wrap:wrap;gap:8px}.tag{border:1px solid #e7b85c99;color:var(--gold);padding:6px 11px;border-radius:99px;font:12px Arial}.btn{display:inline-block;background:var(--gold);color:#132222;text-decoration:none;padding:11px 17px;border-radius:99px;font:700 13px Arial;margin:5px 3px 0 0}.notice{border-left:4px solid var(--gold);padding:14px 18px;background:#091818;color:var(--muted)}.closed{border-color:var(--red);color:#ffe2df}.inline-photo{margin:26px 0;border-radius:18px;overflow:hidden;background:#071212}.inline-photo img{width:100%;max-height:430px;object-fit:cover;display:block}@media(max-width:760px){.grid{display:block}.hero{min-height:62vh;padding:25px}.wrap{padding:18px 14px}.card{padding:21px}.gallery{grid-template-columns:1fr 1fr}.gallery figure:first-child{grid-column:span 2}.gallery img,.gallery figure:first-child img{height:250px}.map{height:300px}.inline-photo img{max-height:360px}}"
+GASTRO_SLUGS={'la-marmita','la-luna','sotitos','la-yegua-loca','la-cuisine'}
+
+GASTRO_REAL_PHOTOS={"la-marmita":[["https://www.chilegastronomia.cl/uploads/contenido/contenido_galeria/carousel_1270e9eb45410a799124bee51e5faf8262d1df20.jpg","Plato servido en La Marmita","https://www.chilegastronomia.cl/restaurantes-clasicos-en-regiones/cocina-chilena-en-punta-arenas-la-marmita-restaurant"]],"la-luna":[["https://lalunarestaurant.cl/storage/2025/08/img-14.jpg","Selección de preparaciones de La Luna","https://lalunarestaurant.cl/"],["https://tolivmarket-production.s3.sa-east-1.amazonaws.com/products/c33216691508b5ae9bde4affa5a61d80726b91735cdb7d29986226a437f5168b.jpg","Especialidades servidas en La Luna Restaurant","https://www.toliv.com/browse/chile/punta-arenas/la-luna-restaurant-1080"],["https://media-cdn.tripadvisor.com/media/photo-s/1b/2d/5e/69/photo2jpg.jpg","Interior de La Luna Restaurant","https://www.tripadvisor.co.uk/Restaurant_Review-g297401-d1085358-Reviews-La_Luna_Restaurant-Punta_Arenas_Magallanes_Region.html"]],"sotitos":[["https://media-cdn.tripadvisor.com/media/photo-s/15/55/04/03/photo0jpg.jpg","Preparación de centolla de Sotito’s","https://www.tripadvisor.com/Restaurant_Review-g297401-d945710-Reviews-Sotito_s_Restaurant-Punta_Arenas_Magallanes_Region.html"]],"la-yegua-loca":[["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/cf/21/4f/nuestra-terraza.jpg?h=-1&s=1&w=1200","Terraza acristalada de La Yegua Loca","https://yegualoca.com/galeria/"]],"la-cuisine":[["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/a1/7f/89/caption.jpg?h=-1&s=1&w=1200","Plato presentado en La Cuisine","https://www.tripadvisor.com.ar/Restaurant_Review-g297401-d3855623-Reviews-La_Cuisine-Punta_Arenas_Magallanes_Region.html"],["https://www.chilegastronomia.cl/uploads/contenido/contenido_galeria/carousel_3136eb3afcdb11d75370601c0e65f60dd4e877de.jpg","Preparación de La Cuisine","https://www.chilegastronomia.cl/restaurantes-de-moda-en-regiones/la-cuisine-experiencia-francesa-en-tierras-australes"]]}
+def gastro_rio(a):
+ c=a.get('verified_contacts',{})
+ actual=GASTRO_REAL_PHOTOS.get(a['slug'],[])
+ title=E(a['title']);addr=a.get('place') or 'Punta Arenas, Chile'
+ route='https://www.google.com/maps/search/?api=1&query='+quote(addr)
+ gmap='https://www.google.com/maps?q='+quote(addr)+'&output=embed'
+ tags=[t.strip() for t in a['intro'].split('·')[1:2]]
+ css=GASTRO_RIO_CSS+'.gastronomia-puq h2{font:700 clamp(23px,2.5vw,33px)/1.2 Georgia,serif;color:#f6f0e6;margin:0 0 14px}.gastronomia-puq .card p{font:17px/1.85 Georgia,serif;margin:12px 0}.gastronomia-puq .facts p{font:15px/1.7 Arial,sans-serif}.gastronomia-puq .hero{min-height:58vh;background:linear-gradient(90deg,#071313e8,#07131380),#123b3b}.gastronomia-puq .card{font-size:inherit;margin-top:22px}.gastronomia-puq .hero h1{color:#f6f0e6}.gastronomia-puq .hero p{max-width:700px}.gastronomia-puq .notice{font-size:15px}.gastronomia-puq .er-tip{background:#f3bf45!important;color:#092725!important;border:3px solid #fff0ac!important;border-radius:23px;padding:25px 28px;margin:26px 0}.gastronomia-puq .er-tip h2,.gastronomia-puq .er-tip p{color:#092725!important}.gastronomia-puq .er-tip h2{font-size:clamp(25px,3vw,36px)}.gastronomia-puq .real-photo{margin:24px 0;background:#081b1b;border-radius:18px;overflow:hidden}.gastronomia-puq .real-photo img{display:block;width:100%;max-height:450px;object-fit:cover}.gastronomia-puq .real-photo figcaption{padding:10px 16px;color:#e5e1d6;font:13px/1.5 Arial}.gastronomia-puq .real-photo figcaption a{color:#f3bf45}.gastronomia-puq .photo-placeholder{display:grid;place-items:center;min-height:280px;border:1px dashed #e7b85c66;border-radius:18px;background:#0b2928;color:#d2c69e;text-align:center;padding:24px;font:14px Arial;margin:20px 0}'
+ p='<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+title+' · Gastronomía Patagonia Viva</title><meta name="description" content="'+E(a['intro'],quote=True)+'"><meta name="robots" content="noindex,nofollow"><style>'+css+'</style></head><body class="gastronomia-puq">'
+ p+='<nav class="back"><a href="/gastronomia/">← Volver a Gastronomía</a></nav><header class="hero"'+(' style="--hero:url('+E(actual[0][0],quote=True)+')"' if actual else '')+'><div><div class="ey">Patagonia Viva · Punta Arenas</div><h1>'+title+'</h1><p>'+E(a['intro'])+'</p></div></header><main class="wrap">'
+ p+='<div class="tags"><span class="tag">Punta Arenas</span><span class="tag">Gastronomía</span>'+(('<span class="tag">'+E(tags[0])+'</span>') if tags else '')+'</div><div class="grid"><section>'
+ for i,sec in enumerate(a['sections'],1):
+  if i==8:
+   p+='<article class="er-tip"><div class="ey" style="color:#204a42">✦ CONSEJO PERSONAL DE ERNESTINHO</div><h2>Dato de Ernestinho</h2><p>'+E(sec['text'])+'</p></article>'
+  else:p+='<article class="card"><h2>'+E(sec['title'])+'</h2><p>'+E(sec['text'])+'</p></article>'
+  photo_idx={2:1,3:2,4:3,5:4,6:5}.get(i)
+  if photo_idx is not None and len(actual)>photo_idx:
+   pic=actual[photo_idx]
+   p+='<figure class="real-photo"><img loading="lazy" src="'+E(pic[0],quote=True)+'" alt="'+E(pic[1],quote=True)+'"><figcaption>'+E(pic[1])+'</figcaption></figure>'
+
+ p+='</section><aside><article class="card facts"><h2>Información práctica</h2>'
+ p+='<p>📍 <strong>Dirección</strong><br>'+E(addr)+'</p><p>🍽️ <strong>Propuesta</strong><br>'+E(tags[0] if tags else 'Cocina y gastronomía local')+'</p><p>🕐 <strong>Horarios</strong><br>Confirmar en el establecimiento</p><p>💰 <strong>Precios</strong><br>Consultar carta actual y valores finales</p>'
+ if c.get('phone'):p+='<p>☎️ <strong>Teléfono</strong><br>'+E(c['phone'])+'</p><a class="btn" href="tel:'+E(c['phone'].replace(' ','').replace('-',''),quote=True)+'">☎️ Llamar</a>'
+ if c.get('instagram'):p+='<a class="btn" href="https://www.instagram.com/'+E(c['instagram'].lstrip('@'),quote=True)+'/" target="_blank" rel="noopener">📸 Instagram</a>'
+ if c.get('source'):p+='<a class="btn" href="'+E(c['source'],quote=True)+'" target="_blank" rel="noopener">🌐 Fuente y reservas</a>'
+ p+='<a class="btn" href="'+route+'" target="_blank" rel="noopener">🗺️ Google Maps</a><a class="btn" href="https://www.waze.com/ul?q='+quote(addr)+'" target="_blank" rel="noopener">🚗 Waze</a></article>'
+ p+='<article class="card"><h2>Cómo llegar y mapa</h2><p>'+E(addr)+'. Comprueba la entrada y los horarios antes de salir.</p><iframe class="map" title="Mapa de '+E(title,quote=True)+'" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="'+gmap+'"></iframe></article></aside></div>'
+ p+='</main><footer class="back">© Patagonia Viva · Guía independiente de Punta Arenas</footer></body></html>'
+ return p
+
 for a in ARTICLES:
  cat=a['category'];title=CAT[cat][1];key=article_image(a)
+ if cat=='gastronomia' and a['slug'] in GASTRO_SLUGS:
+  write(url(a),gastro_rio(a))
+  continue
  if cat=='tours' and a['slug'] in FEATURED_TOURS:
   write(url(a),showcase_tour(a))
   continue
- page=head(a['title'],a['intro'],'article')+'<main class="guide" id="inicio"><div class="breadcrumbs"><a href="/">Inicio</a><span> / </span><a href="/'+cat+'/">'+E(title)+'</a></div><p class="kicker">'+E(title)+'</p><h1>'+E(a['title'])+'</h1>'+photo(key,True)+'<p class="article-intro">'+E(a['intro'])+'</p>'
+ page=head(a['title'],a['intro'],'article')+(EVENT_STYLE if cat=='eventos' and a['slug'] in EVENT_FACTS else '')+'<main class="guide'+(' event-feature' if cat=='eventos' and a['slug'] in EVENT_FACTS else '')+'" id="inicio"><div class="breadcrumbs"><a href="/">Inicio</a><span> / </span><a href="/'+cat+'/">'+E(title)+'</a></div><p class="kicker">'+E(title)+'</p><h1>'+E(a['title'])+'</h1>'+(event_photo(EVENT_PHOTOS[a['slug']][0],True) if cat=='eventos' and a['slug'] in EVENT_PHOTOS else photo(key,True))+'<p class="article-intro">'+E(a['intro'])+'</p>'
  if a['status']:page+='<p class="status-note">'+E(a['status'])+'</p>'
- selected_photos=photos_for(a)
+ if cat=='eventos' and a['slug'] in EVENT_FACTS:page+='<div class="event-layout"><div class="event-main">'
+ selected_photos=photos_for(a) if not (cat=='eventos' and a['slug'] in EVENT_PHOTOS) else []
  interleaved={}
  for n,media_key in enumerate(selected_photos[1:],1):
   after=max(1,min(len(a['sections']),round(n*len(a['sections'])/len(selected_photos))))
   interleaved.setdefault(after,[]).append('p-'+media_key)
  page+='<section class="items">'
  for i,sec in enumerate(a['sections'],1):
-  page+='<article id="tema-'+str(i)+'"><span>'+f'{i:02d}'+'</span><h2>'+E(sec['title'])+'</h2><p>'+E(sec['text'])+'</p></article>'
+  page+='<article id="tema-'+str(i)+'">'+('' if cat=='eventos' else '<span>'+f'{i:02d}'+'</span>')+'<h2>'+E(sec['title'])+'</h2><p>'+E(sec['text'])+'</p></article>'
   for inline_photo in interleaved.get(i,[]):page+=photo(inline_photo)
- page+='</section><aside class="tip"><b>Dato Austral</b><p>'+E(a['tip'])+'</p></aside>'
+  if cat=='eventos' and a['slug'] in EVENT_PHOTOS:
+   others=EVENT_PHOTOS[a['slug']][1:]
+   for index,item in enumerate(others,1):
+    if i==round(index*len(a['sections'])/(len(others)+1)):page+=event_photo(item)
+ page+='</section>'
+ if cat=='eventos' and a['slug'] in EVENT_FACTS:
+  page+='</div><aside class="event-sidebar" aria-label="Información práctica del evento">'
+  page+='<section class="event-side-card"><h2>Información práctica</h2>'+event_facts(a)+'</section>'
+  page+='<section class="event-side-card"><h2>Dato Austral</h2><p>'+E(a['tip'])+'</p></section>'
+  page+='<section class="event-side-card"><h2>Organiza tu visita</h2><ul><li>Confirma las fechas de la próxima edición.</li><li>Comprueba transporte, accesos y condiciones meteorológicas.</li><li>Lleva abrigo y considera el viento del estrecho.</li></ul></section>'
+  page+='<section class="event-side-card"><h2>Canales oficiales</h2><a href="https://puntaarenas.cl/" target="_blank" rel="noopener noreferrer">Municipalidad ↗</a><a href="https://fundacionculturalpuntaarenas.cl/" target="_blank" rel="noopener noreferrer">Fundación Cultural ↗</a></section>'
+  page+='</aside></div>'
+ else:
+  page+='<aside class="tip"><b>Dato Austral</b><p>'+E(a['tip'])+'</p></aside>'
+ if cat=='gastronomia' and a.get('verified_contacts'):
+  contact=a['verified_contacts']
+  page+='<section class="related"><p class="kicker">DATOS PRÁCTICOS</p><h2>Contacto y reservas</h2><p>'+E(a.get('place') or '')+'</p><div class="related-grid">'
+  if contact.get('phone'):page+='<a href="tel:'+E(contact['phone'].replace(' ','').replace('-',''),quote=True)+'">Llamar: '+E(contact['phone'])+' ↗</a>'
+  if contact.get('instagram'):page+='<a href="https://www.instagram.com/'+E(contact['instagram'].lstrip('@'),quote=True)+'/" target="_blank" rel="noopener noreferrer">Instagram: '+E(contact['instagram'])+' ↗</a>'
+  if contact.get('source'):page+='<a href="'+E(contact['source'],quote=True)+'" target="_blank" rel="noopener noreferrer">Información del establecimiento ↗</a>'
+  page+='</div></section>'
  if cat=='guia' and a['slug']=='internet-y-esim':
   page+='<section class="related" id="airalo-esim"><p class="kicker">INTERNET PARA TU VIAJE</p><h2>Encuentra una eSIM para Chile y la Patagonia con Airalo</h2><p>Compara planes compatibles con Chile, duración y datos incluidos. Antes de reservar comprueba que tu teléfono admita eSIM y esté desbloqueado. Para un cruce a Argentina verifica si el plan también cubre ese país.</p><div id="airalo-puq-widget" style="min-height:190px;overflow:hidden"></div><p id="airalo-puq-fallback" hidden>No pudimos cargar el comparador. Comprueba tu conexión e inténtalo nuevamente.</p><p class="status-note">Publicidad de afiliado: podemos recibir una comisión por las reservas realizadas mediante este comparador.</p></section>'
   page+='<script>(function(){var mount=document.getElementById("airalo-puq-widget");if(!mount)return;var params="trs=573170&shmarker=776744&powered_by=true&color_button=%23f2685f&color_focused=%23f2685f&secondary=%23FFFFFF&dark=%2311100f&light=%23FFFFFF&special=%23C4C4C4&border_radius=5&plain=false&no_labels=true&promo_id=8588&campaign_id=541";var script=document.createElement("script");script.async=true;script.charset="utf-8";script.src="https://tpembd.com/content?"+params+"&locale=es";script.onerror=function(){document.getElementById("airalo-puq-fallback").hidden=false;};mount.appendChild(script);})();</script>'
@@ -189,7 +331,7 @@ for a in ARTICLES:
   page+='<button type="submit" class="primary">CONSULTAR POR WHATSAPP</button></form></section>'
   page+='<script>(function(){var f=document.querySelector(".tour-request");if(!f)return;f.addEventListener("submit",function(e){e.preventDefault();var d=new FormData(f);var msg="Consulta: "+f.dataset.title+" | Fecha: "+d.get("fecha")+" | Adultos: "+d.get("adultos")+" | Niños: "+d.get("ninos")+" | Responsable: "+d.get("nombre")+" | Teléfono: "+d.get("telefono")+" | Hotel: "+d.get("hotel")+" | Notas: "+d.get("notas");window.open("https://wa.me/5521969946938?text="+encodeURIComponent(msg),"_blank");});})();</script>'
  if a['place']:
-  page+='<section class="map-section"><p class="kicker">UBÍCATE</p><h2>¿Dónde queda?</h2><p>'+E(a['place'])+'</p><a class="ext" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&amp;query='+quote(a['place'])+'">ABRIR UBICACIÓN EN EL MAPA ↗</a></section>'
+  page+='<section class="map-section"><p class="kicker">UBÍCATE</p><h2>¿Dónde queda?</h2><p>'+E(a['place'])+'</p>'+(('<iframe title="Mapa de '+E(a['title'],quote=True)+'" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q='+quote(a['place'])+'&amp;output=embed"></iframe>') if cat=='eventos' else '')+'<a class="ext" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&amp;query='+quote(a['place'])+'">ABRIR UBICACIÓN EN EL MAPA ↗</a></section>'
  if a['sources']:
   # Enlaces prácticos oficiales; el archivo editorial conserva las referencias adicionales.
   official=[S[s] for s in a['sources'] if s in S and s!='restaurantes']
@@ -207,4 +349,7 @@ from transport import render as render_transport
 render_transport(ROOT, OUT, head, footer, write)
 from museums import render as render_museums
 render_museums(ROOT, OUT, head, footer, write)
+# Los enlaces de la tanda antigua conservan acceso sin duplicar establecimientos.
+write('/gastronomia/la-luna/', '<!doctype html><html lang="es"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=/gastronomia/la-luna-restaurant/"><link rel="canonical" href="/gastronomia/la-luna-restaurant/"><title>La Luna Restaurant</title></head><body><a href="/gastronomia/la-luna-restaurant/">Abrir la ficha completa de La Luna Restaurant</a></body></html>')
+write('/gastronomia/la-marmita/', head('La Marmita: actividad por confirmar', 'La actividad actual de La Marmita necesita confirmación.', 'article')+'<main class="guide"><h1>La Marmita</h1><p>La actividad actual de este restaurante requiere confirmación. Su ficha histórica se conserva en el inventario de investigación; no se incluye entre los establecimientos activos de la guía.</p><p><a href="/gastronomia/">Explorar restaurantes investigados de Punta Arenas →</a></p></main>'+footer())
 print(json.dumps({'categories':len(CATEGORIES),'articles':len(ARTICLES),'html_files':len(list(OUT.rglob('*.html'))),'output':str(OUT)},ensure_ascii=False))

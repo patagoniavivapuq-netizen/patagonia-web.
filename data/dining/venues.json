@@ -120,7 +120,8 @@
       ],
       "contacts": {
         "phone": "+56 61 224 3565",
-        "website": "https://www.facebook.com/Sotitos-Restaurant-20642919262/"
+        "website": "https://www.facebook.com/Sotitos-Restaurant-20642919262/",
+        "instagram": "https://www.instagram.com/sotitosrestaurant/"
       },
       "tip": "No reservaría esta parada como una comida rápida entre dos salidas. Su interés está en probar cocina regional dentro de un local con trayectoria. Si viajas con niños o necesitas acceso sin escalones, consulta esas condiciones al reservar; no hay suficiente documentación contrastada para prometerlas.",
       "sources": [
@@ -144,7 +145,7 @@
       ],
       "publishable": true,
       "researched_at": "2026-10-20",
-      "photo_count": 7,
+      "photo_count": 8,
       "photo_gap": 0,
       "editorial_characters": 7552,
       "acceptance_ready": false
@@ -507,7 +508,8 @@
       ],
       "contacts": {
         "phone": "+56 61 222 8641",
-        "website": "https://www.facebook.com/pages/La-Cuisine/365599023553537"
+        "website": "https://www.facebook.com/pages/La-Cuisine/365599023553537",
+        "instagram": "https://www.instagram.com/lacuisinepuq/"
       },
       "tip": "El teléfono difundido por TorresDelPaine.com es +56 61 222 8641 y el correo es ericlegois@yahoo.fr. SERNATUR muestra el establecimiento con registro no vigente: eso describe su inscripción turística y no prueba por sí solo un cierre comercial. Los horarios requieren confirmación directa antes de desplazarse.",
       "sources": [
@@ -532,7 +534,7 @@
       ],
       "publishable": true,
       "researched_at": "2026-10-20",
-      "photo_count": 11,
+      "photo_count": 12,
       "photo_gap": 0,
       "editorial_characters": 7217,
       "acceptance_ready": false
@@ -1142,7 +1144,9 @@
         }
       ],
       "contacts": {
-        "website": "https://lalunarestaurant.cl/"
+        "website": "https://lalunarestaurant.cl/",
+        "phone": "+56 9 6703 1060",
+        "instagram": "https://www.instagram.com/lalunachile/"
       },
       "tip": "Lo combinaría con un paseo por la costanera y el casco histórico. Si quieres continuar con una salida nocturna, reserva cada espacio por separado y revisa sus condiciones. Para una comida familiar, alergias o movilidad reducida, consulta directamente antes: una recomendación gastronómica no permite deducir el equipamiento disponible.",
       "sources": [
@@ -1151,7 +1155,8 @@
         "https://www.toliv.com/browse/chile/punta-arenas/la-luna-restaurant-1080",
         "https://lalunarestaurant.cl/historia/",
         "https://www.museodemagallanes.gob.cl/inmuebles/museo-regional-de-magallanes",
-        "https://museomaggiorinoborgatello.cl/planifica-tu-visita/"
+        "https://museomaggiorinoborgatello.cl/planifica-tu-visita/",
+        "https://lalunarestaurant.cl/contacto/"
       ],
       "hours": "Restaurante: lunes a sábado 12:00–23:30; domingo 12:00–18:00. Confirmar antes de ir. No confundir con horario de Cantina de Luna.",
       "price": null,
@@ -1166,7 +1171,7 @@
       ],
       "publishable": true,
       "researched_at": "2026-10-20",
-      "photo_count": 6,
+      "photo_count": 7,
       "photo_gap": 0,
       "editorial_characters": 7094,
       "acceptance_ready": false
@@ -3607,7 +3612,8 @@
       ],
       "contacts": {
         "phone": "+56971720877",
-        "website": "https://yegualoca.com/"
+        "website": "https://yegualoca.com/",
+        "instagram": "https://www.instagram.com/hotelyegualoca/"
       },
       "tip": "Si estás explorando la identidad regional, compara el cordero con la herencia croata que aparece en los ñoquis. La gracia del lugar está en esa convivencia de tradiciones. Consulta por la propuesta del día y deja espacio para un postre con sabores australes.",
       "sources": [
@@ -3626,7 +3632,7 @@
       ],
       "publishable": true,
       "researched_at": "2026-10-20",
-      "photo_count": 8,
+      "photo_count": 9,
       "photo_gap": 0,
       "editorial_characters": 6533,
       "acceptance_ready": false

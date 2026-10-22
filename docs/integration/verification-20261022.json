@@ -1,0 +1,40 @@
+{
+  "complete_base": "fc0c715",
+  "events_base": "9c35127",
+  "gastronomy_updates": "e5a4750",
+  "pages": 224,
+  "previous_pages_preserved": 209,
+  "changed_previous_pages": [
+    "gastronomia/index.html",
+    "eventos/index.html",
+    "gastronomia/sotitos/index.html",
+    "gastronomia/la-yegua-loca/index.html",
+    "gastronomia/la-luna-restaurant/index.html",
+    "gastronomia/la-cuisine/index.html",
+    "gastronomia/sabores-magallanicos/index.html",
+    "eventos/ano-nuevo/index.html",
+    "eventos/fiestas-patrias/index.html",
+    "eventos/festival-folclorico/index.html",
+    "eventos/chapuzon/index.html",
+    "eventos/carnaval-de-invierno/index.html"
+  ],
+  "missing_previous_pages": [],
+  "events_preserved_exactly": true,
+  "local_links_checked_pages": 123,
+  "broken_local_links": [],
+  "food": 50,
+  "nightlife": 21,
+  "museums": 17,
+  "transport_guides": 12,
+  "dining_photos": 442,
+  "museum_photos": 95,
+  "excluded_uncertain_venue": "La Marmita: historical activity unconfirmed; excluded from active catalog",
+  "photo_duplicates_skipped": [
+    "La Luna: same dish crop from Toliv",
+    "La Luna: interior already present"
+  ],
+  "limitations": [
+    "Croata museum only one verified photo; inherited gap",
+    "External event image URLs inherited unchanged; not all external responses validated"
+  ]
+}
