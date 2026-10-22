@@ -1,0 +1,52 @@
+{
+  "review_date": "2026-10-22",
+  "new_photos": 56,
+  "nightlife_published": 21,
+  "new_venues": [
+    "birra-cerveza-buena-mesa",
+    "celebrity-pub"
+  ],
+  "photography": {
+    "reviewed_candidates": 143,
+    "selected": 56,
+    "removed_graphic_images": 2,
+    "permissions": "Provisional; autorización pendiente. URL original, página, autor conocido o pendiente y SHA registrados en photo-additions.json.",
+    "historical_images": "Muchacha y Celebrity incluyen fotografías históricas; no acreditan decoración actual. La Tabla: solo platos y bebidas de etapa previa al traslado; no se reutilizaron interiores de dirección antigua."
+  },
+  "remaining_nightlife_photo_gaps": [
+    {
+      "name": "Dejavu",
+      "id": "dejavu",
+      "photos": 1,
+      "missing_to_six": 5
+    },
+    {
+      "name": "Rústico Restobar",
+      "id": "rustico-restobar",
+      "photos": 5,
+      "missing_to_six": 1
+    },
+    {
+      "name": "Los Brujos",
+      "id": "los-brujos",
+      "photos": 0,
+      "missing_to_six": 6
+    },
+    {
+      "name": "Sky Bar Dreams",
+      "id": "sky-bar-dreams",
+      "photos": 3,
+      "missing_to_six": 3
+    }
+  ],
+  "operation_review": {
+    "el-arbol-irish-pub": "Fuera de catálogo activo: incendio julio2026; sin reapertura corroborada.",
+    "sky-bar-dreams": "Conflicto entre fuente oficial Dreams y Tripadvisor; aviso visible, horarios omitidos, consultar operación."
+  },
+  "checks": {
+    "build": "passed",
+    "audit_errors": 0,
+    "approved_routes_unchanged": 122,
+    "browser_preview": "Pendiente de validar despliegue de esta revisión."
+  }
+}

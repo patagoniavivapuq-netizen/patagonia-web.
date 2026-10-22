@@ -1,9 +1,9 @@
 {
   "checked_at": "2026-10-21",
   "gastronomia_rendered": 50,
-  "nightlife_rendered": 20,
-  "photos": 384,
-  "venues_with_five": 49,
+  "nightlife_rendered": 21,
+  "photos": 438,
+  "venues_with_five": 58,
   "editorial_under_6000": [
     "simple-cafe-gelato",
     "wake-up-coffee-brunch",
@@ -41,7 +41,6 @@
     "la-tabla-restobar",
     "bruna-gastrobar",
     "bodega-87",
-    "el-arbol-irish-pub",
     "cafe-pub-1900",
     "dejavu",
     "rustico-restobar",
@@ -94,48 +93,16 @@
       "missing": 1
     },
     {
-      "slug": "bar-bulnes",
-      "missing": 3
-    },
-    {
-      "slug": "taberna-bar-club-de-la-union",
-      "missing": 2
-    },
-    {
-      "slug": "muchacha",
-      "missing": 4
-    },
-    {
-      "slug": "la-tabla-restobar",
-      "missing": 3
-    },
-    {
-      "slug": "el-arbol-irish-pub",
-      "missing": 5
-    },
-    {
       "slug": "dejavu",
       "missing": 4
-    },
-    {
-      "slug": "jekus-restobar",
-      "missing": 3
     },
     {
       "slug": "los-brujos",
       "missing": 5
     },
     {
-      "slug": "club-k",
-      "missing": 3
-    },
-    {
       "slug": "sky-bar-dreams",
-      "missing": 5
-    },
-    {
-      "slug": "pub-colonial",
-      "missing": 4
+      "missing": 2
     }
   ],
   "approval_ready": false,
@@ -944,8 +911,8 @@
       "slug": "bar-bulnes",
       "address": "Avenida Presidente Manuel Bulnes 0408",
       "characters": 3639,
-      "photos": 2,
-      "missing_photos": 3,
+      "photos": 6,
+      "missing_photos": 0,
       "sources": [
         "https://bbulnes.cl/local-punta-arenas/",
         "https://bbulnes.cl/",
@@ -959,8 +926,8 @@
       "slug": "taberna-bar-club-de-la-union",
       "address": "Plaza Muñoz Gamero 716, subterráneo",
       "characters": 3515,
-      "photos": 3,
-      "missing_photos": 2,
+      "photos": 9,
+      "missing_photos": 0,
       "sources": [
         "https://tabernabar.cl/sabias-que/",
         "https://tabernabar.cl/",
@@ -988,8 +955,8 @@
       "slug": "muchacha",
       "address": "Avenida Presidente Manuel Bulnes 0574",
       "characters": 3541,
-      "photos": 1,
-      "missing_photos": 4,
+      "photos": 7,
+      "missing_photos": 0,
       "sources": [
         "https://www.muchacharestobar.cl/",
         "https://www.tripadvisor.co.uk/Restaurant_Review-g297401-d8283506-Reviews-Muchacha_RestoBar-Punta_Arenas_Magallanes_Region.html"
@@ -1045,8 +1012,8 @@
       "slug": "la-tabla-restobar",
       "address": "Mejicana 742",
       "characters": 3301,
-      "photos": 2,
-      "missing_photos": 3,
+      "photos": 8,
+      "missing_photos": 0,
       "sources": [
         "https://www.bars10.com/CL/Punta-Arenas/348205535350516/La-Tabla-Restobar",
         "https://cl.todosnegocios.com/la-tabla-restobar-9-6578-1908"
@@ -1079,20 +1046,6 @@
         "https://www.tripadvisor.co/Restaurant_Review-g297401-d12498427-Reviews-Bodega_87-Punta_Arenas_Magallanes_Region.html",
         "https://cl.todosnegocios.com/bodega_229-61-237-1357",
         "https://g5noticias.cl/2025/10/01/magallanes-celebra-su-pulso-creativo-en-el-mes-de-la-musica-nacional/"
-      ],
-      "ready": false
-    },
-    {
-      "name": "El Árbol & Irish Pub",
-      "section": "vida-nocturna",
-      "slug": "el-arbol-irish-pub",
-      "address": "Chiloé 543",
-      "characters": 3236,
-      "photos": 0,
-      "missing_photos": 5,
-      "sources": [
-        "https://serviciosturisticos.sernatur.cl/47298-el-arbol-y-irish-pub",
-        "https://www.tripadvisor.cl/Restaurant_Review-g297401-d32892421-Reviews-El_Arbol_Irish_Pub-Punta_Arenas_Magallanes_Region.html"
       ],
       "ready": false
     },
@@ -1132,7 +1085,7 @@
       "slug": "rustico-restobar",
       "address": "Avenida Presidente Manuel Bulnes 299",
       "characters": 3474,
-      "photos": 6,
+      "photos": 5,
       "missing_photos": 0,
       "sources": [
         "https://www.bars10.com/CL/Punta-Arenas/563247913777510/R%C3%BAstico-restobar",
@@ -1146,8 +1099,8 @@
       "slug": "jekus-restobar",
       "address": "Libertador Bernardo O’Higgins 1021",
       "characters": 3345,
-      "photos": 2,
-      "missing_photos": 3,
+      "photos": 7,
+      "missing_photos": 0,
       "sources": [
         "https://www.bars10.com/CL/Punta-Arenas/2297222770506490/Jekus-Restobar",
         "https://vitrinapuntaarenas.cl/negocio/jekus-restobar"
@@ -1174,8 +1127,8 @@
       "slug": "club-k",
       "address": "Gobernador Carlos Bories 655",
       "characters": 3357,
-      "photos": 2,
-      "missing_photos": 3,
+      "photos": 8,
+      "missing_photos": 0,
       "sources": [
         "https://clubk.toliv.com/",
         "https://www.toliv.com/eventos/chile/punta-arenas/especial-dia-del-trabajador-club-k-25150"
@@ -1187,13 +1140,14 @@
       "section": "vida-nocturna",
       "slug": "sky-bar-dreams",
       "address": "O’Higgins 1235, piso 11, Hotel Dreams del Estrecho",
-      "characters": 3296,
-      "photos": 0,
-      "missing_photos": 5,
+      "characters": 3734,
+      "photos": 3,
+      "missing_photos": 2,
       "sources": [
         "https://punta-arenas.dreams.cl/gastronomia/resto-bar-sky/",
         "https://icha2025.org/about-conference-venue/",
-        "https://punta-arenas.dreams.cl/newyear/"
+        "https://punta-arenas.dreams.cl/newyear/",
+        "https://dreams.cl/content/uploads/2026/02/Estatutos-Dreams-Club-20260203.pdf"
       ],
       "ready": false
     },
@@ -1218,13 +1172,46 @@
       "slug": "pub-colonial",
       "address": "Presidente Federico Errázuriz 859",
       "characters": 3976,
-      "photos": 1,
-      "missing_photos": 4,
+      "photos": 7,
+      "missing_photos": 0,
       "sources": [
         "https://www.tripadvisor.cl/Restaurant_Review-g297401-d15014447-Reviews-Pub_Colonial-Punta_Arenas_Magallanes_Region.html",
         "https://cl.todosnegocios.com/pub-colonial-61-222-4313"
       ],
       "ready": false
+    },
+    {
+      "name": "Birra! Cerveza & Buena Mesa",
+      "section": "vida-nocturna",
+      "slug": "birra-cerveza-buena-mesa",
+      "address": "Armando Sanhueza 1042",
+      "characters": 6373,
+      "photos": 7,
+      "missing_photos": 0,
+      "sources": [
+        "https://www.tripadvisor.cl/Restaurant_Review-g297401-d20307277-Reviews-Birra_Cerveza_Buena_Mesa-Punta_Arenas_Magallanes_Region.html",
+        "https://tropera.cl/ubicaciones/punta-arenas-magallanes/",
+        "https://panoramasmagallanes.cl/2025/11/20/la-comedia-se-toma-birra-show-de-stand-up-con-talentos-emergentes-este-sabado-22-de-noviembre/",
+        "https://elmagallanico.com/2024/08/14/noche-acustica-en-bar-birra-fogatera-con-alexis-y-ariel-este-miercoles/"
+      ],
+      "ready": true
+    },
+    {
+      "name": "Celebrity Pub",
+      "section": "vida-nocturna",
+      "slug": "celebrity-pub",
+      "address": "José Menéndez 999, esquina O’Higgins",
+      "characters": 6361,
+      "photos": 6,
+      "missing_photos": 0,
+      "sources": [
+        "https://www.instagram.com/pubcelebrity/",
+        "https://www.facebook.com/celebrity.pub/",
+        "https://panoramasmagallanes.cl/2026/02/05/noche-de-viernes-en-celebrity-pub-punta-arenas/",
+        "https://www.toliv.com/eventos/chile/punta-arenas/fortaleza-en-celebrity-pub-18752",
+        "https://www.tripadvisor.es/Attraction_Review-g297401-d3975720-Reviews-Celebrity_Pub-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "ready": true
     }
   ]
 }

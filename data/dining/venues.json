@@ -6688,8 +6688,8 @@
       "issues": [],
       "publishable": true,
       "researched_at": "2026-10-18",
-      "photo_count": 2,
-      "photo_gap": 3,
+      "photo_count": 6,
+      "photo_gap": 0,
       "editorial_characters": 3639,
       "acceptance_ready": false
     },
@@ -6786,8 +6786,8 @@
       "issues": [],
       "publishable": true,
       "researched_at": "2026-10-18",
-      "photo_count": 3,
-      "photo_gap": 2,
+      "photo_count": 9,
+      "photo_gap": 0,
       "editorial_characters": 3515,
       "acceptance_ready": false
     },
@@ -6976,8 +6976,8 @@
       "issues": [],
       "publishable": true,
       "researched_at": "2026-10-18",
-      "photo_count": 1,
-      "photo_gap": 4,
+      "photo_count": 7,
+      "photo_gap": 0,
       "editorial_characters": 3541,
       "acceptance_ready": false
     },
@@ -7366,8 +7366,8 @@
       "issues": [],
       "publishable": true,
       "researched_at": "2026-10-18",
-      "photo_count": 2,
-      "photo_gap": 3,
+      "photo_count": 8,
+      "photo_gap": 0,
       "editorial_characters": 3301,
       "acceptance_ready": false
     },
@@ -7643,15 +7643,19 @@
       "tip": "Yo confirmaría la carta y la programación directamente antes de anunciar una noche temática a un grupo.",
       "sources": [
         "https://serviciosturisticos.sernatur.cl/47298-el-arbol-y-irish-pub",
-        "https://www.tripadvisor.cl/Restaurant_Review-g297401-d32892421-Reviews-El_Arbol_Irish_Pub-Punta_Arenas_Magallanes_Region.html"
+        "https://www.tripadvisor.cl/Restaurant_Review-g297401-d32892421-Reviews-El_Arbol_Irish_Pub-Punta_Arenas_Magallanes_Region.html",
+        "https://elmagallanico.com/2026/07/05/tres-incendios-estructurales-movilizaron-a-bomberos-en-punta-arenas/",
+        "https://radiomagallanes.cl/incendio-destruye-conocido-pub-el-arbol-y-moviliza-a-seis-companias-de-bomberos-en-punta-arenas/"
       ],
       "hours": null,
       "price": null,
       "accessibility": null,
       "research_status": "identity_and_address_sourced; live opening requires direct confirmation",
-      "issues": [],
-      "publishable": true,
-      "researched_at": "2026-10-18",
+      "issues": [
+        "Operación actual pendiente de corroboración; no implica cierre confirmado."
+      ],
+      "publishable": false,
+      "researched_at": "2026-10-20",
       "photo_count": 0,
       "photo_gap": 5,
       "editorial_characters": 3236,
@@ -7945,7 +7949,7 @@
       "issues": [],
       "publishable": true,
       "researched_at": "2026-10-18",
-      "photo_count": 6,
+      "photo_count": 5,
       "photo_gap": 0,
       "editorial_characters": 3474,
       "acceptance_ready": false
@@ -8041,8 +8045,8 @@
       "issues": [],
       "publishable": true,
       "researched_at": "2026-10-18",
-      "photo_count": 2,
-      "photo_gap": 3,
+      "photo_count": 7,
+      "photo_gap": 0,
       "editorial_characters": 3345,
       "acceptance_ready": false
     },
@@ -8231,8 +8235,8 @@
       "issues": [],
       "publishable": true,
       "researched_at": "2026-10-18",
-      "photo_count": 2,
-      "photo_gap": 3,
+      "photo_count": 8,
+      "photo_gap": 0,
       "editorial_characters": 3357,
       "acceptance_ready": false
     },
@@ -8252,6 +8256,12 @@
         "bares"
       ],
       "sections": [
+        {
+          "title": "Consultar atención antes de ir",
+          "paragraphs": [
+            "Las fuentes consultadas presentan información contradictoria sobre la atención de Sky Bar: el sitio de Dreams mantiene la referencia al espacio en Punta Arenas, mientras que Tripadvisor lo señala como cerrado. Antes de organizar la visita, confirma directamente con Dreams si el bar está atendiendo y qué servicio ofrece. Las fotografías de esta ficha documentan el espacio y no acreditan su apertura actual."
+          ]
+        },
         {
           "title": "La propuesta",
           "paragraphs": [
@@ -8315,7 +8325,8 @@
       "sources": [
         "https://punta-arenas.dreams.cl/gastronomia/resto-bar-sky/",
         "https://icha2025.org/about-conference-venue/",
-        "https://punta-arenas.dreams.cl/newyear/"
+        "https://punta-arenas.dreams.cl/newyear/",
+        "https://dreams.cl/content/uploads/2026/02/Estatutos-Dreams-Club-20260203.pdf"
       ],
       "hours": null,
       "price": null,
@@ -8323,10 +8334,10 @@
       "research_status": "identity_and_address_sourced; live opening requires direct confirmation",
       "issues": [],
       "publishable": true,
-      "researched_at": "2026-10-18",
-      "photo_count": 0,
-      "photo_gap": 5,
-      "editorial_characters": 3296,
+      "researched_at": "2026-10-20",
+      "photo_count": 3,
+      "photo_gap": 2,
+      "editorial_characters": 3734,
       "acceptance_ready": false
     },
     {
@@ -8503,10 +8514,224 @@
       "issues": [],
       "publishable": true,
       "researched_at": "2026-10-18",
-      "photo_count": 1,
-      "photo_gap": 4,
+      "photo_count": 7,
+      "photo_gap": 0,
       "editorial_characters": 3976,
       "acceptance_ready": false
+    },
+    {
+      "id": "birra-cerveza-buena-mesa",
+      "slug": "birra-cerveza-buena-mesa",
+      "name": "Birra! Cerveza & Buena Mesa",
+      "section": "vida-nocturna",
+      "category": "Cervecería, bar y cocina para compartir",
+      "address": "Armando Sanhueza 1042",
+      "sector": "Centro",
+      "intro": "Cerveza artesanal, mesas en una casona del centro y comida para acompañar la conversación: Birra! reúne una salida de bar con la posibilidad de cenar en el mismo lugar.",
+      "tags": [
+        "Cervecería",
+        "bar",
+        "cocina para compartir"
+      ],
+      "filters": [
+        "cervecerias",
+        "bares"
+      ],
+      "sections": [
+        {
+          "title": "Una casona para quedarse un rato",
+          "paragraphs": [
+            "Birra! Cerveza & Buena Mesa está en Armando Sanhueza 1042. Su propuesta combina cerveza artesanal y cocina, y el salón documentado por visitantes tiene la escala de una casona: madera, ventanas altas y mesas que permiten armar una salida alrededor de la conversación. La barra y el interior son parte de la experiencia, además de lo que llegue al vaso.",
+            "Lo elegiría para una noche en la que quieras sentarte a comer y probar cerveza sin dividir el plan entre restaurante y pub. Si tu grupo busca una pista de baile, la categoría del lugar no basta para darla por hecha: aquí el punto de partida es una mesa, la oferta de barril y la comida. Las actividades especiales dependen de su agenda."
+          ]
+        },
+        {
+          "title": "La cerveza como punto de partida",
+          "paragraphs": [
+            "La presentación comercial del establecimiento destaca cervezas de Chile y de otros países, con formatos de barril, botella y lata. La presencia de Birra! en el directorio de puntos de venta de Tropera aporta otra referencia de su vínculo con la cerveza artesanal. Eso no equivale a una lista fija de estilos disponibles cada noche.",
+            "Para pedir, empieza por decir qué sabores disfrutas: algo ligero, tostado, más amargo o con notas frutales. Pregunta qué hay conectado en ese momento y por el tamaño de cada servicio. Una degustación, si se ofrece ese día, ayuda a comparar antes de elegir un vaso completo; no se da por incluida en todas las visitas."
+          ]
+        },
+        {
+          "title": "Qué comer con la primera ronda",
+          "paragraphs": [
+            "Las fotografías del propio perfil y de visitantes muestran sándwiches, hamburguesas y preparaciones para compartir. Sirven para reconocer una cocina informal que puede acompañar una consumición o resolver la cena. Los platos publicados son referencias de la trayectoria del local: revisa la carta actual para confirmar ingredientes, porciones y disponibilidad.",
+            "Si llegan varias personas con hambre distinta, conviene decidir primero qué parte de la mesa va a cenar. Un plato para picotear entre todos y una preparación individual responden a necesidades diferentes. Pregunta también cuándo cierra la cocina: la hora de atención del bar no garantiza que todos los platos sigan disponibles hasta el final."
+          ]
+        },
+        {
+          "title": "También hay espacio para los cócteles",
+          "paragraphs": [
+            "La descripción comercial incluye coctelería y propuestas que incorporan cerveza. Para alguien que quiera explorar esa combinación, pedir una recomendación de la barra puede ser más útil que elegir solo por el nombre de una preparación. Consulta sus ingredientes y el perfil de sabor antes de ordenar.",
+            "En una mesa mixta, la cerveza puede ser el tema de la salida sin convertirse en obligación. Pregunta por las bebidas sin alcohol y por las alternativas que estén disponibles esa noche. Las fotos de cócteles ilustran la propuesta del establecimiento; no se presentan como una carta completa ni como una promesa de que se siga preparando cada receta."
+          ]
+        },
+        {
+          "title": "Música y comedia: mirar la fecha concreta",
+          "paragraphs": [
+            "La prensa local ha documentado noches acústicas y una programación de comedia en Birra!. Ese historial permite considerarlo al buscar actividades, pero no convierte la música en vivo o el stand-up en un servicio diario. Revisa la publicación de la fecha que te interesa y distingue una noche habitual de bar de una función anunciada.",
+            "Si vas por un espectáculo, confirma la hora de comienzo, cómo se consigue el acceso y si la mesa se reserva por separado. Una publicación antigua puede servir para conocer el tipo de actividades que han pasado por el lugar; para organizar la salida necesitas la agenda vigente. No se incorpora un calendario supuesto a partir de eventos anteriores."
+          ]
+        },
+        {
+          "title": "Con quién ir y cómo elegir la noche",
+          "paragraphs": [
+            "Birra! encaja bien con un grupo que tenga curiosidad por la cerveza y quiera comer sentado. Para una pareja también puede funcionar como plan completo, especialmente si prefieren decidir la cena mientras revisan la carta. El ambiente y el nivel de ruido cambian con la ocupación y con las actividades anunciadas.",
+            "Para conversar largo, pregunta si esa noche habrá alguna presentación y solicita una mesa acorde al tamaño del grupo. Si el objetivo es ver el espectáculo, la posición respecto al escenario puede importar más. No se documenta aquí una política universal de admisión de menores ni una evaluación de accesibilidad: consulta esas necesidades directamente antes de reservar."
+          ]
+        },
+        {
+          "title": "Un recorrido por el centro antes del bar",
+          "paragraphs": [
+            "La dirección de Armando Sanhueza permite organizar una salida desde el centro de Punta Arenas. Puedes dejar la plaza Muñoz Gamero y sus fachadas para el paseo previo, y después acercarte al bar cuando haya comenzado su atención. Si visitas un museo durante el día, organiza ese paso con sus horarios propios.",
+            "Otra combinación posible es dedicar la tarde al mirador del Cerro de la Cruz y bajar hacia el centro antes de la cena. El paseo y el bar son experiencias independientes: elige el trayecto según la luz, el clima y tus ganas de caminar. Guarda la dirección exacta para el encuentro y para el transporte de regreso."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "Yo empezaría preguntando por la cerveza de barril que mejor acompañe lo que voy a comer. Pedir primero una recomendación de estilo y después elegir el plato ayuda a que la combinación tenga sentido, sobre todo si no conoces la carta. No hace falta ordenar muchas variedades para disfrutar la propuesta.",
+            "Para grupos, resolvería la mesa antes de llegar y aclararía si van por una actividad o por una cena tranquila. Es la diferencia entre organizarse alrededor de la función y quedarse conversando a su propio ritmo. Si alguien no bebe alcohol, consultaría sus opciones al mismo tiempo que el resto de la reserva."
+          ]
+        },
+        {
+          "title": "Dirección, contacto y datos prácticos",
+          "paragraphs": [
+            "La dirección contrastada es Armando Sanhueza 1042, Punta Arenas. El enlace de Instagram lleva al perfil del establecimiento y el mapa al final de esta ficha utiliza su nombre y dirección. No se publica un teléfono porque las fuentes consultadas muestran números distintos y no se ha podido resolver cuál corresponde al contacto actual.",
+            "Los horarios y precios deben confirmarse con el local. Al consultar, indica la fecha, cuántas personas van, si quieren cenar y si necesitan reservar para un evento. Para necesidades de movilidad, pregunta por el acceso y la mesa concreta; no se atribuyen facilidades a partir de una fotografía. Deja previsto también el regreso al alojamiento.",
+            "Guarda la confirmación de tu reserva y comprueba cualquier cambio de programación antes de dirigirte al local."
+          ]
+        }
+      ],
+      "contacts": {
+        "instagram": "https://www.instagram.com/barbirracl/"
+      },
+      "tip": "Yo empezaría preguntando por la cerveza de barril que mejor acompañe lo que voy a comer. Pedir primero una recomendación de estilo y después elegir el plato ayuda a que la combinación tenga sentido, sobre todo si no conoces la carta. No hace falta ordenar muchas variedades para disfrutar la propuesta.",
+      "sources": [
+        "https://www.tripadvisor.cl/Restaurant_Review-g297401-d20307277-Reviews-Birra_Cerveza_Buena_Mesa-Punta_Arenas_Magallanes_Region.html",
+        "https://tropera.cl/ubicaciones/punta-arenas-magallanes/",
+        "https://panoramasmagallanes.cl/2025/11/20/la-comedia-se-toma-birra-show-de-stand-up-con-talentos-emergentes-este-sabado-22-de-noviembre/",
+        "https://elmagallanico.com/2024/08/14/noche-acustica-en-bar-birra-fogatera-con-alexis-y-ariel-este-miercoles/"
+      ],
+      "hours": null,
+      "price": null,
+      "accessibility": null,
+      "research_status": "Ficha comercial reclamada y reseñas recientes contrastadas con el directorio oficial de Cervecería Tropera; programación local documentada.",
+      "issues": [],
+      "publishable": true,
+      "researched_at": "2026-10-20",
+      "photo_count": 7,
+      "photo_gap": 0,
+      "editorial_characters": 6373,
+      "acceptance_ready": true
+    },
+    {
+      "id": "celebrity-pub",
+      "slug": "celebrity-pub",
+      "name": "Celebrity Pub",
+      "section": "vida-nocturna",
+      "category": "Pub, música en vivo y baile",
+      "address": "José Menéndez 999, esquina O’Higgins",
+      "sector": "Centro",
+      "intro": "Un pub del centro para elegir por su agenda de música: escenario, barra y noches que pueden pasar del concierto al baile, en José Menéndez con O’Higgins.",
+      "tags": [
+        "Pub",
+        "música en vivo",
+        "baile"
+      ],
+      "filters": [
+        "musica",
+        "bares"
+      ],
+      "sections": [
+        {
+          "title": "La noche se elige por la música",
+          "paragraphs": [
+            "Celebrity Pub está en José Menéndez 999, en la esquina con O’Higgins. Su identidad está ligada al escenario y a las presentaciones: las imágenes de visitantes muestran bandas, una barra iluminada y un salón que se ocupa alrededor de la actividad de la noche. Es una propuesta para quienes quieren que la música tenga un papel central en la salida.",
+            "La programación local y los anuncios de entradas documentan presentaciones en el pub, incluidas noches de cumbia. Esa evidencia describe parte de su agenda, no un género exclusivo ni una promesa de música en vivo todos los días. Para decidir cuándo ir, empieza por el artista o la actividad publicada para la fecha que te interesa."
+          ]
+        },
+        {
+          "title": "Qué muestran el escenario y el salón",
+          "paragraphs": [
+            "Las fotografías permiten distinguir el escenario, los espacios del público y una decoración asociada a la música. Algunas imágenes son históricas y se conservan como registro del establecimiento; no se utilizan para asegurar que la distribución, los equipos o el mobiliario continúan exactamente igual. La experiencia actual depende también de la producción de cada presentación.",
+            "Si tu prioridad es ver al grupo, consulta cómo se organiza el público y si la ubicación se asigna con una reserva. Si quieres reunir a varias personas, pregunta si podrán sentarse juntas. La compra de una entrada, cuando exista, y la reserva de una mesa pueden ser gestiones distintas: conviene resolver ambas antes de salir."
+          ]
+        },
+        {
+          "title": "Cumbia, conciertos y noches con agenda",
+          "paragraphs": [
+            "La programación consultada incluye una presentación de Fortaleza anunciada mediante una plataforma de entradas y una noche de viernes difundida por un medio local en 2026. Son referencias concretas de actividad nocturna y de convocatoria musical. Los anuncios antiguos ayudan a conocer el lugar, pero sus fechas y condiciones no se trasladan al presente.",
+            "Busca el anuncio vigente en el canal oficial y comprueba el día completo, no solamente la hora del afiche. Pregunta por la apertura de puertas, el comienzo de la presentación y la forma de acceso. Una hora publicada para un viernes particular no se convierte aquí en horario habitual de toda la semana."
+          ]
+        },
+        {
+          "title": "La barra y el ritmo de la salida",
+          "paragraphs": [
+            "Celebrity es una elección para tomar algo mientras escuchas música o participas del ambiente del pub. La barra aparece en las fotografías del establecimiento y de visitantes. No se incorpora una carta inventada de cócteles ni precios estimados: pide las opciones actuales al llegar o consúltalas antes si hay algo específico que buscas.",
+            "Si vas a cenar, confirma primero si habrá servicio de cocina y hasta qué hora. La existencia de un pub no permite suponer una oferta gastronómica completa. Puedes organizar la cena previamente en el centro y dejar Celebrity para la presentación; así el plan no depende de encontrar un plato que el local quizá no ofrezca esa noche."
+          ]
+        },
+        {
+          "title": "Para quién lo recomendaría",
+          "paragraphs": [
+            "Lo consideraría para un grupo que comparta ganas de escuchar música y seguir la actividad del escenario. También para visitantes que quieran incorporar una presentación local a su viaje y tengan flexibilidad para elegir la fecha. La programación concreta dice más sobre la noche que una etiqueta general de pub o discoteca.",
+            "Si la prioridad es una conversación íntima, consulta el tipo de evento y las posibilidades de una mesa apartada. Durante una actuación el volumen puede hacer que conversar pase a segundo plano. Para alguien que disfruta bailar, pregunta cómo se organiza el salón esa fecha; una imagen de público no garantiza una pista disponible en todas las funciones."
+          ]
+        },
+        {
+          "title": "Entradas, reservas y condiciones de acceso",
+          "paragraphs": [
+            "Algunas presentaciones se anuncian con venta de entradas. Sigue el enlace que publique el organizador o el propio establecimiento para la función elegida, y revisa qué incluye la compra. No se da por hecho que exista entrada liberada, consumición incluida o una tarifa uniforme entre eventos.",
+            "Para ir en grupo, deja claro cuántas personas son y si necesitan una mesa. Pregunta también por las condiciones de admisión y los documentos requeridos. La política para menores y las facilidades de acceso deben consultarse directamente; esta guía no atribuye una edad mínima, una rampa o servicios accesibles sin documentación suficiente."
+          ]
+        },
+        {
+          "title": "El centro antes de que empiece la función",
+          "paragraphs": [
+            "La esquina de José Menéndez con O’Higgins permite pensar la salida junto con una cena o un paseo por el centro. Puedes recorrer la plaza Muñoz Gamero antes y después dirigirte al pub según la apertura anunciada. Si planeas entrar a un museo o edificio patrimonial, hazlo durante su horario de visita, separado de la actividad nocturna.",
+            "Para una noche con música, yo dejaría margen entre la cena y el comienzo del espectáculo. Llegar con tiempo permite ubicar la entrada y resolver la mesa sin depender del último minuto. No se proponen recorridos de transporte ni tarifas sin comprobar: usa el mapa para planificar el trayecto desde tu alojamiento."
+          ]
+        },
+        {
+          "title": "Dato de Patagonia Viva",
+          "paragraphs": [
+            "Mi consejo es elegir Celebrity por la presentación de la fecha y no por una idea fija de cómo será cualquier noche. Mira quién toca, qué formato tendrá el evento y cómo se accede. Si el anuncio solo menciona una hora, aclara si corresponde a puertas o a escenario antes de organizar la cena alrededor de ella.",
+            "Si vas con personas que prefieren distintos planes, acuerden cuánto tiempo quieren quedarse y cómo regresarán. Una salida centrada en música funciona mejor cuando todos saben qué van a ver. El regreso también se puede resolver con anticipación, usando la dirección del pub como punto de encuentro para el transporte."
+          ]
+        },
+        {
+          "title": "Dirección y contacto para preparar la visita",
+          "paragraphs": [
+            "La dirección documentada es José Menéndez 999, esquina O’Higgins, Punta Arenas. Los botones de esta ficha enlazan al Instagram y al Facebook asociados al establecimiento. Para una consulta sobre la fecha, utiliza esos canales; no se reutilizan teléfonos de productores de eventos como si fueran el contacto general del pub.",
+            "No se publican horarios permanentes ni precios sin confirmación. Al escribir, indica la función, el número de personas y si necesitas reservar mesa o consultar accesibilidad. El mapa individual al final usa el nombre del pub y su dirección para facilitar el encuentro. Comprueba que tu grupo comparta ese mismo punto antes de salir.",
+            "Guarda la confirmación de tu reserva y comprueba cualquier cambio de programación antes de dirigirte al local."
+          ]
+        }
+      ],
+      "contacts": {
+        "instagram": "https://www.instagram.com/pubcelebrity/",
+        "website": "https://www.facebook.com/celebrity.pub/"
+      },
+      "tip": "Mi consejo es elegir Celebrity por la presentación de la fecha y no por una idea fija de cómo será cualquier noche. Mira quién toca, qué formato tendrá el evento y cómo se accede. Si el anuncio solo menciona una hora, aclara si corresponde a puertas o a escenario antes de organizar la cena alrededor de ella.",
+      "sources": [
+        "https://www.instagram.com/pubcelebrity/",
+        "https://www.facebook.com/celebrity.pub/",
+        "https://panoramasmagallanes.cl/2026/02/05/noche-de-viernes-en-celebrity-pub-punta-arenas/",
+        "https://www.toliv.com/eventos/chile/punta-arenas/fortaleza-en-celebrity-pub-18752",
+        "https://www.tripadvisor.es/Attraction_Review-g297401-d3975720-Reviews-Celebrity_Pub-Punta_Arenas_Magallanes_Region.html"
+      ],
+      "hours": null,
+      "price": null,
+      "accessibility": null,
+      "research_status": "Identidad y dirección contrastadas con perfil oficial, programación local 2026 y plataforma de entradas.",
+      "issues": [],
+      "publishable": true,
+      "researched_at": "2026-10-20",
+      "photo_count": 6,
+      "photo_gap": 0,
+      "editorial_characters": 6361,
+      "acceptance_ready": true
     }
   ],
   "excluded": [

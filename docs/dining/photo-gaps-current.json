@@ -1,7 +1,7 @@
 {
   "review_date": "2026-10-22",
-  "photos": 384,
-  "with_at_least_five": 49,
+  "photos": 438,
+  "with_at_least_five": 58,
   "remaining": [
     {
       "name": "Café Tapiz",
@@ -76,46 +76,16 @@
       "missing_to_six": 2
     },
     {
-      "name": "Bar Bulnes",
-      "id": "bar-bulnes",
-      "photos": 2,
-      "missing_to_six": 4
-    },
-    {
-      "name": "Taberna Bar Club de la Unión",
-      "id": "taberna-bar-club-de-la-union",
-      "photos": 3,
-      "missing_to_six": 3
-    },
-    {
-      "name": "Muchacha Restobar",
-      "id": "muchacha",
-      "photos": 1,
-      "missing_to_six": 5
-    },
-    {
-      "name": "La Tabla Restobar",
-      "id": "la-tabla-restobar",
-      "photos": 2,
-      "missing_to_six": 4
-    },
-    {
-      "name": "El Árbol & Irish Pub",
-      "id": "el-arbol-irish-pub",
-      "photos": 0,
-      "missing_to_six": 6
-    },
-    {
       "name": "Dejavu",
       "id": "dejavu",
       "photos": 1,
       "missing_to_six": 5
     },
     {
-      "name": "Jekus Restobar",
-      "id": "jekus-restobar",
-      "photos": 2,
-      "missing_to_six": 4
+      "name": "Rústico Restobar",
+      "id": "rustico-restobar",
+      "photos": 5,
+      "missing_to_six": 1
     },
     {
       "name": "Los Brujos",
@@ -124,22 +94,10 @@
       "missing_to_six": 6
     },
     {
-      "name": "Club K",
-      "id": "club-k",
-      "photos": 2,
-      "missing_to_six": 4
-    },
-    {
       "name": "Sky Bar Dreams",
       "id": "sky-bar-dreams",
-      "photos": 0,
-      "missing_to_six": 6
-    },
-    {
-      "name": "Pub Colonial",
-      "id": "pub-colonial",
-      "photos": 1,
-      "missing_to_six": 5
+      "photos": 3,
+      "missing_to_six": 3
     }
   ]
 }
