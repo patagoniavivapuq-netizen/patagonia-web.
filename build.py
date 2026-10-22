@@ -34,10 +34,16 @@ for category,media_key in CATEGORY_PHOTOS.items():
 
 def img(key):
  return '/assets/photos/'+Path(CATALOG[key[2:]]['path']).name if key and key.startswith('p-') else '/assets/images/'+IMAGES.get(key,IMAGES['ciudad'])
+EVENT_PHOTOS={"chapuzon":[["https://services.meteored.com/img/article/chapuzon-del-estrecho-2024-fecha-inscripciones-y-origen-del-evento-que-desafia-al-frio-de-la-patagonia-1718584160591_1280.png","Vista del Chapuzón, archivo 2024"],["https://rhk91h.infiniteuploads.cloud/2023/07/WhatsApp-Image-2023-07-08-at-5.08.12-PM-1024x657.jpeg","Participantes del Chapuzón, archivo 2023"],["https://mundografico.emol.cl/2016/07/24/37630_7514_23378154.jpg","Celebración del Chapuzón, archivo 2016"]],"carnaval-de-invierno":[["https://s3-mspro.nyc3.cdn.digitaloceanspaces.com/tenant/658d9f90f0909def6c18fa2c/mediaLibrary/photo/71064280-de62-4a59-afa3-4f2c882eb37c-extra-large-standard-q100.jpeg?v=1783308127","Disfraz del Carnaval de Invierno 2026"],["https://cloudfront-us-east-1.images.arcpublishing.com/copesa/YQQCNTRALNFS3EJ6VOTS35OZJM.jpg","Comparsa del Carnaval, archivo 2024"]],"festival-folclorico":[["https://www.cooperativa.cl/noticias/site/artic/20180823/imag/foto_0000001120180823225229.jpg","Ballet Municipal en el Festival Folclórico, archivo 2018"],["https://cdn.lpa.cl/2022/08/22-23-600x400.jpg","Danzas del Festival Folclórico, archivo 2022"]]}
+def event_photo(entry,priority=False):
+ src,caption=entry
+ return '<figure class="ec-inline-photo"><img src="'+E(src,quote=True)+'" alt="'+E(caption,quote=True)+'" '+('fetchpriority="high"' if priority else 'loading="lazy"')+' width="1280" height="800"><figcaption>'+E(caption)+'</figcaption></figure>'
+
 def article_image(a):
  selected=photos_for(a)
  if selected:return 'p-'+selected[0]
  if a['category']=='vida-nocturna' and a['slug'] in ('el-trebol','kamikaze'):return None
+ if a['category']=='eventos' and a['slug'] in EVENT_PHOTOS:return None
  return ARTICLEIMG.get((a['category'],a['slug']),a['image'])
 TOUR_PRICES={"city-tour":48000,"isla-magdalena":120000,"tierra-del-fuego":120000,"parque-del-estrecho":48000,"isla-marta-magdalena":156000,"ballenas-glaciares":294000,"ruta-glaciares":270000,"kayak-estrecho":138000,"cabalgata-bosques":156000,"delfines-australes":162000,"reserva-magallanes":48000,"faro-san-isidro":60000,"monte-tarn":102000,"pali-aike":96000,"torres-del-paine":108000,"base-torres":132000,"cabo-froward":336000,"full-day-punta-arenas":96000}
 def url(a):return '/'+a['category']+'/'+a['slug']+'/'
@@ -140,9 +146,9 @@ for a in ARTICLES:
  if cat=='tours' and a['slug'] in FEATURED_TOURS:
   write(url(a),showcase_tour(a))
   continue
- page=head(a['title'],a['intro'],'article')+'<main class="guide" id="inicio"><div class="breadcrumbs"><a href="/">Inicio</a><span> / </span><a href="/'+cat+'/">'+E(title)+'</a></div><p class="kicker">'+E(title)+'</p><h1>'+E(a['title'])+'</h1>'+photo(key,True)+'<p class="article-intro">'+E(a['intro'])+'</p>'
+ page=head(a['title'],a['intro'],'article')+'<main class="guide" id="inicio"><div class="breadcrumbs"><a href="/">Inicio</a><span> / </span><a href="/'+cat+'/">'+E(title)+'</a></div><p class="kicker">'+E(title)+'</p><h1>'+E(a['title'])+'</h1>'+(event_photo(EVENT_PHOTOS[a['slug']][0],True) if cat=='eventos' and a['slug'] in EVENT_PHOTOS else photo(key,True))+'<p class="article-intro">'+E(a['intro'])+'</p>'
  if a['status']:page+='<p class="status-note">'+E(a['status'])+'</p>'
- selected_photos=photos_for(a)
+ selected_photos=photos_for(a) if not (cat=='eventos' and a['slug'] in EVENT_PHOTOS) else []
  interleaved={}
  for n,media_key in enumerate(selected_photos[1:],1):
   after=max(1,min(len(a['sections']),round(n*len(a['sections'])/len(selected_photos))))
@@ -151,6 +157,10 @@ for a in ARTICLES:
  for i,sec in enumerate(a['sections'],1):
   page+='<article id="tema-'+str(i)+'"><span>'+f'{i:02d}'+'</span><h2>'+E(sec['title'])+'</h2><p>'+E(sec['text'])+'</p></article>'
   for inline_photo in interleaved.get(i,[]):page+=photo(inline_photo)
+  if cat=='eventos' and a['slug'] in EVENT_PHOTOS:
+   others=EVENT_PHOTOS[a['slug']][1:]
+   for index,item in enumerate(others,1):
+    if i==round(index*len(a['sections'])/(len(others)+1)):page+=event_photo(item)
  page+='</section><aside class="tip"><b>Dato Austral</b><p>'+E(a['tip'])+'</p></aside>'
  if cat=='guia' and a['slug']=='internet-y-esim':
   page+='<section class="related" id="airalo-esim"><p class="kicker">INTERNET PARA TU VIAJE</p><h2>Encuentra una eSIM para Chile y la Patagonia con Airalo</h2><p>Compara planes compatibles con Chile, duración y datos incluidos. Antes de reservar comprueba que tu teléfono admita eSIM y esté desbloqueado. Para un cruce a Argentina verifica si el plan también cubre ese país.</p><div id="airalo-puq-widget" style="min-height:190px;overflow:hidden"></div><p id="airalo-puq-fallback" hidden>No pudimos cargar el comparador. Comprueba tu conexión e inténtalo nuevamente.</p><p class="status-note">Publicidad de afiliado: podemos recibir una comisión por las reservas realizadas mediante este comparador.</p></section>'
