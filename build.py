@@ -165,6 +165,20 @@ body:has(.event-feature) {background:#061d1d}
 .event-action h2{color:#fff!important;margin:0 0 12px}
 .event-action a{display:inline-block;margin:8px 12px 0 0;padding:13px 17px;background:#eabb6a;color:#17322e!important;border-radius:10px;font-weight:800;text-decoration:none}
 @media(max-width:680px){.event-facts{grid-template-columns:1fr}.event-feature .items article{padding:22px!important}}
+
+.event-feature .event-layout{display:grid;grid-template-columns:minmax(0,1fr) 315px;gap:27px;align-items:start;margin-top:30px}
+.event-feature .event-main .items{margin-top:0}
+.event-feature .event-sidebar{position:sticky;top:94px;display:grid;gap:17px}
+.event-feature .event-side-card{border:1px solid #47746a;border-radius:19px;padding:23px;background:linear-gradient(145deg,#123d39,#0a2928);color:#eaf6ef}
+.event-feature .event-side-card:nth-child(2){background:linear-gradient(145deg,#4b311a,#2d261d);border-color:#bb8d4b}
+.event-feature .event-side-card h2{color:#f6cb81;font-size:21px;line-height:1.22;margin:0 0 14px}
+.event-feature .event-side-card p,.event-feature .event-side-card li{color:#e9f2ed;line-height:1.6;font-size:15px}
+.event-feature .event-side-card ul{padding-left:19px}
+.event-feature .event-side-card a{display:block;margin-top:12px;text-align:center;border-radius:10px;background:#e8b96b;color:#142a28;padding:11px;font-weight:800;text-decoration:none}
+.event-feature .event-side-card .event-facts{display:block;margin:0}
+.event-feature .event-side-card .event-facts>div{margin-top:10px;padding:12px}
+@media(max-width:900px){.event-feature .event-layout{grid-template-columns:1fr}.event-feature .event-sidebar{position:static;grid-row:1;grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.event-feature .event-sidebar{grid-template-columns:1fr}}
 </style>"""
 EVENT_FACTS={
  'chapuzon':('27 de junio de 2026 · histórico','Costanera del Estrecho · sector Letras','Participación con inscripción oficial'),
@@ -184,8 +198,9 @@ for a in ARTICLES:
  if cat=='tours' and a['slug'] in FEATURED_TOURS:
   write(url(a),showcase_tour(a))
   continue
- page=head(a['title'],a['intro'],'article')+'<main class="guide" id="inicio"><div class="breadcrumbs"><a href="/">Inicio</a><span> / </span><a href="/'+cat+'/">'+E(title)+'</a></div><p class="kicker">'+E(title)+'</p><h1>'+E(a['title'])+'</h1>'+(event_photo(EVENT_PHOTOS[a['slug']][0],True) if cat=='eventos' and a['slug'] in EVENT_PHOTOS else photo(key,True))+'<p class="article-intro">'+E(a['intro'])+'</p>'+(event_facts(a) if cat=='eventos' else '')
+ page=head(a['title'],a['intro'],'article')+(EVENT_STYLE if cat=='eventos' and a['slug'] in EVENT_FACTS else '')+'<main class="guide'+(' event-feature' if cat=='eventos' and a['slug'] in EVENT_FACTS else '')+'" id="inicio"><div class="breadcrumbs"><a href="/">Inicio</a><span> / </span><a href="/'+cat+'/">'+E(title)+'</a></div><p class="kicker">'+E(title)+'</p><h1>'+E(a['title'])+'</h1>'+(event_photo(EVENT_PHOTOS[a['slug']][0],True) if cat=='eventos' and a['slug'] in EVENT_PHOTOS else photo(key,True))+'<p class="article-intro">'+E(a['intro'])+'</p>'
  if a['status']:page+='<p class="status-note">'+E(a['status'])+'</p>'
+ if cat=='eventos' and a['slug'] in EVENT_FACTS:page+='<div class="event-layout"><div class="event-main">'
  selected_photos=photos_for(a) if not (cat=='eventos' and a['slug'] in EVENT_PHOTOS) else []
  interleaved={}
  for n,media_key in enumerate(selected_photos[1:],1):
@@ -199,8 +214,16 @@ for a in ARTICLES:
    others=EVENT_PHOTOS[a['slug']][1:]
    for index,item in enumerate(others,1):
     if i==round(index*len(a['sections'])/(len(others)+1)):page+=event_photo(item)
- page+='</section><aside class="tip"><b>Dato Austral</b><p>'+E(a['tip'])+'</p></aside>'
- if cat=='eventos' and a['slug'] in EVENT_FACTS:page+=event_links(a)
+ page+='</section>'
+ if cat=='eventos' and a['slug'] in EVENT_FACTS:
+  page+='</div><aside class="event-sidebar" aria-label="Información práctica del evento">'
+  page+='<section class="event-side-card"><h2>Información práctica</h2>'+event_facts(a)+'</section>'
+  page+='<section class="event-side-card"><h2>Dato Austral</h2><p>'+E(a['tip'])+'</p></section>'
+  page+='<section class="event-side-card"><h2>Organiza tu visita</h2><ul><li>Confirma las fechas de la próxima edición.</li><li>Comprueba transporte, accesos y condiciones meteorológicas.</li><li>Lleva abrigo y considera el viento del estrecho.</li></ul></section>'
+  page+='<section class="event-side-card"><h2>Canales oficiales</h2><a href="https://puntaarenas.cl/" target="_blank" rel="noopener noreferrer">Municipalidad ↗</a><a href="https://fundacionculturalpuntaarenas.cl/" target="_blank" rel="noopener noreferrer">Fundación Cultural ↗</a></section>'
+  page+='</aside></div>'
+ else:
+  page+='<aside class="tip"><b>Dato Austral</b><p>'+E(a['tip'])+'</p></aside>'
  if cat=='guia' and a['slug']=='internet-y-esim':
   page+='<section class="related" id="airalo-esim"><p class="kicker">INTERNET PARA TU VIAJE</p><h2>Encuentra una eSIM para Chile y la Patagonia con Airalo</h2><p>Compara planes compatibles con Chile, duración y datos incluidos. Antes de reservar comprueba que tu teléfono admita eSIM y esté desbloqueado. Para un cruce a Argentina verifica si el plan también cubre ese país.</p><div id="airalo-puq-widget" style="min-height:190px;overflow:hidden"></div><p id="airalo-puq-fallback" hidden>No pudimos cargar el comparador. Comprueba tu conexión e inténtalo nuevamente.</p><p class="status-note">Publicidad de afiliado: podemos recibir una comisión por las reservas realizadas mediante este comparador.</p></section>'
   page+='<script>(function(){var mount=document.getElementById("airalo-puq-widget");if(!mount)return;var params="trs=573170&shmarker=776744&powered_by=true&color_button=%23f2685f&color_focused=%23f2685f&secondary=%23FFFFFF&dark=%2311100f&light=%23FFFFFF&special=%23C4C4C4&border_radius=5&plain=false&no_labels=true&promo_id=8588&campaign_id=541";var script=document.createElement("script");script.async=true;script.charset="utf-8";script.src="https://tpembd.com/content?"+params+"&locale=es";script.onerror=function(){document.getElementById("airalo-puq-fallback").hidden=false;};mount.appendChild(script);})();</script>'
