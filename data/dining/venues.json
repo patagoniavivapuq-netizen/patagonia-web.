@@ -3732,8 +3732,8 @@
       ],
       "publishable": true,
       "researched_at": "2026-10-20",
-      "photo_count": 1,
-      "photo_gap": 4,
+      "photo_count": 7,
+      "photo_gap": 0,
       "editorial_characters": 4869,
       "acceptance_ready": false
     },
@@ -4286,7 +4286,7 @@
       ],
       "publishable": true,
       "researched_at": "2026-10-20",
-      "photo_count": 9,
+      "photo_count": 8,
       "photo_gap": 0,
       "editorial_characters": 4416,
       "acceptance_ready": false
@@ -4394,8 +4394,8 @@
       ],
       "publishable": true,
       "researched_at": "2026-10-20",
-      "photo_count": 0,
-      "photo_gap": 5,
+      "photo_count": 7,
+      "photo_gap": 0,
       "editorial_characters": 4346,
       "acceptance_ready": false
     },
@@ -4526,8 +4526,8 @@
       ],
       "publishable": true,
       "researched_at": "2026-10-20",
-      "photo_count": 0,
-      "photo_gap": 5,
+      "photo_count": 7,
+      "photo_gap": 0,
       "editorial_characters": 6440,
       "acceptance_ready": false
     },
@@ -4782,8 +4782,8 @@
       ],
       "publishable": true,
       "researched_at": "2026-10-20",
-      "photo_count": 0,
-      "photo_gap": 5,
+      "photo_count": 6,
+      "photo_gap": 0,
       "editorial_characters": 6269,
       "acceptance_ready": false
     },

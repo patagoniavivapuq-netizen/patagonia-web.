@@ -1,0 +1,26 @@
+{
+  "review_date": "2026-10-22",
+  "new_photos": 31,
+  "venues": {
+    "cafe-bories": 6,
+    "a-brasas": 7,
+    "san-telmo": 6,
+    "casa-jelva": 7,
+    "la-chaira": 5
+  },
+  "savoy_hero": "assets/venues/savoy/photo-f3174fd2.webp",
+  "notes": [
+    "San Telmo: ambas direcciones publicadas identifican la esquina de Boliviana y 21 de Mayo; fachada identificada visualmente.",
+    "Casa Jelva: se descartan pizza, cerveza, paisaje y animales de plantilla del sitio oficial; se incorporan fotos de cocina, salón y platos.",
+    "Savoy: se reutiliza fotografía exterior ya registrada, sin duplicar el archivo.",
+    "Retiradas seis asociaciones incorrectas de A Brasas en La Chaira; se incorporan cinco fotografías verificadas en la ficha correcta de La Chaira."
+  ],
+  "retired_incorrect_assignments": [
+    "assets/venues/la-chaira/round22-879449d99bc0.webp",
+    "assets/venues/la-chaira/round22-9d7d47261551.webp",
+    "assets/venues/la-chaira/round22-9a7216348373.webp",
+    "assets/venues/la-chaira/round22-d55da6bf14f2.webp",
+    "assets/venues/la-chaira/round22-5221648504bf.webp",
+    "assets/venues/la-chaira/round22-6dfe589cdccb.webp"
+  ]
+}

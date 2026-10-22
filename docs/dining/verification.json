@@ -2,8 +2,8 @@
   "checked_at": "2026-10-21",
   "gastronomia_rendered": 50,
   "nightlife_rendered": 20,
-  "photos": 359,
-  "venues_with_five": 45,
+  "photos": 384,
+  "venues_with_five": 49,
   "editorial_under_6000": [
     "simple-cafe-gelato",
     "wake-up-coffee-brunch",
@@ -72,22 +72,6 @@
     {
       "slug": "la-mona-crespa",
       "missing": 1
-    },
-    {
-      "slug": "cafe-bories",
-      "missing": 4
-    },
-    {
-      "slug": "a-brasas",
-      "missing": 5
-    },
-    {
-      "slug": "casa-jelva",
-      "missing": 5
-    },
-    {
-      "slug": "san-telmo",
-      "missing": 5
     },
     {
       "slug": "kruh-i-kava",
@@ -655,8 +639,8 @@
       "slug": "cafe-bories",
       "address": "Gobernador Carlos Bories 601, Punta Arenas, Chile",
       "characters": 4869,
-      "photos": 1,
-      "missing_photos": 4,
+      "photos": 7,
+      "missing_photos": 0,
       "sources": [
         "https://cafebories.buenacarta.com/"
       ],
@@ -723,7 +707,7 @@
       "slug": "la-chaira",
       "address": "21 de Mayo 1650, Punta Arenas, Chile",
       "characters": 4416,
-      "photos": 9,
+      "photos": 8,
       "missing_photos": 0,
       "sources": [
         "https://www.waze.com/live-map/directions/cl/magallanes-y-la-antartica-chilena/punta-arenas/la-chaira-restaurante?to=place.ChIJvSsCjvFjsr0RzaTs9LTasyw",
@@ -737,8 +721,8 @@
       "slug": "a-brasas",
       "address": "Presidente Federico Errázuriz 952, Punta Arenas, Chile",
       "characters": 4346,
-      "photos": 0,
-      "missing_photos": 5,
+      "photos": 7,
+      "missing_photos": 0,
       "sources": [
         "https://www.tripadvisor.com/Restaurant_Review-g297401-d27184410-Reviews-A_Brasas_Restaurant-Punta_Arenas_Magallanes_Region.html"
       ],
@@ -750,8 +734,8 @@
       "slug": "casa-jelva",
       "address": "Croacia 1007, esquina O’Higgins, Punta Arenas, Chile",
       "characters": 6440,
-      "photos": 0,
-      "missing_photos": 5,
+      "photos": 7,
+      "missing_photos": 0,
       "sources": [
         "https://casajelva.cl/",
         "https://casajelva.cl/contacto/",
@@ -779,8 +763,8 @@
       "slug": "san-telmo",
       "address": "Boliviana 789, esquina 21 de Mayo, Punta Arenas, Chile",
       "characters": 6269,
-      "photos": 0,
-      "missing_photos": 5,
+      "photos": 6,
+      "missing_photos": 0,
       "sources": [
         "https://www.tripadvisor.es/Restaurant_Review-g297401-d1856949-Reviews-Parrilla_San_Telmo-Punta_Arenas_Magallanes_Region.html",
         "https://www.barhunters.cl/san-telmo"

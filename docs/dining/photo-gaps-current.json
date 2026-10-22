@@ -1,7 +1,7 @@
 {
-  "review_date": "2026-10-21",
-  "photos": 359,
-  "with_at_least_five": 45,
+  "review_date": "2026-10-22",
+  "photos": 384,
+  "with_at_least_five": 49,
   "remaining": [
     {
       "name": "Café Tapiz",
@@ -40,34 +40,10 @@
       "missing_to_six": 2
     },
     {
-      "name": "Café Bories",
-      "id": "cafe-bories",
-      "photos": 1,
-      "missing_to_six": 5
-    },
-    {
       "name": "La Vianda Cocaví Regional",
       "id": "la-vianda",
       "photos": 5,
       "missing_to_six": 1
-    },
-    {
-      "name": "A Brasas",
-      "id": "a-brasas",
-      "photos": 0,
-      "missing_to_six": 6
-    },
-    {
-      "name": "Casa Jelva",
-      "id": "casa-jelva",
-      "photos": 0,
-      "missing_to_six": 6
-    },
-    {
-      "name": "Parrilla San Telmo",
-      "id": "san-telmo",
-      "photos": 0,
-      "missing_to_six": 6
     },
     {
       "name": "Kruh i Kava",

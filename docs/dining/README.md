@@ -36,3 +36,8 @@ Surista y The Endurance cuentan con una portada del salón y cinco fotografías 
 ## Afinación de fotografías · Café Sarmiento y locales pendientes
 
 175 imágenes nuevas revisadas; 32 piezas retiradas por anuncios, capturas, oscuridad añadida o dibujos superpuestos. Café Sarmiento dispone de portada del salón con vista al Estrecho y cinco fotos distintas intercaladas. Se preservan 359 fotos en 70 fichas; 45 locales reúnen al menos cinco fotos. `photo-gaps-current.json` mantiene la lista exacta de brechas para completar seis fotos por local. No se declara finalizada la biblioteca. Los candidatos inaccesibles o dudosos de Casa Jelva, Sky Bar y otros locales no se reemplazan por stock. El Árbol requiere corroborar operación actual tras la noticia de incendio.
+
+
+## Miniaturas y fotos solicitadas · 22 de octubre de 2026
+
+A Brasas: 7 fotos; Café Bories: 7; Casa Jelva: 7; San Telmo: 6. Savoy usa la foto exterior ya registrada como portada y miniatura. Se retiraron seis fotos de A Brasas incorrectamente asociadas a La Chaira y se incorporaron cinco imágenes de su ficha correcta. Total actual: 384 fotos; 49 establecimientos con al menos cinco. La revisión de imágenes nuevas no detectó tomas repetidas por dHash256 (distancia ≤ 6). Los datos y las 122 rutas aprobadas se conservan.
