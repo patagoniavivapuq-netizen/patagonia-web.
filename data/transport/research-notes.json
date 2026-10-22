@@ -1,0 +1,66 @@
+{
+  "review_date": "2026-10-22",
+  "scope": "Ampliación exclusiva de /transportes/; conservar gastronomía, vida nocturna y demás rutas.",
+  "branch": "revision/gastronomia-vida-nocturna-20261018",
+  "parent_commit": "bfa1030fc8e0f81f7b8e1709193c3499790bdd75",
+  "method": "Operadores y fuentes oficiales primero; avisos locales fechados para cambios de tarifas y recorridos. Datos variables identificados por fecha, sin prometer disponibilidad.",
+  "decisions": [
+    {
+      "topic": "Micros, tarifa",
+      "decision": "Mostrar $390/$190/$130 como reajuste anunciado, no cobro comprobado: TransAlerce anunció mantener los valores anteriores. Cobro actual requiere confirmación."
+    },
+    {
+      "topic": "Micros, horarios",
+      "decision": "06:30–22:00 solo referencia del plan de enero2026, no horario vigente por línea. Consultar Red Regional y avisos actuales."
+    },
+    {
+      "topic": "Recorridos",
+      "decision": "Cambios 6,6V,8 de julio2026 incluidos. No inventar geometrías. Mapas de Moovit 2/5 sirven como orientación externa; no se copian sus horarios como confirmación."
+    },
+    {
+      "topic": "Guía Radio Polar 02-04-2026",
+      "decision": "Descartada para recorridos, pago y tarifas: afirma efectivo y precios antiguos, y línea al aeropuerto sin respaldo frente a avisos de pago electrónico y reajustes."
+    },
+    {
+      "topic": "Colectivos",
+      "decision": "Tacopa $900 diurno/$1000 noche, trasnoche, domingos/festivos desde23jul2026; no extrapolar a todas las líneas. Sin horas de corte o mapa global actual verificados."
+    },
+    {
+      "topic": "Bipay",
+      "decision": "URL antigua /puntos-punta-arenas.html no contiene el mapa actual. Navegación oficial conduce a /puntos-de-venta/punta-arenas; CAU Roca886 local18 y soporte publicados verificados en navegador."
+    },
+    {
+      "topic": "Aplicaciones",
+      "decision": "Uber y DiDi con cobertura publicada; inDrive con registro público local2026 y modelo oficial. Cabify sin corroboración local actual; no afirmar disponibilidad."
+    },
+    {
+      "topic": "Aeropuerto",
+      "decision": "Usar Aeropuertos Australes actual: $13000/$16000/$18000. Descartar $10000 de página antigua de concesionario."
+    },
+    {
+      "topic": "Bus aeropuerto",
+      "decision": "Bus-Sur: solo subida hacia Natales; solo bajada desde Natales. No presentarlo como shuttle aeropuerto→centro."
+    },
+    {
+      "topic": "Porvenir",
+      "decision": "Tarifario oficial visual: $12000 pasajero,$10000 persona mayor,<6gratis con boardingpass,auto hasta6m$78500incluyeconductor; acompañantes aparte. Calendario fechado22–28oct; no horario semanal perpetuo."
+    },
+    {
+      "topic": "Primera Angostura",
+      "decision": "Tarifario oficial visual: pasajerosgratis,auto$26000,moto$13000,vanmotorhome$52000. Aviso marzo2026:08:30–23:00;últimoPuntaDelgada22:00,BahíaAzul23:00."
+    },
+    {
+      "topic": "Tarifarios TABSA",
+      "decision": "Visibles en navegador normal. Descarga HTTP del PDF recibió WAF; no se intentó alterar cliente ni eludirlo. Tabla leída visualmente en PDF oficial."
+    },
+    {
+      "topic": "Fotos",
+      "decision": "Seis activos nuevos revisados: dos fotos de ferries, mapa de Porvenir, pago electrónico local, taxis aeroportuarios y mapa DAP. Procedencia y autorización provisional por archivo."
+    },
+    {
+      "topic": "Arriendo y bicicleta",
+      "decision": "Condiciones se consultan por contrato/proveedor; no inventar tarifas, estación de bicicletas públicas, permisos de frontera o cobertura de caminos."
+    }
+  ],
+  "permission_status": "Imágenes de terceros provisionales, pendientes de autorización o sustitución por material de operadores; sin avisos de copyright añadidos al flujo del visitante."
+}

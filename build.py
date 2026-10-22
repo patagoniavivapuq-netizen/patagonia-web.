@@ -195,4 +195,6 @@ shutil.copyfile(OUT/'404/index.html',OUT/'404.html')
 (ROOT/'editorial-inventory.json').write_text(json.dumps({'stage':'Primera versión editorial para revisión','categories':len(CATEGORIES),'articles':len(ARTICLES),'review_date':'2026-10-18','sources':S,'items':[{'path':url(a),'title':a['title'],'status':a['status'],'sources':a['sources']} for a in ARTICLES]},ensure_ascii=False,indent=2))
 from dining import render as render_dining
 render_dining(ROOT, OUT, head, footer, write)
+from transport import render as render_transport
+render_transport(ROOT, OUT, head, footer, write)
 print(json.dumps({'categories':len(CATEGORIES),'articles':len(ARTICLES),'html_files':len(list(OUT.rglob('*.html'))),'output':str(OUT)},ensure_ascii=False))

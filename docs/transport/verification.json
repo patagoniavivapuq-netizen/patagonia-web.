@@ -1,0 +1,27 @@
+{
+  "review_date": "2026-10-22",
+  "guides": 12,
+  "transport_pages": 13,
+  "new_images_and_maps": 6,
+  "non_transport_pages_unchanged": 194,
+  "gastronomy_pages_unchanged": 54,
+  "nightlife_pages_unchanged": 25,
+  "errors": [],
+  "scope": "Solo /transportes/ y activos/módulos propios de esa sección.",
+  "variable_data": "Tarifas y calendarios fechados. Sin garantía de disponibilidad; limitaciones documentadas en data/transport/research-notes.json.",
+  "pages": [
+    "transportes/a-pie-bicicleta/index.html",
+    "transportes/aeropuerto/index.html",
+    "transportes/arriendo-autos/index.html",
+    "transportes/barcazas/index.html",
+    "transportes/buses-interurbanos/index.html",
+    "transportes/colectivos/index.html",
+    "transportes/conexiones-australes/index.html",
+    "transportes/index.html",
+    "transportes/micros/index.html",
+    "transportes/primera-angostura/index.html",
+    "transportes/punta-arenas-porvenir/index.html",
+    "transportes/taxis/index.html",
+    "transportes/uber/index.html"
+  ]
+}
