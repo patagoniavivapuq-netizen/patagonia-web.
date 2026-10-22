@@ -140,38 +140,55 @@ def showcase_tour(a):
 
  return page+'</div></main>'+footer()
 
+EVENT_CATEGORY_STYLE="""<style>
+body:has(.pv-events-catalog){background:#061817!important;color:#f8efdd!important}
+.pv-events-catalog{background:#092522!important;color:#f8efdd!important}
+.pv-events-catalog .category-hero{background:linear-gradient(125deg,#061817,#123d39)!important;border-bottom:2px solid #d7a43b}
+.pv-events-catalog .category-controls{background:#092522!important;color:#f5dfb0!important;padding:22px!important;margin:0 auto!important}
+.pv-events-catalog .category-controls a{color:#eec36f!important}
+.pv-events-catalog .guide-group{background:#092522!important;color:#fff!important}
+.pv-events-catalog .guide-group h2{color:#f3c674!important}
+.pv-events-catalog .guide-grid a{background:#123d39!important;border:1px solid #d7a43b!important;border-radius:24px!important;color:#fff!important}
+.pv-events-catalog .guide-grid b{color:#fff7e5!important}
+.pv-events-catalog .guide-grid span{color:#f2c374!important}
+.pv-events-catalog .empty-results{color:#fff!important}
+</style>"""
 EVENT_STYLE="""<style>
-/* Eventos comparte la misma superficie editorial clara de Gastronomía. */
-body:has(.event-feature){background:#fff!important}
-.event-feature{max-width:1120px!important;background:#fff!important;color:#0f172a!important}
-.event-feature .kicker{color:#805812!important}
-.event-feature h1{color:#0f172a!important}
-.event-feature .article-intro{color:#526174!important;line-height:1.75;font-size:19px}
-.event-feature .event-layout{display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:24px;align-items:start;margin-top:30px}
-.event-feature .event-main .items{margin:0;display:grid;gap:16px}
-.event-feature .items article{background:#fff!important;color:#0f172a!important;border:1px solid #e5eaf0!important;border-radius:24px!important;padding:28px 30px!important;box-shadow:0 8px 28px #0f172a0a!important}
-.event-feature .items article>span{color:#0b968a!important;background:transparent!important;font:900 12px Arial!important;letter-spacing:.13em}
-.event-feature .items article h2{color:#0f172a!important;font-size:clamp(24px,2.5vw,32px);line-height:1.2}
-.event-feature .items article p{color:#526174!important;font-size:16px;line-height:1.75}
-.event-feature .ec-inline-photo{border-radius:28px!important;background:#f7f9fb!important;border:1px solid #e5eaf0!important;box-shadow:none!important;overflow:hidden}
+body:has(.event-feature){background:#061817!important;color:#f5f0e7!important}
+.event-feature{max-width:1180px!important;background:#092522!important;color:#f5f0e7!important}
+.event-feature .breadcrumbs,.event-feature .breadcrumbs a{color:#e1c895!important}
+.event-feature .kicker,.event-feature>.kicker{color:#e8bd63!important}
+.event-feature h1{color:#fff6e7!important}
+.event-feature .article-intro{color:#e0ede6!important;font-size:19px;line-height:1.78}
+.event-feature .event-layout{display:grid;grid-template-columns:minmax(0,1fr) 315px;gap:24px;align-items:start;margin-top:30px}
+.event-feature .event-main .items{margin:0;display:grid;gap:18px}
+.event-feature .items article{background:linear-gradient(140deg,#123d39,#092522)!important;color:#f7f1e7!important;border:1px solid #d7a43b!important;border-radius:24px!important;padding:30px!important;box-shadow:0 12px 35px #0003!important}
+.event-feature .items article>span{display:inline-block;color:#f4c879!important;background:transparent!important;font:900 13px Arial!important;letter-spacing:.14em}
+.event-feature .items article h2{color:#fff4da!important;font-size:clamp(24px,2.6vw,32px);line-height:1.2}
+.event-feature .items article p{color:#e3eee9!important;font-size:17px;line-height:1.83}
+.event-feature .ec-inline-photo{border-radius:24px!important;background:#0d302c!important;border:1px solid #d7a43b!important;box-shadow:0 15px 34px #0003!important;overflow:hidden}
 .event-feature .ec-inline-photo img{display:block;width:100%;max-height:590px;object-fit:cover}
-.event-feature .ec-inline-photo figcaption{color:#526174!important;background:#fff!important;padding:13px 17px;font-size:13px}
-.event-feature .event-sidebar{position:sticky;top:94px;display:grid;gap:16px}
-.event-feature .event-side-card{padding:24px;border:1px solid #dfe9e6;border-radius:24px;background:#f7f9fb;color:#0f172a}
-.event-feature .event-side-card h2{color:#123d39!important;margin:0 0 15px;font-size:21px}
-.event-feature .event-side-card p,.event-feature .event-side-card li{color:#526174!important;line-height:1.7;font-size:15px}
+.event-feature .ec-inline-photo figcaption{color:#f0d79e!important;background:#123d39!important;padding:13px 17px;font-size:13px}
+.event-feature .event-sidebar{position:sticky;top:92px;display:grid;gap:17px}
+.event-feature .event-side-card{padding:24px;border:1px solid #d7a43b!important;border-radius:23px;background:linear-gradient(145deg,#123d39,#082b28)!important;color:#fff!important}
+.event-feature .event-side-card h2{color:#f1c778!important;margin:0 0 15px;font-size:21px}
+.event-feature .event-side-card p,.event-feature .event-side-card li{color:#e7f0e9!important;line-height:1.7;font-size:15px}
 .event-feature .event-side-card ul{padding-left:19px}
-.event-feature .event-side-card:nth-child(2){background:#082a27!important;color:#fff!important;border-color:#082a27!important}
-.event-feature .event-side-card:nth-child(2) h2{color:#f5b72e!important}
-.event-feature .event-side-card:nth-child(2) p{color:#e4efed!important}
-.event-feature .event-side-card a{display:block;margin-top:12px;text-align:center;padding:12px;background:#123d39;color:#fff!important;border-radius:99px;font-weight:700;text-decoration:none}
+.event-feature .event-side-card:nth-child(2){background:#0b2623!important;border:2px solid #f0bc63!important}
+.event-feature .event-side-card a{display:block;margin-top:12px;text-align:center;padding:12px;background:#d7a43b!important;color:#092522!important;border-radius:99px;font-weight:800;text-decoration:none}
 .event-feature .event-facts{display:block;margin:0}
-.event-feature .event-facts>div{padding:12px 0;border-bottom:1px solid #dfe9e6}
+.event-feature .event-facts>div{padding:12px 0;border-bottom:1px solid #ad874d}
 .event-feature .event-facts>div:last-child{border:0}
-.event-feature .event-facts small{display:block;color:#805812;font-size:11px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:7px;font-weight:800}
-.event-feature .event-facts strong{color:#0f172a;font-size:15px}
+.event-feature .event-facts small{display:block;color:#f0c16b!important;font-size:11px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:7px;font-weight:800}
+.event-feature .event-facts strong{color:#fff4df!important;font-size:15px}
+.event-feature .map-section{background:#103832!important;border:1px solid #d7a43b!important;color:#fff!important;border-radius:23px;padding:25px;margin:28px 0}
+.event-feature .map-section h2,.event-feature .map-section p{color:#fff4df!important}
+.event-feature .map-section iframe{display:block;width:100%;height:350px;border:0;border-radius:16px;margin-top:17px;background:#fff}
+.event-feature .map-section a{background:#d7a43b!important;color:#092522!important}
+.event-feature .official-links{background:#103832!important;border:1px solid #d7a43b!important;color:#fff!important}
+.event-feature .official-links summary,.event-feature .official-links a{color:#f1c778!important}
 @media(max-width:900px){.event-feature .event-layout{grid-template-columns:1fr}.event-feature .event-sidebar{position:static;grid-row:1;grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:600px){.event-feature .event-sidebar{grid-template-columns:1fr}.event-feature .items article{padding:22px!important}}
+@media(max-width:600px){.event-feature .event-sidebar{grid-template-columns:1fr}.event-feature .items article{padding:23px!important}}
 </style>"""
 EVENT_FACTS={
  'chapuzon':('27 de junio de 2026 · histórico','Costanera del Estrecho · sector Letras','Participación con inscripción oficial'),
@@ -235,7 +252,7 @@ for a in ARTICLES:
   page+='<button type="submit" class="primary">CONSULTAR POR WHATSAPP</button></form></section>'
   page+='<script>(function(){var f=document.querySelector(".tour-request");if(!f)return;f.addEventListener("submit",function(e){e.preventDefault();var d=new FormData(f);var msg="Consulta: "+f.dataset.title+" | Fecha: "+d.get("fecha")+" | Adultos: "+d.get("adultos")+" | Niños: "+d.get("ninos")+" | Responsable: "+d.get("nombre")+" | Teléfono: "+d.get("telefono")+" | Hotel: "+d.get("hotel")+" | Notas: "+d.get("notas");window.open("https://wa.me/5521969946938?text="+encodeURIComponent(msg),"_blank");});})();</script>'
  if a['place']:
-  page+='<section class="map-section"><p class="kicker">UBÍCATE</p><h2>¿Dónde queda?</h2><p>'+E(a['place'])+'</p><a class="ext" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&amp;query='+quote(a['place'])+'">ABRIR UBICACIÓN EN EL MAPA ↗</a></section>'
+  page+='<section class="map-section"><p class="kicker">UBÍCATE</p><h2>¿Dónde queda?</h2><p>'+E(a['place'])+'</p>'+(('<iframe title="Mapa de '+E(a['title'],quote=True)+'" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q='+quote(a['place'])+'&amp;output=embed"></iframe>') if cat=='eventos' else '')+'<a class="ext" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&amp;query='+quote(a['place'])+'">ABRIR UBICACIÓN EN EL MAPA ↗</a></section>'
  if a['sources']:
   # Enlaces prácticos oficiales; el archivo editorial conserva las referencias adicionales.
   official=[S[s] for s in a['sources'] if s in S and s!='restaurantes']
