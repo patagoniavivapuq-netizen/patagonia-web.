@@ -172,7 +172,7 @@ body:has(.event-feature){background:#fff!important}
 .event-feature .event-facts strong{color:#0f172a;font-size:15px}
 @media(max-width:900px){.event-feature .event-layout{grid-template-columns:1fr}.event-feature .event-sidebar{position:static;grid-row:1;grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.event-feature .event-sidebar{grid-template-columns:1fr}.event-feature .items article{padding:22px!important}}
-</style>
+</style>"""
 EVENT_FACTS={
  'chapuzon':('27 de junio de 2026 · histórico','Costanera del Estrecho · sector Letras','Participación con inscripción oficial'),
  'carnaval-de-invierno':('4 y 5 de julio de 2026 · histórico','Costanera del Estrecho','Carros, comparsas y música'),
