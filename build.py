@@ -362,4 +362,6 @@ write('/gastronomia/la-luna/', '<!doctype html><html lang="es"><head><meta chars
 write('/gastronomia/la-marmita/', head('La Marmita: actividad por confirmar', 'La actividad actual de La Marmita necesita confirmación.', 'article')+'<main class="guide"><h1>La Marmita</h1><p>La actividad actual de este restaurante requiere confirmación. Su ficha histórica se conserva en el inventario de investigación; no se incluye entre los establecimientos activos de la guía.</p><p><a href="/gastronomia/">Explorar restaurantes investigados de Punta Arenas →</a></p></main>'+footer())
 from civic import render as render_civic
 render_civic(ROOT, OUT, head, footer, write)
+from event_agenda import render as render_event_agenda
+render_event_agenda(ROOT, OUT, head, footer, write)
 print(json.dumps({'categories':len(CATEGORIES),'articles':len(ARTICLES),'html_files':len(list(OUT.rglob('*.html'))),'output':str(OUT)},ensure_ascii=False))

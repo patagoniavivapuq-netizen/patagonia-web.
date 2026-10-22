@@ -1,0 +1,2568 @@
+{
+  "review_date": "2026-10-22",
+  "scope": "Punta Arenas; actividades de otras comunas identificadas aparte",
+  "method": "Fechas y hechos extraídos de calendarios oficiales, organizadores, ticketeras y medios locales. Inventario editorial, no promesa de disponibilidad ni exhaustividad permanente. Las producciones con varias funciones se cuentan una vez.",
+  "events": [
+    {
+      "id": "festival-polo-sur-latinoamericano",
+      "name": "Festival Polo Sur Latinoamericano",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2025-08-25",
+      "end_date": "2025-08-29",
+      "venue": "",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Última edición local identificada: 2025. Las funciones de 2026 en Argentina no acreditan una edición 2026 en Punta Arenas.",
+      "sources": [
+        {
+          "url": "https://www.radiopolar.com/seleccion-cine-latinoamericano-llega-punta-arenas-xvii-edicion-festival-polo-sur",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "cielos-del-infinito-programacion-en-punta-arenas",
+      "name": "Cielos del Infinito · programación en Punta Arenas",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-01-14",
+      "end_date": "2026-01-18",
+      "venue": "Teatro Municipal José Bohr",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Artes escénicas. El rango corresponde al tramo de Punta Arenas de la edición 17, no a toda la gira regional.",
+      "sources": [
+        {
+          "url": "https://www.radiopolar.com/17a-edicion-cielos-infinito-ofrecera-intensa-semana-artes-escenicas-punta-arenas",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "festival-de-la-esquila-villa-tehuelches",
+      "name": "Festival de la Esquila · Villa Tehuelches",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-01-24",
+      "end_date": "2026-01-25",
+      "venue": "Villa Tehuelches · Laguna Blanca",
+      "scope": "Fuera de Punta Arenas · Laguna Blanca",
+      "status": "Edición pasada",
+      "description": "Festival rural de otra comuna. Edición pasada, útil para un calendario regional; no corresponde a un evento dentro de Punta Arenas.",
+      "sources": [
+        {
+          "url": "https://www.goremagallanes.cl/celebraciones-estivales-se-consagran-en-la-ultima-sesion-del-consejo-regional-torres-del-paine-laguna-blanca-primavera-y-porvenir-tendran-aportes-del-gobierno-regional/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "andino-indomito",
+      "name": "Andino Indómito",
+      "category": "Deporte y aire libre",
+      "start_date": "2026-01-25",
+      "end_date": "",
+      "venue": "Club Andino",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Carrera de montaña. Última edición identificada: enero de 2026; la fecha siguiente debe confirmarse.",
+      "sources": [
+        {
+          "url": "https://www.indomito.cl/andino/index.php",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "expo-magallanes",
+      "name": "Expo Magallanes",
+      "category": "Ferias, compras y gastronomía",
+      "start_date": "2026-01-26",
+      "end_date": "2026-02-01",
+      "venue": "Liceo San José",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Feria de empresas, productores y emprendimientos. La edición de enero de 2026 ya pasó; no se traslada automáticamente su fecha a 2027.",
+      "sources": [
+        {
+          "url": "https://www.goremagallanes.cl/con-mas-de-130-puestos-de-empresas-y-productores-nacionales-e-internacionales-se-dio-inicio-a-la-expo-magallanes-2026/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "feria-artesanal-amapuq",
+      "name": "Feria Artesanal AMAPUQ",
+      "category": "Ferias, compras y gastronomía",
+      "start_date": "2026-01-31",
+      "end_date": "2026-02-01",
+      "venue": "Sala Zonaustral",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Artesanía y creaciones locales. La fecha corresponde a una edición documentada; las convocatorias posteriores deben confirmarse.",
+      "sources": [
+        {
+          "url": "https://laprensaaustral.cl/2026/02/01/amapuq-exhibe-sus-creaciones-en-mercado-artesanal/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "crosscountry-de-verano-club-lea",
+      "name": "Crosscountry de verano Club Lea",
+      "category": "Deporte y aire libre",
+      "start_date": "2026-02-01",
+      "end_date": "2026-03-22",
+      "venue": "Parque María Behety · edición histórica",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Circuito de tres fechas, no una carrera continua de febrero a marzo. El acceso futuro al parque y la nueva programación necesitan confirmación.",
+      "sources": [
+        {
+          "url": "https://laprensaaustral.cl/2026/03/23/el-crosscountry-de-verano-ya-tiene-campeones/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "expogama",
+      "name": "Expogama",
+      "category": "Ferias, compras y gastronomía",
+      "start_date": "2026-03-06",
+      "end_date": "2026-03-08",
+      "venue": "Recinto de ASOGAMA",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Exposición ligada a la actividad ganadera y al campo magallánico. Calendario de la siguiente edición pendiente.",
+      "sources": [
+        {
+          "url": "https://laprensaaustral.cl/2026/03/02/expogama-2026-se-realizara-del-6-al-8-de-marzo-en-punta-arenas/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "la-corrida-mas-grande-de-chile-dia-del-deporte",
+      "name": "La Corrida Más Grande de Chile · Día del Deporte",
+      "category": "Deporte y aire libre",
+      "start_date": "2026-04-11",
+      "end_date": "",
+      "venue": "",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Actividad local del IND dentro de la convocatoria nacional. No se cuenta como dos eventos distintos por sus dos nombres.",
+      "sources": [
+        {
+          "url": "https://sigi.ind.cl/actividad/121245",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "micelio-austral",
+      "name": "Micelio Austral",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-04-18",
+      "end_date": "",
+      "venue": "Universidad de Magallanes",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Festival en torno al reino fungi y la divulgación. La UMAG documenta su realización; no se asume fecha para la siguiente edición.",
+      "sources": [
+        {
+          "url": "https://umag.cl/2026/04/20/festival-micelio-austral-convoco-gran-cantidad-de-publico-en-torno-al-reino-fungi/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "piano-2026-recital-de-abril",
+      "name": "Piano 2026 · recital de abril",
+      "category": "Música y conciertos",
+      "start_date": "2026-04-18",
+      "end_date": "2026-04-18",
+      "venue": "Teatro Municipal José Bohr",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Edición incluida en la programación cultural de 2026. Se conserva como referencia del calendario anual; la siguiente edición requiere anuncio del organizador.",
+      "sources": [
+        {
+          "url": "https://fundacionculturalpuntaarenas.cl/event/piano-2026/",
+          "type": "Calendario oficial de la Fundación Municipal de Cultura"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "19:00"
+    },
+    {
+      "id": "dia-del-libro",
+      "name": "Día del libro",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-04-23",
+      "end_date": "2026-04-23",
+      "venue": "",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Edición incluida en la programación cultural de 2026. Se conserva como referencia del calendario anual; la siguiente edición requiere anuncio del organizador.",
+      "sources": [
+        {
+          "url": "https://fundacionculturalpuntaarenas.cl/event/dia-del-libro/",
+          "type": "Calendario oficial de la Fundación Municipal de Cultura"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "dia-de-la-danza-2026",
+      "name": "Día de la Danza 2026",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-04-24",
+      "end_date": "2026-04-24",
+      "venue": "Teatro Municipal José Bohr",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Edición incluida en la programación cultural de 2026. Se conserva como referencia del calendario anual; la siguiente edición requiere anuncio del organizador.",
+      "sources": [
+        {
+          "url": "https://fundacionculturalpuntaarenas.cl/event/dia-de-la-danza-2026/",
+          "type": "Calendario oficial de la Fundación Municipal de Cultura"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "19:00"
+    },
+    {
+      "id": "concierto-orquesta-binacional-de-la-patagonia-austral",
+      "name": "Concierto Orquesta Binacional de la Patagonia Austral",
+      "category": "Música y conciertos",
+      "start_date": "2026-04-26",
+      "end_date": "2026-04-26",
+      "venue": "Teatro Municipal José Bohr",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Edición incluida en la programación cultural de 2026. Se conserva como referencia del calendario anual; la siguiente edición requiere anuncio del organizador.",
+      "sources": [
+        {
+          "url": "https://fundacionculturalpuntaarenas.cl/event/concierto-orquesta-binconcierto-orquesta-binacional-de-la-patagonia-austral-concierto-orquesta-binacional-de-la-patagonia-austral-acional-de-la-patagonia-austral/",
+          "type": "Calendario oficial de la Fundación Municipal de Cultura"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "19:00"
+    },
+    {
+      "id": "concierto-de-jazz",
+      "name": "Concierto de Jazz",
+      "category": "Música y conciertos",
+      "start_date": "2026-04-30",
+      "end_date": "2026-04-30",
+      "venue": "Centro Cultural Claudio Paredes Chamorro",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Edición incluida en la programación cultural de 2026. Se conserva como referencia del calendario anual; la siguiente edición requiere anuncio del organizador.",
+      "sources": [
+        {
+          "url": "https://fundacionculturalpuntaarenas.cl/event/concierto-de-jazz/",
+          "type": "Calendario oficial de la Fundación Municipal de Cultura"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "19:00"
+    },
+    {
+      "id": "corrida-del-dia-del-trabajador",
+      "name": "Corrida del Día del Trabajador",
+      "category": "Deporte y aire libre",
+      "start_date": "2026-05-01",
+      "end_date": "",
+      "venue": "",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Carrera organizada en el marco de las actividades del deporte laboral. Consultar bases de cada nueva convocatoria.",
+      "sources": [
+        {
+          "url": "https://laprensaaustral.cl/2026/04/30/todo-listo-para-corrida-dia-del-trabajador/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "concierto-mes-del-mar",
+      "name": "Concierto Mes del Mar",
+      "category": "Música y conciertos",
+      "start_date": "2026-05-14",
+      "end_date": "2026-05-14",
+      "venue": "",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Edición incluida en la programación cultural de 2026. Se conserva como referencia del calendario anual; la siguiente edición requiere anuncio del organizador.",
+      "sources": [
+        {
+          "url": "https://fundacionculturalpuntaarenas.cl/event/concierto-mes-del-mar/",
+          "type": "Calendario oficial de la Fundación Municipal de Cultura"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "19:00"
+    },
+    {
+      "id": "divorciados-2-0",
+      "name": "Divorciados 2.0",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-05-23",
+      "end_date": "2026-05-23",
+      "venue": "Teatro Municipal José Bohr",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Edición incluida en la programación cultural de 2026. Se conserva como referencia del calendario anual; la siguiente edición requiere anuncio del organizador.",
+      "sources": [
+        {
+          "url": "https://fundacionculturalpuntaarenas.cl/event/divorciados-2-0/",
+          "type": "Calendario oficial de la Fundación Municipal de Cultura"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "concierto-trio-croata-kamov",
+      "name": "Concierto Trío Croata Kamov",
+      "category": "Música y conciertos",
+      "start_date": "2026-05-30",
+      "end_date": "2026-05-30",
+      "venue": "Teatro Municipal José Bohr",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Edición incluida en la programación cultural de 2026. Se conserva como referencia del calendario anual; la siguiente edición requiere anuncio del organizador.",
+      "sources": [
+        {
+          "url": "https://fundacionculturalpuntaarenas.cl/event/concierto-trio-croata-kamov/",
+          "type": "Calendario oficial de la Fundación Municipal de Cultura"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "prefestival-en-la-patagonia",
+      "name": "PreFestival en la Patagonia",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-05-31",
+      "end_date": "2026-05-31",
+      "venue": "",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Edición incluida en la programación cultural de 2026. Se conserva como referencia del calendario anual; la siguiente edición requiere anuncio del organizador.",
+      "sources": [
+        {
+          "url": "https://fundacionculturalpuntaarenas.cl/event/prefestival-en-la-patagonia/",
+          "type": "Calendario oficial de la Fundación Municipal de Cultura"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "festival-de-cantar-vecinal",
+      "name": "Festival de Cantar Vecinal",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-06-12",
+      "end_date": "2026-06-13",
+      "venue": "",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Edición incluida en la programación cultural de 2026. Se conserva como referencia del calendario anual; la siguiente edición requiere anuncio del organizador.",
+      "sources": [
+        {
+          "url": "https://fundacionculturalpuntaarenas.cl/event/festival-de-cantar-vecinal/",
+          "type": "Calendario oficial de la Fundación Municipal de Cultura"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "ballet-juvenil-del-teatro-municipal-de-santiago",
+      "name": "Ballet Juvenil del Teatro Municipal de Santiago",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-06-20",
+      "end_date": "2026-06-20",
+      "venue": "Teatro Municipal José Bohr",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Edición incluida en la programación cultural de 2026. Se conserva como referencia del calendario anual; la siguiente edición requiere anuncio del organizador.",
+      "sources": [
+        {
+          "url": "https://fundacionculturalpuntaarenas.cl/event/ballet-juvenil-del-teatro-municipal-de-santiago/",
+          "type": "Calendario oficial de la Fundación Municipal de Cultura"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "patagonia-light-festival",
+      "name": "Patagonia Light Festival",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-06-25",
+      "end_date": "2026-07-02",
+      "venue": "",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Edición 2026: 25 de junio a 2 de julio según la programación de Invernadas. El calendario inicial de la Fundación indicaba el día 24; se conserva esta discrepancia para revisión.",
+      "sources": [
+        {
+          "url": "https://fundacionculturalpuntaarenas.cl/event/patagonia-light-festival/",
+          "type": "Calendario oficial de la Fundación Municipal de Cultura"
+        },
+        {
+          "url": "https://chileestuyo.cl/eventos/con-chapuzon-en-el-estrecho-el-calendario-completo-de-las-invernadas-de-punta-arenas-2026/",
+          "type": "Sernatur · calendario posterior"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "chapuzon-del-estrecho",
+      "name": "Chapuzón del Estrecho",
+      "category": "Deporte y aire libre",
+      "start_date": "2026-06-27",
+      "end_date": "2026-06-27",
+      "venue": "",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Edición incluida en la programación cultural de 2026. Se conserva como referencia del calendario anual; la siguiente edición requiere anuncio del organizador.",
+      "sources": [
+        {
+          "url": "https://fundacionculturalpuntaarenas.cl/event/chapuzon-del-estrecho/",
+          "type": "Calendario oficial de la Fundación Municipal de Cultura"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "guide": "/eventos/chapuzon/"
+    },
+    {
+      "id": "expoindigena",
+      "name": "Expoindígena",
+      "category": "Ferias, compras y gastronomía",
+      "start_date": "2026-06-28",
+      "end_date": "2026-07-05",
+      "venue": "",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Edición incluida en la programación cultural de 2026. Se conserva como referencia del calendario anual; la siguiente edición requiere anuncio del organizador.",
+      "sources": [
+        {
+          "url": "https://fundacionculturalpuntaarenas.cl/event/expoindigena/",
+          "type": "Calendario oficial de la Fundación Municipal de Cultura"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "encuentro-campeones-cueca-chilena",
+      "name": "Encuentro Campeones Cueca Chilena",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-06-29",
+      "end_date": "2026-06-29",
+      "venue": "",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Edición incluida en la programación cultural de 2026. Se conserva como referencia del calendario anual; la siguiente edición requiere anuncio del organizador.",
+      "sources": [
+        {
+          "url": "https://fundacionculturalpuntaarenas.cl/event/encuentro-campeones-cueca-chilena/",
+          "type": "Calendario oficial de la Fundación Municipal de Cultura"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "concierto-de-piano",
+      "name": "Concierto de Piano",
+      "category": "Música y conciertos",
+      "start_date": "2026-07-01",
+      "end_date": "2026-07-01",
+      "venue": "",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Edición incluida en la programación cultural de 2026. Se conserva como referencia del calendario anual; la siguiente edición requiere anuncio del organizador.",
+      "sources": [
+        {
+          "url": "https://fundacionculturalpuntaarenas.cl/event/concierto-de-piano/",
+          "type": "Calendario oficial de la Fundación Municipal de Cultura"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "show-artista-carnaval",
+      "name": "Show artista Carnaval",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-07-03",
+      "end_date": "2026-07-03",
+      "venue": "",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Edición incluida en la programación cultural de 2026. Se conserva como referencia del calendario anual; la siguiente edición requiere anuncio del organizador.",
+      "sources": [
+        {
+          "url": "https://fundacionculturalpuntaarenas.cl/event/show-artista-carnaval/",
+          "type": "Calendario oficial de la Fundación Municipal de Cultura"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "guide": "/eventos/carnaval-de-invierno/"
+    },
+    {
+      "id": "carnaval-de-invierno-30-anos",
+      "name": "Carnaval de Invierno 30 años",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-07-04",
+      "end_date": "2026-07-05",
+      "venue": "",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Edición incluida en la programación cultural de 2026. Se conserva como referencia del calendario anual; la siguiente edición requiere anuncio del organizador.",
+      "sources": [
+        {
+          "url": "https://fundacionculturalpuntaarenas.cl/event/carnaval-de-invierno-30-anos/",
+          "type": "Calendario oficial de la Fundación Municipal de Cultura"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "guide": "/eventos/carnaval-de-invierno/"
+    },
+    {
+      "id": "maraton-aniversario-bt-performance",
+      "name": "Maratón Aniversario BT Performance",
+      "category": "Deporte y aire libre",
+      "start_date": "2026-07-12",
+      "end_date": "",
+      "venue": "Canchas de la Costanera",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Edición anunciada con distancias de 3, 6 y 12 km. Aunque el nombre comercial usa maratón, no corresponde a una prueba de 42,195 km.",
+      "sources": [
+        {
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/maraton-aniversario-bt-performance-2026-25584",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "feria-invernadas-de-emprendedores",
+      "name": "Feria Invernadas de emprendedores",
+      "category": "Ferias, compras y gastronomía",
+      "start_date": "2026-07-13",
+      "end_date": "2026-07-19",
+      "venue": "Mall Espacio Urbano Pionero",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Feria de manufactura y emprendimiento regional dentro del calendario de invierno.",
+      "sources": [
+        {
+          "url": "https://www.elpinguino.com/entretencion/feria-invernadas-2026-se-toma-el-mall-espacio-urbano-con-diez-emprendimientos-de-manufactura-100-magallanica/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "10a-corrida-nocturna-familiar",
+      "name": "10ª Corrida Nocturna Familiar",
+      "category": "Deporte y aire libre",
+      "start_date": "2026-07-25",
+      "end_date": "",
+      "venue": "Costanera · sector Quinto Centenario",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Edición 2026 con distancias de 2,5, 5 y 10 km. La próxima edición aún requiere anuncio.",
+      "sources": [
+        {
+          "url": "https://www.radiopresidenteibanez.cl/web/se-realizara-la-10-version-de-la-corrida-nocturna-familiar-de-punta-arenas/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "xlv-festival-folclorico-en-la-patagonia",
+      "name": "XLV Festival Folclórico en la Patagonia",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-07-30",
+      "end_date": "2026-08-01",
+      "venue": "",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Edición incluida en la programación cultural de 2026. Se conserva como referencia del calendario anual; la siguiente edición requiere anuncio del organizador.",
+      "sources": [
+        {
+          "url": "https://fundacionculturalpuntaarenas.cl/event/xlv-festival-folclorico-en-la-patagonia/",
+          "type": "Calendario oficial de la Fundación Municipal de Cultura"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "guide": "/eventos/festival-folclorico/"
+    },
+    {
+      "id": "feria-laboral-turistica",
+      "name": "Feria Laboral Turística",
+      "category": "Ferias, compras y gastronomía",
+      "start_date": "2026-08-07",
+      "end_date": "",
+      "venue": "INACAP",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Convocatoria de empleo vinculada al turismo, anunciada para agosto. Edición pasada; no equivale a una feria de compras.",
+      "sources": [
+        {
+          "url": "https://radiomagallanes.cl/municipio-de-punta-arenas-anuncia-nutrida-agenda-de-ferias-y-eventos-para-impulsar-el-empleo-y-el-emprendimiento-local-en-el-segundo-semestre-de-2026/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "feria-del-libro-dinko-pavlov-xxviii",
+      "name": "Feria del Libro Dinko Pavlov · XXVIII",
+      "category": "Ferias, compras y gastronomía",
+      "start_date": "2026-08-21",
+      "end_date": "2026-08-23",
+      "venue": "Centro Cultural y Biblioteca Pública 114",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Libros, encuentros literarios y actividades de lectura. Revisar programación por sede en cada nueva edición.",
+      "sources": [
+        {
+          "url": "https://radiopolar.cms-mspress.com/xxviii-feria-libro-dinko-pavlov-reunio-mil-personas-punta-arenas",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "feria-de-servicios-para-personas-mayores",
+      "name": "Feria de Servicios para Personas Mayores",
+      "category": "Familia y espectáculos",
+      "start_date": "2026-08-23",
+      "end_date": "",
+      "venue": "Zona Franca",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Feria de atención y servicios anunciada para agosto. Consultar nueva convocatoria antes de desplazarse.",
+      "sources": [
+        {
+          "url": "https://radiomagallanes.cl/municipio-de-punta-arenas-anuncia-nutrida-agenda-de-ferias-y-eventos-para-impulsar-el-empleo-y-el-emprendimiento-local-en-el-segundo-semestre-de-2026/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "encuentro-folclorico-chilote-patagonico-adolfo-nancuante-xxxvii",
+      "name": "Encuentro Folclórico Chilote Patagónico Adolfo Nancuante · XXXVII",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-08-28",
+      "end_date": "2026-08-29",
+      "venue": "",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Encuentro de tradición chilota y patagónica. Edición 2026 pasada, siguiente fecha pendiente.",
+      "sources": [
+        {
+          "url": "https://www.elpinguino.com/cultura/punta-arenas-vivira-la-xxxvii-version-del-encuentro-folclorico-chilote-patagonico-adolfo-nancuante/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "festival-ruido-austral",
+      "name": "Festival Ruido Austral",
+      "category": "Música y conciertos",
+      "start_date": "2026-08-29",
+      "end_date": "",
+      "venue": "Teatro Municipal José Bohr",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Festival de música regional con seis bandas locales y Sinergia. Edición pasada documentada por el Ministerio de las Culturas.",
+      "sources": [
+        {
+          "url": "https://www.cultura.gob.cl/agendacultural/festival-ruido-austral-2026-celebra-a-la-musica-regional-con-seis-bandas-locales-y-sinergia/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "expo-empanadas",
+      "name": "Expo Empanadas",
+      "category": "Ferias, compras y gastronomía",
+      "start_date": "2026-09-01",
+      "end_date": "",
+      "venue": "Sede por corroborar",
+      "scope": "Punta Arenas",
+      "status": "Realización por corroborar",
+      "description": "Fecha del anuncio municipal. El registro de esta convocatoria no acredita por sí solo que se haya realizado ni confirma el recinto.",
+      "sources": [
+        {
+          "url": "https://radiomagallanes.cl/municipio-de-punta-arenas-anuncia-nutrida-agenda-de-ferias-y-eventos-para-impulsar-el-empleo-y-el-emprendimiento-local-en-el-segundo-semestre-de-2026/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "expo-magica-primavera",
+      "name": "Expo Mágica Primavera",
+      "category": "Ferias, compras y gastronomía",
+      "start_date": "2026-10-01",
+      "end_date": "2026-10-10",
+      "venue": "Sala Zonaustral",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Feria documentada en la programación de octubre de Zonaustral.",
+      "sources": [
+        {
+          "url": "https://pepenoticias.cl/zonaustral-se-convierte-en-punto-de-encuentro-para-personas-mayores-durante-octubre/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "festival-de-la-ciencia-y-tecnologia-magallanes",
+      "name": "Festival de la Ciencia y Tecnología · Magallanes",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-10-05",
+      "end_date": "2026-10-11",
+      "venue": "Varios recintos · cierre en Sala Zonaustral",
+      "scope": "Punta Arenas · programación regional",
+      "status": "Edición pasada",
+      "description": "Programa de divulgación científica. La gran feria de cierre forma parte del festival y no se cuenta como otro festival independiente.",
+      "sources": [
+        {
+          "url": "https://cienciaenmagallanes.cl/2026/09/28/preguntar-nos-mueve-magallanes-se-prepara-para-vivir-el-festival-de-la-ciencia-y-tecnologia-2026/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "ix-festival-de-la-voz-del-adulto-mayor",
+      "name": "IX Festival de la Voz del Adulto Mayor",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-10-09",
+      "end_date": "2026-10-10",
+      "venue": "Teatro Municipal José Bohr",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Actividad de la cartelera municipal. Consulta el anuncio específico para el retiro de invitaciones y los cupos; la publicación del programa no garantiza acceso.",
+      "sources": [
+        {
+          "url": "https://www.facebook.com/muni.puq/posts/cartelera-cultural-octubre-noviembre-diciembreya-est%C3%A1-disponible-la-cartelera-cu/1568024485353212/",
+          "type": "Programación municipal reproducida por prensa"
+        },
+        {
+          "url": "https://www.ovejeronoticias.cl/2026/09/se-anuncia-nutrida-cartelera-artistica-para-el-ultimo-trimestre-del-ano-2026-en-punta-arenas/",
+          "type": "Transcripción de fechas y recintos"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "19:00"
+    },
+    {
+      "id": "expo-emergencia",
+      "name": "Expo Emergencia",
+      "category": "Familia y espectáculos",
+      "start_date": "2026-10-16",
+      "end_date": "2026-10-17",
+      "venue": "Mall Espacio Urbano Pionero",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Encuentro de prevención y respuesta a emergencias. Edición anunciada para octubre de 2026.",
+      "sources": [
+        {
+          "url": "https://elinfosur.com/expo-emergencia-llega-a-punta-arenas/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "feria-de-literatura-infantil-y-juvenil-pajaro-azul-iii",
+      "name": "Feria de Literatura Infantil y Juvenil Pájaro Azul · III",
+      "category": "Ferias, compras y gastronomía",
+      "start_date": "2026-10-16",
+      "end_date": "2026-10-18",
+      "venue": "Sala Zonaustral",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Feria literaria para niñas, niños y jóvenes con actividades asociadas.",
+      "sources": [
+        {
+          "url": "https://radiopolar.cms-mspress.com/feria-literatura-infantil-juvenil-pajaro-azul-realizara-zona-franca-punta-arenas",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "feria-de-artes-visuales-caleidoscopio-ii",
+      "name": "Feria de Artes Visuales Caleidoscopio · II",
+      "category": "Ferias, compras y gastronomía",
+      "start_date": "2026-10-17",
+      "end_date": "2026-10-18",
+      "venue": "Facultad de Ingeniería UMAG · avenida Bulnes 01855",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Feria de artistas visuales con venta y exhibición de obras.",
+      "sources": [
+        {
+          "url": "https://radiomagallanes.cl/feria-caleidoscopio-reunira-a-42-artistas-visuales-de-magallanes-en-la-umag/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "solo-por-esta-noche",
+      "name": "Solo por esta noche",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-10-17",
+      "end_date": "",
+      "venue": "Teatro Municipal José Bohr",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Actividad de la cartelera municipal. Consulta el anuncio específico para el retiro de invitaciones y los cupos; la publicación del programa no garantiza acceso.",
+      "sources": [
+        {
+          "url": "https://www.facebook.com/muni.puq/posts/cartelera-cultural-octubre-noviembre-diciembreya-est%C3%A1-disponible-la-cartelera-cu/1568024485353212/",
+          "type": "Programación municipal reproducida por prensa"
+        },
+        {
+          "url": "https://www.ovejeronoticias.cl/2026/09/se-anuncia-nutrida-cartelera-artistica-para-el-ultimo-trimestre-del-ano-2026-en-punta-arenas/",
+          "type": "Transcripción de fechas y recintos"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": ""
+    },
+    {
+      "id": "esa-magallanes-encuentro-de-soluciones-acuicolas",
+      "name": "ESA Magallanes · Encuentro de Soluciones Acuícolas",
+      "category": "Ferias, compras y gastronomía",
+      "start_date": "2026-10-20",
+      "end_date": "",
+      "venue": "Hotel Dreams",
+      "scope": "Punta Arenas",
+      "status": "Edición pasada",
+      "description": "Encuentro profesional del sector acuícola. Requiere consultar inscripción y perfil de asistentes; no se presenta como feria familiar abierta.",
+      "sources": [
+        {
+          "url": "https://www.salmonexpert.cl/esa-magallanes-2026",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "dos-mas-uno-gira-trasandina-2026",
+      "name": "Dos Más Uno - Gira Trasandina 2026",
+      "category": "Música y conciertos",
+      "start_date": "2026-10-22",
+      "end_date": "",
+      "venue": "Gyros Bar",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Presentación anunciada en la cartelera local. Revisa condiciones de acceso, horario y entradas en la publicación del evento.",
+      "sources": [
+        {
+          "url": "https://portaldisc.com/evento/dosmasunogiratrasandinapuntaarenas",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.jaranax.com/evento/magallanes-y-de-la-antartica-chilena/dos-mas-uno-gira-trasandina-2026-1306",
+          "type": "Descubrimiento: directorio"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "20:00",
+      "image_candidates": [
+        {
+          "url": "https://images.portaldisc.com/eventos/22463.jpg?t=1790953663",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": "Avenida Colón 657"
+    },
+    {
+      "id": "jueves-de-espacio-dejavu",
+      "name": "Jueves de Espacio Dejavu",
+      "category": "Fiestas y vida nocturna",
+      "start_date": "2026-10-22",
+      "end_date": "",
+      "venue": "Pub dejavu",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Fiesta anunciada por el productor. Confirma edad mínima, documento de identidad, acceso y condiciones de entrada.",
+      "sources": [
+        {
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/jueves-de-espacio-dejavu-26682",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.jaranax.com/evento/magallanes-y-de-la-antartica-chilena/jueves-de-espacio-dejavu-5910",
+          "type": "Descubrimiento: directorio"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "23:30",
+      "image_candidates": [
+        {
+          "url": "https://tolivmarket-production.s3.sa-east-1.amazonaws.com/events/covers/1ad801ec3ac44b2e1daf37090411e28f.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": "Maipu 403"
+    },
+    {
+      "id": "club-k-presenta-solteros-sin-codigos",
+      "name": "Club K Presenta: Solteros sin Códigos",
+      "category": "Fiestas y vida nocturna",
+      "start_date": "2026-10-23",
+      "end_date": "",
+      "venue": "ClubK",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Fiesta anunciada por el productor. Confirma edad mínima, documento de identidad, acceso y condiciones de entrada.",
+      "sources": [
+        {
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/-club-k-presenta-solteros-sin-codigos-26648",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.jaranax.com/evento/magallanes-y-de-la-antartica-chilena/club-k-presenta-solteros-sin-codigos-4795",
+          "type": "Descubrimiento: directorio"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "23:55",
+      "image_candidates": [
+        {
+          "url": "https://tolivmarket-production.s3.sa-east-1.amazonaws.com/events/covers/1e19ecafade664f423101ae8b65e11d6.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": "Gobernador Carlos Bories 655"
+    },
+    {
+      "id": "gala-intima-veronica-villarroel-e-il-sogno",
+      "name": "Gala Íntima · Verónica Villarroel e Il Sogno",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-10-23",
+      "end_date": "",
+      "venue": "Teatro Municipal José Bohr",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Actividad de la cartelera municipal. Consulta el anuncio específico para el retiro de invitaciones y los cupos; la publicación del programa no garantiza acceso.",
+      "sources": [
+        {
+          "url": "https://www.facebook.com/muni.puq/posts/cartelera-cultural-octubre-noviembre-diciembreya-est%C3%A1-disponible-la-cartelera-cu/1568024485353212/",
+          "type": "Programación municipal reproducida por prensa"
+        },
+        {
+          "url": "https://www.ovejeronoticias.cl/2026/09/se-anuncia-nutrida-cartelera-artistica-para-el-ultimo-trimestre-del-ano-2026-en-punta-arenas/",
+          "type": "Transcripción de fechas y recintos"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "19:00"
+    },
+    {
+      "id": "noche-ranchera-pioneros-del-sur",
+      "name": "Noche Ranchera - Pioneros del Sur",
+      "category": "Música y conciertos",
+      "start_date": "2026-10-23",
+      "end_date": "",
+      "venue": "Broadway Restobar",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Presentación anunciada en la cartelera local. Revisa condiciones de acceso, horario y entradas en la publicación del evento.",
+      "sources": [
+        {
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/noche-ranchera-pioneros-del-sur-26614",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.jaranax.com/evento/magallanes-y-de-la-antartica-chilena/noche-ranchera-pioneros-del-sur-2936",
+          "type": "Descubrimiento: directorio"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "21:30",
+      "image_candidates": [
+        {
+          "url": "https://tolivmarket-production.s3.sa-east-1.amazonaws.com/events/covers/74f88b36dd1c2ae2de7e35c89ddd80a2e75c219881da1aaa674014469499751a.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": "Avenida Presidente Manuel Bulnes 0603"
+    },
+    {
+      "id": "sesiones-aikelab-angelo-escobar-en-punta-arenas",
+      "name": "Sesiones Aikelab: Angelo Escobar en Punta Arenas",
+      "category": "Música y conciertos",
+      "start_date": "2026-10-23",
+      "end_date": "",
+      "venue": "Punta Arenas",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Presentación anunciada en la cartelera local. Revisa condiciones de acceso, horario y entradas en la publicación del evento.",
+      "sources": [
+        {
+          "url": "https://portaldisc.com/evento/angelopuq",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.jaranax.com/evento/magallanes-y-de-la-antartica-chilena/sesiones-aikelab-angelo-escobar-en-punta-arenas-1776",
+          "type": "Descubrimiento: directorio"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "20:00",
+      "image_candidates": [
+        {
+          "url": "https://images.portaldisc.com/eventos/23236.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": ""
+    },
+    {
+      "id": "dia-del-patrimonio-cultural-regional",
+      "name": "Día del Patrimonio Cultural Regional",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-10-24",
+      "end_date": "2026-10-25",
+      "venue": "Varios recintos · consultar programa local",
+      "scope": "Punta Arenas · programación regional",
+      "status": "Próximo",
+      "description": "La convocatoria reúne más de 50 actividades en toda Magallanes, no solo en Punta Arenas. El Teatro Municipal anuncia apertura el 25 de octubre. Confirmar horarios por recinto.",
+      "sources": [
+        {
+          "url": "https://radiomagallanes.cl/mas-de-50-actividades-gratuitas-daran-vida-al-dia-del-patrimonio-regional-en-magallanes/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "memorables",
+      "name": "Memorables",
+      "category": "Música y conciertos",
+      "start_date": "2026-10-24",
+      "end_date": "",
+      "venue": "EL ARRIERO RESTAURANT",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Presentación anunciada en la cartelera local. Revisa condiciones de acceso, horario y entradas en la publicación del evento.",
+      "sources": [
+        {
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/memorables-26270",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.jaranax.com/evento/magallanes-y-de-la-antartica-chilena/memorables-2436",
+          "type": "Descubrimiento: directorio"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "21:00",
+      "image_candidates": [
+        {
+          "url": "https://tolivmarket-production.s3.sa-east-1.amazonaws.com/events/covers/3624c6ad2e71581a3609d98b554decc975babbbe9a1f1d7c8e59baf5b1fa2894.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": "Manantiales 759"
+    },
+    {
+      "id": "punta-arenas-vs-palestino",
+      "name": "Punta Arenas vs Palestino",
+      "category": "Deporte y aire libre",
+      "start_date": "2026-10-24",
+      "end_date": "",
+      "venue": "Gimnasio Fiscal",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Futsal: fecha 11 del Torneo ANFP Clausura 2026. Apertura de puertas a las 20:00; partido a las 21:00. No es un encuentro de fútbol de cancha.",
+      "sources": [
+        {
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/punta-arenas-vs-palestino-26570",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.jaranax.com/evento/magallanes-y-de-la-antartica-chilena/punta-arenas-vs-palestino-4927",
+          "type": "Descubrimiento: directorio"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "21:00",
+      "image_candidates": [
+        {
+          "url": "https://tolivmarket-production.s3.sa-east-1.amazonaws.com/events/covers/4d030ffdc6d9f71e2bbbb29c542c3428.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": "Uruguay 1560"
+    },
+    {
+      "id": "tributo-a-chayanne",
+      "name": "Tributo a Chayanne",
+      "category": "Música y conciertos",
+      "start_date": "2026-10-24",
+      "end_date": "",
+      "venue": "Club Enigma",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Presentación anunciada en la cartelera local. Revisa condiciones de acceso, horario y entradas en la publicación del evento.",
+      "sources": [
+        {
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/-tributo-a-chayanne-26467",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.jaranax.com/evento/magallanes-y-de-la-antartica-chilena/tributo-a-chayanne-2438",
+          "type": "Descubrimiento: directorio"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "22:00",
+      "image_candidates": [
+        {
+          "url": "https://tolivmarket-production.s3.sa-east-1.amazonaws.com/events/covers/3c52d0245780037924dcfbcda0a2702d517f9c86eaef32a5d41c65aed3b087b3.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": "Boliviana 499"
+    },
+    {
+      "id": "tributo-a-leo-mattioli",
+      "name": "Tributo a Leo Mattioli",
+      "category": "Música y conciertos",
+      "start_date": "2026-10-24",
+      "end_date": "",
+      "venue": "Broadway Restobar",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Presentación anunciada en la cartelera local. Revisa condiciones de acceso, horario y entradas en la publicación del evento.",
+      "sources": [
+        {
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/tributo-a-leo-mattioli-26615",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.jaranax.com/evento/magallanes-y-de-la-antartica-chilena/tributo-a-leo-mattioli-2937",
+          "type": "Descubrimiento: directorio"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "21:30",
+      "image_candidates": [
+        {
+          "url": "https://tolivmarket-production.s3.sa-east-1.amazonaws.com/events/covers/97131f79319773c0805dcce0e8eacaa5121280790449da861c4a92cebbc9e7a4.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": "Avenida Presidente Manuel Bulnes 0603"
+    },
+    {
+      "id": "pamela-leiva-comer-rezar-we-r",
+      "name": "Pamela Leiva · Comer Rezar We!@r",
+      "category": "Teatro y humor",
+      "start_date": "2026-10-28",
+      "end_date": "",
+      "venue": "Dreams Punta Arenas · O’Higgins 1235",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Fecha publicada en la cartelera de Dreams. Consultar horario, clasificación por edad, tarifa y disponibilidad directamente en la ticketera.",
+      "sources": [
+        {
+          "url": "https://www.ticketmaster.cl/page/dreams-punta-arenas",
+          "type": "Cartelera oficial de la ticketera"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "fiesta-old-school-reggeaton-pachanga-y-mas",
+      "name": "Fiesta Old school, Reggeatón, Pachanga y más",
+      "category": "Fiestas y vida nocturna",
+      "start_date": "2026-10-30",
+      "end_date": "",
+      "venue": "Gyros Club",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Fiesta anunciada por el productor. Confirma edad mínima, documento de identidad, acceso y condiciones de entrada.",
+      "sources": [
+        {
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/fiesta-old-school-reggeaton-pachanga-y-mas-26628",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.jaranax.com/evento/magallanes-y-de-la-antartica-chilena/fiesta-old-school-reggeaton-pachanga-y-mas-3042",
+          "type": "Descubrimiento: directorio"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "23:00",
+      "image_candidates": [
+        {
+          "url": "https://tolivmarket-production.s3.sa-east-1.amazonaws.com/events/covers/7cca4cfca5c4d932e5310aa38a7b55c0488e8d39fc7f477937720d919f86b301.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": "Avenida Cristobal Colón 657"
+    },
+    {
+      "id": "panamera-club-previa-halloween-edicion-unica",
+      "name": "Panamera Club Previa Halloween — Edición Única",
+      "category": "Fiestas y vida nocturna",
+      "start_date": "2026-10-30",
+      "end_date": "",
+      "venue": "Broadway Club & Terraza",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Fiesta anunciada por el productor. Confirma edad mínima, documento de identidad, acceso y condiciones de entrada.",
+      "sources": [
+        {
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/panamera-club-previa-halloween-edicion-unica-26625",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.jaranax.com/evento/magallanes-y-de-la-antartica-chilena/panamera-club-previa-halloween-edicion-unica-3013",
+          "type": "Descubrimiento: directorio"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "23:00",
+      "image_candidates": [
+        {
+          "url": "https://tolivmarket-production.s3.sa-east-1.amazonaws.com/events/covers/5daf8e846ff2eaab43ee40bed47eb34aa45756ef75fb468fe504ae86ba45f4f4.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": "Avenida Presidente Manuel Bulnes 0603"
+    },
+    {
+      "id": "tributo-a-prince-royce-desde-santiago-en-coyote-restobar",
+      "name": "Tributo a Prince Royce — Desde Santiago en Coyote Restobar",
+      "category": "Música y conciertos",
+      "start_date": "2026-10-30",
+      "end_date": "2026-11-01",
+      "venue": "Coyote Restobar",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Tributo en Coyote Restobar con dos fechas anunciadas: 30 de octubre y 1 de noviembre. Consulta la hora correspondiente a cada presentación.",
+      "sources": [
+        {
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/tributo-a-prince-royce-desde-santiago-en-coyote-restobar-30-de-octubre-y-1-de-noviembre-26584",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.jaranax.com/evento/magallanes-y-de-la-antartica-chilena/tributo-a-prince-royce-desde-santiago-en-coyote-2786",
+          "type": "Descubrimiento: directorio"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "",
+      "image_candidates": [
+        {
+          "url": "https://tolivmarket-production.s3.sa-east-1.amazonaws.com/events/covers/5d72412d3ccaf968f0ee3c59fe845d21223304d107afde26fe9609751547e631.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": "Mejicana 617",
+      "occurrences": [
+        "2026-10-30",
+        "2026-11-01"
+      ]
+    },
+    {
+      "id": "4a-corrida-familiar-por-las-jornadas",
+      "name": "4ª Corrida Familiar por las Jornadas",
+      "category": "Deporte y aire libre",
+      "start_date": "2026-10-31",
+      "end_date": "",
+      "venue": "",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Corrida solidaria anunciada para apoyar las Jornadas por la Rehabilitación. Consultar circuito, horario y forma de inscripción.",
+      "sources": [
+        {
+          "url": "https://pepenoticias.cl/a-fin-de-mes-se-realizara-la-cuarta-version-de-la-corrida-en-apoyo-a-las-jornadas/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "amapola-placer-inmortal",
+      "name": "Amapola, Placer inmortal.",
+      "category": "Fiestas y vida nocturna",
+      "start_date": "2026-10-31",
+      "end_date": "",
+      "venue": "Punta Arenas",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Fiesta anunciada por el productor. Confirma edad mínima, documento de identidad, acceso y condiciones de entrada.",
+      "sources": [
+        {
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/amapola-placer-inmortal-26559",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.jaranax.com/evento/magallanes-y-de-la-antartica-chilena/amapola-placer-inmortal-2459",
+          "type": "Descubrimiento: directorio"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "22:00",
+      "image_candidates": [
+        {
+          "url": "https://tolivmarket-production.s3.sa-east-1.amazonaws.com/events/covers/87d4bffca9d4da814057188e6d2ce2ead653a2d67e8926458d2b56cd132d7ddd.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": ""
+    },
+    {
+      "id": "halloween-after-night-edicion-gyros-bar",
+      "name": "Halloween After Night Edición - Gyros Bar",
+      "category": "Fiestas y vida nocturna",
+      "start_date": "2026-10-31",
+      "end_date": "",
+      "venue": "Gyros Club",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Fiesta anunciada por el productor. Confirma edad mínima, documento de identidad, acceso y condiciones de entrada.",
+      "sources": [
+        {
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/halloween-after-night-edicion-gyros-bar-26650",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.jaranax.com/evento/magallanes-y-de-la-antartica-chilena/halloween-after-night-edicion-gyros-bar-4797",
+          "type": "Descubrimiento: directorio"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "22:00",
+      "image_candidates": [
+        {
+          "url": "https://tolivmarket-production.s3.sa-east-1.amazonaws.com/events/covers/c8e75ea1c2552a0065b80885942a48be.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": "Avenida Cristobal Colón 657"
+    },
+    {
+      "id": "halloween-edition",
+      "name": "Halloween Edition",
+      "category": "Fiestas y vida nocturna",
+      "start_date": "2026-10-31",
+      "end_date": "",
+      "venue": "Círculo Italiano",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Fiesta techno de Club Ibiza anunciada en el Círculo Italiano. El nombre del recinto en los metadatos de la ticketera es impreciso; la descripción identifica esta sede.",
+      "sources": [
+        {
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/halloween-edition-26498",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.jaranax.com/evento/magallanes-y-de-la-antartica-chilena/halloween-edition-2461",
+          "type": "Descubrimiento: directorio"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "22:00",
+      "image_candidates": [
+        {
+          "url": "https://tolivmarket-production.s3.sa-east-1.amazonaws.com/events/covers/2a507b1165c13d05d18c68e88f58a5e1218846862d53f595a9867037633a7a7f.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": "Chiloé 1101"
+    },
+    {
+      "id": "halloween-old-school-902000",
+      "name": "Halloween Old School 90–2000",
+      "category": "Fiestas y vida nocturna",
+      "start_date": "2026-10-31",
+      "end_date": "",
+      "venue": "ENIGMA",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Fiesta anunciada por el productor. Confirma edad mínima, documento de identidad, acceso y condiciones de entrada.",
+      "sources": [
+        {
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/-halloween-old-school-902000-26577",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.jaranax.com/evento/magallanes-y-de-la-antartica-chilena/halloween-old-school-902000-2460",
+          "type": "Descubrimiento: directorio"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "22:00",
+      "image_candidates": [
+        {
+          "url": "https://tolivmarket-production.s3.sa-east-1.amazonaws.com/events/covers/740c3c1be311837ff72cf941101e42de9307fa68195a2d592e2f1e203f04309e.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": "Boliviana 499"
+    },
+    {
+      "id": "hallowfest-2026",
+      "name": "Hallowfest 2026",
+      "category": "Fiestas y vida nocturna",
+      "start_date": "2026-10-31",
+      "end_date": "",
+      "venue": "El Arriero",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Fiesta anunciada por el productor. Confirma edad mínima, documento de identidad, acceso y condiciones de entrada.",
+      "sources": [
+        {
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/hallowfest-2026-26503",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.jaranax.com/evento/magallanes-y-de-la-antartica-chilena/hallowfest-2026-2464",
+          "type": "Descubrimiento: directorio"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "23:00",
+      "image_candidates": [
+        {
+          "url": "https://tolivmarket-production.s3.sa-east-1.amazonaws.com/events/covers/1bccbe72f440be54389930de5cd4ea271d82fd0d72934db7fef08f2692b66bd4.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": "Manantiales 759"
+    },
+    {
+      "id": "la-purga-amaia-x-club-k",
+      "name": "La Purga | Amaia X Club K",
+      "category": "Fiestas y vida nocturna",
+      "start_date": "2026-10-31",
+      "end_date": "",
+      "venue": "CLUB K",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Fiesta anunciada por el productor. Confirma edad mínima, documento de identidad, acceso y condiciones de entrada.",
+      "sources": [
+        {
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/la-purga-amaia-x-club-k-26534",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.jaranax.com/evento/magallanes-y-de-la-antartica-chilena/la-purga-amaia-x-club-k-2470",
+          "type": "Descubrimiento: directorio"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "23:45",
+      "image_candidates": [
+        {
+          "url": "https://tolivmarket-production.s3.sa-east-1.amazonaws.com/events/covers/afa388d92124706d0db710855f9f438741a4bbf84267a677ca7632bfd0f7af6a.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": "Gobernador Carlos Bories 655"
+    },
+    {
+      "id": "adios-viejas-de-mierda-la-despedida",
+      "name": "Adiós Viejas de Mierda · La Despedida",
+      "category": "Teatro y humor",
+      "start_date": "2026-11-01",
+      "end_date": "",
+      "venue": "Dreams Punta Arenas · O’Higgins 1235",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Fecha publicada en la cartelera de Dreams. Consultar horario, clasificación por edad, tarifa y disponibilidad directamente en la ticketera.",
+      "sources": [
+        {
+          "url": "https://www.ticketmaster.cl/page/dreams-punta-arenas",
+          "type": "Cartelera oficial de la ticketera"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "mll-pampa-maldita-2026",
+      "name": "MLL Pampa Maldita - 2026",
+      "category": "Deporte y aire libre",
+      "start_date": "2026-11-01",
+      "end_date": "",
+      "venue": "Sixk Academy (Cap. Guilermos #0691)",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Consulta la programación, bases y condiciones de participación en la publicación del organizador.",
+      "sources": [
+        {
+          "url": "https://welcu.com/magallanes-lucha-libre/mll-pampa-maldita-2026",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.jaranax.com/evento/magallanes-y-de-la-antartica-chilena/mll-pampa-maldita-2026-3242",
+          "type": "Descubrimiento: directorio"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "16:00",
+      "image_candidates": [
+        {
+          "url": "https://cdn.welcu.com/uploads/public/images/flyers/1ea68b6cb1ccc592d1be8cc5741028ac_square.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": ""
+    },
+    {
+      "id": "pablo-bendersky-piano",
+      "name": "Pablo Bendersky · piano",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-11-03",
+      "end_date": "",
+      "venue": "Teatro Municipal José Bohr",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Actividad de la cartelera municipal. Consulta el anuncio específico para el retiro de invitaciones y los cupos; la publicación del programa no garantiza acceso.",
+      "sources": [
+        {
+          "url": "https://www.facebook.com/muni.puq/posts/cartelera-cultural-octubre-noviembre-diciembreya-est%C3%A1-disponible-la-cartelera-cu/1568024485353212/",
+          "type": "Programación municipal reproducida por prensa"
+        },
+        {
+          "url": "https://www.ovejeronoticias.cl/2026/09/se-anuncia-nutrida-cartelera-artistica-para-el-ultimo-trimestre-del-ano-2026-en-punta-arenas/",
+          "type": "Transcripción de fechas y recintos"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "19:00"
+    },
+    {
+      "id": "inti-illimani",
+      "name": "Inti-Illimani",
+      "category": "Música y conciertos",
+      "start_date": "2026-11-05",
+      "end_date": "",
+      "venue": "Dreams Punta Arenas · O’Higgins 1235",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Fecha publicada en la cartelera de Dreams. Consultar horario, clasificación por edad, tarifa y disponibilidad directamente en la ticketera.",
+      "sources": [
+        {
+          "url": "https://www.ticketmaster.cl/page/dreams-punta-arenas",
+          "type": "Cartelera oficial de la ticketera"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "los-nota-lokos-llegan-a-club-k",
+      "name": "Los Nota Lokos Llegan a Club K",
+      "category": "Música y conciertos",
+      "start_date": "2026-11-06",
+      "end_date": "",
+      "venue": "Club K",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Presentación anunciada en la cartelera local. Revisa condiciones de acceso, horario y entradas en la publicación del evento.",
+      "sources": [
+        {
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/-los-nota-lokos-llegan-a-club-k-26598",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.jaranax.com/evento/magallanes-y-de-la-antartica-chilena/los-nota-lokos-llegan-a-club-k-2787",
+          "type": "Descubrimiento: directorio"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "22:55",
+      "image_candidates": [
+        {
+          "url": "https://tolivmarket-production.s3.sa-east-1.amazonaws.com/events/covers/27c030e7f32089442018da7d92f509b58a8ab3d87c48baaa37be4dd276039845.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": "Gobernador Carlos Bories 655"
+    },
+    {
+      "id": "oktobeerfest",
+      "name": "Oktobeerfest",
+      "category": "Ferias, compras y gastronomía",
+      "start_date": "2026-11-06",
+      "end_date": "2026-11-07",
+      "venue": "Gimnasio Sokol",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Encuentro con cerveza, gastronomía y música. Revisa las condiciones de acceso y el programa del productor.",
+      "sources": [
+        {
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/oktobeerfest-26486",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.jaranax.com/evento/magallanes-y-de-la-antartica-chilena/oktobeerfest-2472",
+          "type": "Descubrimiento: directorio"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "16:30",
+      "image_candidates": [
+        {
+          "url": "https://tolivmarket-production.s3.sa-east-1.amazonaws.com/events/covers/60965a983ecd52245a40b36cfec7c220f9b0a66c53b45cfac9fcde5065bb1ade.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": "Monseñor Jose Fagnano 482"
+    },
+    {
+      "id": "la-fiesta-80-s-90-s-de-chile",
+      "name": "La fiesta 80's - 90's de Chile",
+      "category": "Música y conciertos",
+      "start_date": "2026-11-07",
+      "end_date": "",
+      "venue": "Club K",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Presentación anunciada en la cartelera local. Revisa condiciones de acceso, horario y entradas en la publicación del evento.",
+      "sources": [
+        {
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/la-fiesta-80s-90s-de-chile-26351",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.jaranax.com/evento/magallanes-y-de-la-antartica-chilena/la-fiesta-80s-90s-de-chile-2477",
+          "type": "Descubrimiento: directorio"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "23:30",
+      "image_candidates": [
+        {
+          "url": "https://tolivmarket-production.s3.sa-east-1.amazonaws.com/events/covers/a9e1c0b59bc8c6a18f1a5c548daed78a436c0a872c02a564fa1609f78fc6047a.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": "Gobernador Carlos Bories 655"
+    },
+    {
+      "id": "requiem-mozart-de-magallanes-para-el-mundo",
+      "name": "Réquiem Mozart de Magallanes para el mundo",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-11-07",
+      "end_date": "",
+      "venue": "Teatro Municipal José Bohr",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Actividad de la cartelera municipal. Consulta el anuncio específico para el retiro de invitaciones y los cupos; la publicación del programa no garantiza acceso.",
+      "sources": [
+        {
+          "url": "https://www.facebook.com/muni.puq/posts/cartelera-cultural-octubre-noviembre-diciembreya-est%C3%A1-disponible-la-cartelera-cu/1568024485353212/",
+          "type": "Programación municipal reproducida por prensa"
+        },
+        {
+          "url": "https://www.ovejeronoticias.cl/2026/09/se-anuncia-nutrida-cartelera-artistica-para-el-ultimo-trimestre-del-ano-2026-en-punta-arenas/",
+          "type": "Transcripción de fechas y recintos"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "19:00"
+    },
+    {
+      "id": "chofi-y-tapia",
+      "name": "Chofi y Tapia",
+      "category": "Teatro y humor",
+      "start_date": "2026-11-08",
+      "end_date": "",
+      "venue": "Dreams Punta Arenas · O’Higgins 1235",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Fecha publicada en la cartelera de Dreams. Consultar horario, clasificación por edad, tarifa y disponibilidad directamente en la ticketera.",
+      "sources": [
+        {
+          "url": "https://www.ticketmaster.cl/page/dreams-punta-arenas",
+          "type": "Cartelera oficial de la ticketera"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "tributo-31-minutos-tremendo-tulio-show",
+      "name": "Tributo 31 Minutos - Tremendo Tulio Show",
+      "category": "Familia y espectáculos",
+      "start_date": "2026-11-08",
+      "end_date": "",
+      "venue": "Círculo Italiano",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Revisa la edad recomendada y las condiciones de entrada antes de reservar.",
+      "sources": [
+        {
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/tributo-31-minutos-tremendo-tulio-show-26482",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.jaranax.com/evento/magallanes-y-de-la-antartica-chilena/tributo-31-minutos-tremendo-tulio-show-2479",
+          "type": "Descubrimiento: directorio"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "17:00",
+      "image_candidates": [
+        {
+          "url": "https://tolivmarket-production.s3.sa-east-1.amazonaws.com/events/covers/6c536d8eeb61390a7d545a1020602ec945d7bed30596b3c9a4bf3c808c2682a6.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": "Chiloé 1154"
+    },
+    {
+      "id": "discreto-experience-is-back",
+      "name": "Discreto Experience Is Back",
+      "category": "Fiestas y vida nocturna",
+      "start_date": "2026-11-13",
+      "end_date": "",
+      "venue": "DEJAVU",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Fiesta anunciada por el productor. Confirma edad mínima, documento de identidad, acceso y condiciones de entrada.",
+      "sources": [
+        {
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/-discreto-experience-is-back-26624",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.jaranax.com/evento/magallanes-y-de-la-antartica-chilena/discreto-experience-is-back-3014",
+          "type": "Descubrimiento: directorio"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "23:00",
+      "image_candidates": [
+        {
+          "url": "https://tolivmarket-production.s3.sa-east-1.amazonaws.com/events/covers/5867c3b042ee1b3d4f3ece1f7bb998c75cfe14b63a87847497cd7679d4c3975e.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": "Maipú 403"
+    },
+    {
+      "id": "gala-ballet-municipal-carmen-y-peter-pan",
+      "name": "Gala Ballet Municipal · Carmen y Peter Pan",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-11-13",
+      "end_date": "",
+      "venue": "Teatro Municipal José Bohr",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Actividad de la cartelera municipal. Consulta el anuncio específico para el retiro de invitaciones y los cupos; la publicación del programa no garantiza acceso.",
+      "sources": [
+        {
+          "url": "https://www.facebook.com/muni.puq/posts/cartelera-cultural-octubre-noviembre-diciembreya-est%C3%A1-disponible-la-cartelera-cu/1568024485353212/",
+          "type": "Programación municipal reproducida por prensa"
+        },
+        {
+          "url": "https://www.ovejeronoticias.cl/2026/09/se-anuncia-nutrida-cartelera-artistica-para-el-ultimo-trimestre-del-ano-2026-en-punta-arenas/",
+          "type": "Transcripción de fechas y recintos"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "19:00"
+    },
+    {
+      "id": "noche-de-los-museos",
+      "name": "Noche de los Museos",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-11-13",
+      "end_date": "",
+      "venue": "Recintos participantes por confirmar",
+      "scope": "Punta Arenas",
+      "status": "Participación local por confirmar",
+      "description": "Fecha de la convocatoria general. La lista de museos participantes y horarios en Punta Arenas aún requiere corroboración; no se presume que todos abran.",
+      "sources": [
+        {
+          "url": "https://radiomagallanes.cl/punta-arenas-se-prepara-para-celebrar-una-nueva-edicion-del-dia-del-patrimonio-cultural-regional-con-foco-en-la-herencia-chilota/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "del-estrecho-trail-iii-edicion-2026",
+      "name": "Del Estrecho Trail III edición - 2026",
+      "category": "Deporte y aire libre",
+      "start_date": "2026-11-14",
+      "end_date": "",
+      "venue": "Parque del Estrecho - Fuerte Bulnes",
+      "scope": "Comuna de Punta Arenas · sector rural",
+      "status": "Próximo",
+      "description": "Trail en Parque del Estrecho–Fuerte Bulnes: 2K desde 5 años, 8K desde 14 y 21K desde 18. Bases publicadas: CLP 25.000, 50.000 y 65.000, respectivamente, más cargos. Transporte ida y vuelta opcional: CLP 15.000 más cargos. Cupos y tarifas sujetos a consulta en Welcu.",
+      "sources": [
+        {
+          "url": "https://welcu.com/magallanes-trail-runners/del-estrecho-trail-iii-version-2026",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.jaranax.com/evento/magallanes-y-de-la-antartica-chilena/del-estrecho-trail-iii-edicion-2026-3269",
+          "type": "Descubrimiento: directorio"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "09:30",
+      "image_candidates": [
+        {
+          "url": "https://cdn.welcu.com/uploads/public/images/flyers/02d561abaa55de62e1769d4b4777c40b_square.jpeg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": ""
+    },
+    {
+      "id": "gala-coro-de-voces-blancas",
+      "name": "Gala Coro de Voces Blancas",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-11-14",
+      "end_date": "",
+      "venue": "Teatro Municipal José Bohr",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Actividad de la cartelera municipal. Consulta el anuncio específico para el retiro de invitaciones y los cupos; la publicación del programa no garantiza acceso.",
+      "sources": [
+        {
+          "url": "https://www.facebook.com/muni.puq/posts/cartelera-cultural-octubre-noviembre-diciembreya-est%C3%A1-disponible-la-cartelera-cu/1568024485353212/",
+          "type": "Programación municipal reproducida por prensa"
+        },
+        {
+          "url": "https://www.ovejeronoticias.cl/2026/09/se-anuncia-nutrida-cartelera-artistica-para-el-ultimo-trimestre-del-ano-2026-en-punta-arenas/",
+          "type": "Transcripción de fechas y recintos"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "19:00"
+    },
+    {
+      "id": "primavera-de-los-cuentos-cierre-en-biblioteca",
+      "name": "Primavera de los Cuentos · cierre en biblioteca",
+      "category": "Familia y espectáculos",
+      "start_date": "2026-11-14",
+      "end_date": "",
+      "venue": "Biblioteca Pública 114 · Cancha Rayada 0346",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Festival de narración oral con actividades en octubre y noviembre. Cierre público anunciado para el 14 de noviembre a las 15:30. Otras funciones educativas pueden tener acceso restringido.",
+      "sources": [
+        {
+          "url": "https://www.elpinguino.com/cultura/festival-primavera-de-los-cuentos-confirma-fechas-y-recintos-de-narracion-oral-en-magallanes/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "15:30"
+    },
+    {
+      "id": "gala-coro-del-teatro-municipal",
+      "name": "Gala Coro del Teatro Municipal",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-11-15",
+      "end_date": "",
+      "venue": "Teatro Municipal José Bohr",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Actividad de la cartelera municipal. Consulta el anuncio específico para el retiro de invitaciones y los cupos; la publicación del programa no garantiza acceso.",
+      "sources": [
+        {
+          "url": "https://www.facebook.com/muni.puq/posts/cartelera-cultural-octubre-noviembre-diciembreya-est%C3%A1-disponible-la-cartelera-cu/1568024485353212/",
+          "type": "Programación municipal reproducida por prensa"
+        },
+        {
+          "url": "https://www.ovejeronoticias.cl/2026/09/se-anuncia-nutrida-cartelera-artistica-para-el-ultimo-trimestre-del-ano-2026-en-punta-arenas/",
+          "type": "Transcripción de fechas y recintos"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "19:00"
+    },
+    {
+      "id": "magallanicos-por-el-mundo",
+      "name": "Magallánicos por el mundo",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-11-17",
+      "end_date": "",
+      "venue": "Teatro Municipal José Bohr",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Actividad de la cartelera municipal. Consulta el anuncio específico para el retiro de invitaciones y los cupos; la publicación del programa no garantiza acceso.",
+      "sources": [
+        {
+          "url": "https://www.facebook.com/muni.puq/posts/cartelera-cultural-octubre-noviembre-diciembreya-est%C3%A1-disponible-la-cartelera-cu/1568024485353212/",
+          "type": "Programación municipal reproducida por prensa"
+        },
+        {
+          "url": "https://www.ovejeronoticias.cl/2026/09/se-anuncia-nutrida-cartelera-artistica-para-el-ultimo-trimestre-del-ano-2026-en-punta-arenas/",
+          "type": "Transcripción de fechas y recintos"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "19:00"
+    },
+    {
+      "id": "la-novicia-rebelde-el-eco-de-la-musica",
+      "name": "La Novicia Rebelde · El Eco de la Música",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-11-27",
+      "end_date": "2026-11-29",
+      "venue": "Teatro Municipal José Bohr",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Actividad de la cartelera municipal. Consulta el anuncio específico para el retiro de invitaciones y los cupos; la publicación del programa no garantiza acceso.",
+      "sources": [
+        {
+          "url": "https://www.facebook.com/muni.puq/posts/cartelera-cultural-octubre-noviembre-diciembreya-est%C3%A1-disponible-la-cartelera-cu/1568024485353212/",
+          "type": "Programación municipal reproducida por prensa"
+        },
+        {
+          "url": "https://www.ovejeronoticias.cl/2026/09/se-anuncia-nutrida-cartelera-artistica-para-el-ultimo-trimestre-del-ano-2026-en-punta-arenas/",
+          "type": "Transcripción de fechas y recintos"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "",
+      "occurrences": [
+        "2026-11-27 19:00",
+        "2026-11-28 16:00",
+        "2026-11-28 19:00",
+        "2026-11-29 16:00",
+        "2026-11-29 19:00"
+      ]
+    },
+    {
+      "id": "felipe-browne-claroscuro",
+      "name": "Felipe Browne · Claroscuro",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-12-01",
+      "end_date": "",
+      "venue": "Teatro Municipal José Bohr",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Actividad de la cartelera municipal. Consulta el anuncio específico para el retiro de invitaciones y los cupos; la publicación del programa no garantiza acceso.",
+      "sources": [
+        {
+          "url": "https://www.facebook.com/muni.puq/posts/cartelera-cultural-octubre-noviembre-diciembreya-est%C3%A1-disponible-la-cartelera-cu/1568024485353212/",
+          "type": "Programación municipal reproducida por prensa"
+        },
+        {
+          "url": "https://www.ovejeronoticias.cl/2026/09/se-anuncia-nutrida-cartelera-artistica-para-el-ultimo-trimestre-del-ano-2026-en-punta-arenas/",
+          "type": "Transcripción de fechas y recintos"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "19:00"
+    },
+    {
+      "id": "la-rata-bluesera-duo-gira-punta-arenas",
+      "name": "La Rata Bluesera Dúo · gira en Punta Arenas",
+      "category": "Música y conciertos",
+      "start_date": "2026-12-02",
+      "end_date": "2026-12-05",
+      "venue": "Olé Restobar / Bar Bulnes / Bar Birra",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Tres conciertos de una misma gira: 2 de diciembre en Olé Restobar, 3 en Bar Bulnes y 5 en Bar Birra. Cada fecha tiene su propio enlace de entradas.",
+      "sources": [
+        {
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/la-rata-bluesera-duo-ole-restobar-26526",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/la-rata-bluesera-duo-bar-bulnes-26527",
+          "type": "Ticketera del evento"
+        },
+        {
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/la-rata-bluesera-duo-bar-birra-26529",
+          "type": "Ticketera del evento"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "",
+      "image_candidates": [
+        {
+          "url": "https://tolivmarket-production.s3.sa-east-1.amazonaws.com/events/covers/1fdad4979dc21ffce57eb5585066b6c41c8efa7802c5c889f10905563813417c.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        },
+        {
+          "url": "https://tolivmarket-production.s3.sa-east-1.amazonaws.com/events/covers/6326a7f53bed75c475ac01f75c0484f19afaa23d7a36061d963061e08377f554.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        },
+        {
+          "url": "https://tolivmarket-production.s3.sa-east-1.amazonaws.com/events/covers/58506f03ba000fe054fbae45b84b90fce612346a093cbf2fa149dd1c0a708b10.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": "",
+      "occurrences": [
+        {
+          "date": "2026-12-02",
+          "time": "22:00",
+          "venue": "Olé Restobar",
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/la-rata-bluesera-duo-ole-restobar-26526"
+        },
+        {
+          "date": "2026-12-03",
+          "time": "22:00",
+          "venue": "Bar Bulnes",
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/la-rata-bluesera-duo-bar-bulnes-26527"
+        },
+        {
+          "date": "2026-12-05",
+          "time": "22:00",
+          "venue": "Bar Birra",
+          "url": "https://www.toliv.com/eventos/chile/punta-arenas/la-rata-bluesera-duo-bar-birra-26529"
+        }
+      ]
+    },
+    {
+      "id": "cierre-de-talleres-del-centro-cultural",
+      "name": "Cierre de talleres del Centro Cultural",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-12-05",
+      "end_date": "2026-12-06",
+      "venue": "Centro Cultural Claudio Paredes Chamorro",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Actividad de la cartelera municipal. Consulta el anuncio específico para el retiro de invitaciones y los cupos; la publicación del programa no garantiza acceso.",
+      "sources": [
+        {
+          "url": "https://www.facebook.com/muni.puq/posts/cartelera-cultural-octubre-noviembre-diciembreya-est%C3%A1-disponible-la-cartelera-cu/1568024485353212/",
+          "type": "Programación municipal reproducida por prensa"
+        },
+        {
+          "url": "https://www.ovejeronoticias.cl/2026/09/se-anuncia-nutrida-cartelera-artistica-para-el-ultimo-trimestre-del-ano-2026-en-punta-arenas/",
+          "type": "Transcripción de fechas y recintos"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": ""
+    },
+    {
+      "id": "encendido-del-arbol",
+      "name": "Encendido del Árbol",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-12-07",
+      "end_date": "",
+      "venue": "Avenida Bulnes · actividad con Edelmag",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Actividad de la cartelera municipal. Consulta el anuncio específico para el retiro de invitaciones y los cupos; la publicación del programa no garantiza acceso.",
+      "sources": [
+        {
+          "url": "https://www.facebook.com/muni.puq/posts/cartelera-cultural-octubre-noviembre-diciembreya-est%C3%A1-disponible-la-cartelera-cu/1568024485353212/",
+          "type": "Programación municipal reproducida por prensa"
+        },
+        {
+          "url": "https://www.ovejeronoticias.cl/2026/09/se-anuncia-nutrida-cartelera-artistica-para-el-ultimo-trimestre-del-ano-2026-en-punta-arenas/",
+          "type": "Transcripción de fechas y recintos"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": ""
+    },
+    {
+      "id": "cierre-de-talleres-emac",
+      "name": "Cierre de talleres EMAC",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-12-10",
+      "end_date": "",
+      "venue": "Centro Cultural Claudio Paredes Chamorro",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Actividad de la cartelera municipal. Consulta el anuncio específico para el retiro de invitaciones y los cupos; la publicación del programa no garantiza acceso.",
+      "sources": [
+        {
+          "url": "https://www.facebook.com/muni.puq/posts/cartelera-cultural-octubre-noviembre-diciembreya-est%C3%A1-disponible-la-cartelera-cu/1568024485353212/",
+          "type": "Programación municipal reproducida por prensa"
+        },
+        {
+          "url": "https://www.ovejeronoticias.cl/2026/09/se-anuncia-nutrida-cartelera-artistica-para-el-ultimo-trimestre-del-ano-2026-en-punta-arenas/",
+          "type": "Transcripción de fechas y recintos"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": ""
+    },
+    {
+      "id": "concierto-de-tango",
+      "name": "Concierto de tango",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-12-11",
+      "end_date": "",
+      "venue": "Centro Cultural Claudio Paredes Chamorro",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Actividad de la cartelera municipal. Consulta el anuncio específico para el retiro de invitaciones y los cupos; la publicación del programa no garantiza acceso.",
+      "sources": [
+        {
+          "url": "https://www.facebook.com/muni.puq/posts/cartelera-cultural-octubre-noviembre-diciembreya-est%C3%A1-disponible-la-cartelera-cu/1568024485353212/",
+          "type": "Programación municipal reproducida por prensa"
+        },
+        {
+          "url": "https://www.ovejeronoticias.cl/2026/09/se-anuncia-nutrida-cartelera-artistica-para-el-ultimo-trimestre-del-ano-2026-en-punta-arenas/",
+          "type": "Transcripción de fechas y recintos"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "19:00"
+    },
+    {
+      "id": "jazz-de-navidad-la-difusa",
+      "name": "Jazz de Navidad · La Difusa",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-12-12",
+      "end_date": "",
+      "venue": "Centro Cultural Claudio Paredes Chamorro",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Actividad de la cartelera municipal. Consulta el anuncio específico para el retiro de invitaciones y los cupos; la publicación del programa no garantiza acceso.",
+      "sources": [
+        {
+          "url": "https://www.facebook.com/muni.puq/posts/cartelera-cultural-octubre-noviembre-diciembreya-est%C3%A1-disponible-la-cartelera-cu/1568024485353212/",
+          "type": "Programación municipal reproducida por prensa"
+        },
+        {
+          "url": "https://www.ovejeronoticias.cl/2026/09/se-anuncia-nutrida-cartelera-artistica-para-el-ultimo-trimestre-del-ano-2026-en-punta-arenas/",
+          "type": "Transcripción de fechas y recintos"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "19:00"
+    },
+    {
+      "id": "catalina-y-las-bordonas-de-oro",
+      "name": "Catalina y las Bordonas de Oro",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-12-13",
+      "end_date": "",
+      "venue": "Sede indicada como CONF. · confirmar recinto",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Actividad de la cartelera municipal. Consulta el anuncio específico para el retiro de invitaciones y los cupos; la publicación del programa no garantiza acceso.",
+      "sources": [
+        {
+          "url": "https://www.facebook.com/muni.puq/posts/cartelera-cultural-octubre-noviembre-diciembreya-est%C3%A1-disponible-la-cartelera-cu/1568024485353212/",
+          "type": "Programación municipal reproducida por prensa"
+        },
+        {
+          "url": "https://www.ovejeronoticias.cl/2026/09/se-anuncia-nutrida-cartelera-artistica-para-el-ultimo-trimestre-del-ano-2026-en-punta-arenas/",
+          "type": "Transcripción de fechas y recintos"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "20:00"
+    },
+    {
+      "id": "canto-a-magallanes-taller-alturas",
+      "name": "Canto a Magallanes · Taller Alturas",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-12-17",
+      "end_date": "2026-12-18",
+      "venue": "Teatro Municipal José Bohr",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Actividad de la cartelera municipal. Consulta el anuncio específico para el retiro de invitaciones y los cupos; la publicación del programa no garantiza acceso.",
+      "sources": [
+        {
+          "url": "https://www.facebook.com/muni.puq/posts/cartelera-cultural-octubre-noviembre-diciembreya-est%C3%A1-disponible-la-cartelera-cu/1568024485353212/",
+          "type": "Programación municipal reproducida por prensa"
+        },
+        {
+          "url": "https://www.ovejeronoticias.cl/2026/09/se-anuncia-nutrida-cartelera-artistica-para-el-ultimo-trimestre-del-ano-2026-en-punta-arenas/",
+          "type": "Transcripción de fechas y recintos"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "19:00"
+    },
+    {
+      "id": "francisca-valenzuela-tour-maldita",
+      "name": "Francisca Valenzuela · Tour Maldita",
+      "category": "Música y conciertos",
+      "start_date": "2026-12-18",
+      "end_date": "",
+      "venue": "Dreams Punta Arenas · O’Higgins 1235",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Fecha publicada en la cartelera de Dreams. Consultar horario, clasificación por edad, tarifa y disponibilidad directamente en la ticketera.",
+      "sources": [
+        {
+          "url": "https://www.ticketmaster.cl/page/dreams-punta-arenas",
+          "type": "Cartelera oficial de la ticketera"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "gala-ballet-folklorico-municipal",
+      "name": "Gala Ballet Folklórico Municipal",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-12-19",
+      "end_date": "",
+      "venue": "Teatro Municipal José Bohr",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Actividad de la cartelera municipal. Consulta el anuncio específico para el retiro de invitaciones y los cupos; la publicación del programa no garantiza acceso.",
+      "sources": [
+        {
+          "url": "https://www.facebook.com/muni.puq/posts/cartelera-cultural-octubre-noviembre-diciembreya-est%C3%A1-disponible-la-cartelera-cu/1568024485353212/",
+          "type": "Programación municipal reproducida por prensa"
+        },
+        {
+          "url": "https://www.ovejeronoticias.cl/2026/09/se-anuncia-nutrida-cartelera-artistica-para-el-ultimo-trimestre-del-ano-2026-en-punta-arenas/",
+          "type": "Transcripción de fechas y recintos"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "19:00"
+    },
+    {
+      "id": "orquesta-latinoamericana-municipal-fantasia-austral",
+      "name": "Orquesta Latinoamericana Municipal · Fantasía Austral",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "2026-12-20",
+      "end_date": "",
+      "venue": "Teatro Municipal José Bohr",
+      "scope": "Punta Arenas",
+      "status": "Próximo",
+      "description": "Actividad de la cartelera municipal. Consulta el anuncio específico para el retiro de invitaciones y los cupos; la publicación del programa no garantiza acceso.",
+      "sources": [
+        {
+          "url": "https://www.facebook.com/muni.puq/posts/cartelera-cultural-octubre-noviembre-diciembreya-est%C3%A1-disponible-la-cartelera-cu/1568024485353212/",
+          "type": "Programación municipal reproducida por prensa"
+        },
+        {
+          "url": "https://www.ovejeronoticias.cl/2026/09/se-anuncia-nutrida-cartelera-artistica-para-el-ultimo-trimestre-del-ano-2026-en-punta-arenas/",
+          "type": "Transcripción de fechas y recintos"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "19:00"
+    },
+    {
+      "id": "sunrise-world-ano-nuevo-2027",
+      "name": "Sunrise World — Año Nuevo 2027",
+      "category": "Fiestas y vida nocturna",
+      "start_date": "2026-12-31",
+      "end_date": "",
+      "venue": "El Arriero Restaurant",
+      "scope": "Punta Arenas",
+      "status": "Por corroborar",
+      "description": "Fiesta de Año Nuevo encontrada en un directorio. Falta corroborar publicación oficial, horario y venta de entradas; no se trata como fecha confirmada.",
+      "sources": [
+        {
+          "url": "https://www.jaranax.com/evento/magallanes-y-de-la-antartica-chilena/sunrise-world-ano-nuevo-2027-2503",
+          "type": "Directorio; pendiente de corroborar"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "time": "",
+      "image_candidates": [
+        {
+          "url": "https://tolivmarket-production.s3.sa-east-1.amazonaws.com/events/covers/b4c58581534d54f23d2c421708fc13d36fe5cf606c22456abe514ae0f61fb67a.jpg",
+          "subject": "Afiche asociado al evento en el directorio",
+          "permission": "Pendiente de autorización y revisión visual; no publicado"
+        }
+      ],
+      "address": "Manantiales 759"
+    },
+    {
+      "id": "patagonia-running-festival",
+      "name": "Patagonia Running Festival",
+      "category": "Deporte y aire libre",
+      "start_date": "2027-04-24",
+      "end_date": "",
+      "venue": "Torres del Paine",
+      "scope": "Fuera de Punta Arenas · Torres del Paine",
+      "status": "Próximo",
+      "description": "Convocatoria de running en Torres del Paine. Corroborar la edición y fecha al inscribirse; se muestra aparte del calendario urbano.",
+      "sources": [
+        {
+          "url": "https://patagoniarunningfestival.com/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "patagonian-international-marathon",
+      "name": "Patagonian International Marathon",
+      "category": "Deporte y aire libre",
+      "start_date": "2027-09-04",
+      "end_date": "2027-09-05",
+      "venue": "Sector Torres del Paine · consultar circuito",
+      "scope": "Fuera de Punta Arenas · Torres del Paine",
+      "status": "Próximo",
+      "description": "Edición 2027 anunciada. La prueba no se realiza en la ciudad de Punta Arenas; requiere planificación de alojamiento y traslado propios.",
+      "sources": [
+        {
+          "url": "https://www.patagonianinternationalmarathon.com/en/about",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "ultra-paine",
+      "name": "Ultra Paine",
+      "category": "Deporte y aire libre",
+      "start_date": "2027-09-25",
+      "end_date": "",
+      "venue": "Torres del Paine",
+      "scope": "Fuera de Punta Arenas · Torres del Paine",
+      "status": "Próximo",
+      "description": "Carrera de montaña con edición 2027 anunciada. Consultar distancias, cupos y requisitos en la organización.",
+      "sources": [
+        {
+          "url": "https://www.ultrapaine.com/es/about-the-race",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "encuentro-de-acordeonistas-ramon-bahamonde",
+      "name": "Encuentro de Acordeonistas Ramón Bahamonde",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "",
+      "end_date": "",
+      "venue": "",
+      "scope": "Punta Arenas",
+      "status": "Fecha por confirmar",
+      "description": "Edición de agosto de 2026 identificada. Las fuentes difieren en la fecha de cierre (15 o 16 de agosto); confirmar rango antes de publicar fechas exactas.",
+      "sources": [
+        {
+          "url": "https://www.radiopolar.com/carnaval-invierno-2026-fecha-celebrara-30-anos-julio-punta-arenas",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "guide": "/eventos/encuentro-acordeonistas/"
+    },
+    {
+      "id": "expo-mascota",
+      "name": "Expo Mascota",
+      "category": "Familia y espectáculos",
+      "start_date": "",
+      "end_date": "",
+      "venue": "Sede por confirmar",
+      "scope": "Punta Arenas",
+      "status": "Fecha por confirmar",
+      "description": "Anunciada para octubre de 2026 sin día preciso en la fuente consultada. Mantener como convocatoria pendiente de fecha.",
+      "sources": [
+        {
+          "url": "https://radiomagallanes.cl/municipio-de-punta-arenas-anuncia-nutrida-agenda-de-ferias-y-eventos-para-impulsar-el-empleo-y-el-emprendimiento-local-en-el-segundo-semestre-de-2026/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "feria-gourmet-municipal",
+      "name": "Feria Gourmet Municipal",
+      "category": "Ferias, compras y gastronomía",
+      "start_date": "",
+      "end_date": "",
+      "venue": "Recinto variable según convocatoria",
+      "scope": "Punta Arenas",
+      "status": "Fecha por confirmar",
+      "description": "Ciclo de venta y degustación de productores locales documentado durante la temporada 2025–2026. Verificar sede y fecha de cada feria; no es un mercado abierto todos los días.",
+      "sources": [
+        {
+          "url": "https://www.radiopolar.com/feria-gourmet-supera-800-asistentes-punta-arenas-proyecta-cierre-temporada-abril",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "feria-mujer-emprendedora",
+      "name": "Feria Mujer Emprendedora",
+      "category": "Ferias, compras y gastronomía",
+      "start_date": "",
+      "end_date": "",
+      "venue": "Mall Espacio Urbano Pionero",
+      "scope": "Punta Arenas",
+      "status": "Fecha por confirmar",
+      "description": "Ciclo de ferias incluido en el convenio municipal con el centro comercial. No hay una próxima fecha exacta corroborada en este inventario.",
+      "sources": [
+        {
+          "url": "https://www.tiemposur.com.ar/info-general/municipio-y-mall-espacio-urbano-firman-alianza-para-impulsar-emprendimientos",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "feria-de-navidad-de-emprendedores-pionero",
+      "name": "Feria de Navidad de emprendedores · Pionero",
+      "category": "Ferias, compras y gastronomía",
+      "start_date": "",
+      "end_date": "",
+      "venue": "Mall Espacio Urbano Pionero",
+      "scope": "Punta Arenas",
+      "status": "Fecha por confirmar",
+      "description": "Actividad contemplada en la alianza para ferias de emprendimiento. Falta el calendario específico de Navidad 2026.",
+      "sources": [
+        {
+          "url": "https://preview.radiopolar.com/municipio-mall-espacio-urbano-pionero-firman-convenio-fortalecer-ferias-emprendimiento-local",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "fiestas-patrias-programacion-comunal",
+      "name": "Fiestas Patrias · programación comunal",
+      "category": "Festivales, cultura y patrimonio",
+      "start_date": "",
+      "end_date": "",
+      "venue": "Varias sedes",
+      "scope": "Punta Arenas",
+      "status": "Fecha por confirmar",
+      "description": "Celebración anual de septiembre. Las fechas de fondas, desfiles y actividades comerciales deben obtenerse del programa específico; no basta con usar los feriados nacionales.",
+      "sources": [
+        {
+          "url": "https://www.puntaarenas.cl/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "guide": "/eventos/fiestas-patrias/"
+    },
+    {
+      "id": "jornadas-por-la-rehabilitacion-en-magallanes-campana-2026",
+      "name": "Jornadas por la Rehabilitación en Magallanes · campaña 2026",
+      "category": "Familia y espectáculos",
+      "start_date": "",
+      "end_date": "",
+      "venue": "Varias sedes",
+      "scope": "Punta Arenas · programación regional",
+      "status": "Fecha por confirmar",
+      "description": "Campaña con actividades solidarias en la ciudad. Falta corroborar aquí la fecha del cierre de campaña; las corridas asociadas conservan su convocatoria propia.",
+      "sources": [
+        {
+          "url": "https://jornadas.cl/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "trekking-socioeducativo-a-pali-aike",
+      "name": "Trekking socioeducativo a Pali Aike",
+      "category": "Deporte y aire libre",
+      "start_date": "",
+      "end_date": "",
+      "venue": "Parque Nacional Pali Aike · San Gregorio",
+      "scope": "Salida desde Punta Arenas · San Gregorio",
+      "status": "Fecha por confirmar",
+      "description": "Salida municipal para adolescentes de 13 a 18 años: 80 cupos, transporte y alimentación. Inscripción hasta el 23 de octubre a las 23:59. Esa es la fecha límite de postulación, no la fecha de la excursión.",
+      "sources": [
+        {
+          "url": "https://radiomagallanes.cl/punta-arenas-abre-inscripciones-para-trekking-gratuito-al-parque-nacional-pali-aike/",
+          "type": "Prensa local"
+        }
+      ],
+      "checked_at": "2026-10-22"
+    }
+  ],
+  "leads_pending": [
+    {
+      "name": "Patagonia Running IND 2026",
+      "reason": "Solo se encontró contratación de producción; falta convocatoria pública con fecha y recorrido.",
+      "source": "https://static.todolicitaciones.cl/licitacion/935-20-LP26/produccion-patagonia-running-ind-xii-region-2026"
+    },
+    {
+      "name": "Expo Urbana y Fiesta Electrónica 2026",
+      "reason": "Licitación; no acredita por sí sola realización ni fecha pública.",
+      "source": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=eQr7ltWrFrU30ztAmJbOqg%3D%3D"
+    },
+    {
+      "name": "Tierra Fest",
+      "reason": "Participación documentada, pero sin fecha exacta de la edición en la fuente revisada.",
+      "source": "https://comunidadesportal.cl/noticias/comunidades-portal-promueve-la-educacion-ambiental-en-el-festival-micelio-austral-2026-y-tierra-fest-en-punta-arenas/"
+    },
+    {
+      "name": "Caminata Zombie",
+      "reason": "Mencionada como próxima, sin fecha exacta corroborada.",
+      "source": "https://radiopolar.cms-mspress.com/artistas-magallanes-invitan-feria-caleidoscopio-proxima-caminata-zombie-punta-arenas"
+    },
+    {
+      "name": "Torneo solidario de pádel por las Jornadas",
+      "reason": "Falta extraer fecha, recinto y bases de la convocatoria.",
+      "source": "https://radiopolar.cms-mspress.com/comunidad-padel-magallanes-organiza-torneo-solidario-beneficio-jornadas-rehabilitacion"
+    },
+    {
+      "name": "Semana de la Pyme · Zonaustral",
+      "reason": "Convocatoria encontrada; falta consolidar las fechas de cada feria.",
+      "source": "https://www.radiopolar.com/zonaustral-celebra-semana-pyme-feria-emprendedores-actividades-familia"
+    },
+    {
+      "name": "Bunkasai",
+      "reason": "Falta corroboración directa del organizador y programa de la edición.",
+      "source": "https://embed-rech-01.dialog.cm/pinguinomultimedia/docs/09-08-2026"
+    }
+  ]
+}
