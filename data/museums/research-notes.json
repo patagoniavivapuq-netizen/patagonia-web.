@@ -106,5 +106,10 @@
     "recuerdo": "Tarifas de redes y RMC difieren; no se fija una tarifa única.",
     "origenes": "Colón 497 frente a Armando Sanhueza 110 en fichas anteriores. Ambas referencias documentadas; mapa Colón 497 y confirmación al canal oficial.",
     "militar": "Itinerante sin inmueble público fijo; mapa solo referencia administrativa."
+  },
+  "external_link_checks": {
+    "nao": "Sitio histórico www.naovictoria.cl devuelve HTTP 410: retirado del botón público, se conserva como referencia de investigación.",
+    "bomberos": "Ficha RMC devuelve HTTP 404 a cliente directo: botón institucional sustituido por la publicación del Gobierno Regional sobre la reapertura del cuartel.",
+    "other_restrictions": "Río Seco y Keu Ken accesibles en navegador pese a respuestas 403/406 a cliente directo; no se consideran enlaces rotos. UMAG devolvió 503: confirmar disponibilidad, ruta oficial acreditada."
   }
 }

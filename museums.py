@@ -70,7 +70,8 @@ def render(root, out, site_head, site_footer, write):
             continue
         night = section == 'vida-nocturna'
         title = 'Museos y patrimonio'
-        featured = sorted(vv, key=lambda v: (-len(images(v)), v['name']))[:8]
+        priority = ['rio-seco','borgatello','nao','estrecho','recuerdo','naval','regional','inach']
+        featured = sorted(vv, key=lambda v: priority.index(v['id']) if v['id'] in priority else len(priority))[:8]
         hero = next((images(v)[0]['path'] for v in featured if images(v)), '')
         s = head(title) + '<main class="gast-shell" id="inicio"><section class="gast-hero"' + ((' style="--gast-hero-image:url(\'/' + E(hero, quote=True) + '\')"') if hero else '') + '><div class="gast-hero-inner"><p class="gast-eyebrow">PATAGONIA VIVA · PUNTA ARENAS</p><h1>' + ('La noche austral.<br><em>A tu manera.</em>' if night else 'Mirar Punta Arenas.<br><em>Con otros ojos.</em>') + '</h1><p class="gast-intro">' + ('Barras, cervezas y música para encontrar tu forma de salir en Punta Arenas. Explora cada propuesta y organiza la vuelta antes de empezar la noche.' if night else 'Museos, colecciones y palacios para conocer Magallanes. Descubre cada historia, mira sus fotografías y prepara la visita con contactos y mapas propios.') + '</p><div class="gast-stats"><span><strong>' + str(len(vv)) + '</strong> espacios investigados</span><span><strong>' + str(sum(bool(images(v)) for v in vv)) + '</strong> espacios con fotos</span><span>Guía local de Punta Arenas</span></div><a class="gast-cta" href="#catalogo">Explorar la guía <span aria-hidden="true">↓</span></a></div></section>'
         s += '<section class="gast-featured" aria-labelledby="featured-title"><div class="gast-section-heading"><div><p class="gast-eyebrow">UNA PRIMERA SELECCIÓN</p><h2 id="featured-title">' + ('Encuentra tu noche.' if night else 'Muchas formas de conocer Magallanes.') + '</h2><p>' + ('Pubs, cervecerías, coctelería y música.' if night else 'Historia, naturaleza, ciencia, patrimonio y creación austral.') + '</p></div><div class="carousel-controls"><button type="button" data-carousel-prev aria-label="Ver lugares anteriores">←</button><button type="button" data-carousel-next aria-label="Ver más lugares">→</button></div></div><div class="feature-track" id="gastronomia-carousel" tabindex="0" aria-label="Establecimientos destacados">' + ''.join(card(v, True) for v in featured) + '</div></section>'
@@ -101,7 +102,7 @@ def render(root, out, site_head, site_footer, write):
             for field, label in [('hours', 'Horarios'), ('price', 'Entrada y precios'), ('accessibility', 'Accesibilidad'), ('status', 'Estado de visita')]:
                 if v.get(field):
                     s += '<p><strong>' + label + '</strong><br>' + E(v[field]) + '</p>'
-            for key, label in [('website', 'Sitio oficial'), ('instagram', 'Instagram oficial'), ('reservation', 'Reservas oficiales'), ('whatsapp', 'WhatsApp'), ('facebook', 'Facebook'), ('virtual', 'Recorrido virtual'), ('guide', 'Guía y plano oficial')]:
+            for key, label in [('website', 'Sitio oficial'), ('information', 'Información institucional'), ('instagram', 'Instagram oficial'), ('reservation', 'Reservas oficiales'), ('whatsapp', 'WhatsApp'), ('facebook', 'Facebook'), ('virtual', 'Recorrido virtual'), ('guide', 'Guía y plano oficial')]:
                 val = contact.get(key)
                 if val and val.startswith('https://'):
                     s += '<a class="btn" href="' + E(val, quote=True) + '" target="_blank" rel="noopener noreferrer">' + label + ' ↗</a>'

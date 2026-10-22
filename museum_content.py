@@ -430,7 +430,7 @@ venue('bomberos','Salón de Honor y Museo Bomba Magallanes','museo-bomba-magalla
 'Presidente Julio Roca 826, Primera Compañía de Bomberos de Punta Arenas',
 ['Patrimonio bomberil','Salón de Honor','Coordinar visita'],
 'La memoria de la Primera Compañía en un cuartel activo: documentos, objetos y un Salón de Honor ligado a la historia cívica de Punta Arenas.',
-{'website':'https://www.registromuseoschile.cl/663/w3-article-98577.html','phone':'+56 61 222 3133','email':'bombamagallanes.director@gmail.com'},
+{'information':'https://www.goremagallanes.cl/vuelve-la-bomba-magallanes-autoridades-inauguran-restaurada-y-renovada-primera-compania-de-bomberos-de-punta-arenas/','phone':'+56 61 222 3133','email':'bombamagallanes.director@gmail.com'},
 'RMC informa atención del cuartel de 09:00 a 18:00. No debe entenderse como visita museográfica garantizada: coordinar apertura del salón y disponibilidad de personal.',
 'Ingreso gratuito según RMC. Visitas sujetas a disponibilidad y funcionamiento del cuartel.',
 '''Un patrimonio que sigue en servicio
@@ -708,7 +708,7 @@ venue('nao','Museo Nao Victoria','museo-nao-victoria','Costa norte',
 'Kilómetro 7,5 norte, ruta Y-565, sector Tres Puentes',
 ['Réplicas a escala real','Historia marítima','Aire libre'],
 'Subir a bordo de réplicas de embarcaciones históricas para imaginar viajes, trabajo y supervivencia en los mares australes.',
-{'website':'https://www.naovictoria.cl/','phone':'+56 9 9640 0772','email':'naovictoriamuseo@gmail.com'},
+{'phone':'+56 9 9640 0772','email':'naovictoriamuseo@gmail.com'},
 'Confirmar horario directamente antes de ir. Tripadvisor muestra jornadas amplias, pero no se ha podido contrastar una parrilla vigente en el sitio oficial.',
 'Entrada de pago. Consultar tarifa vigente, categorías y medios de pago; las cifras históricas publicadas en reseñas no se toman como tarifario actual.',
 '''La historia a escala humana
