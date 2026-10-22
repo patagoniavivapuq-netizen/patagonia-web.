@@ -1,0 +1,49 @@
+{
+  "checked_at": "2026-10-22",
+  "scope": "Iglesias, Cultura y Familia; existing dining, nightlife, museum details, transport and events preserved byte for byte.",
+  "decisions": [
+    {
+      "place": "Biblioteca Gabriela Mistral",
+      "decision": "Use 21 de Mayo 2080 corner Latorre: 2024 opening report plus 2026 reporting place it by Liceo Industrial. SNBP entry still gives older Colon address.",
+      "sources": [
+        "https://www.radiopolar.com/biblioteca-municipal-gabriela-mistral-inauguro-instalaciones",
+        "https://laprensaaustral.cl/2026/02/19/biblioteca-iglesia-y-sede-vecinal-son-algunos-de-los-bienes-en-disputa-entre-el-municipio-y-el-slep/"
+      ]
+    },
+    {
+      "place": "Casa Azul",
+      "decision": "Use Avenida España 1672, new institutional stage described 2026; do not route to former Colon building."
+    },
+    {
+      "place": "Parque Maria Behety",
+      "decision": "Works visible warning; no assumed unrestricted access. SERVIU 2026 contract end April2027 is projected, not guaranteed reopening."
+    },
+    {
+      "place": "Biblioteca N6 / Rio Seco library",
+      "decision": "No active visitor recommendation: closure/relocation and insufficient current confirmed physical access. Not the N47 library."
+    },
+    {
+      "place": "Patagon Bowling",
+      "decision": "Verified family operator and local324. Not added to nightlife count or duplicated under older BowlingStrike12 identity."
+    },
+    {
+      "place": "Family Park",
+      "decision": "Use genuine Pionero operator reopening and project images; reject national-chain generic interiors and other malls."
+    },
+    {
+      "place": "Fun Times",
+      "decision": "Private-event reservation, not spontaneous daily admission; prominently distinguished."
+    },
+    {
+      "place": "Rally Kart",
+      "decision": "Use Pionero EU reference; older ZF location not counted as second operating venue."
+    },
+    {
+      "place": "Fatima phone",
+      "decision": "Directory phone format inconsistent with Punta Arenas. Omitted rather than corrected by guessing."
+    }
+  ],
+  "external_data": "Schedules, prices, access and events remain subject to operator confirmation. No fixed cinema showtimes or invented WhatsApp links.",
+  "photo_goal": 5,
+  "photo_gaps": "Recorded per venue in docs/civic/verification.json; missing photos are never replaced by unrelated locations."
+}

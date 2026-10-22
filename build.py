@@ -14,6 +14,14 @@ if photo_pack.exists():
    if path.parts[:2] != ('assets','photos') or '..' in path.parts or path.is_absolute():
     raise ValueError('Ruta de foto no válida')
    pack.extract(info, ROOT)
+# Fotografías verificadas de Iglesias, Cultura y Familia, con rutas acotadas.
+for civic_pack in sorted(ROOT.glob('civic-photo-assets*.zip')):
+ with zipfile.ZipFile(civic_pack) as pack:
+  for info in pack.infolist():
+   path=Path(info.filename)
+   if path.parts[:2] != ('assets','civic') or '..' in path.parts or path.is_absolute():
+    raise ValueError('Ruta de fotografía cultural no válida')
+   pack.extract(info, ROOT)
 from media import CATALOG, CATEGORY_PHOTOS, photos_for
 # Biblioteca empaquetada en archivos versionados; rutas estables por local.
 for dining_pack in sorted(ROOT.glob('dining-photo-assets*.zip')):
@@ -352,4 +360,6 @@ render_museums(ROOT, OUT, head, footer, write)
 # Los enlaces de la tanda antigua conservan acceso sin duplicar establecimientos.
 write('/gastronomia/la-luna/', '<!doctype html><html lang="es"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=/gastronomia/la-luna-restaurant/"><link rel="canonical" href="/gastronomia/la-luna-restaurant/"><title>La Luna Restaurant</title></head><body><a href="/gastronomia/la-luna-restaurant/">Abrir la ficha completa de La Luna Restaurant</a></body></html>')
 write('/gastronomia/la-marmita/', head('La Marmita: actividad por confirmar', 'La actividad actual de La Marmita necesita confirmación.', 'article')+'<main class="guide"><h1>La Marmita</h1><p>La actividad actual de este restaurante requiere confirmación. Su ficha histórica se conserva en el inventario de investigación; no se incluye entre los establecimientos activos de la guía.</p><p><a href="/gastronomia/">Explorar restaurantes investigados de Punta Arenas →</a></p></main>'+footer())
+from civic import render as render_civic
+render_civic(ROOT, OUT, head, footer, write)
 print(json.dumps({'categories':len(CATEGORIES),'articles':len(ARTICLES),'html_files':len(list(OUT.rglob('*.html'))),'output':str(OUT)},ensure_ascii=False))

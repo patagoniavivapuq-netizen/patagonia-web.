@@ -1,0 +1,234 @@
+[
+  [
+    "catedral",
+    "Catedral de Punta Arenas",
+    [
+      "https://iglesiademagallanes.cl/magallanes/",
+      "https://es.wikipedia.org/wiki/Catedral_de_Punta_Arenas"
+    ]
+  ],
+  [
+    "auxiliadora",
+    "Santuario María Auxiliadora",
+    [
+      "https://iglesiademagallanes.cl/magallanes/",
+      "https://instituto.salesianos.cl/index.php?Itemid=685&id=74&lang=es&option=com_sppagebuilder&view=page"
+    ]
+  ],
+  [
+    "san-miguel",
+    "Parroquia San Miguel Arcángel",
+    [
+      "https://iglesiademagallanes.cl/magallanes/"
+    ]
+  ],
+  [
+    "cristo-obrero",
+    "Parroquia Cristo Obrero",
+    [
+      "https://iglesiademagallanes.cl/magallanes/"
+    ]
+  ],
+  [
+    "fatima",
+    "Parroquia Nuestra Señora de Fátima",
+    [
+      "https://iglesiademagallanes.cl/magallanes/"
+    ]
+  ],
+  [
+    "santa-teresa",
+    "Parroquia Santa Teresa de Los Andes",
+    [
+      "https://iglesiademagallanes.cl/magallanes/"
+    ]
+  ],
+  [
+    "padre-pio",
+    "Parroquia Padre Pío de Pietrelcina",
+    [
+      "https://iglesiademagallanes.cl/magallanes/"
+    ]
+  ],
+  [
+    "nazareno",
+    "Santuario Jesús Nazareno",
+    [
+      "https://iglesiademagallanes.cl/magallanes/"
+    ]
+  ],
+  [
+    "centro-cultural",
+    "Centro Cultural Claudio Paredes Chamorro",
+    [
+      "https://crespam.org/ruta-costanera/",
+      "https://elmagallanico.com/2024/12/07/centro-cultural-claudio-paredes-cierra-su-ano-con-exposicion-de-fotografia-y-talleres-artisticos/"
+    ]
+  ],
+  [
+    "teatro",
+    "Teatro Municipal José Bohr",
+    [
+      "https://escuelasderock.cultura.gob.cl/festival-ruido-austral-teatro-municipal-de-punta-arenas-jose-bohr-9-de-agosto/"
+    ]
+  ],
+  [
+    "casa-azul",
+    "Casa Azul del Arte",
+    [
+      "https://laprensaaustral.cl/2026/02/28/tras-semanas-de-incertidumbre-anuncian-la-reactivacion-de-la-casa-azul-del-arte/"
+    ]
+  ],
+  [
+    "sala-zonaustral",
+    "Sala Zonaustral",
+    [
+      "https://zonaustral.cl/nosotros/sala-zonaustral/"
+    ]
+  ],
+  [
+    "cine-estrella",
+    "Cine Sala Estrella",
+    [
+      "https://www.cinesalaestrella.com/",
+      "https://www.cinesalaestrella.com/nuestra-historia/"
+    ]
+  ],
+  [
+    "cine-star",
+    "Cine Star Punta Arenas",
+    [
+      "https://zonaustral.cl/tienda/cine-star/",
+      "https://cinestar.cl/Browsing/Cinemas/Details/02"
+    ]
+  ],
+  [
+    "biblioteca-viel",
+    "Biblioteca Pública N°47 Gobernador Viel",
+    [
+      "https://www.bibliotecaspublicas.gob.cl/inmuebles/biblioteca-publica-de-punta-arenas"
+    ]
+  ],
+  [
+    "biblioteca-mistral",
+    "Biblioteca Municipal Gabriela Mistral",
+    [
+      "https://www.radiopolar.com/biblioteca-municipal-gabriela-mistral-inauguro-instalaciones"
+    ]
+  ],
+  [
+    "bowling",
+    "Patagón Bowling",
+    [
+      "https://patagonbowlingpuq.wordpress.com/",
+      "https://www.elpinguino.com/noticia/2018/09/15/zona-franca-inauguro-un--nuevo-espacio-de-bowling"
+    ]
+  ],
+  [
+    "karting",
+    "Rally Kart Punta Arenas",
+    [
+      "https://www.entrekids.cl/actividad-evento/ven-a-correr-en-rally-kart-punta-arenas-eu-1",
+      "https://laprensaaustral.cl/2023/02/21/rally-kart-se-traslado-de-lugar-pero-mantuvo-el-entusiasmo-de-conductores/"
+    ]
+  ],
+  [
+    "hielo",
+    "Pista de Hielo Zonaustral",
+    [
+      "https://zonaustral.cl/nosotros/pista-de-hielo/"
+    ]
+  ],
+  [
+    "fun-times",
+    "Fun Times",
+    [
+      "https://funtimes.cl/"
+    ]
+  ],
+  [
+    "family-park",
+    "Family Park Pionero",
+    [
+      "https://www.espaciourbano.cl/centro-comercial/pionero/tiendas/family-park"
+    ]
+  ],
+  [
+    "chabunco",
+    "Parque Chabunco",
+    [
+      "https://www.conaf.cl/municipalidad-de-punta-arenas-y-conaf-inauguran-obras-de-mejoramiento-en-parque-chabunco/"
+    ]
+  ],
+  [
+    "behety",
+    "Parque María Behety",
+    [
+      "https://serviumagallanes.minvu.gob.cl/noticia/parque-humedal-maria-behety-mejoramiento/"
+    ]
+  ],
+  [
+    "tres-puentes",
+    "Humedal Tres Puentes",
+    [
+      "https://mma.gob.cl/seremi-del-medio-ambiente-se-suma-a-campana-de-limpieza-del-humedal-de-tres-puentes/"
+    ]
+  ],
+  [
+    "reserva-magallanes",
+    "Reserva Nacional Magallanes",
+    [
+      "https://www.conaf.cl/parque_nacionales/reserva-nacional-magallanes/"
+    ]
+  ],
+  [
+    "club-andino",
+    "Club Andino Punta Arenas",
+    [
+      "https://www.clubandino.cl/"
+    ]
+  ],
+  [
+    "lenadura",
+    "Parque Leñadura",
+    [
+      "https://www.cajalosandes.cl/turismo/parques/lenadura"
+    ]
+  ],
+  [
+    "skate",
+    "Skatepark Plaza Quinto Centenario",
+    [
+      "https://www.radiopolar.com/programa-verano-polar-visito-plaza-skate-ciudad",
+      "https://skatedex.com/chile/punta-arenas-park"
+    ]
+  ],
+  [
+    "costanera",
+    "Costanera del Estrecho",
+    [
+      "https://crespam.org/ruta-costanera/"
+    ]
+  ],
+  [
+    "eco-enap",
+    "Ecoparque infantil ENAP",
+    [
+      "https://crespam.org/ruta-costanera/"
+    ]
+  ],
+  [
+    "dinosaurios",
+    "Plaza de los Dinosaurios",
+    [
+      "https://laprensaaustral.cl/2024/05/13/renovacion-de-la-plaza-de-los-dinosaurios-mas-segura-y-duradera/"
+    ]
+  ],
+  [
+    "parque-costanera",
+    "Parque de Juegos Costanera del Estrecho",
+    [
+      "https://laprensaaustral.cl/2025/10/30/con-parvulos-y-estudiantes-inauguraron-parque-costanera-entre-club-hipico-y-velastegui/"
+    ]
+  ]
+]
