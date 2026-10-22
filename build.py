@@ -140,13 +140,51 @@ def showcase_tour(a):
 
  return page+'</div></main>'+footer()
 
+EVENT_STYLE="""<style>
+body:has(.event-feature) {background:#061d1d}
+.event-feature{--gold:#efbc6b;--teal:#38cfcb;max-width:1120px;margin:auto}
+.event-feature .kicker{color:var(--gold);font-size:13px;letter-spacing:.22em;text-transform:uppercase}
+.event-feature h1{font-size:clamp(42px,6vw,77px);line-height:1.03;letter-spacing:-.035em;max-width:970px}
+.event-feature .ec-inline-photo{margin:24px 0 38px;border-radius:23px;overflow:hidden;border:1px solid #38645a;background:#113636;box-shadow:0 18px 48px #0006}
+.event-feature .ec-inline-photo img{display:block;width:100%;height:auto;max-height:580px;object-fit:cover}
+.event-feature .ec-inline-photo figcaption{background:#102d2d;color:#d4e4dd;padding:12px 20px;font-size:13px}
+.event-feature .article-intro{font-size:clamp(19px,2.25vw,26px);line-height:1.62;max-width:850px;color:#f1eee4}
+.event-feature .items{display:grid;grid-template-columns:minmax(0,1fr);gap:20px;margin:35px 0}
+.event-feature .items article{border:1px solid #37655d!important;border-radius:20px!important;background:linear-gradient(135deg,#123b39 0%,#092827 100%)!important;padding:clamp(24px,4vw,42px)!important;margin:0!important;box-shadow:0 8px 20px #0002}
+.event-feature .items article>span{display:inline-flex;align-items:center;justify-content:center;background:var(--gold);color:#122a28;font-size:15px;font-weight:900;border-radius:9px;padding:7px 12px;margin:0 0 15px}
+.event-feature .items article h2{font-size:clamp(24px,2.9vw,34px);line-height:1.15;color:#fff!important;margin:0 0 16px}
+.event-feature .items article p{font-size:17px;line-height:1.85;color:#e0ebe7!important}
+.event-feature .tip{border:2px solid #e1ab5a!important;border-radius:22px!important;background:linear-gradient(135deg,#493015,#241f18)!important;padding:clamp(25px,4vw,40px)!important;color:#fff3db!important}
+.event-feature .tip b{color:#ffd28d!important;font-size:18px}
+.event-feature .tip p{font-size:19px;line-height:1.7;color:#fff3db!important}
+.event-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:28px 0}
+.event-facts>div{background:#0f3c3b;border:1px solid #438177;border-radius:15px;padding:20px;color:#e8f8f3}
+.event-facts small{display:block;color:#ffc879;text-transform:uppercase;letter-spacing:.08em;font-size:11px;font-weight:800;margin-bottom:9px}
+.event-facts strong{font-size:16px;line-height:1.4}
+.event-action{margin:25px 0;padding:25px;background:#11332f;border:1px solid #438177;border-radius:18px}
+.event-action h2{color:#fff!important;margin:0 0 12px}
+.event-action a{display:inline-block;margin:8px 12px 0 0;padding:13px 17px;background:#eabb6a;color:#17322e!important;border-radius:10px;font-weight:800;text-decoration:none}
+@media(max-width:680px){.event-facts{grid-template-columns:1fr}.event-feature .items article{padding:22px!important}}
+</style>"""
+EVENT_FACTS={
+ 'chapuzon':('27 de junio de 2026 · histórico','Costanera del Estrecho · sector Letras','Participación con inscripción oficial'),
+ 'carnaval-de-invierno':('4 y 5 de julio de 2026 · histórico','Costanera del Estrecho','Carros, comparsas y música'),
+ 'festival-folclorico':('30 julio – 1 agosto 2026 · histórico','Gimnasio Confederación Deportiva','Tres jornadas · cartelera por noche')
+}
+def event_facts(a):
+ facts=EVENT_FACTS.get(a['slug'])
+ if not facts:return ''
+ return '<div class="event-facts">'+''.join('<div><small>'+label+'</small><strong>'+E(value)+'</strong></div>' for label,value in zip(('Edición','Lugar','Experiencia'),facts))+'</div>'
+def event_links(a):
+ return '<section class="event-action"><h2>Información oficial y próximas ediciones</h2><p>Las fechas, entradas y condiciones anteriores corresponden a 2026. Para futuras ediciones consulta los anuncios actualizados.</p><a href="https://puntaarenas.cl/" rel="noopener noreferrer" target="_blank">Municipalidad ↗</a><a href="https://fundacionculturalpuntaarenas.cl/" rel="noopener noreferrer" target="_blank">Fundación Cultural ↗</a></section>'
+ 
 # Fichas: imagen bajo título, bloques numerados, foto intercalada y consejo propio.
 for a in ARTICLES:
  cat=a['category'];title=CAT[cat][1];key=article_image(a)
  if cat=='tours' and a['slug'] in FEATURED_TOURS:
   write(url(a),showcase_tour(a))
   continue
- page=head(a['title'],a['intro'],'article')+'<main class="guide" id="inicio"><div class="breadcrumbs"><a href="/">Inicio</a><span> / </span><a href="/'+cat+'/">'+E(title)+'</a></div><p class="kicker">'+E(title)+'</p><h1>'+E(a['title'])+'</h1>'+(event_photo(EVENT_PHOTOS[a['slug']][0],True) if cat=='eventos' and a['slug'] in EVENT_PHOTOS else photo(key,True))+'<p class="article-intro">'+E(a['intro'])+'</p>'
+ page=head(a['title'],a['intro'],'article')+'<main class="guide" id="inicio"><div class="breadcrumbs"><a href="/">Inicio</a><span> / </span><a href="/'+cat+'/">'+E(title)+'</a></div><p class="kicker">'+E(title)+'</p><h1>'+E(a['title'])+'</h1>'+(event_photo(EVENT_PHOTOS[a['slug']][0],True) if cat=='eventos' and a['slug'] in EVENT_PHOTOS else photo(key,True))+'<p class="article-intro">'+E(a['intro'])+'</p>'+(event_facts(a) if cat=='eventos' else '')
  if a['status']:page+='<p class="status-note">'+E(a['status'])+'</p>'
  selected_photos=photos_for(a) if not (cat=='eventos' and a['slug'] in EVENT_PHOTOS) else []
  interleaved={}
@@ -162,6 +200,7 @@ for a in ARTICLES:
    for index,item in enumerate(others,1):
     if i==round(index*len(a['sections'])/(len(others)+1)):page+=event_photo(item)
  page+='</section><aside class="tip"><b>Dato Austral</b><p>'+E(a['tip'])+'</p></aside>'
+ if cat=='eventos' and a['slug'] in EVENT_FACTS:page+=event_links(a)
  if cat=='guia' and a['slug']=='internet-y-esim':
   page+='<section class="related" id="airalo-esim"><p class="kicker">INTERNET PARA TU VIAJE</p><h2>Encuentra una eSIM para Chile y la Patagonia con Airalo</h2><p>Compara planes compatibles con Chile, duración y datos incluidos. Antes de reservar comprueba que tu teléfono admita eSIM y esté desbloqueado. Para un cruce a Argentina verifica si el plan también cubre ese país.</p><div id="airalo-puq-widget" style="min-height:190px;overflow:hidden"></div><p id="airalo-puq-fallback" hidden>No pudimos cargar el comparador. Comprueba tu conexión e inténtalo nuevamente.</p><p class="status-note">Publicidad de afiliado: podemos recibir una comisión por las reservas realizadas mediante este comparador.</p></section>'
   page+='<script>(function(){var mount=document.getElementById("airalo-puq-widget");if(!mount)return;var params="trs=573170&shmarker=776744&powered_by=true&color_button=%23f2685f&color_focused=%23f2685f&secondary=%23FFFFFF&dark=%2311100f&light=%23FFFFFF&special=%23C4C4C4&border_radius=5&plain=false&no_labels=true&promo_id=8588&campaign_id=541";var script=document.createElement("script");script.async=true;script.charset="utf-8";script.src="https://tpembd.com/content?"+params+"&locale=es";script.onerror=function(){document.getElementById("airalo-puq-fallback").hidden=false;};mount.appendChild(script);})();</script>'
