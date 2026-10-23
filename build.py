@@ -364,4 +364,6 @@ from civic import render as render_civic
 render_civic(ROOT, OUT, head, footer, write)
 from event_agenda import render as render_event_agenda
 render_event_agenda(ROOT, OUT, head, footer, write)
+from home_mosaic import render as render_home_mosaic
+render_home_mosaic(ROOT, OUT, head, footer, write, CATEGORIES)
 print(json.dumps({'categories':len(CATEGORIES),'articles':len(ARTICLES),'html_files':len(list(OUT.rglob('*.html'))),'output':str(OUT)},ensure_ascii=False))
