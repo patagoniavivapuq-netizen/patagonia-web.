@@ -366,4 +366,6 @@ from event_agenda import render as render_event_agenda
 render_event_agenda(ROOT, OUT, head, footer, write)
 from home_mosaic import render as render_home_mosaic
 render_home_mosaic(ROOT, OUT, head, footer, write, CATEGORIES)
+from guide_refresh import render as render_guide_refresh
+render_guide_refresh(ROOT, OUT, head, footer, write, ARTICLES, photos_for, CATALOG)
 print(json.dumps({'categories':len(CATEGORIES),'articles':len(ARTICLES),'html_files':len(list(OUT.rglob('*.html'))),'output':str(OUT)},ensure_ascii=False))
