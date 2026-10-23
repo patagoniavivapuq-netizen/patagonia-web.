@@ -368,4 +368,6 @@ from home_mosaic import render as render_home_mosaic
 render_home_mosaic(ROOT, OUT, head, footer, write, CATEGORIES)
 from guide_refresh import render as render_guide_refresh
 render_guide_refresh(ROOT, OUT, head, footer, write, ARTICLES, photos_for, CATALOG)
+from travel_catalogs import render as render_travel_catalogs
+render_travel_catalogs(ROOT, OUT, head, footer, write, ARTICLES, thumb)
 print(json.dumps({'categories':len(CATEGORIES),'articles':len(ARTICLES),'html_files':len(list(OUT.rglob('*.html'))),'output':str(OUT)},ensure_ascii=False))
